@@ -8,7 +8,11 @@ Spacedock allows you to build ships using a domain-specific language (a "Bluepri
 * Create fleets of ships
 * Print ship and fleet SSDs
 
-
+#Getting Started
+From the main screen there are 3 tabs:
+* Ship Browser: browse ships on your local drive. Click on a ship blueprint to view its SSD.
+* Ship Editor: load and edit blueprints in real-time (see Blueprints, below)
+* Fleet Editor: manage fleets and save PDF files for printing game fleets
 
 #Spacedock Blueprints
 
@@ -25,14 +29,13 @@ beam(arcs:'4,5,0',xSSD:'50',ySSD:'70',rating:'2')
 beam(arcs:'0,1,2',xSSD:'150',ySSD:'70',rating:'2')
 beam(xSSD:'40',ySSD:'110',rating:'1')
 beam(xSSD:'160',ySSD:'110',rating:'1')
-pointDefence(xSSD:'100',ySSD:'140')
+pointDefense(xSSD:'100',ySSD:'140')
 }
 ```
 
 Alternatively, you can use an XML-based blueprint:
 
 ```
-<?xml version="1.0" standalone="yes" ?>
 <Ship>
     <Name>Kamchutka</Name>
     <Race>Eurasian Solar Union</Race>
