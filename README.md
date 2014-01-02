@@ -3,6 +3,10 @@ Ship SSD builder for Full Thrust and related games. Full Thrust is brought to yo
 
 Spacedock allows you to build ships using a domain-specific language (a "Blueprint") that renders the ship using customizable icons and features.
 
+#Screenshots
+![Ship Browser](https://f.cloud.github.com/assets/1887339/1833662/35f57b0a-73ce-11e3-9bf0-aeeac47dd9ff.png)
+![Ship Editor](https://f.cloud.github.com/assets/1887339/1833663/391b6344-73ce-11e3-857d-93443d007df6.png)
+
 #Features
 * Create ship SSDs from text-based blueprints (custom DSL or XML)
 * Create fleets of ships
