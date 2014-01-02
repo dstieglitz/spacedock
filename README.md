@@ -1,6 +1,5 @@
 #Spacedock
 Ship SSD builder for Full Thrust and related games. Full Thrust is brought to you by [Ground Zero Games](http://shop.groundzerogames.co.uk/). Spacedock is a [Griffon](http://griffon.codehaus.org) application. 
-
 Spacedock allows you to build ships using a domain-specific language (a "Blueprint") that renders the ship using customizable icons and features.
 
 #Screenshots
@@ -37,7 +36,7 @@ pointDefense(xSSD:'100',ySSD:'140')
 }
 ```
 
-Alternatively, you can use an XML-based blueprint:
+Alternatively, you can use the XML based format from Jon Davis' FTJava software:
 
 ```
 <Ship>
@@ -82,3 +81,7 @@ Alternatively, you can use an XML-based blueprint:
     </Weapons>
 </Ship>
 ```
+---
+Full Thrust is published by Ground Zero Games Copyright 1992, Jon Tuffley. 
+
+FTJava is Copyright 2000-2007, Jon Davis and Dan Blezek.
