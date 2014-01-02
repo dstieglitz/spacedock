@@ -1,0 +1,44 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Cortez</Name>
+    <Race>EarthAlliance</Race>
+    <ClassAbbrev>AE</ClassAbbrev>
+    <ClassName>Explorer</ClassName>
+    <ShipClass>Explorer</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>179</Mass>
+    <PointValue>584</PointValue>
+    <MainDrive type="Standard" initialThrust="2" active="false" />
+    <FTLDrive/>
+    <Armor totalArmor="0"/>
+    <Hull value="179" type="Custom" class="Military" stealth="0" totalHullBoxes="56"/>
+    <Electronics>
+        <FireControl xSSD="190" ySSD="168"/>
+        <FireControl xSSD="119" ySSD="168"/>
+        <AreaDefenseFireControl xSSD="157" ySSD="168"/>
+    </Electronics>
+    <Defenses>
+        <Screen xSSD="156" ySSD="144"/>
+    </Defenses>
+    <Holds>
+        <CargoHold  xSSD="154" ySSD="108" type="Cargo Hold" totalSize="20"/>
+    </Holds>
+    <Weapons>
+        <FighterBay xSSD="30" ySSD="40"/>
+        <FighterBay xSSD="282" ySSD="37"/>
+        <KineticGun  xSSD="81" ySSD="30" rating="4" arcs="(F)"/>
+        <KineticGun  xSSD="224" ySSD="30" rating="4" arcs="(F)"/>
+        <BeamBattery  xSSD="131" ySSD="30" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="176" ySSD="30" rating="3" arcs="(F)"/>
+        <BeamBattery  xSSD="198" ySSD="67" rating="2" arcs="(FS/AS)"/>
+        <BeamBattery  xSSD="244" ySSD="65" rating="2" arcs="(FS/AS)"/>
+        <BeamBattery  xSSD="71" ySSD="68" rating="2" arcs="(AP/FP)"/>
+        <BeamBattery  xSSD="111" ySSD="67" rating="2" arcs="(AP/FP)"/>
+        <BeamBattery  xSSD="155" ySSD="66" rating="2" arcs="(A)"/>
+        <PointDefense xSSD="84" ySSD="145"/>
+        <PointDefense xSSD="118" ySSD="145"/>
+        <PointDefense xSSD="190" ySSD="145"/>
+        <PointDefense xSSD="225" ySSD="145"/>
+    </Weapons>
+</Ship>
+

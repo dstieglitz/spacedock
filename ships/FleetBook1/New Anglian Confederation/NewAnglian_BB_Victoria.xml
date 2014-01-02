@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>New Anglian Confederation</Race>
+            <ClassAbbrev>BB</ClassAbbrev>
+            <ClassName>Victoria</ClassName>
+            <ShipClass>Battleship</ShipClass>
+            <Mass>120</Mass>
+            <PointValue>406</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="5"/>
+            <Hull value="120" type="Average"/>
+            <Electronics>
+                <FireControl  xSSD="120" ySSD="185"/>
+                <FireControl  xSSD="140" ySSD="185"/>
+                <FireControl  xSSD="160" ySSD="185"/>
+            </Electronics>
+            <Defenses>
+                <Screen  xSSD="140"  ySSD="165"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <PulseTorpedo  xSSD="90"  ySSD="25"  arcs="(F)"/>
+                <PulseTorpedo  xSSD="190" ySSD="25"  arcs="(F)"/>
+
+                <BeamBattery   xSSD="140" ySSD="60"  rating="3" arcs="(FP/F/FS)"/>
+                <BeamBattery   xSSD="90"  ySSD="70"  rating="3" arcs="(AP/FP/F)"/>
+                <BeamBattery   xSSD="190" ySSD="70"  rating="3" arcs="(F/FS/AS)"/>
+
+                <BeamBattery   xSSD="140" ySSD="105"  rating="2" arcs="(All arcs)"/>
+                <BeamBattery   xSSD="80"  ySSD="110"  rating="1" arcs="(All arcs)"/>
+                <BeamBattery   xSSD="200" ySSD="110"  rating="1" arcs="(All arcs)"/>
+
+                <PointDefense  xSSD="110" ySSD="140"/>
+                <PointDefense  xSSD="140" ySSD="135"/>
+                <PointDefense  xSSD="170" ySSD="140"/>
+            </Weapons>
+        </Ship>

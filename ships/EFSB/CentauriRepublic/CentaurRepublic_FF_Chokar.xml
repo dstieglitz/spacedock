@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Chokar</Name>
+    <Race>CentauriRepublic</Race>
+    <ClassAbbrev>FF</ClassAbbrev>
+    <ClassName>Chokar Escort</ClassName>
+    <ShipClass>Frigate</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>26</Mass>
+    <PointValue>99</PointValue>
+    <MainDrive type="Standard" initialThrust="6" active="false" />
+    <Armor totalArmor="0"/>
+    <Hull value="26" type="Custom" class="Military" stealth="0" rows="3" totalHullBoxes="9"/>
+    <Electronics>
+        <FireControl xSSD="77" ySSD="166"/>
+        <AreaDefenseFireControl xSSD="100" ySSD="165"/>
+    </Electronics>
+    <Defenses>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <BeamBattery  xSSD="100" ySSD="32" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="29" ySSD="95" rating="1" arcs="(AP/FP)"/>
+        <BeamBattery  xSSD="163" ySSD="95" rating="1" arcs="(FS/AS)"/>
+        <PointDefense xSSD="83" ySSD="121"/>
+        <PointDefense xSSD="113" ySSD="120"/>
+    </Weapons>
+</Ship>
+

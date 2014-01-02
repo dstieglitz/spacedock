@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>EAS Arion</Name>
+    <Race>EarthAlliance</Race>
+    <ClassAbbrev>DD</ClassAbbrev>
+    <ClassName>Arion</ClassName>
+    <ShipClass>Destroyer</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>45</Mass>
+    <PointValue>148</PointValue>
+    <MainDrive type="Standard" initialThrust="8" active="false" />
+    <Armor totalArmor="0"/>
+    <Hull value="45" type="Custom" class="Military" stealth="0" totalHullBoxes="16"/>
+    <Electronics>
+        <FireControl xSSD="87" ySSD="158"/>
+        <FireControl xSSD="117" ySSD="158"/>
+    </Electronics>
+    <Defenses>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <BeamBattery  xSSD="57" ySSD="27" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="146" ySSD="26" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="57" ySSD="79" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="147" ySSD="74" rating="2" arcs="(F)"/>
+        <PointDefense xSSD="104" ySSD="113"/>
+    </Weapons>
+</Ship>
+

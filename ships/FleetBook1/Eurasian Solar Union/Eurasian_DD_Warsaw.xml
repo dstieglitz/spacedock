@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes" ?>
+         <Ship>
+             <Race>Eurasian Solar Union</Race>
+             <ClassAbbrev>DD</ClassAbbrev>
+             <ClassName>Warsaw</ClassName>
+             <ShipClass>Destroyer</ShipClass>
+             <Mass>28</Mass>
+             <PointValue>93</PointValue>
+             <MainDrive type="Standard" initialThrust="4"/>
+             <FTLDrive/>
+             <Armor totalArmor="3"/>
+             <Hull value="28" type="Average"/>
+             <Electronics>
+                 <FireControl xSSD="100" ySSD="170"/>
+             </Electronics>
+             <Defenses/>
+             <Holds/>
+             <Weapons>
+                 <BeamBattery  xSSD="50"  ySSD="70"  rating="2" arcs="(AP/FP/F)"/>
+                 <BeamBattery  xSSD="150" ySSD="70"  rating="2" arcs="(F/FS/AS)"/>
+                 <BeamBattery  xSSD="40"  ySSD="110" rating="1" arcs="(All arcs)"/>
+                 <BeamBattery  xSSD="160" ySSD="110" rating="1" arcs="(All arcs)"/>
+                 <PointDefense xSSD="100" ySSD="140"  />
+             </Weapons>
+         </Ship>

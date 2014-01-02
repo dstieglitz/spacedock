@@ -1,0 +1,49 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>Neu Swabian League</Race>
+            <ClassAbbrev>SDN</ClassAbbrev>
+            <ClassName>Von Tegetthoff</ClassName>
+            <ShipClass>Superdreadnought</ShipClass>
+            <Mass>200</Mass>
+            <PointValue>670</PointValue>
+            <MainDrive type="Standard" initialThrust="2"/>
+            <FTLDrive/>
+            <Armor totalArmor="14"/>
+            <Hull value="200" type="Strong"/>
+            <Electronics>
+                <FireControl xSSD="90"  ySSD="170"/>
+                <FireControl xSSD="110" ySSD="170"/>
+                <FireControl xSSD="130" ySSD="170"/>
+                <FireControl xSSD="150" ySSD="170"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <SalvoMissileLauncher xSSD="120" ySSD="20" smmId="101" arcs="(FP/F/FS)"/>
+                <SalvoMissileMagazine xSSD="120" ySSD="60" id="101" maxInRow="2" capacity="8">
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                </SalvoMissileMagazine>
+
+                <FighterBay xSSD="215" ySSD="160"/>
+
+                <BeamBattery rating="3" xSSD="70"  ySSD="25" arcs="(FP/F/FS)"/>
+                <BeamBattery rating="3" xSSD="170" ySSD="25" arcs="(FP/F/FS)"/>
+                <BeamBattery rating="3" xSSD="30"  ySSD="50" arcs="(AP/FP/F)"/>
+                <BeamBattery rating="3" xSSD="210" ySSD="50" arcs="(F/FS/AS)"/>
+
+                <BeamBattery rating="2" xSSD="30"  ySSD="115" arcs="(All arcs)"/>
+                <BeamBattery rating="2" xSSD="80"  ySSD="115" arcs="(All arcs)"/>
+                <BeamBattery rating="2" xSSD="160" ySSD="115" arcs="(All arcs)"/>
+                <BeamBattery rating="2" xSSD="210" ySSD="115" arcs="(All arcs)"/>
+                <BeamBattery rating="1" xSSD="70"  ySSD="75" arcs="(All arcs)"/>
+                <BeamBattery rating="1" xSSD="170" ySSD="75" arcs="(All arcs)"/>
+
+                <PointDefense xSSD="60"  ySSD="145"/>
+                <PointDefense xSSD="90"  ySSD="145"/>
+                <PointDefense xSSD="150" ySSD="145"/>
+                <PointDefense xSSD="180" ySSD="145"/>
+            </Weapons>
+        </Ship>

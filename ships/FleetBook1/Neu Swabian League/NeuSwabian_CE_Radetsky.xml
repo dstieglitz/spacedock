@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>Neu Swabian League</Race>
+            <ClassAbbrev>CE</ClassAbbrev>
+            <ClassName>Radetsky</ClassName>
+            <ShipClass>Escort Cruiser</ShipClass>
+            <Mass>58</Mass>
+            <PointValue>195</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="6"/>
+            <Hull value="58" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="75"  ySSD="170"/>
+                <FireControl xSSD="100" ySSD="170"/>
+                <AreaDefenseFireControl xSSD="125" ySSD="170"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <BeamBattery  xSSD="75"  ySSD="40" rating="2" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="125" ySSD="40" rating="2" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="65"  ySSD="110" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="135" ySSD="110" rating="2" arcs="(F/FS/AS)"/>
+                
+                <BeamBattery  xSSD="25"  ySSD="80" rating="1" arcs="(All Arcs)"/>
+                <BeamBattery  xSSD="175" ySSD="80" rating="1" arcs="(All Arcs)"/>
+                
+                <PointDefense xSSD="40"  ySSD="140"/>
+                <PointDefense xSSD="100" ySSD="140"/>
+                <PointDefense xSSD="160" ySSD="140"/>
+            </Weapons>
+        </Ship>

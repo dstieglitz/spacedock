@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>AO</ClassAbbrev>
+            <ClassName>Sha'Ken</ClassName>
+            <ShipClass>Fleet Tender</ShipClass>
+            <Mass>40</Mass>
+            <PointValue>97</PointValue>
+            <MainDrive type="Advanced" initialThrust="2"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="40" type="Custom" totalHullBoxes="10"/>
+            <Electronics>
+                <FireControl xSSD="80"  ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds>
+                <CargoHold  xSSD="80"  ySSD="30" type="Cargo Hold"   totalSize="18"/>
+            </Holds>
+            <Weapons>
+                <KineticGun xSSD="80"  ySSD="110" rating="1"/>
+                <Scattergun xSSD="80"  ySSD="150"/>
+            </Weapons>
+        </Ship>
+

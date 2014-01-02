@@ -1,0 +1,80 @@
+<?xml version="1.0" standalone="yes" ?>
+<GameEngine id="1111" name="Star Trek - Federation" turn="0">
+    <Player id="1" name="First Last" email="last@hotmail.com">
+
+        <Ship>
+            <Name>Kobyashi Can-do</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="0.0" y="10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Designer>Brendan Robertson</Designer>
+            <Race>Federation</Race>
+            <ClassAbbrev>CL</ClassAbbrev>
+            <ClassName>Kobyashi Can-do</ClassName>
+            <ShipClass>Light Cruiser</ShipClass>
+            <Mass>44</Mass>
+            <PointValue>149</PointValue>
+            <MainDrive initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="44" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="80"  ySSD="160"/>
+                <FireControl xSSD="100" ySSD="160"/>
+                <FireControl xSSD="120" ySSD="160"/>
+            </Electronics>
+            <Defenses>
+            </Defenses>
+            <Weapons>
+		<PulseTorpedo xSSD="100" ySSD="40"  arcs="(F)"/>
+	        <BeamBattery  xSSD="145" ySSD="90"  rating="2" arcs="(F/FS/AS)"/>
+	        <BeamBattery  xSSD="55"  ySSD="90"  rating="2" arcs="(AP/FP/F)"/>
+	        <BeamBattery  xSSD="100" ySSD="90"  rating="1"/>
+	        <PointDefense xSSD="70"  ySSD="130"/>
+	        <PointDefense xSSD="130" ySSD="130"/>
+            </Weapons>
+        </Ship>
+
+
+        <Ship>
+            <Name>Asteroid</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="10.0" y="10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Designer>Brendan Robertson</Designer>
+            <Race>Terrorist</Race>
+            <ClassAbbrev>AS</ClassAbbrev>
+            <ClassName>Asteroid</ClassName>
+            <ShipClass>Asteroid</ShipClass>
+            <Mass>26</Mass>
+            <PointValue>94</PointValue>
+            <MainDrive initialThrust="0"/>
+            <Armor totalArmor="0"/>
+            <Hull value="26" type="Strong"/>
+            <Electronics>
+                <FireControl xSSD="100" ySSD="160"/>
+            </Electronics>
+            <Defenses>
+            </Defenses>
+            <Weapons>
+                <BeamBattery xSSD="100" ySSD="40" rating="3" arcs="(all arcs)"/>
+                <BeamBattery xSSD="100" ySSD="80" rating="2" arcs="(all arcs)"/>
+                <BeamBattery xSSD="60"  ySSD="120" rating="1"/>
+                <PointDefense xSSD="140" ySSD="120"/>
+            </Weapons>
+        </Ship>
+    </Player>
+</GameEngine>
+

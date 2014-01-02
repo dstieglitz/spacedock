@@ -1,0 +1,47 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <Designer>Jon Tuffley</Designer>
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>SDN</ClassAbbrev>
+            <ClassName>Yu'Kas</ClassName>
+            <ShipClass>Superdreadnought</ShipClass>
+            <Mass>220</Mass>
+            <PointValue>883</PointValue>
+            <MainDrive initialThrust="3" type="Advanced"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="220" type="Custom" totalHullBoxes="72"/>
+            <Electronics>
+                <FireControl xSSD="80"  ySSD="180"/>
+                <FireControl xSSD="100" ySSD="180"/>
+                <FireControl xSSD="120" ySSD="180"/>
+                <FireControl xSSD="140" ySSD="180"/>
+                <FireControl xSSD="160" ySSD="180"/>
+            </Electronics>
+            <Weapons>
+                <KineticGun xSSD="80"  ySSD="35"  rating="6" arcs="(F)"/>
+                <KineticGun xSSD="160" ySSD="35"  rating="6" arcs="(F)"/>
+                <KineticGun xSSD="80"  ySSD="75"  rating="6" arcs="(F)"/>
+                <KineticGun xSSD="160" ySSD="75"  rating="6" arcs="(F)"/>
+                <KineticGun xSSD="120" ySSD="90"  rating="1"/>
+                <KineticGun xSSD="40"  ySSD="90"  rating="1"/>
+                <KineticGun xSSD="200" ySSD="90"  rating="1"/>
+                <KineticGun xSSD="80"  ySSD="115" rating="1"/>
+                <KineticGun xSSD="160" ySSD="115" rating="1"/>
+                <FighterBay xSSD="120" ySSD="40"/>
+                <Scattergun xSSD="30"  ySSD="160"/>
+                <Scattergun xSSD="60"  ySSD="160"/>
+                <Scattergun xSSD="90"  ySSD="160"/>
+                <Scattergun xSSD="120" ySSD="160"/>
+                <Scattergun xSSD="150" ySSD="160"/>
+                <Scattergun xSSD="180" ySSD="160"/>
+                <Scattergun xSSD="210" ySSD="160"/>
+                <Scattergun xSSD="105" ySSD="135"/>
+                <Scattergun xSSD="135" ySSD="135"/>
+                <Scattergun xSSD="45"  ySSD="135"/>
+                <Scattergun xSSD="195" ySSD="135"/>
+                <Scattergun xSSD="40"  ySSD="50"/>
+                <Scattergun xSSD="200" ySSD="50"/>
+            </Weapons>
+        </Ship>
+      

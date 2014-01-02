@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>New Anglian Confederation</Race>
+            <ClassAbbrev>CVL</ClassAbbrev>
+            <ClassName>Inflexible</ClassName>
+            <ShipClass>Light Fleet Carrier</ShipClass>
+            <Mass>140</Mass>
+            <PointValue>483</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="9"/>
+            <Hull value="140" type="Weak"/>
+            <Electronics>
+                <FireControl xSSD="120" ySSD="170"/>
+                <FireControl xSSD="160" ySSD="170"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="120" ySSD="150"/>
+                <Screen xSSD="160" ySSD="150"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <FighterBay xSSD="80"  ySSD="30"/>
+                <FighterBay xSSD="120" ySSD="30"/>
+                <FighterBay xSSD="160" ySSD="30"/>
+                <FighterBay xSSD="200" ySSD="30"/>
+
+                <BeamBattery xSSD="140" ySSD="80" rating="2" arcs="(All arcs)"/>
+                <BeamBattery xSSD="70"  ySSD="90" rating="1" arcs="(All arcs)"/>
+                <BeamBattery xSSD="210" ySSD="90" rating="1" arcs="(All arcs)"/>
+
+                <PointDefense xSSD="90"  ySSD="130"/>
+                <PointDefense xSSD="120" ySSD="120"/>
+                <PointDefense xSSD="160" ySSD="120"/>
+                <PointDefense xSSD="190" ySSD="130"/>
+            </Weapons>
+        </Ship>

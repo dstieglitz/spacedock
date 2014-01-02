@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <Designer>Oerjan Ohlson</Designer>
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>CH</ClassAbbrev>
+            <ClassName>Lu'Ton</ClassName>
+            <ShipClass>Heavy Cruiser</ShipClass>
+            <Mass>82</Mass>
+            <PointValue>322</PointValue>
+            <MainDrive initialThrust="4" type="Advanced"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull totalHullBoxes="30" type="Custom" value="82"/>
+            <Electronics>
+                <FireControl xSSD="70"  ySSD="180"/>
+                <FireControl xSSD="90"  ySSD="180"/>
+            </Electronics>
+            <Weapons>
+                <KineticGun xSSD="30"  ySSD="130" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="130"  ySSD="130" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="80"  ySSD="40" rating="1"/>
+                <KineticGun xSSD="80"  ySSD="70" rating="1"/>
+                <KineticGun xSSD="50"  ySSD="55" rating="2" arcs="(FP/F)"/>
+                <KineticGun xSSD="110"  ySSD="55" rating="2" arcs="(F/FS)"/>
+                <Scattergun xSSD="60"  ySSD="110"/>
+                <Scattergun xSSD="60"  ySSD="150"/>
+                <Scattergun xSSD="100" ySSD="150"/>
+                <Scattergun xSSD="100" ySSD="110"/>
+            </Weapons>
+        </Ship>
+

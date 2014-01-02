@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <Designer>Brendan Robertson</Designer>
+            <Race>Terrorist</Race>
+            <ClassAbbrev>AS</ClassAbbrev>
+            <ClassName>Asteroid</ClassName>
+            <ShipClass>Asteroid</ShipClass>
+            <Mass>26</Mass>
+            <PointValue>94</PointValue>
+            <MainDrive initialThrust="0"/>
+            <Armor totalArmor="0"/>
+            <Hull value="26" type="Strong"/>
+            <Electronics>
+                <FireControl xSSD="100" ySSD="160"/>
+            </Electronics>
+            <Defenses>
+            </Defenses>
+            <Weapons>
+                <BeamBattery xSSD="100" ySSD="40" rating="3" arcs="(all arcs)"/>
+                <BeamBattery xSSD="100" ySSD="80" rating="2" arcs="(all arcs)"/>
+                <BeamBattery xSSD="60"  ySSD="120" rating="1"/>
+                <PointDefense xSSD="140" ySSD="120"/>
+            </Weapons>
+        </Ship>

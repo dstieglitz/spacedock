@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Sho'Kar</Name>
+    <Race>NarnRegime</Race>
+    <ClassAbbrev>CH</ClassAbbrev>
+    <ClassName>Sho'Kar</ClassName>
+    <ShipClass>Heavy Cruiser</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>90</Mass>
+    <PointValue>301</PointValue>
+    <MainDrive type="Standard" initialThrust="6" active="false" />
+    <FTLDrive/>
+    <Armor totalArmor="0"/>
+    <Hull value="90" type="Custom" class="Military" stealth="0" totalHullBoxes="28"/>
+    <Electronics>
+        <FireControl xSSD="77" ySSD="167"/>
+        <FireControl xSSD="132" ySSD="168"/>
+    </Electronics>
+    <Defenses>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <FighterBay xSSD="34" ySSD="35"/>
+        <KineticGun  xSSD="104" ySSD="92" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="125" ySSD="60" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="175" ySSD="91" rating="2" arcs="(FS/AS)"/>
+        <BeamBattery  xSSD="32" ySSD="92" rating="2" arcs="(AP/FP)"/>
+        <BeamBattery  xSSD="124" ySSD="130" rating="2" arcs="(A)"/>
+        <BeamBattery  xSSD="82" ySSD="59" rating="1" arcs="(AP/FP/F/FS/AS)"/>
+        <BeamBattery  xSSD="81" ySSD="130" rating="1" arcs="(AP/A/AS)"/>
+        <PointDefense xSSD="43" ySSD="144"/>
+        <PointDefense xSSD="164" ySSD="144"/>
+    </Weapons>
+</Ship>
+

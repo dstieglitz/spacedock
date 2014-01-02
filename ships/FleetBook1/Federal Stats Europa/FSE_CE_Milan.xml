@@ -1,0 +1,34 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>Federal Stats Europa</Race>
+            <ClassAbbrev>CE</ClassAbbrev>
+            <ClassName>Milan</ClassName>
+            <ShipClass>Escort Cruiser</ShipClass>
+            <Mass>62</Mass>
+            <PointValue>206</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="62" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="85"  ySSD="180"/>
+                <FireControl xSSD="115" ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <SalvoMissileLauncher xSSD="100" ySSD="20" smmId="101" arcs="(FP/F/FS)"/>
+                <SalvoMissileMagazine xSSD="100" ySSD="60" id="101" maxInRow="3" capacity="6">
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                </SalvoMissileMagazine>
+
+                <BeamBattery rating="2" xSSD="50"  ySSD="110" arcs="(AP/FP/F)"/>
+                <BeamBattery rating="2" xSSD="150" ySSD="110" arcs="(F/FS/AS)"/>
+                <BeamBattery rating="1" xSSD="100" ySSD="110" arcs="(All arcs)"/>
+
+                <PointDefense xSSD="80"  ySSD="150"/>
+                <PointDefense xSSD="120" ySSD="150"/>
+            </Weapons>
+        </Ship>

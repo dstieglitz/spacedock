@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes" ?>
+         <Ship>
+             <Race>Eurasian Solar Union</Race>
+             <ClassAbbrev>FF</ClassAbbrev>
+             <ClassName>Novgorod</ClassName>
+             <ShipClass>Frigate</ShipClass>
+             <Mass>22</Mass>
+             <PointValue>73</PointValue>
+             <MainDrive type="Standard" initialThrust="6"/>
+             <FTLDrive/>
+             <Armor totalArmor="0"/>
+             <Hull value="22" type="Average"/>
+             <Electronics>
+                 <FireControl  xSSD="90"  ySSD="150"/>
+             </Electronics>
+             <Defenses/>
+             <Holds/>
+             <Weapons>
+                 <BeamBattery  xSSD="90"  ySSD="60"  rating="2" arcs="(FP/F/FS)"/>
+                 <BeamBattery  xSSD="50"  ySSD="100" rating="1" arcs="(All arcs)"/>
+                 <BeamBattery  xSSD="130" ySSD="100" rating="1" arcs="(All arcs)"/>
+                 <PointDefense xSSD="90"  ySSD="120"  />
+             </Weapons>
+         </Ship>

@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>S'Eth</Name>
+    <Race>NarnRegime</Race>
+    <ClassAbbrev>SC </ClassAbbrev>
+    <ClassName>S'Eth Scout</ClassName>
+    <ShipClass>Courier</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>10</Mass>
+    <PointValue>33</PointValue>
+    <MainDrive type="Standard" initialThrust="8" active="false" />
+    <Armor totalArmor="0"/>
+    <Hull value="10" type="Custom" class="Military" stealth="0" rows="2" totalHullBoxes="4"/>
+    <Electronics>
+        <FireControl xSSD="105" ySSD="132"/>
+    </Electronics>
+    <Defenses>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <BeamBattery  xSSD="106" ySSD="45" rating="1" arcs="(AP/FP/F/FS/AS)"/>
+    </Weapons>
+</Ship>
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <PointValue>276</PointValue>
+            <ClassName>Huulth</ClassName>
+            <Race>Phalon</Race>
+            <ClassAbbrev>CP</ClassAbbrev>
+            <Mass>70</Mass>
+            <ShipClass>Warrior</ShipClass>
+            <Designer>GZG</Designer>
+            <MainDrive initialThrust="4"/>
+            <Hull totalHullBoxes="12" type="Custom" value="70"/>
+            <Armor totalArmor="4,3"/>
+            <FTLDrive/>
+            <Defenses>
+                <VapourShroud xSSD="120" ySSD="150"/>
+            </Defenses>
+            <Electronics>
+                <FireControl xSSD="50" ySSD="150"/>
+                <FireControl xSSD="70" ySSD="150"/>
+            </Electronics>
+            <Weapons>
+                <PlasmaBoltLauncher arcs="(FP/F/FS)" rating="2" xSSD="60" ySSD="30"/>
+                <Pulser arcs="(AP/FP/F)" xSSD="30" ySSD="65"/>
+                <Pulser arcs="(F/FS/AS)" xSSD="90" ySSD="65"/>
+                <Pulser arcs="(All arcs)" xSSD="30" ySSD="110"/>
+                <Pulser arcs="(All arcs)" xSSD="90" ySSD="110"/>
+            </Weapons>
+        </Ship>

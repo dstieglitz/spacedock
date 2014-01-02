@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <Designer>Jon Tuffley</Designer>
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>DH</ClassAbbrev>
+            <ClassName>Di'Tok</ClassName>
+            <ShipClass>Heavy Destroyer</ShipClass>
+            <Mass>40</Mass>
+            <PointValue>159</PointValue>
+            <MainDrive initialThrust="6" type="Advanced"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="40" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="80" ySSD="180"/>
+            </Electronics>
+            <Weapons>
+                <KineticGun xSSD="50"  ySSD="50" rating="2" arcs="(F)"/>
+                <KineticGun xSSD="110" ySSD="50" rating="2" arcs="(F)"/>
+                <KineticGun xSSD="80"  ySSD="90" rating="1"/>
+                <Scattergun xSSD="40"  ySSD="130"/>
+                <Scattergun xSSD="120" ySSD="130"/>
+                <Scattergun xSSD="80"  ySSD="130"/>
+            </Weapons>
+        </Ship>
+
+

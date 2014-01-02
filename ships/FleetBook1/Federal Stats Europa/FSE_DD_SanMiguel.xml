@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>Federal Stats Europa</Race>
+            <ClassAbbrev>DD</ClassAbbrev>
+            <ClassName>San Miguel</ClassName>
+            <ShipClass>Destroyer</ShipClass>
+            <Mass>34</Mass>
+            <PointValue>112</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="2"/>
+            <Hull value="34" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="100"  ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <BeamBattery  xSSD="50"  ySSD="70"  rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="150" ySSD="70"  rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="40"  ySSD="110" rating="1" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="160" ySSD="110" rating="1" arcs="(All arcs)"/>
+                <PointDefense xSSD="80"  ySSD="140"  />
+                <PointDefense xSSD="120" ySSD="140"  />
+            </Weapons>
+        </Ship>

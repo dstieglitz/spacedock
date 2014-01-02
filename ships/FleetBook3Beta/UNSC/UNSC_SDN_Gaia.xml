@@ -1,0 +1,45 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>UNSC</Race>
+            <ClassAbbrev>SDN</ClassAbbrev>
+            <ClassName>Gaia</ClassName>
+            <ShipClass>Superdreadnought</ShipClass>
+            <Mass>187</Mass>
+            <PointValue>726</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="187" type="Custom" totalHullBoxes="57" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="110" ySSD="185"/>
+                <FireControl xSSD="130" ySSD="185"/>
+                <FireControl xSSD="170" ySSD="185"/>
+                <FireControl xSSD="190" ySSD="185"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="150" ySSD="160"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <FighterBay xSSD="150" ySSD="125"/>
+
+                <PulseTorpedo xSSD="150" ySSD="40" arcs="(FP/F/FS)"/>
+
+                <Graser       xSSD="150" ySSD="80"  rating="3" arcs="(F)"/>
+                <Graser       xSSD="70"  ySSD="60"  rating="1" arcs="(AP/FP/F)"/>
+                <Graser       xSSD="230" ySSD="60"  rating="1" arcs="(F/FS/AS)"/>
+
+                <BeamBattery  xSSD="50"  ySSD="100" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="90"  ySSD="100" rating="2" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="210" ySSD="100" rating="2" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="250" ySSD="100" rating="2" arcs="(F/FS/AS)"/>
+
+                <BeamBattery  xSSD="70"  ySSD="140" rating="1"/>
+                <BeamBattery  xSSD="230" ySSD="140" rating="1"/>
+
+                <PointDefense xSSD="90"  ySSD="165"/>
+                <PointDefense xSSD="120" ySSD="165"/>
+                <PointDefense xSSD="180" ySSD="165"/>
+                <PointDefense xSSD="210" ySSD="165"/>
+            </Weapons>
+        </Ship>

@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>UNSC</Race>
+            <ClassAbbrev>FF</ClassAbbrev>
+            <ClassName>Hunter</ClassName>
+            <ShipClass>Frigate</ShipClass>
+            <Mass>24</Mass>
+            <PointValue>94</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="24" type="Custom" totalHullBoxes="6" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="100"  ySSD="185"/>
+            </Electronics>
+            <Defenses>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <Graser       xSSD="50"  ySSD="40"  rating="1" arcs="(AP/FP/F)"/>
+                <Graser       xSSD="150" ySSD="40"  rating="1" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="100"  ySSD="100" rating="1"/>
+                <PointDefense xSSD="100"  ySSD="140"/>
+            </Weapons>
+        </Ship>

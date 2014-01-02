@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <PointValue>150</PointValue>
+            <ClassName>Dinth</ClassName>
+            <Race>Phalon</Race>
+            <ClassAbbrev>DDH</ClassAbbrev>
+            <Mass>41</Mass>
+            <ShipClass>Protector</ShipClass>
+            <Designer>GZG</Designer>
+            <MainDrive initialThrust="6"/>
+            <Hull totalHullBoxes="7" type="Custom" value="41"/>
+            <Armor totalArmor="4"/>
+            <FTLDrive/>
+            <Defenses>
+                <VapourShroud xSSD="120" ySSD="150"/>
+            </Defenses>
+            <Electronics>
+                <FireControl xSSD="60" ySSD="150"/>
+            </Electronics>
+            <Weapons>
+                <PlasmaBoltLauncher arcs="(FP/F/FS)" rating="1" xSSD="60" ySSD="40"/>
+                <Pulser arcs="(All arcs)" xSSD="30" ySSD="80"/>
+                <Pulser arcs="(F)" xSSD="90" ySSD="80"/>
+            </Weapons>
+        </Ship>

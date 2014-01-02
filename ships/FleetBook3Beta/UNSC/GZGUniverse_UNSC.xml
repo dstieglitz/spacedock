@@ -1,0 +1,1099 @@
+<?xml version="1.0" standalone="yes" ?>
+<GameEngine id="1111" name="United Nations Space Command" turn="0">
+    <Player id="1" name="First Last" email="last@hotmail.com">
+        <Ship>        
+            <Name>River</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="0.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>UNSC</Race>
+            <ClassAbbrev>CH</ClassAbbrev>
+            <ClassName>River</ClassName>
+            <ShipClass>Heavy Cruiser</ShipClass>
+            <Mass>87</Mass>
+            <PointValue>328</PointValue>
+            <MainDrive type="Standard" initialThrust="5"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="87" type="Custom" totalHullBoxes="27" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="80"  ySSD="185"/>
+                <FireControl xSSD="120" ySSD="185"/>
+            </Electronics>
+            <Defenses>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <Graser       xSSD="100" ySSD="90" rating="2" arcs="(F)"/>
+                <PulseTorpedo xSSD="100" ySSD="40" arcs="(FP/F/FS)"/>
+
+                <BeamBattery  xSSD="40"  ySSD="60"  rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="160" ySSD="60"  rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="40"  ySSD="100" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="160" ySSD="100" rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="100" ySSD="130" rating="1"/>
+
+                <PointDefense xSSD="70"  ySSD="165"/>
+                <PointDefense xSSD="100" ySSD="165"/>
+                <PointDefense xSSD="130" ySSD="165"/>
+            </Weapons>
+        </Ship>
+
+
+        <Ship>        
+            <Name>Bay</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="10.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>UNSC</Race>
+            <ClassAbbrev>CE</ClassAbbrev>
+            <ClassName>Bay</ClassName>
+            <ShipClass>Escort Cruiser</ShipClass>
+            <Mass>70</Mass>
+            <PointValue>256</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="70" type="Custom" totalHullBoxes="21" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="60" ySSD="185"/>
+                <FireControl xSSD="140"  ySSD="185"/>
+                <AreaDefenseFireControl xSSD="100" ySSD="185"/>
+            </Electronics>
+            <Defenses>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <PulseTorpedo xSSD="100" ySSD="40" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="50"  ySSD="50"  rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="150" ySSD="50"  rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="100" ySSD="100" rating="1"/>
+
+                <PointDefense xSSD="35"  ySSD="160"/>
+                <PointDefense xSSD="50"  ySSD="135"/>
+                <PointDefense xSSD="65"  ySSD="160"/>
+                <PointDefense xSSD="135" ySSD="160"/>
+                <PointDefense xSSD="150" ySSD="135"/>
+                <PointDefense xSSD="165" ySSD="160"/>
+            </Weapons>
+        </Ship>
+
+
+        <Ship>        
+            <Name>Lake</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="20.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>UNSC</Race>
+            <ClassAbbrev>DD</ClassAbbrev>
+            <ClassName>Lake</ClassName>
+            <ShipClass>Destroyer</ShipClass>
+            <Mass>34</Mass>
+            <PointValue>130</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="37" type="Custom" totalHullBoxes="9" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="100"  ySSD="185"/>
+            </Electronics>
+            <Defenses>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <AntiMatterTorpedoLauncher xSSD="60"  ySSD="40"/>
+                <AntiMatterTorpedoLauncher xSSD="100" ySSD="40"/>
+                <AntiMatterTorpedoLauncher xSSD="140" ySSD="40"/>
+
+                <BeamBattery  xSSD="100" ySSD="90"  rating="2" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="100" ySSD="140" rating="1"/>
+
+                <PointDefense xSSD="50"  ySSD="135"/>
+                <PointDefense xSSD="150" ySSD="135"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Lake/MkII</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="30.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>UNSC</Race>
+            <ClassAbbrev>DD</ClassAbbrev>
+            <ClassName>Lake/MkII</ClassName>
+            <ShipClass>Destroyer</ShipClass>
+            <Mass>34</Mass>
+            <PointValue>124</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="34" type="Custom" totalHullBoxes="9" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="100"  ySSD="185"/>
+            </Electronics>
+            <Defenses>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <PulseTorpedo xSSD="100" ySSD="40" arcs="(FP/F/FS)"/>
+
+                <BeamBattery  xSSD="100" ySSD="90"  rating="2" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="100" ySSD="140" rating="1"/>
+
+                <PointDefense xSSD="50"  ySSD="135"/>
+                <PointDefense xSSD="150" ySSD="135"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Lake/MkIII</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="30.0" y="10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>UNSC</Race>
+            <ClassAbbrev>DD</ClassAbbrev>
+            <ClassName>Lake/MkIII</ClassName>
+            <ShipClass>Destroyer</ShipClass>
+            <Mass>34</Mass>
+            <PointValue>130</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="34" type="Custom" totalHullBoxes="9" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="100"  ySSD="185"/>
+            </Electronics>
+            <Defenses>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <Graser       xSSD="50"  ySSD="40"  rating="1" arcs="(AP/FP/F)"/>
+                <Graser       xSSD="150" ySSD="40"  rating="1" arcs="(F/FS/AS)"/>
+
+                <BeamBattery  xSSD="100" ySSD="90"  rating="2" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="100" ySSD="140" rating="1"/>
+
+                <PointDefense xSSD="50"  ySSD="135"/>
+                <PointDefense xSSD="150" ySSD="135"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Mountain</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="30.0" y="-10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>UNSC</Race>
+            <ClassAbbrev>CL</ClassAbbrev>
+            <ClassName>Mountain</ClassName>
+            <ShipClass>Light Cruiser</ShipClass>
+            <Mass>50</Mass>
+            <PointValue>187</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="50" type="Custom" totalHullBoxes="15" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="80"  ySSD="185"/>
+                <FireControl xSSD="120" ySSD="185"/>
+            </Electronics>
+            <Defenses>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <PulseTorpedo xSSD="100" ySSD="40" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="100" ySSD="100" rating="2" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="50"  ySSD="50"  rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="150" ySSD="50"  rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="50"  ySSD="100" rating="1"/>
+                <BeamBattery  xSSD="150" ySSD="100" rating="1"/>
+
+                <PointDefense xSSD="50"  ySSD="135"/>
+                <PointDefense xSSD="100" ySSD="135"/>
+                <PointDefense xSSD="150" ySSD="135"/>
+            </Weapons>
+        </Ship>
+
+
+        <Ship>        
+            <Name>Storm</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="40.0" y="-10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>UNSC</Race>
+            <ClassAbbrev>CS</ClassAbbrev>
+            <ClassName>Storm</ClassName>
+            <ShipClass>Strike Cruiser</ShipClass>
+            <Mass>80</Mass>
+            <PointValue>288</PointValue>
+            <MainDrive type="Standard" initialThrust="8"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="80" type="Custom" totalHullBoxes="24" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="80"  ySSD="185"/>
+                <FireControl xSSD="120" ySSD="185"/>
+            </Electronics>
+            <Defenses>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <AntiMatterTorpedoLauncher xSSD="60"  ySSD="40"/>
+                <AntiMatterTorpedoLauncher xSSD="100" ySSD="40"/>
+                <AntiMatterTorpedoLauncher xSSD="140" ySSD="40"/>
+
+                <BeamBattery  xSSD="50"  ySSD="80"  rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="150" ySSD="80"  rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="100"  ySSD="100" rating="1"/>
+
+                <PointDefense xSSD="50"  ySSD="135"/>
+                <PointDefense xSSD="100" ySSD="135"/>
+                <PointDefense xSSD="150" ySSD="135"/>
+            </Weapons>
+        </Ship>
+
+
+        <Ship>        
+            <Name>Point</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="50.0" y="-10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>UNSC</Race>
+            <ClassAbbrev>BC</ClassAbbrev>
+            <ClassName>Point</ClassName>
+            <ShipClass>Battlecruiser</ShipClass>
+            <Mass>109</Mass>
+            <PointValue>415</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="109" type="Custom" totalHullBoxes="33" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="80"  ySSD="185"/>
+                <FireControl xSSD="100" ySSD="185"/>
+                <FireControl xSSD="120" ySSD="185"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="100" ySSD="160"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <PulseTorpedo xSSD="75"  ySSD="40" arcs="(FP/F/FS)"/>
+                <PulseTorpedo xSSD="125" ySSD="40" arcs="(FP/F/FS)"/>
+
+                <Graser       xSSD="100" ySSD="90" rating="2" arcs="(F)"/>
+
+                <BeamBattery  xSSD="40"  ySSD="60"  rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="160" ySSD="60"  rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="40"  ySSD="100" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="160" ySSD="100" rating="2" arcs="(F/FS/AS)"/>
+
+                <BeamBattery  xSSD="80"  ySSD="130" rating="1"/>
+                <BeamBattery  xSSD="120" ySSD="130" rating="1"/>
+
+                <PointDefense xSSD="40"  ySSD="165"/>
+                <PointDefense xSSD="70"  ySSD="165"/>
+                <PointDefense xSSD="130" ySSD="165"/>
+                <PointDefense xSSD="160" ySSD="165"/>
+            </Weapons>
+        </Ship>
+
+
+        <Ship>        
+            <Name>Luna</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="60.0" y="-10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>UNSC</Race>
+            <ClassAbbrev>BB</ClassAbbrev>
+            <ClassName>Luna</ClassName>
+            <ShipClass>Battleship</ShipClass>
+            <Mass>137</Mass>
+            <PointValue>531</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="137" type="Custom" totalHullBoxes="39" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="130" ySSD="185"/>
+                <FireControl xSSD="150" ySSD="185"/>
+                <FireControl xSSD="170" ySSD="185"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="150" ySSD="160"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <AntiMatterTorpedoLauncher xSSD="30" ySSD="60"/>
+                <AntiMatterTorpedoLauncher xSSD="60" ySSD="60"/>
+                <AntiMatterTorpedoLauncher xSSD="90" ySSD="60"/>
+                <AntiMatterTorpedoLauncher xSSD="210" ySSD="60"/>
+                <AntiMatterTorpedoLauncher xSSD="240" ySSD="60"/>
+                <AntiMatterTorpedoLauncher xSSD="270" ySSD="60"/>
+
+                <PulseTorpedo xSSD="125" ySSD="40" arcs="(FP/F/FS)"/>
+                <PulseTorpedo xSSD="175" ySSD="40" arcs="(FP/F/FS)"/>
+
+                <Graser       xSSD="150" ySSD="90" rating="2" arcs="(F)"/>
+
+                <BeamBattery  xSSD="50"  ySSD="100" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="90"  ySSD="100" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="210" ySSD="100" rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="250" ySSD="100" rating="2" arcs="(F/FS/AS)"/>
+
+                <BeamBattery  xSSD="130" ySSD="130" rating="1"/>
+                <BeamBattery  xSSD="170" ySSD="130" rating="1"/>
+
+                <PointDefense xSSD="90"  ySSD="165"/>
+                <PointDefense xSSD="120" ySSD="165"/>
+                <PointDefense xSSD="180" ySSD="165"/>
+                <PointDefense xSSD="210" ySSD="165"/>
+            </Weapons>
+        </Ship>
+
+
+        <Ship>        
+            <Name>Luna/MkII</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="70.0" y="-10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>UNSC</Race>
+            <ClassAbbrev>BB</ClassAbbrev>
+            <ClassName>Luna/MkII</ClassName>
+            <ShipClass>Battleship</ShipClass>
+            <Mass>137</Mass>
+            <PointValue>531</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="137" type="Custom" totalHullBoxes="39" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="130" ySSD="185"/>
+                <FireControl xSSD="150" ySSD="185"/>
+                <FireControl xSSD="170" ySSD="185"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="150" ySSD="160"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <PulseTorpedo xSSD="125" ySSD="40" arcs="(FP/F/FS)"/>
+                <PulseTorpedo xSSD="175" ySSD="40" arcs="(FP/F/FS)"/>
+
+                <Graser       xSSD="150" ySSD="90" rating="2" arcs="(FP/F/FS)"/>
+                <Graser       xSSD="70"  ySSD="60" rating="1" arcs="(AP/FP/F)"/>
+                <Graser       xSSD="230" ySSD="60" rating="1" arcs="(F/FS/AS)"/>
+
+                <BeamBattery  xSSD="50"  ySSD="100" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="90"  ySSD="100" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="210" ySSD="100" rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="250" ySSD="100" rating="2" arcs="(F/FS/AS)"/>
+
+                <BeamBattery  xSSD="130" ySSD="130" rating="1"/>
+                <BeamBattery  xSSD="170" ySSD="130" rating="1"/>
+
+                <PointDefense xSSD="90"  ySSD="165"/>
+                <PointDefense xSSD="120" ySSD="165"/>
+                <PointDefense xSSD="180" ySSD="165"/>
+                <PointDefense xSSD="210" ySSD="165"/>
+            </Weapons>
+        </Ship>
+
+
+        <Ship>        
+            <Name>Sea</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="40.0" y="20.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>UNSC</Race>
+            <ClassAbbrev>BDN</ClassAbbrev>
+            <ClassName>Sea</ClassName>
+            <ShipClass>Battledreadnought</ShipClass>
+            <Mass>160</Mass>
+            <PointValue>616</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="160" type="Custom" totalHullBoxes="45" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="130" ySSD="185"/>
+                <FireControl xSSD="150" ySSD="185"/>
+                <FireControl xSSD="170" ySSD="185"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="150" ySSD="160"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <AntiMatterTorpedoLauncher xSSD="30" ySSD="60"/>
+                <AntiMatterTorpedoLauncher xSSD="60" ySSD="60"/>
+                <AntiMatterTorpedoLauncher xSSD="90" ySSD="60"/>
+                <AntiMatterTorpedoLauncher xSSD="210" ySSD="60"/>
+                <AntiMatterTorpedoLauncher xSSD="240" ySSD="60"/>
+                <AntiMatterTorpedoLauncher xSSD="270" ySSD="60"/>
+
+                <FighterBay xSSD="150" ySSD="125"/>
+
+                <PulseTorpedo xSSD="125" ySSD="40" arcs="(FP/F/FS)"/>
+                <PulseTorpedo xSSD="175" ySSD="40" arcs="(FP/F/FS)"/>
+
+                <Graser       xSSD="150" ySSD="80" rating="2" arcs="(F)"/>
+
+                <BeamBattery  xSSD="50"  ySSD="100" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="90"  ySSD="100" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="210" ySSD="100" rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="250" ySSD="100" rating="2" arcs="(F/FS/AS)"/>
+
+                <BeamBattery  xSSD="70"  ySSD="140" rating="1"/>
+                <BeamBattery  xSSD="230" ySSD="140" rating="1"/>
+
+                <PointDefense xSSD="90"  ySSD="165"/>
+                <PointDefense xSSD="120" ySSD="165"/>
+                <PointDefense xSSD="180" ySSD="165"/>
+                <PointDefense xSSD="210" ySSD="165"/>
+            </Weapons>
+        </Ship>
+
+
+        <Ship>        
+            <Name>Sea/MkII</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="50.0" y="20.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>UNSC</Race>
+            <ClassAbbrev>BDN</ClassAbbrev>
+            <ClassName>Sea/MkII</ClassName>
+            <ShipClass>Battledreadnought</ShipClass>
+            <Mass>160</Mass>
+            <PointValue>616</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="160" type="Custom" totalHullBoxes="45" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="130" ySSD="185"/>
+                <FireControl xSSD="150" ySSD="185"/>
+                <FireControl xSSD="170" ySSD="185"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="150" ySSD="160"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <FighterBay xSSD="150" ySSD="125"/>
+
+                <PulseTorpedo xSSD="125" ySSD="40" arcs="(FP/F/FS)"/>
+                <PulseTorpedo xSSD="175" ySSD="40" arcs="(FP/F/FS)"/>
+
+                <Graser       xSSD="150" ySSD="80" rating="2" arcs="(FP/F/FS)"/>
+                <Graser       xSSD="70"  ySSD="60"  rating="1" arcs="(AP/FP/F)"/>
+                <Graser       xSSD="230" ySSD="60"  rating="1" arcs="(F/FS/AS)"/>
+
+                <BeamBattery  xSSD="50"  ySSD="100" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="90"  ySSD="100" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="210" ySSD="100" rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="250" ySSD="100" rating="2" arcs="(F/FS/AS)"/>
+
+                <BeamBattery  xSSD="70"  ySSD="140" rating="1"/>
+                <BeamBattery  xSSD="230" ySSD="140" rating="1"/>
+
+                <PointDefense xSSD="90"  ySSD="165"/>
+                <PointDefense xSSD="120" ySSD="165"/>
+                <PointDefense xSSD="180" ySSD="165"/>
+                <PointDefense xSSD="210" ySSD="165"/>
+            </Weapons>
+        </Ship>
+
+
+        <Ship>        
+            <Name>Gaia</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="60.0" y="20.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>UNSC</Race>
+            <ClassAbbrev>SDN</ClassAbbrev>
+            <ClassName>Gaia</ClassName>
+            <ShipClass>Superdreadnought</ShipClass>
+            <Mass>187</Mass>
+            <PointValue>726</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="187" type="Custom" totalHullBoxes="57" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="110" ySSD="185"/>
+                <FireControl xSSD="130" ySSD="185"/>
+                <FireControl xSSD="170" ySSD="185"/>
+                <FireControl xSSD="190" ySSD="185"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="150" ySSD="160"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <FighterBay xSSD="150" ySSD="125"/>
+
+                <PulseTorpedo xSSD="150" ySSD="40" arcs="(FP/F/FS)"/>
+
+                <Graser       xSSD="150" ySSD="80"  rating="3" arcs="(F)"/>
+                <Graser       xSSD="70"  ySSD="60"  rating="1" arcs="(AP/FP/F)"/>
+                <Graser       xSSD="230" ySSD="60"  rating="1" arcs="(F/FS/AS)"/>
+
+                <BeamBattery  xSSD="50"  ySSD="100" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="90"  ySSD="100" rating="2" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="210" ySSD="100" rating="2" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="250" ySSD="100" rating="2" arcs="(F/FS/AS)"/>
+
+                <BeamBattery  xSSD="70"  ySSD="140" rating="1"/>
+                <BeamBattery  xSSD="230" ySSD="140" rating="1"/>
+
+                <PointDefense xSSD="90"  ySSD="165"/>
+                <PointDefense xSSD="120" ySSD="165"/>
+                <PointDefense xSSD="180" ySSD="165"/>
+                <PointDefense xSSD="210" ySSD="165"/>
+            </Weapons>
+        </Ship>
+
+
+        <Ship>        
+            <Name>Sol</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="70.0" y="20.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>UNSC</Race>
+            <ClassAbbrev>SDN</ClassAbbrev>
+            <ClassName>Sol</ClassName>
+            <ShipClass>Superdreadnought</ShipClass>
+            <Mass>259</Mass>
+            <PointValue>949</PointValue>
+            <MainDrive type="Standard" initialThrust="5"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="259" type="Custom" totalHullBoxes="72" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="110" ySSD="185"/>
+                <FireControl xSSD="130" ySSD="185"/>
+                <FireControl xSSD="170" ySSD="185"/>
+                <FireControl xSSD="190" ySSD="185"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="150" ySSD="160"/>
+            </Defenses>
+            <Holds>
+                <CargoHold xSSD="340" ySSD="160" type="Cargo Hold"   totalSize="12"/>
+            </Holds>
+            <Weapons>
+                <AntiMatterTorpedoLauncher xSSD="30" ySSD="60"/>
+                <AntiMatterTorpedoLauncher xSSD="60" ySSD="60"/>
+                <AntiMatterTorpedoLauncher xSSD="90" ySSD="60"/>
+                <AntiMatterTorpedoLauncher xSSD="210" ySSD="60"/>
+                <AntiMatterTorpedoLauncher xSSD="240" ySSD="60"/>
+                <AntiMatterTorpedoLauncher xSSD="270" ySSD="60"/>
+
+                <FighterBay xSSD="150" ySSD="125"/>
+
+                <PulseTorpedo xSSD="150" ySSD="40" arcs="(FP/F/FS)"/>
+
+                <Graser       xSSD="150" ySSD="80"  rating="3" arcs="(F)"/>
+
+                <BeamBattery  xSSD="50"  ySSD="100" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="90"  ySSD="100" rating="2" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="210" ySSD="100" rating="2" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="250" ySSD="100" rating="2" arcs="(F/FS/AS)"/>
+
+                <BeamBattery  xSSD="70"  ySSD="140" rating="1"/>
+                <BeamBattery  xSSD="230" ySSD="140" rating="1"/>
+
+                <PointDefense xSSD="90"  ySSD="165"/>
+                <PointDefense xSSD="120" ySSD="165"/>
+                <PointDefense xSSD="180" ySSD="165"/>
+                <PointDefense xSSD="210" ySSD="165"/>
+            </Weapons>
+        </Ship>
+
+
+        <Ship>        
+            <Name>Lawkeeper</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="40.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>UNSC</Race>
+            <ClassAbbrev>FF</ClassAbbrev>
+            <ClassName>Lawkeeper</ClassName>
+            <ShipClass>Frigate</ShipClass>
+            <Mass>20</Mass>
+            <PointValue>76</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="20" type="Custom" totalHullBoxes="6" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="100"  ySSD="185"/>
+            </Electronics>
+            <Defenses>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <Graser       xSSD="100" ySSD="40"  rating="1" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="100"  ySSD="100" rating="1"/>
+                <PointDefense xSSD="100" ySSD="140"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Hunter</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="50.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>UNSC</Race>
+            <ClassAbbrev>FF</ClassAbbrev>
+            <ClassName>Hunter</ClassName>
+            <ShipClass>Frigate</ShipClass>
+            <Mass>24</Mass>
+            <PointValue>94</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="24" type="Custom" totalHullBoxes="6" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="100"  ySSD="185"/>
+            </Electronics>
+            <Defenses>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <Graser       xSSD="50"  ySSD="40"  rating="1" arcs="(AP/FP/F)"/>
+                <Graser       xSSD="150" ySSD="40"  rating="1" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="100"  ySSD="100" rating="1"/>
+                <PointDefense xSSD="100"  ySSD="140"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Constellation</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="0.0" y="10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>UNSC</Race>
+            <ClassAbbrev>CVH</ClassAbbrev>
+            <ClassName>Constellation</ClassName>
+            <ShipClass>Fleet Carrier</ShipClass>
+            <Mass>253</Mass>
+            <PointValue>954</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="253" type="Custom" totalHullBoxes="52" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="250" ySSD="230"/>
+                <FireControl xSSD="270" ySSD="230"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="260" ySSD="210"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <FighterBay   xSSD="30"  ySSD="100"/>
+                <FighterBay   xSSD="70"  ySSD="100"/>
+                <FighterBay   xSSD="30"  ySSD="150"/>
+                <FighterBay   xSSD="70"  ySSD="150"/>
+                <FighterBay   xSSD="210" ySSD="100"/>
+                <FighterBay   xSSD="250" ySSD="100"/>
+                <FighterBay   xSSD="210" ySSD="150"/>
+                <FighterBay   xSSD="250" ySSD="150"/>
+                <Graser       xSSD="110" ySSD="20" rating="1" arcs="(All arcs)"/>
+                <Graser       xSSD="110" ySSD="60" rating="1" arcs="(All arcs)"/>
+                <Graser       xSSD="170" ySSD="20" rating="1" arcs="(All arcs)"/>
+                <Graser       xSSD="170" ySSD="60" rating="1" arcs="(All arcs)"/>
+
+                <PulseTorpedo xSSD="50"  ySSD="50" arcs="(AP/FP/F)"/>
+                <PulseTorpedo xSSD="230" ySSD="50" arcs="(F/FS/AS)"/>
+
+                <BeamBattery  xSSD="110" ySSD="100" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="170" ySSD="100" rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="110" ySSD="140" rating="1"/>
+                <BeamBattery  xSSD="170" ySSD="140" rating="1"/>
+
+                <PointDefense xSSD="90" ySSD="185"/>
+                <PointDefense xSSD="110" ySSD="185"/>
+                <PointDefense xSSD="130" ySSD="185"/>
+                <PointDefense xSSD="150" ySSD="185"/>
+                <PointDefense xSSD="170" ySSD="185"/>
+                <PointDefense xSSD="190" ySSD="185"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Star</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="10.0" y="10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>UNSC</Race>
+            <ClassAbbrev>CVL</ClassAbbrev>
+            <ClassName>Star</ClassName>
+            <ShipClass>Light Carrier</ShipClass>
+            <Mass>177</Mass>
+            <PointValue>673</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="177" type="Custom" totalHullBoxes="41" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="250" ySSD="230"/>
+                <FireControl xSSD="270" ySSD="230"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="260" ySSD="210"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <FighterBay   xSSD="30"  ySSD="100"/>
+                <FighterBay   xSSD="30"  ySSD="150"/>
+                <FighterBay   xSSD="250" ySSD="100"/>
+                <FighterBay   xSSD="250" ySSD="150"/>
+                <Graser       xSSD="110" ySSD="20" rating="1" arcs="(All arcs)"/>
+                <Graser       xSSD="110" ySSD="60" rating="1" arcs="(All arcs)"/>
+                <Graser       xSSD="170" ySSD="20" rating="1" arcs="(All arcs)"/>
+                <Graser       xSSD="170" ySSD="60" rating="1" arcs="(All arcs)"/>
+
+                <PulseTorpedo xSSD="50"  ySSD="50" arcs="(AP/FP/F)"/>
+                <PulseTorpedo xSSD="230" ySSD="50" arcs="(F/FS/AS)"/>
+
+                <BeamBattery  xSSD="110" ySSD="100" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="170" ySSD="100" rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="110" ySSD="140" rating="1"/>
+                <BeamBattery  xSSD="170" ySSD="140" rating="1"/>
+
+                <PointDefense xSSD="95"  ySSD="185"/>
+                <PointDefense xSSD="125" ySSD="185"/>
+                <PointDefense xSSD="155" ySSD="185"/>
+                <PointDefense xSSD="185" ySSD="185"/>
+            </Weapons>
+        </Ship>
+
+
+        <Ship>        
+            <Name>Phobos</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="20.0" y="10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>UNSC</Race>
+            <ClassAbbrev>CVE</ClassAbbrev>
+            <ClassName>Phobos</ClassName>
+            <ShipClass>Escort Carrier</ShipClass>
+            <Mass>94</Mass>
+            <PointValue>358</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="94" type="Custom" totalHullBoxes="23" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="230" ySSD="230"/>
+                <FireControl xSSD="250" ySSD="230"/>
+                <AreaDefenseFireControl xSSD="270" ySSD="230"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="250" ySSD="200"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <FighterBay   xSSD="30"  ySSD="150"/>
+                <FighterBay   xSSD="250" ySSD="150"/>
+
+                <Graser       xSSD="110" ySSD="60" rating="1" arcs="(AP/FP/F)"/>
+                <Graser       xSSD="170" ySSD="60" rating="1" arcs="(F/FS/AS)"/>
+
+                <PulseTorpedo xSSD="50"  ySSD="50" arcs="(AP/FP/F)"/>
+                <PulseTorpedo xSSD="230" ySSD="50" arcs="(F/FS/AS)"/>
+
+                <BeamBattery  xSSD="110" ySSD="100" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="170" ySSD="100" rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="110" ySSD="140" rating="1"/>
+                <BeamBattery  xSSD="170" ySSD="140" rating="1"/>
+
+                <PointDefense xSSD="95"  ySSD="185"/>
+                <PointDefense xSSD="125" ySSD="185"/>
+                <PointDefense xSSD="155" ySSD="185"/>
+                <PointDefense xSSD="185" ySSD="185"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Comet</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="-10.0" y="10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>UNSC</Race>
+            <ClassAbbrev>CVE</ClassAbbrev>
+            <ClassName>Comet</ClassName>
+            <ShipClass>Escort Carrier</ShipClass>
+            <Mass>87</Mass>
+            <PointValue>326</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="87" type="Custom" totalHullBoxes="24" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="110" ySSD="190"/>
+                <FireControl xSSD="140" ySSD="190"/>
+                <AreaDefenseFireControl xSSD="170" ySSD="190"/>
+            </Electronics>
+            <Defenses>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <FighterBay   xSSD="50"  ySSD="50"/>
+                <FighterBay   xSSD="230" ySSD="50"/>
+
+                <BeamBattery  xSSD="110" ySSD="80" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="140" ySSD="50"  rating="2" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="170" ySSD="80" rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="110" ySSD="120" rating="1"/>
+                <BeamBattery  xSSD="170" ySSD="120" rating="1"/>
+
+                <PointDefense xSSD="65"  ySSD="155"/>
+                <PointDefense xSSD="95"  ySSD="155"/>
+                <PointDefense xSSD="125" ySSD="155"/>
+                <PointDefense xSSD="155" ySSD="155"/>
+                <PointDefense xSSD="185" ySSD="155"/>
+                <PointDefense xSSD="215" ySSD="155"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Warrior</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="0.0" y="-10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>UNSC</Race>
+            <ClassAbbrev>CT</ClassAbbrev>
+            <ClassName>Warrior</ClassName>
+            <ShipClass>Battle Corvette</ShipClass>
+            <Mass>16</Mass>
+            <PointValue>64</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="16" type="Custom" totalHullBoxes="4" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="100"  ySSD="185"/>
+            </Electronics>
+            <Defenses>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <AntiMatterTorpedoLauncher xSSD="60"  ySSD="40"/>
+                <AntiMatterTorpedoLauncher xSSD="140" ySSD="40"/>
+                <BeamBattery  xSSD="100" ySSD="90" rating="1"/>
+                <PointDefense xSSD="100"  ySSD="135"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Hermes</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="10.0" y="-10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>UNSC</Race>
+            <ClassAbbrev>CT</ClassAbbrev>
+            <ClassName>Hermes</ClassName>
+            <ShipClass>Courier</ShipClass>
+            <Mass>9</Mass>
+            <PointValue>30</PointValue>
+            <MainDrive type="Standard" initialThrust="7"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="9" type="Custom" totalHullBoxes="1" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="100"  ySSD="185"/>
+            </Electronics>
+            <Defenses>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <BeamBattery  xSSD="100" ySSD="60"  rating="1"/>
+                <BeamBattery  xSSD="100" ySSD="100" rating="1"/>
+            </Weapons>
+        </Ship>
+
+
+        <Ship>        
+            <Name>Visionary</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="20.0" y="-10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>UNSC</Race>
+            <ClassAbbrev>AX</ClassAbbrev>
+            <ClassName>Visionary</ClassName>
+            <ShipClass>Explorer</ShipClass>
+            <Mass>110</Mass>
+            <PointValue>382</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="110" type="Custom" totalHullBoxes="26" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="80"  ySSD="185"/>
+                <FireControl xSSD="120" ySSD="185"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="100" ySSD="165"/>
+            </Defenses>
+            <Holds>
+                <CargoHold xSSD="24" ySSD="40" type="Cargo Hold"   totalSize="12"/>
+            </Holds>
+            <Weapons>
+                <Graser       xSSD="100" ySSD="20" rating="2" arcs="(F)"/>
+                <BeamBattery  xSSD="80"  ySSD="60"  rating="1"/>
+                <BeamBattery  xSSD="120" ySSD="60"  rating="1"/>
+                <BeamBattery  xSSD="80"  ySSD="100" rating="1"/>
+                <BeamBattery  xSSD="120" ySSD="100" rating="1"/>
+
+                <PointDefense xSSD="70"  ySSD="135"/>
+                <PointDefense xSSD="100" ySSD="135"/>
+                <PointDefense xSSD="130" ySSD="135"/>
+            </Weapons>
+        </Ship>
+
+
+
+    </Player>
+</GameEngine>

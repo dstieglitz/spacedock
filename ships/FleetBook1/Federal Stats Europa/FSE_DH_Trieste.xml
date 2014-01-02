@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>Federal Stats Europa</Race>
+            <ClassAbbrev>DH</ClassAbbrev>
+            <ClassName>Trieste</ClassName>
+            <ShipClass>Super Destroyer</ShipClass>
+            <Mass>42</Mass>
+            <PointValue>139</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="42" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="100"  ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <SalvoMissileLauncher xSSD="100" ySSD="20" smmId="101" arcs="(FP/F/FS)"/>
+                <SalvoMissileMagazine xSSD="100" ySSD="60" id="101" maxInRow="2" capacity="4">
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                </SalvoMissileMagazine>
+
+                <BeamBattery rating="2" xSSD="70"  ySSD="110" arcs="(FP/F/FS)"/>
+                <BeamBattery rating="1" xSSD="130" ySSD="110" arcs="(All arcs)"/>
+
+                <PointDefense xSSD="100" ySSD="150"/>
+            </Weapons>
+        </Ship>

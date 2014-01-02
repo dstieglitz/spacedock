@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <Designer>Dean Gundberg</Designer>
+            <Race>Terran</Race>
+            <ClassAbbrev>DD</ClassAbbrev>
+            <ClassName>Swiftsure</ClassName>
+            <ShipClass>Destroyer</ShipClass>
+            <Mass>34</Mass>
+            <PointValue>113</PointValue>
+            <MainDrive initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="1"/>
+            <Hull  value="34" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="100" ySSD="175"/>
+            </Electronics>
+            <Defenses/>
+            <Weapons>
+                <PulseTorpedo xSSD="100" ySSD="40" arcs="(F)"/>
+                <BeamBattery  xSSD="100" ySSD="90"  rating="2" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="100" ySSD="130" rating="1"/>
+                <PointDefense xSSD="60"  ySSD="150"/>
+                <PointDefense xSSD="140" ySSD="150"/>
+            </Weapons>
+        </Ship>

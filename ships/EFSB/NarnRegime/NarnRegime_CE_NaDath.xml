@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Na'Dath</Name>
+    <Race>NarnRegime</Race>
+    <ClassAbbrev>CE </ClassAbbrev>
+    <ClassName>Na'Dath</ClassName>
+    <ShipClass>Escort Cruiser</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>69</Mass>
+    <PointValue>234</PointValue>
+    <MainDrive type="Standard" initialThrust="6" active="false" />
+    <Armor totalArmor="0"/>
+    <Hull value="69" type="Custom" class="Military" stealth="0" totalHullBoxes="28"/>
+    <Electronics>
+        <FireControl xSSD="75" ySSD="166"/>
+        <FireControl xSSD="135" ySSD="167"/>
+        <AreaDefenseFireControl xSSD="105" ySSD="166"/>
+    </Electronics>
+    <Defenses>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <KineticGun  xSSD="70" ySSD="35" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="141" ySSD="35" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="104" ySSD="92" rating="1" arcs="(AP/FP/F/FS/AS)"/>
+        <BeamBattery  xSSD="175" ySSD="91" rating="2" arcs="(FS/AS)"/>
+        <BeamBattery  xSSD="32" ySSD="92" rating="2" arcs="(AP/FP)"/>
+        <PointDefense xSSD="71" ySSD="92"/>
+        <PointDefense xSSD="142" ySSD="92"/>
+        <PointDefense xSSD="123" ySSD="124"/>
+        <PointDefense xSSD="87" ySSD="124"/>
+        <PointDefense xSSD="43" ySSD="144"/>
+        <PointDefense xSSD="164" ySSD="144"/>
+    </Weapons>
+</Ship>
+

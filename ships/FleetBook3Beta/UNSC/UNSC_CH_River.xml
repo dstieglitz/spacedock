@@ -1,0 +1,34 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>UNSC</Race>
+            <ClassAbbrev>CH</ClassAbbrev>
+            <ClassName>River</ClassName>
+            <ShipClass>Heavy Cruiser</ShipClass>
+            <Mass>87</Mass>
+            <PointValue>328</PointValue>
+            <MainDrive type="Standard" initialThrust="5"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="87" type="Custom" totalHullBoxes="27" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="80"  ySSD="185"/>
+                <FireControl xSSD="120" ySSD="185"/>
+            </Electronics>
+            <Defenses>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <Graser       xSSD="100" ySSD="90" rating="2" arcs="(F)"/>
+                <PulseTorpedo xSSD="100" ySSD="40" arcs="(FP/F/FS)"/>
+
+                <BeamBattery  xSSD="40"  ySSD="60"  rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="160" ySSD="60"  rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="40"  ySSD="100" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="160" ySSD="100" rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="100" ySSD="130" rating="1"/>
+
+                <PointDefense xSSD="70"  ySSD="165"/>
+                <PointDefense xSSD="100" ySSD="165"/>
+                <PointDefense xSSD="130" ySSD="165"/>
+            </Weapons>
+        </Ship>

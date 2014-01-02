@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>Neu Swabian League</Race>
+            <ClassAbbrev>BC</ClassAbbrev>
+            <ClassName>Maximilian</ClassName>
+            <ShipClass>Battlecruiser</ShipClass>
+            <Mass>100</Mass>
+            <PointValue>333</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="10"/>
+            <Hull value="100" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="75"  ySSD="170"/>
+                <FireControl xSSD="100" ySSD="170"/>
+                <FireControl xSSD="125" ySSD="170"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <BeamBattery  xSSD="100" ySSD="40" rating="3" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="70"  ySSD="77" rating="3" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="130" ySSD="77" rating="3" arcs="(F/FS/AS)"/>
+                
+                <BeamBattery  xSSD="45"  ySSD="125" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="155" ySSD="125" rating="2" arcs="(F/FS/AS)"/>
+                
+                <BeamBattery  xSSD="40"  ySSD="45" rating="1" arcs="(All Arcs)"/>
+                <BeamBattery  xSSD="160" ySSD="45" rating="1" arcs="(All Arcs)"/>
+                
+                <PointDefense xSSD="75"  ySSD="145"/>
+                <PointDefense xSSD="100" ySSD="125"/>
+                <PointDefense xSSD="125" ySSD="145"/>
+            </Weapons>
+        </Ship>

@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Babylon 5 Civilian</Name>
+    <Race>EarthAlliance</Race>
+    <ClassAbbrev>STN</ClassAbbrev>
+    <ClassName>Deep Space Station</ClassName>
+    <ShipClass>Space Station</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>250</Mass>
+    <PointValue>396</PointValue>
+    <Armor totalArmor="0"/>
+    <Hull value="250" type="Custom" class="Military" stealth="0" totalHullBoxes="40"/>
+    <Electronics>
+    </Electronics>
+    <Defenses>
+        <Screen xSSD="129" ySSD="155"/>
+    </Defenses>
+    <Holds>
+        <CargoHold  xSSD="308" ySSD="32" type="Passenger Space" totalSize="80"/>
+        <CargoHold  xSSD="307" ySSD="80" type="Cargo Hold" totalSize="60"/>
+        <CargoHold  xSSD="307" ySSD="128" type="Laboratory Hold" totalSize="48"/>
+    </Holds>
+    <Weapons>
+        <PointDefense xSSD="61" ySSD="159"/>
+        <PointDefense xSSD="93" ySSD="159"/>
+        <PointDefense xSSD="165" ySSD="158"/>
+        <PointDefense xSSD="196" ySSD="158"/>
+        <PointDefense xSSD="60" ySSD="127"/>
+        <PointDefense xSSD="93" ySSD="128"/>
+        <PointDefense xSSD="163" ySSD="126"/>
+        <PointDefense xSSD="196" ySSD="127"/>
+        <PointDefense xSSD="129" ySSD="128"/>
+    </Weapons>
+</Ship>
+

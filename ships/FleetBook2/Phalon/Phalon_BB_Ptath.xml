@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <PointValue>522</PointValue>
+            <ClassName>Ptath</ClassName>
+            <Race>Phalon</Race>
+            <ClassAbbrev>BB</ClassAbbrev>
+            <Mass>132</Mass>
+            <ShipClass>Great Warrior</ShipClass>
+            <Designer>GZG</Designer>
+            <Armor totalArmor="8,4,4"/>
+            <MainDrive initialThrust="4"/>
+            <Hull totalHullBoxes="24" type="Custom" value="132"/>
+            <FTLDrive/>
+            <Defenses>
+                <VapourShroud xSSD="175" ySSD="160"/>
+            </Defenses>
+            <Electronics>
+                <FireControl xSSD="80"  ySSD="140"/>
+                <FireControl xSSD="100" ySSD="140"/>
+                <FireControl xSSD="120" ySSD="140"/>
+            </Electronics>
+            <Weapons>
+                <PlasmaBoltLauncher arcs="(FP/F/FS)" rating="4" xSSD="100" ySSD="30"/>
+                <Pulser arcs="(AP/FP/F)" xSSD="25" ySSD="100"/>
+                <Pulser arcs="(F/FS/AS)" xSSD="175" ySSD="100"/>
+                <Pulser arcs="(FP/F/FS)" xSSD="50" ySSD="30"/>
+                <Pulser arcs="(FP/F/FS)" xSSD="150" ySSD="30"/>
+                <Pulser arcs="(FP/F/FS)" xSSD="100" ySSD="70"/>
+                <Pulser arcs="(All arcs)" xSSD="75" ySSD="100"/>
+                <Pulser arcs="(All arcs)" xSSD="125" ySSD="100"/>
+            </Weapons>
+        </Ship>

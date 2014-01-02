@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>New Anglian Confederation</Race>
+            <ClassAbbrev>BC</ClassAbbrev>
+            <ClassName>Majestic</ClassName>
+            <ShipClass>Battlecruiser</ShipClass>
+            <Mass>106</Mass>
+            <PointValue>358</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="5"/>
+            <Hull value="106" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="120" ySSD="175"/>
+                <FireControl xSSD="140" ySSD="175"/>
+                <FireControl xSSD="160" ySSD="175"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="140" ySSD="150"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <SalvoMissileLauncher xSSD="140" ySSD="20" smmId="101" arcs="(FP/F/FS)"/>
+                <SalvoMissileMagazine xSSD="140" ySSD="60" id="101" maxInRow="3" capacity="6">
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                </SalvoMissileMagazine>
+
+                <BeamBattery  xSSD="70"  ySSD="80"  rating="3" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="210" ySSD="80"  rating="3" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="140" ySSD="110" rating="2" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="80"  ySSD="120" rating="1" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="200" ySSD="120" rating="1" arcs="(All arcs)"/>
+
+                <PointDefense xSSD="80"  ySSD="160"/>
+                <PointDefense xSSD="200" ySSD="160"/>
+                <PointDefense xSSD="40"  ySSD="160"/>
+            </Weapons>
+        </Ship>

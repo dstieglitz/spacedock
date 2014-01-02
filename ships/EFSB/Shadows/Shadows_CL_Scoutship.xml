@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Scout</Name>
+    <Race>Shadows</Race>
+    <ClassAbbrev>CL</ClassAbbrev>
+    <ClassName>Scout</ClassName>
+    <ShipClass>Scout</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>85</Mass>
+    <PointValue>425</PointValue>
+    <MainDrive type="Advanced" initialThrust="8" active="false" />
+    <Armor totalArmor="6,0"/>
+    <Hull value="85" type="Custom" class="Military" stealth="2" rows="3" totalHullBoxes="18"/>
+    <Electronics>
+        <FireControl xSSD="95" ySSD="161"/>
+    </Electronics>
+    <Defenses>
+        <Screen xSSD="75" ySSD="132"/>
+        <Screen xSSD="113" ySSD="132"/>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <KineticGun  xSSD="95" ySSD="24" rating="4" arcs="(F)"/>
+        <KineticGun  xSSD="95" ySSD="62" rating="4" arcs="(F)"/>
+        <KineticGun  xSSD="95" ySSD="100" rating="1" arcs="(All arcs)"/>
+    </Weapons>
+</Ship>
+

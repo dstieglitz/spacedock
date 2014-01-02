@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <PointValue>225</PointValue>
+            <ClassName>Tsaara</ClassName>
+            <Race>Phalon</Race>
+            <ClassAbbrev>CL</ClassAbbrev>
+            <Mass>58</Mass>
+            <ShipClass>Warrior</ShipClass>
+            <Designer>GZG</Designer>
+            <MainDrive initialThrust="4"/>
+            <Hull totalHullBoxes="10" type="Custom" value="58"/>
+            <Armor totalArmor="3,2"/>
+            <FTLDrive/>
+            <Defenses>
+                <VapourShroud xSSD="120" ySSD="150"/>
+            </Defenses>
+            <Electronics>
+                <FireControl xSSD="50" ySSD="150"/>
+                <FireControl xSSD="70" ySSD="150"/>
+            </Electronics>
+            <Weapons>
+                <PlasmaBoltLauncher arcs="(FP/F/FS)" rating="2" xSSD="60" ySSD="30"/>
+                <Pulser arcs="(F)" xSSD="60" ySSD="70"/>
+                <Pulser arcs="(All arcs)" xSSD="30" ySSD="110"/>
+                <Pulser arcs="(All arcs)" xSSD="90" ySSD="110"/>
+            </Weapons>
+        </Ship>

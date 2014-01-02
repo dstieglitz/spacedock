@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Designer>Oerjan Ohlson</Designer>
+            <Race>Federal Stats Europa</Race>
+            <ClassAbbrev>DD</ClassAbbrev>
+            <ClassName>Epee</ClassName>
+            <ShipClass>Destroyer</ShipClass>
+            <Mass>31</Mass>
+            <PointValue>104</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="31" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="100"  ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <SubmunitionPack xSSD="45"  ySSD="70"  arcs="(F)"/>
+                <BeamBattery  xSSD="40"  ySSD="110" rating="1" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="160" ySSD="110" rating="1" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="100" ySSD="110" rating="2" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="100" ySSD="70" rating="2" arcs="(FP/F/FS)"/>
+                <PointDefense xSSD="80"  ySSD="140"  />
+                <PointDefense xSSD="120" ySSD="140"  />
+            </Weapons>
+        </Ship>

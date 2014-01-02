@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Kha'Soo</Name>
+    <Race>NarnRegime</Race>
+    <ClassAbbrev>BC</ClassAbbrev>
+    <ClassName>Kha'Soo</ClassName>
+    <ShipClass>Battlecruiser</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>110</Mass>
+    <PointValue>376</PointValue>
+    <MainDrive type="Standard" initialThrust="6" active="false" />
+    <FTLDrive/>
+    <Armor totalArmor="0"/>
+    <Hull value="110" type="Custom" class="Military" stealth="0" totalHullBoxes="28"/>
+    <Electronics>
+        <FireControl xSSD="140" ySSD="165"/>
+        <FireControl xSSD="165" ySSD="165"/>
+    </Electronics>
+    <Defenses>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <FighterBay xSSD="55" ySSD="108"/>
+        <SalvoMissileRack xSSD="148" ySSD="40" type="Standard Salvo" arcs="(F)"/>
+        <KineticGun  xSSD="80" ySSD="40" rating="2" arcs="(F)"/>
+        <KineticGun  xSSD="216" ySSD="40" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="105" ySSD="85" rating="3" arcs="(F)"/>
+        <BeamBattery  xSSD="190" ySSD="85" rating="3" arcs="(F)"/>
+        <BeamBattery  xSSD="175" ySSD="125" rating="2" arcs="(FS/AS)"/>
+        <BeamBattery  xSSD="130" ySSD="125" rating="2" arcs="(AP/FP)"/>
+        <BeamBattery  xSSD="150" ySSD="85" rating="2" arcs="(A)"/>
+        <PointDefense xSSD="90" ySSD="165"/>
+        <PointDefense xSSD="54" ySSD="165"/>
+        <PointDefense xSSD="203" ySSD="165"/>
+    </Weapons>
+</Ship>
+

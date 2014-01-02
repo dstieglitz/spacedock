@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>New Anglian Confederation</Race>
+            <ClassAbbrev>FH</ClassAbbrev>
+            <ClassName>Tacoma/T</ClassName>
+            <ShipClass>Heavy Frigate</ShipClass>
+            <Mass>24</Mass>
+            <PointValue>81</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="24" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="140" ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <PulseTorpedo  xSSD="140" ySSD="25" arcs="(F)"/>
+                <BeamBattery  xSSD="100" ySSD="100" rating="1" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="180" ySSD="100" rating="1" arcs="(All arcs)"/>
+                <PointDefense xSSD="140" ySSD="140"/>
+            </Weapons>
+        </Ship>

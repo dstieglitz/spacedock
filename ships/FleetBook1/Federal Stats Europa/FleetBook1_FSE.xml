@@ -1,0 +1,806 @@
+<?xml version="1.0" standalone="yes" ?>
+<GameEngine id="1111" name="Federal Stats Europa" turn="0">
+    <Player id="1" name="First Last" email="last@hotmail.com">
+        <Ship>        
+            <Name>Bonaparte</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="0.0" y="10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Federal Stats Europa</Race>
+            <ClassAbbrev>BDN</ClassAbbrev>
+            <ClassName>Bonaparte</ClassName>
+            <ShipClass>Battledreadnought</ShipClass>
+            <Mass>160</Mass>
+            <PointValue>531</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="160" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="80" ySSD="180"/>
+                <FireControl xSSD="100" ySSD="180"/>
+                <FireControl xSSD="120" ySSD="180"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="180" ySSD="180"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <SalvoMissileLauncher xSSD="100" ySSD="20" smmId="101" arcs="(FP/F/FS)"/>
+                <SalvoMissileMagazine xSSD="100" ySSD="60" id="101" maxInRow="4" capacity="8">
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                </SalvoMissileMagazine>
+
+                <FighterBay xSSD="180" ySSD="130"/>
+                <BeamBattery rating="3" xSSD="80" ySSD="105" arcs="(F)"/>
+                <BeamBattery rating="2" xSSD="40"  ySSD="25" arcs="(AP/FP/F)"/>
+                <BeamBattery rating="2" xSSD="160" ySSD="25" arcs="(F/FS/AS)"/>
+                <BeamBattery rating="2" xSSD="120" ySSD="105" arcs="(All arcs)"/>
+                <BeamBattery rating="1" xSSD="30"  ySSD="65" arcs="(All arcs)"/>
+                <BeamBattery rating="1" xSSD="170"  ySSD="65" arcs="(All arcs)"/>
+                <PointDefense xSSD="55"  ySSD="150"/>
+                <PointDefense xSSD="85"  ySSD="150"/>
+                <PointDefense xSSD="115" ySSD="150"/>
+                <PointDefense xSSD="145" ySSD="150"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Foch</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="10.0" y="10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Federal Stats Europa</Race>
+            <ClassAbbrev>SDN</ClassAbbrev>
+            <ClassName>Foch</ClassName>
+            <ShipClass>Superdreadnought</ShipClass>
+            <Mass>250</Mass>
+            <PointValue>855</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="250" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="250"   ySSD="170"/>
+                <FireControl xSSD="275"   ySSD="170"/>
+                <FireControl xSSD="300"   ySSD="170"/>
+                <FireControl xSSD="325"   ySSD="170"/>
+                <FireControl xSSD="350"   ySSD="170"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="300"   ySSD="150" />
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <SalvoMissileLauncher xSSD="80"  ySSD="20" smmId="101" arcs="(AP/FP/F)"/>
+                <SalvoMissileLauncher xSSD="120" ySSD="20" smmId="101" arcs="(FP/F/FS)"/>
+                <SalvoMissileLauncher xSSD="160" ySSD="20" smmId="101" arcs="(F/FS/AS)"/>
+                <SalvoMissileMagazine xSSD="120" ySSD="80" id="101" maxInRow="3" capacity="18">
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                </SalvoMissileMagazine>
+
+                <FighterBay xSSD="250" ySSD="40"/>
+                <FighterBay xSSD="300" ySSD="40"/>
+                <FighterBay xSSD="350" ySSD="40"/>
+
+                <BeamBattery rating="3" xSSD="60"  ySSD="60" arcs="(FP/F/FS)"/>
+                <BeamBattery rating="3" xSSD="180" ySSD="60" arcs="(FP/F/FS)"/>
+
+                <BeamBattery rating="2" xSSD="40"  ySSD="140" arcs="(All arcs)"/>
+                <BeamBattery rating="2" xSSD="200" ySSD="140" arcs="(All arcs)"/>
+                <BeamBattery rating="2" xSSD="50"  ySSD="100" arcs="(AP/FP/F)"/>
+                <BeamBattery rating="2" xSSD="190" ySSD="100" arcs="(F/FS/AS)"/>
+
+                <PointDefense xSSD="90"  ySSD="140"/>
+                <PointDefense xSSD="120" ySSD="140"/>
+                <PointDefense xSSD="150" ySSD="140"/>
+                <PointDefense xSSD="90"  ySSD="165"/>
+                <PointDefense xSSD="120" ySSD="165"/>
+                <PointDefense xSSD="150" ySSD="165"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Bologna</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="20.0" y="10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Federal Stats Europa</Race>
+            <ClassAbbrev>CVL</ClassAbbrev>
+            <ClassName>Bologna</ClassName>
+            <ShipClass>Light Carrier</ShipClass>
+            <Mass>170</Mass>
+            <PointValue>580</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="170" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="80"  ySSD="180"/>
+                <FireControl xSSD="120" ySSD="180"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="100"  ySSD="150"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <FighterBay xSSD="40"  ySSD="25"/>
+                <FighterBay xSSD="80"  ySSD="25"/>
+                <FighterBay xSSD="120" ySSD="25"/>
+                <FighterBay xSSD="160" ySSD="25"/>
+
+                <SalvoMissileLauncher xSSD="100" ySSD="70" smmId="101" arcs="(FP/F/FS)"/>
+                <SalvoMissileMagazine xSSD="100" ySSD="110" id="101" maxInRow="3" capacity="6">
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                </SalvoMissileMagazine>
+
+
+                <BeamBattery rating="2" xSSD="40"  ySSD="70"  arcs="(All arcs)"/>
+                <BeamBattery rating="2" xSSD="160" ySSD="70"  arcs="(All arcs)"/>
+                <BeamBattery rating="1" xSSD="30"  ySSD="110" arcs="(All arcs)"/>
+                <BeamBattery rating="1" xSSD="170" ySSD="110" arcs="(All arcs)"/>
+
+                <PointDefense xSSD="30"  ySSD="155"/>
+                <PointDefense xSSD="70"  ySSD="155"/>
+                <PointDefense xSSD="130"  ySSD="155"/>
+                <PointDefense xSSD="170"  ySSD="155"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Jeanne D'Arc</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="30.0" y="10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Federal Stats Europa</Race>
+            <ClassAbbrev>CV</ClassAbbrev>
+            <ClassName>Jeanne D'Arc</ClassName>
+            <ShipClass>Fleet Carrier</ShipClass>
+            <Mass>280</Mass>
+            <PointValue>955</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="280" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="130" ySSD="180"/>
+                <FireControl xSSD="150" ySSD="180"/>
+                <FireControl xSSD="170" ySSD="180"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="150" ySSD="150"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <FighterBay xSSD="30"  ySSD="25"/>
+                <FighterBay xSSD="70"  ySSD="25"/>
+                <FighterBay xSSD="110" ySSD="25"/>
+                <FighterBay xSSD="150" ySSD="25"/>
+                <FighterBay xSSD="190" ySSD="25"/>
+                <FighterBay xSSD="230" ySSD="25"/>
+                <FighterBay xSSD="270" ySSD="25"/>
+
+                <SalvoMissileLauncher xSSD="150" ySSD="70" smmId="101" arcs="(FP/F/FS)"/>
+                <SalvoMissileMagazine xSSD="150" ySSD="110" id="101" maxInRow="3" capacity="6">
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                </SalvoMissileMagazine>
+
+                <BeamBattery rating="3" xSSD="80"  ySSD="70" arcs="(FP/F/FS)"/>
+                <BeamBattery rating="3" xSSD="220" ySSD="70" arcs="(FP/F/FS)"/>
+
+                <BeamBattery rating="2" xSSD="70"  ySSD="110" arcs="(All arcs)"/>
+                <BeamBattery rating="2" xSSD="230" ySSD="110" arcs="(FP/F/FS)"/>
+
+                <PointDefense xSSD="40"  ySSD="155"/>
+                <PointDefense xSSD="70"  ySSD="155"/>
+                <PointDefense xSSD="100" ySSD="155"/>
+                <PointDefense xSSD="200" ySSD="155"/>
+                <PointDefense xSSD="230" ySSD="155"/>
+                <PointDefense xSSD="260" ySSD="155"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Roma</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="0.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Federal Stats Europa</Race>
+            <ClassAbbrev>BB</ClassAbbrev>
+            <ClassName>Roma</ClassName>
+            <ShipClass>Battleship</ShipClass>
+            <Mass>110</Mass>
+            <PointValue>377</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="110" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="80"  ySSD="180"/>
+                <FireControl xSSD="100" ySSD="180"/>
+                <FireControl xSSD="120" ySSD="180"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="100" ySSD="155"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <SalvoMissileLauncher xSSD="60"  ySSD="20" smmId="51" arcs="(AP/FP/F)"/>
+                <SalvoMissileLauncher xSSD="140" ySSD="20" smmId="51" arcs="(F/FS/AS)"/>
+                <SalvoMissileMagazine xSSD="100" ySSD="60" id="51" maxInRow="6" capacity="12">
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                </SalvoMissileMagazine>
+
+                <BeamBattery rating="2" xSSD="100" ySSD="105" arcs="(All arcs)"/>
+                <BeamBattery rating="2" xSSD="20"  ySSD="70"  arcs="(AP/FP/F)"/>
+                <BeamBattery rating="2" xSSD="20"  ySSD="110" arcs="(AP/FP/F)"/>
+                <BeamBattery rating="2" xSSD="180" ySSD="70"  arcs="(F/FS/AS)"/>
+                <BeamBattery rating="2" xSSD="180" ySSD="110" arcs="(F/FS/AS)"/>
+
+                <BeamBattery rating="1" xSSD="60"  ySSD="125" arcs="(All arcs)"/>
+                <BeamBattery rating="1" xSSD="140" ySSD="125" arcs="(All arcs)"/>
+
+                <PointDefense xSSD="30"  ySSD="160"/>
+                <PointDefense xSSD="65"  ySSD="160"/>
+                <PointDefense xSSD="135" ySSD="160"/>
+                <PointDefense xSSD="170" ySSD="160"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Jerez</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="20.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Federal Stats Europa</Race>
+            <ClassAbbrev>CA</ClassAbbrev>
+            <ClassName>Jerez</ClassName>
+            <ShipClass>Heavy Cruiser</ShipClass>
+            <Mass>88</Mass>
+            <PointValue>293</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="88" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="90"  ySSD="180"/>
+                <FireControl xSSD="110" ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <SalvoMissileLauncher xSSD="60"  ySSD="20" smmId="51" arcs="(FP/F/FS)"/>
+                <SalvoMissileLauncher xSSD="140" ySSD="20" smmId="51" arcs="(FP/F/FS)"/>
+                <SalvoMissileMagazine xSSD="100" ySSD="60" id="51" maxInRow="4" capacity="8">
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                </SalvoMissileMagazine>
+
+                <BeamBattery rating="2" xSSD="100" ySSD="100" arcs="(All arcs)"/>
+                <BeamBattery rating="2" xSSD="20"  ySSD="105" arcs="(AP/FP/F)"/>
+                <BeamBattery rating="2" xSSD="180" ySSD="105" arcs="(F/FS/AS)"/>
+
+                <BeamBattery rating="1" xSSD="60"  ySSD="125" arcs="(All arcs)"/>
+                <BeamBattery rating="1" xSSD="140" ySSD="125" arcs="(All arcs)"/>
+
+                <PointDefense xSSD="80"  ySSD="155"/>
+                <PointDefense xSSD="120" ySSD="155"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Ypres</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="30.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Federal Stats Europa</Race>
+            <ClassAbbrev>BC</ClassAbbrev>
+            <ClassName>Ypres</ClassName>
+            <ShipClass>Battlecruiser</ShipClass>
+            <Mass>96</Mass>
+            <PointValue>318</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="96" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="80"  ySSD="180"/>
+                <FireControl xSSD="120" ySSD="180"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="100"  ySSD="165"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <SalvoMissileLauncher xSSD="100" ySSD="20" smmId="101" arcs="(FP/F/FS)"/>
+                <SalvoMissileMagazine xSSD="100" ySSD="60" id="101" maxInRow="3" capacity="6">
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                </SalvoMissileMagazine>
+
+                <BeamBattery rating="2" xSSD="100" ySSD="100" arcs="(All arcs)"/>
+                <BeamBattery rating="2" xSSD="60"  ySSD="100" arcs="(AP/FP/F)"/>
+                <BeamBattery rating="2" xSSD="140" ySSD="100" arcs="(F/FS/AS)"/>
+
+                <BeamBattery rating="1" xSSD="40" ySSD="60" arcs="(All arcs)"/>
+                <BeamBattery rating="1" xSSD="160" ySSD="60" arcs="(All arcs)"/>
+
+                <PointDefense xSSD="70"  ySSD="140"/>
+                <PointDefense xSSD="100" ySSD="140"/>
+                <PointDefense xSSD="130" ySSD="140"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Milan</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="40.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Federal Stats Europa</Race>
+            <ClassAbbrev>CE</ClassAbbrev>
+            <ClassName>Milan</ClassName>
+            <ShipClass>Escort Cruiser</ShipClass>
+            <Mass>62</Mass>
+            <PointValue>206</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="62" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="85"  ySSD="180"/>
+                <FireControl xSSD="115" ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <SalvoMissileLauncher xSSD="100" ySSD="20" smmId="101" arcs="(FP/F/FS)"/>
+                <SalvoMissileMagazine xSSD="100" ySSD="60" id="101" maxInRow="3" capacity="6">
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                </SalvoMissileMagazine>
+
+                <BeamBattery rating="2" xSSD="50"  ySSD="110" arcs="(AP/FP/F)"/>
+                <BeamBattery rating="2" xSSD="150" ySSD="110" arcs="(F/FS/AS)"/>
+                <BeamBattery rating="1" xSSD="100" ySSD="110" arcs="(All arcs)"/>
+
+                <PointDefense xSSD="80"  ySSD="150"/>
+                <PointDefense xSSD="120" ySSD="150"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Suffren</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="50.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Federal Stats Europa</Race>
+            <ClassAbbrev>CL</ClassAbbrev>
+            <ClassName>Suffren</ClassName>
+            <ShipClass>Light Cruiser</ShipClass>
+            <Mass>54</Mass>
+            <PointValue>181</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="54" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="85"  ySSD="180"/>
+                <FireControl xSSD="115" ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <SalvoMissileLauncher xSSD="100" ySSD="20" smmId="101" arcs="(FP/F/FS)"/>
+                <SalvoMissileMagazine xSSD="100" ySSD="60" id="101" maxInRow="3" capacity="6">
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                </SalvoMissileMagazine>
+
+                <BeamBattery rating="2" xSSD="50"  ySSD="110" arcs="(AP/FP/F)"/>
+                <BeamBattery rating="2" xSSD="150" ySSD="110" arcs="(F/FS/AS)"/>
+
+                <PointDefense xSSD="80"  ySSD="150"/>
+                <PointDefense xSSD="120" ySSD="150"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Trieste</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="0.0" y="-10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Federal Stats Europa</Race>
+            <ClassAbbrev>DH</ClassAbbrev>
+            <ClassName>Trieste</ClassName>
+            <ShipClass>Super Destroyer</ShipClass>
+            <Mass>42</Mass>
+            <PointValue>139</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="42" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="100"  ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <SalvoMissileLauncher xSSD="100" ySSD="20" smmId="101" arcs="(FP/F/FS)"/>
+                <SalvoMissileMagazine xSSD="100" ySSD="60" id="101" maxInRow="2" capacity="4">
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                </SalvoMissileMagazine>
+
+                <BeamBattery rating="2" xSSD="70"  ySSD="110" arcs="(FP/F/FS)"/>
+                <BeamBattery rating="1" xSSD="130" ySSD="110" arcs="(All arcs)"/>
+
+                <PointDefense xSSD="100" ySSD="150"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>San Miguel</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="10.0" y="-10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Federal Stats Europa</Race>
+            <ClassAbbrev>DD</ClassAbbrev>
+            <ClassName>San Miguel</ClassName>
+            <ShipClass>Destroyer</ShipClass>
+            <Mass>34</Mass>
+            <PointValue>112</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="2"/>
+            <Hull value="34" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="100"  ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <BeamBattery  xSSD="50"  ySSD="70"  rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="150" ySSD="70"  rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="40"  ySSD="110" rating="1" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="160" ySSD="110" rating="1" arcs="(All arcs)"/>
+                <PointDefense xSSD="80"  ySSD="140"  />
+                <PointDefense xSSD="120" ySSD="140"  />
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Ibiza</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="20.0" y="-10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Federal Stats Europa</Race>
+            <ClassAbbrev>FF</ClassAbbrev>
+            <ClassName>Ibiza</ClassName>
+            <ShipClass>Frigate</ShipClass>
+            <Mass>18</Mass>
+            <PointValue>61</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="18" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="100"  ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <SubmunitionPack xSSD="45"  ySSD="70"  arcs="(F)"/>
+                <SubmunitionPack xSSD="145" ySSD="70"  arcs="(F)"/>
+                <BeamBattery  xSSD="40"  ySSD="110" rating="1" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="160" ySSD="110" rating="1" arcs="(All arcs)"/>
+                <PointDefense xSSD="100" ySSD="140"  />
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Athena</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="30.0" y="-10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Federal Stats Europa</Race>
+            <ClassAbbrev>CT</ClassAbbrev>
+            <ClassName>Athena</ClassName>
+            <ShipClass>Corvette</ShipClass>
+            <Mass>14</Mass>
+            <PointValue>48</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="14" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="100"  ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <BeamBattery  xSSD="40"  ySSD="110" rating="1" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="160" ySSD="110" rating="1" arcs="(All arcs)"/>
+                <SubmunitionPack xSSD="95"  ySSD="70"  arcs="(F)"/>
+                <PointDefense xSSD="100" ySSD="140"  />
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Mistral</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="40.0" y="-10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Federal Stats Europa</Race>
+            <ClassAbbrev>SC</ClassAbbrev>
+            <ClassName>Mistral</ClassName>
+            <ShipClass>Scoutship</ShipClass>
+            <Mass>8</Mass>
+            <PointValue>28</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="8" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="100"  ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <BeamBattery  xSSD="40"  ySSD="110" rating="1" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="160" ySSD="110" rating="1" arcs="(All arcs)"/>
+            </Weapons>
+        </Ship>
+
+
+        <Ship>        
+            <Name>Hydra</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="50.0" y="-10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Designer>Oerjan Ohlson</Designer>
+            <Race>Federal Stats Europa</Race>
+            <ClassAbbrev>DD</ClassAbbrev>
+            <ClassName>Hydra</ClassName>
+            <ShipClass>Destroyer</ShipClass>
+            <Mass>31</Mass>
+            <PointValue>104</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="31" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="100"  ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <SubmunitionPack xSSD="50"  ySSD="70"  arcs="(F)"/>
+                <SubmunitionPack xSSD="100" ySSD="70"  arcs="(F)"/>
+                <SubmunitionPack xSSD="150" ySSD="70"  arcs="(F)"/>
+                <BeamBattery  xSSD="40"  ySSD="110" rating="1" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="160" ySSD="110" rating="1" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="100" ySSD="110" rating="2" arcs="(FP/F/FS)"/>
+                <PointDefense xSSD="80"  ySSD="140"  />
+                <PointDefense xSSD="120" ySSD="140"  />
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Epee</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="60.0" y="-10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Designer>Oerjan Ohlson</Designer>
+            <Race>Federal Stats Europa</Race>
+            <ClassAbbrev>DD</ClassAbbrev>
+            <ClassName>Epee</ClassName>
+            <ShipClass>Destroyer</ShipClass>
+            <Mass>31</Mass>
+            <PointValue>104</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="31" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="100"  ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <SubmunitionPack xSSD="45"  ySSD="70"  arcs="(F)"/>
+                <BeamBattery  xSSD="40"  ySSD="110" rating="1" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="160" ySSD="110" rating="1" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="100" ySSD="110" rating="2" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="100" ySSD="70" rating="2" arcs="(FP/F/FS)"/>
+                <PointDefense xSSD="80"  ySSD="140"  />
+                <PointDefense xSSD="120" ySSD="140"  />
+            </Weapons>
+        </Ship>
+
+
+        <FighterGroup id="1106">
+            <Position x="0.0" y="-20.0"/>
+            <Heading heading="12"/>
+            <Race>Federal Stats Europa</Race>
+            <Type>Standard</Type>
+            <Count>6</Count>
+            <Endurance>6</Endurance>
+            <PilotQuality>Normal</PilotQuality>
+        </FighterGroup>
+
+        <FighterGroup id="1105">
+            <Position x="10.0" y="-20.0"/>
+            <Heading heading="1"/>
+            <Race>Federal Stats Europa</Race>
+            <Type>Standard</Type>
+            <Count>5</Count>
+            <Endurance>6</Endurance>
+            <PilotQuality>Normal</PilotQuality>
+        </FighterGroup>
+
+
+        <FighterGroup id="1104">
+            <Position x="20.0" y="-20.0"/>
+            <Heading heading="2"/>
+            <Race>Federal Stats Europa</Race>
+            <Type>Standard</Type>
+            <Count>4</Count>
+            <Endurance>6</Endurance>
+            <PilotQuality>Normal</PilotQuality>
+        </FighterGroup>
+
+
+        <FighterGroup id="1103">
+            <Position x="30.0" y="-20.0"/>
+            <Heading heading="3"/>
+            <Race>Federal Stats Europa</Race>
+            <Type>Standard</Type>
+            <Count>3</Count>
+            <Endurance>6</Endurance>
+            <PilotQuality>Normal</PilotQuality>
+        </FighterGroup>
+
+
+        <FighterGroup id="1102">
+            <Position x="40.0" y="-20.0"/>
+            <Heading heading="4"/>
+            <Race>Federal Stats Europa</Race>
+            <Type>Standard</Type>
+            <Count>2</Count>
+            <Endurance>6</Endurance>
+            <PilotQuality>Normal</PilotQuality>
+        </FighterGroup>
+
+        <FighterGroup id="1101">
+            <Position x="50.0" y="-20.0"/>
+            <Heading heading="6"/>
+            <Race>Federal Stats Europa</Race>
+            <Type>Standard</Type>
+            <Count>1</Count>
+            <Endurance>6</Endurance>
+            <PilotQuality>Normal</PilotQuality>
+        </FighterGroup>
+
+    </Player>
+</GameEngine>

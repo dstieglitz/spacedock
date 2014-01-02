@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>New Anglian Confederation</Race>
+            <ClassAbbrev>CA</ClassAbbrev>
+            <ClassName>Vandenburg</ClassName>
+            <ShipClass>Heavy Cruiser</ShipClass>
+            <Mass>80</Mass>
+            <PointValue>261</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="5"/>
+            <Hull value="80" type="Average"/>
+            <Electronics>
+                <FireControl  xSSD="120" ySSD="185"/>
+                <FireControl  xSSD="160" ySSD="185"/>
+            </Electronics>
+            <Defenses>
+                <Screen  xSSD="140"  ySSD="165"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <BeamBattery  xSSD="140" ySSD="50"  rating="3" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="90"  ySSD="80"  rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="190" ySSD="80"  rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="140" ySSD="110" rating="1" arcs="(All arcs)"/>
+                <PointDefense xSSD="90"  ySSD="130"/>
+                <PointDefense xSSD="190" ySSD="130"/>
+            </Weapons>
+        </Ship>

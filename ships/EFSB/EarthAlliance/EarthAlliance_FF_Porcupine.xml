@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Porcupine</Name>
+    <Race>EarthAlliance</Race>
+    <ClassAbbrev>FF</ClassAbbrev>
+    <ClassName>Porcupine Starfury Transport</ClassName>
+    <ShipClass>Support Carrier</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>26</Mass>
+    <PointValue>90</PointValue>
+    <MainDrive type="Standard" initialThrust="4" active="false" />
+    <Armor totalArmor="0"/>
+    <Hull value="26" type="Custom" class="Military" stealth="0" totalHullBoxes="10" rows="2"/>
+    <Electronics>
+        <FireControl xSSD="96" ySSD="145"/>
+    </Electronics>
+    <Defenses>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <FighterBay xSSD="97" ySSD="33"/>
+        <BeamBattery  xSSD="97" ySSD="99" rating="1" arcs="(All arcs)"/>
+    </Weapons>
+</Ship>
+

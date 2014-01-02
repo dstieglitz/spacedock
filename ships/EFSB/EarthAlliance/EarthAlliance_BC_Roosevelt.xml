@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Roosevelt</Name>
+    <Race>EarthAlliance</Race>
+    <ClassAbbrev>BC</ClassAbbrev>
+    <ClassName>Roosevelt</ClassName>
+    <ShipClass>Battlecruiser</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>131</Mass>
+    <PointValue>473</PointValue>
+    <MainDrive type="Standard" initialThrust="4" active="false" />
+    <FTLDrive/>
+    <Armor totalArmor="0"/>
+    <Hull value="131" type="Custom" class="Military" stealth="0" totalHullBoxes="32"/>
+    <Electronics>
+        <FireControl xSSD="70" ySSD="140"/>
+        <FireControl xSSD="110" ySSD="140"/>
+        <AreaDefenseFireControl xSSD="150" ySSD="140"/>
+    </Electronics>
+    <Defenses>
+        <Screen xSSD="125" ySSD="105"/>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <FighterBay xSSD="25" ySSD="40"/>
+        <FighterBay xSSD="215" ySSD="40"/>
+        <KineticGun  xSSD="75" ySSD="30" rating="4" arcs="(F)"/>
+        <KineticGun  xSSD="170" ySSD="30" rating="4" arcs="(F)"/>
+        <BeamBattery  xSSD="125" ySSD="30" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="75" ySSD="70" rating="2" arcs="(All arcs)"/>
+        <BeamBattery  xSSD="125" ySSD="70" rating="2" arcs="(All arcs)"/>
+        <BeamBattery  xSSD="170" ySSD="70" rating="2" arcs="(All arcs)"/>
+        <PointDefense xSSD="50" ySSD="105"/>
+        <PointDefense xSSD="90" ySSD="105"/>
+        <PointDefense xSSD="160" ySSD="105"/>
+        <PointDefense xSSD="200" ySSD="105"/>
+    </Weapons>
+</Ship>
+

@@ -1,0 +1,75 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Brushari</Name>
+    <Race>CentauriRepublic</Race>
+    <ClassAbbrev>STN</ClassAbbrev>
+    <ClassName>Delafield Base</ClassName>
+    <ShipClass>Station</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>204</Mass>
+    <PointValue>748</PointValue>
+    <Armor totalArmor="0"/>
+    <Hull value="204" type="Custom" class="Military" stealth="0" rows="5" totalHullBoxes="50"/>
+    <Electronics>
+        <FireControl xSSD="88" ySSD="179"/>
+        <FireControl xSSD="108" ySSD="179"/>
+        <FireControl xSSD="72" ySSD="199"/>
+        <FireControl xSSD="98" ySSD="198"/>
+        <FireControl xSSD="123" ySSD="198"/>
+        <AreaDefenseFireControl xSSD="322" ySSD="189"/>
+    </Electronics>
+    <Defenses>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <FighterBay xSSD="37" ySSD="40"/>
+        <FighterBay xSSD="378" ySSD="41"/>
+
+                <SalvoMissileMagazine xSSD="211" ySSD="115" id="101" maxInRow="5" capacity="35">
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Extended Range Salvo" status="Available"/>
+                    <Salvo type="Extended Range Salvo" status="Available"/>
+                    <Salvo type="Extended Range Salvo" status="Available"/>
+                    <Salvo type="Extended Range Salvo" status="Available"/>
+                    <Salvo type="Extended Range Salvo" status="Available"/>
+                </SalvoMissileMagazine>
+                <SalvoMissileLauncher xSSD="140" ySSD="98" smmId="101" arcs="(F)"/>
+                <SalvoMissileLauncher xSSD="138" ySSD="144" smmId="101" arcs="(AP/FP)"/>
+                <SalvoMissileLauncher xSSD="283" ySSD="138" smmId="101" arcs="(A)"/>
+                <SalvoMissileLauncher xSSD="281" ySSD="94" smmId="101" arcs="(FS/AS)"/>
+
+        <BeamBattery  xSSD="86" ySSD="96" rating="2" arcs="(All arcs)"/>
+        <BeamBattery  xSSD="336" ySSD="96" rating="2" arcs="(All arcs)"/>
+        <BeamBattery  xSSD="336" ySSD="136" rating="2" arcs="(All arcs)"/>
+        <BeamBattery  xSSD="85" ySSD="139" rating="2" arcs="(All arcs)"/>
+        <BeamBattery  xSSD="151" ySSD="47" rating="4" arcs="(F)"/>
+        <BeamBattery  xSSD="270" ySSD="48" rating="3" arcs="(F)"/>
+        <BeamBattery  xSSD="379" ySSD="95" rating="4" arcs="(FS/AS)"/>
+        <BeamBattery  xSSD="379" ySSD="136" rating="3" arcs="(FS/AS)"/>
+        <BeamBattery  xSSD="39" ySSD="94" rating="4" arcs="(AP/FP)"/>
+        <BeamBattery  xSSD="39" ySSD="139" rating="3" arcs="(AP/FP)"/>
+        <BeamBattery  xSSD="164" ySSD="188" rating="4" arcs="(A)"/>
+        <BeamBattery  xSSD="258" ySSD="188" rating="3" arcs="(A)"/>
+        <NeedleBeam xSSD="207" ySSD="42" arcs="(F)"/>
+        <NeedleBeam xSSD="333" ySSD="44" arcs="(FS)"/>
+        <NeedleBeam xSSD="384" ySSD="193" arcs="(AS)"/>
+        <NeedleBeam xSSD="210" ySSD="193" arcs="(A)"/>
+        <NeedleBeam xSSD="41" ySSD="193" arcs="(AP)"/>
+        <NeedleBeam xSSD="84" ySSD="43" arcs="(FP)"/>
+        <PointDefense xSSD="352" ySSD="203"/>
+        <PointDefense xSSD="352" ySSD="175"/>
+        <PointDefense xSSD="297" ySSD="204"/>
+        <PointDefense xSSD="296" ySSD="177"/>
+    </Weapons>
+</Ship>
+

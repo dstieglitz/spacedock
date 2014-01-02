@@ -1,0 +1,59 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>Federal Stats Europa</Race>
+            <ClassAbbrev>SDN</ClassAbbrev>
+            <ClassName>Foch</ClassName>
+            <ShipClass>Superdreadnought</ShipClass>
+            <Mass>250</Mass>
+            <PointValue>855</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="250" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="250"   ySSD="170"/>
+                <FireControl xSSD="275"   ySSD="170"/>
+                <FireControl xSSD="300"   ySSD="170"/>
+                <FireControl xSSD="325"   ySSD="170"/>
+                <FireControl xSSD="350"   ySSD="170"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="300"   ySSD="150" />
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <SalvoMissileLauncher xSSD="80"  ySSD="20" smmId="101" arcs="(AP/FP/F)"/>
+                <SalvoMissileLauncher xSSD="120" ySSD="20" smmId="101" arcs="(FP/F/FS)"/>
+                <SalvoMissileLauncher xSSD="160" ySSD="20" smmId="101" arcs="(F/FS/AS)"/>
+                <SalvoMissileMagazine xSSD="120" ySSD="80" id="101" maxInRow="3" capacity="18">
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                </SalvoMissileMagazine>
+
+                <FighterBay xSSD="250" ySSD="40"/>
+                <FighterBay xSSD="300" ySSD="40"/>
+                <FighterBay xSSD="350" ySSD="40"/>
+
+                <BeamBattery rating="3" xSSD="60"  ySSD="60" arcs="(FP/F/FS)"/>
+                <BeamBattery rating="3" xSSD="180" ySSD="60" arcs="(FP/F/FS)"/>
+
+                <BeamBattery rating="2" xSSD="40"  ySSD="140" arcs="(All arcs)"/>
+                <BeamBattery rating="2" xSSD="200" ySSD="140" arcs="(All arcs)"/>
+                <BeamBattery rating="2" xSSD="50"  ySSD="100" arcs="(AP/FP/F)"/>
+                <BeamBattery rating="2" xSSD="190" ySSD="100" arcs="(F/FS/AS)"/>
+
+                <PointDefense xSSD="90"  ySSD="140"/>
+                <PointDefense xSSD="120" ySSD="140"/>
+                <PointDefense xSSD="150" ySSD="140"/>
+                <PointDefense xSSD="90"  ySSD="165"/>
+                <PointDefense xSSD="120" ySSD="165"/>
+                <PointDefense xSSD="150" ySSD="165"/>
+            </Weapons>
+        </Ship>

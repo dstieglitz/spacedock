@@ -1,0 +1,34 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <PointValue>658</PointValue>
+            <ClassName>Saath</ClassName>
+            <Race>Phalon</Race>
+            <ClassAbbrev>BDN</ClassAbbrev>
+            <Mass>170</Mass>
+            <ShipClass>Great Warrior</ShipClass>
+            <Designer>GZG</Designer>
+            <MainDrive initialThrust="4"/>
+            <Armor totalArmor="9,5,4"/>
+            <Hull totalHullBoxes="30" type="Custom" value="170"/>
+            <FTLDrive/>
+            <Defenses>
+                <VapourShroud xSSD="195" ySSD="160"/>
+            </Defenses>
+            <Electronics>
+                <FireControl xSSD="100" ySSD="140"/>
+                <FireControl xSSD="120" ySSD="140"/>
+                <FireControl xSSD="140" ySSD="140"/>
+            </Electronics>
+            <Weapons>
+                <PlasmaBoltLauncher arcs="(FP/F/FS)" rating="5" xSSD="80" ySSD="20"/>
+                <PlasmaBoltLauncher arcs="(FP/F/FS)" rating="2" xSSD="160" ySSD="20"/>
+                <Pulser arcs="(FP/F/FS)" xSSD="80" ySSD="60"/>
+                <Pulser arcs="(FP/F/FS)" xSSD="160" ySSD="60"/>
+                <Pulser arcs="(All arcs)" xSSD="80" ySSD="110"/>
+                <Pulser arcs="(All arcs)" xSSD="120" ySSD="110"/>
+                <Pulser arcs="(All arcs)" xSSD="160" ySSD="110"/>
+                <Pulser arcs="(AP/FP/F)" xSSD="40" ySSD="85"/>
+                <Pulser arcs="(F/FS/AS)" xSSD="200" ySSD="85"/>
+            </Weapons>
+        </Ship>
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <PointValue>1037</PointValue>
+            <ClassName>Klassh-Voth</ClassName>
+            <Race>Phalon</Race>
+            <ClassAbbrev>SDN</ClassAbbrev>
+            <Mass>250</Mass>
+            <ShipClass>Great Warrior</ShipClass>
+            <Designer>GZG</Designer>
+            <Armor totalArmor="16,10,8,6"/>
+            <Hull totalHullBoxes="42" type="Custom" value="250"/>
+            <MainDrive initialThrust="2"/>
+            <FTLDrive/>
+            <Defenses>
+                <VapourShroud xSSD="240" ySSD="190"/>
+            </Defenses>
+            <Electronics>
+                <FireControl xSSD="200" ySSD="220"/>
+                <FireControl xSSD="220" ySSD="220"/>
+                <FireControl xSSD="240" ySSD="220"/>
+                <FireControl xSSD="260" ySSD="220"/>
+                <FireControl xSSD="280" ySSD="220"/>
+                <AreaDefenseFireControl xSSD="160" ySSD="220"/>
+                <AreaDefenseFireControl xSSD="180" ySSD="220"/>
+            </Electronics>
+            <Weapons>
+                <PlasmaBoltLauncher arcs="(FP/F/FS)" rating="6" xSSD="140" ySSD="20"/>
+                <PlasmaBoltLauncher arcs="(AP/FP/F)" rating="3" xSSD="30" ySSD="80"/>
+                <PlasmaBoltLauncher arcs="(F/FS/AS)" rating="3" xSSD="250" ySSD="80"/>
+                <Pulser arcs="(All arcs)" xSSD="80"  ySSD="80"/>
+                <Pulser arcs="(All arcs)" xSSD="200" ySSD="80"/>
+                <Pulser arcs="(All arcs)" xSSD="50"  ySSD="120"/>
+                <Pulser arcs="(All arcs)" xSSD="110" ySSD="120"/>
+                <Pulser arcs="(All arcs)" xSSD="170" ySSD="120"/>
+                <Pulser arcs="(All arcs)" xSSD="230" ySSD="120"/>
+                <Pulser arcs="(AP/FP/F)" xSSD="60"  ySSD="40"/>
+                <Pulser arcs="(AP/FP/F)" xSSD="100" ySSD="40"/>
+                <Pulser arcs="(F/FS/AS)" xSSD="180" ySSD="40"/>
+                <Pulser arcs="(F/FS/AS)" xSSD="220" ySSD="40"/>
+            </Weapons>
+        </Ship>
+

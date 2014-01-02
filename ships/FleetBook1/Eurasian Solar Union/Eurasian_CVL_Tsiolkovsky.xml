@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes" ?>
+         <Ship>
+             <Race>Eurasian Solar Union</Race>
+             <ClassAbbrev>CVL</ClassAbbrev>
+             <ClassName>Tsiolkovsky</ClassName>
+             <ShipClass>Light Carrier</ShipClass>
+             <Mass>150</Mass>
+             <PointValue>512</PointValue>
+             <MainDrive type="Standard" initialThrust="4"/>
+             <FTLDrive/>
+             <Armor totalArmor="0"/>
+             <Hull value="150" type="Average"/>
+             <Electronics>
+                 <FireControl xSSD="70"  ySSD="180"/>
+                 <FireControl xSSD="110" ySSD="180"/>
+             </Electronics>
+             <Defenses>
+                 <Screen xSSD="90" ySSD="160"/>
+             </Defenses>
+             <Holds/>
+             <Weapons>
+                 <FighterBay  xSSD="70"  ySSD="25" />
+                 <FighterBay  xSSD="30"  ySSD="25" />
+                 <FighterBay  xSSD="110" ySSD="25" />
+                 <FighterBay  xSSD="150" ySSD="25" />
+
+                 <BeamBattery xSSD="70"  ySSD="75" rating="2" arcs="(FP/F/FS)"/>
+                 <BeamBattery xSSD="110" ySSD="75" rating="2" arcs="(FP/F/FS)"/>
+                 <BeamBattery xSSD="30"  ySSD="100" rating="2" arcs="(AP/FP/F)"/>
+                 <BeamBattery xSSD="150" ySSD="100" rating="2" arcs="(F/FS/AS)"/>
+                 <BeamBattery xSSD="70"  ySSD="125" rating="1" arcs="(All arcs)"/>
+                 <BeamBattery xSSD="110" ySSD="125" rating="1" arcs="(All arcs)"/>
+
+                 <PointDefense xSSD="50"  ySSD="165" />
+                 <PointDefense xSSD="20"  ySSD="165" />
+                 <PointDefense xSSD="160" ySSD="165" />
+                 <PointDefense xSSD="130" ySSD="165" />
+             </Weapons>
+         </Ship>

@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>New Anglian Confederation</Race>
+            <ClassAbbrev>CL</ClassAbbrev>
+            <ClassName>Huron</ClassName>
+            <ShipClass>Light Cruiser</ShipClass>
+            <Mass>50</Mass>
+            <PointValue>167</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="50" type="Average"/>
+            <Electronics>
+                <FireControl  xSSD="120" ySSD="185"/>
+                <FireControl  xSSD="160" ySSD="185"/>
+            </Electronics>
+            <Defenses>
+                <Screen  xSSD="140"  ySSD="165"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <BeamBattery    xSSD="140" ySSD="40"  rating="2" arcs="(FP/F/FS)"/>
+                <BeamBattery    xSSD="80"  ySSD="60"  rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery    xSSD="200" ySSD="60"  rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery    xSSD="115" ySSD="100" rating="1" arcs="(All arcs)"/>
+                <BeamBattery    xSSD="165" ySSD="100" rating="1" arcs="(All arcs)"/>
+
+                <PointDefense   xSSD="105" ySSD="135"/>
+                <PointDefense   xSSD="175" ySSD="135"/>
+            </Weapons>
+        </Ship>

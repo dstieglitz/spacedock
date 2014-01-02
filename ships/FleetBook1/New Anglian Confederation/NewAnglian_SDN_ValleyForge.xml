@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>New Anglian Confederation</Race>
+            <ClassAbbrev>SDN</ClassAbbrev>
+            <ClassName>Valley Forge</ClassName>
+            <ShipClass>Superdreadnought</ShipClass>
+            <Mass>190</Mass>
+            <PointValue>642</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="7"/>
+            <Hull value="190" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="120" ySSD="175"/>
+                <FireControl xSSD="140" ySSD="175"/>
+                <FireControl xSSD="160" ySSD="175"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="140" ySSD="150"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <PulseTorpedo  xSSD="120" ySSD="25" arcs="(F)"/>
+                <PulseTorpedo  xSSD="160" ySSD="25" arcs="(F)"/>
+
+                <FighterBay    xSSD="40"  ySSD="60"/>
+                <FighterBay    xSSD="240" ySSD="60"/>
+
+                <BeamBattery  xSSD="140" ySSD="70"  rating="3" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="90"  ySSD="80"  rating="3" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="190" ySSD="80"  rating="3" arcs="(F/FS/AS)"/>
+
+                <BeamBattery  xSSD="165" ySSD="115" rating="2" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="115" ySSD="115" rating="2" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="45"  ySSD="115" rating="1" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="235" ySSD="115" rating="1" arcs="(All arcs)"/>
+
+                <PointDefense xSSD="50" ySSD="150"/>
+                <PointDefense xSSD="80"  ySSD="150"/>
+                <PointDefense xSSD="200" ySSD="150"/>
+                <PointDefense xSSD="230" ySSD="150"/>
+            </Weapons>
+        </Ship>

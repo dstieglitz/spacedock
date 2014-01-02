@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes" ?>
+         <Ship>
+             <Race>Eurasian Solar Union</Race>
+             <ClassAbbrev>CT</ClassAbbrev>
+             <ClassName>Nanuchka II</ClassName>
+             <ShipClass>Corvette</ShipClass>
+             <Mass>14</Mass>
+             <PointValue>48</PointValue>
+             <MainDrive type="Standard" initialThrust="6"/>
+             <FTLDrive/>
+             <Armor totalArmor="0"/>
+             <Hull value="14" type="Average"/>
+             <Electronics>
+                 <FireControl xSSD="90" ySSD="170"/>
+             </Electronics>
+             <Defenses/>
+             <Holds/>
+             <Weapons>
+                 <BeamBattery  xSSD="90"  ySSD="60"  rating="2" arcs="(FP/F/FS)"/>
+                 <BeamBattery  xSSD="90"  ySSD="100" rating="1" arcs="(All arcs)"/>
+                 <PointDefense xSSD="90"  ySSD="140" />
+             </Weapons>
+         </Ship>

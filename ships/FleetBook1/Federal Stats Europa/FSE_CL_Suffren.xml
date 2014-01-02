@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>Federal Stats Europa</Race>
+            <ClassAbbrev>CL</ClassAbbrev>
+            <ClassName>Suffren</ClassName>
+            <ShipClass>Light Cruiser</ShipClass>
+            <Mass>54</Mass>
+            <PointValue>181</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="54" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="85"  ySSD="180"/>
+                <FireControl xSSD="115" ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <SalvoMissileLauncher xSSD="100" ySSD="20" smmId="101" arcs="(FP/F/FS)"/>
+                <SalvoMissileMagazine xSSD="100" ySSD="60" id="101" maxInRow="3" capacity="6">
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                </SalvoMissileMagazine>
+
+                <BeamBattery rating="2" xSSD="50"  ySSD="110" arcs="(AP/FP/F)"/>
+                <BeamBattery rating="2" xSSD="150" ySSD="110" arcs="(F/FS/AS)"/>
+
+                <PointDefense xSSD="80"  ySSD="150"/>
+                <PointDefense xSSD="120" ySSD="150"/>
+            </Weapons>
+        </Ship>

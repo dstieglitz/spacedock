@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>Merchant</Race>
+            <ClassAbbrev>AKH</ClassAbbrev>
+            <ClassName>Tagus</ClassName>
+            <ShipClass>Heavy Freighter</ShipClass>
+            <Mass>120</Mass>
+            <PointValue>195</PointValue>
+            <MainDrive type="Standard" initialThrust="2"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="120" type="Fragile" class="Merchant"/>
+            <Electronics/>
+            <Defenses/>
+            <Holds>
+                <CargoHold xSSD="80" ySSD="40" type="Cargo Hold"   totalSize="83"/>
+            </Holds>
+            <Weapons>
+                <PointDefense xSSD="80" ySSD="185"/>
+            </Weapons>
+        </Ship>

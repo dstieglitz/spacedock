@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Ta'Yek Lancer</Name>
+    <Race>NarnRegime</Race>
+    <ClassAbbrev>CT</ClassAbbrev>
+    <ClassName>Ta'Yek Lancer</ClassName>
+    <ShipClass>Corvette</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>16</Mass>
+    <PointValue>53</PointValue>
+    <MainDrive type="Standard" initialThrust="7" active="false" />
+    <Armor totalArmor="0"/>
+    <Hull value="16" type="Custom" class="Military" stealth="0" rows="2" totalHullBoxes="6"/>
+    <Electronics>
+        <FireControl xSSD="105" ySSD="132"/>
+    </Electronics>
+    <Defenses>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <BeamBattery  xSSD="106" ySSD="45" rating="1" arcs="(AP/FP/F/FS/AS)"/>
+        <SubmunitionPack  xSSD="47" ySSD="104" arcs="(F)"/>
+        <SubmunitionPack  xSSD="162" ySSD="102" arcs="(F)"/>
+    </Weapons>
+</Ship>
+

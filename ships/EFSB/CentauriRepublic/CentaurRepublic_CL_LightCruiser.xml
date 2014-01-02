@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>LightCruiser</Name>
+    <Race>CentauriRepublic</Race>
+    <ClassAbbrev>CL</ClassAbbrev>
+    <ClassName>LightCruiser</ClassName>
+    <ShipClass>Light Cruiser</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>57</Mass>
+    <PointValue>183</PointValue>
+    <MainDrive type="Standard" initialThrust="6" active="false" />
+    <Armor totalArmor="0"/>
+    <Hull value="57" type="Custom" class="Military" stealth="0" rows="5" totalHullBoxes="20"/>
+    <Electronics>
+        <FireControl xSSD="75" ySSD="166"/>
+        <FireControl xSSD="123" ySSD="166"/>
+    </Electronics>
+    <Defenses>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <BeamBattery  xSSD="69" ySSD="28" rating="3" arcs="(F)"/>
+        <BeamBattery  xSSD="128" ySSD="28" rating="3" arcs="(F)"/>
+        <BeamBattery  xSSD="163" ySSD="95" rating="2" arcs="(FS/AS)"/>
+        <BeamBattery  xSSD="164" ySSD="134" rating="2" arcs="(FS/AS)"/>
+        <BeamBattery  xSSD="29" ySSD="134" rating="2" arcs="(AP/FP)"/>
+        <BeamBattery  xSSD="29" ySSD="95" rating="2" arcs="(AP/FP)"/>
+        <PointDefense xSSD="80" ySSD="130"/>
+        <PointDefense xSSD="124" ySSD="128"/>
+    </Weapons>
+</Ship>
+

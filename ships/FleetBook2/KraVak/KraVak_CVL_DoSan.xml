@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>CVL</ClassAbbrev>
+            <ClassName>Do'San</ClassName>
+            <ShipClass>Light Carrier</ShipClass>
+            <Mass>180</Mass>
+            <PointValue>691</PointValue>
+            <MainDrive type="Advanced" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="180" type="Custom" totalHullBoxes="54"/>
+            <Electronics>
+                <FireControl xSSD="90"  ySSD="180"/>
+                <FireControl xSSD="110" ySSD="180"/>
+                <FireControl xSSD="130" ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <FighterBay xSSD="50"  ySSD="30"/>
+                <FighterBay xSSD="90"  ySSD="30"/>
+                <FighterBay xSSD="130" ySSD="30"/>
+                <FighterBay xSSD="170" ySSD="30"/>
+                <KineticGun xSSD="50"  ySSD="80" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="90"  ySSD="80" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="130" ySSD="80" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="170" ySSD="80" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="70"  ySSD="120" rating="1"/>
+                <KineticGun xSSD="110" ySSD="120" rating="1"/>
+                <KineticGun xSSD="150" ySSD="120" rating="1"/>
+
+                <Scattergun xSSD="35"  ySSD="120"/>
+                <Scattergun xSSD="50"  ySSD="155"/>
+                <Scattergun xSSD="80"  ySSD="155"/>
+                <Scattergun xSSD="110" ySSD="155"/>
+                <Scattergun xSSD="140" ySSD="155"/>
+                <Scattergun xSSD="170" ySSD="155"/>
+                <Scattergun xSSD="185" ySSD="120"/>
+            </Weapons>
+        </Ship>

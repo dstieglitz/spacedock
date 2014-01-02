@@ -1,0 +1,738 @@
+<?xml version="1.0" standalone="yes" ?>
+<GameEngine id="1111" name="Eurasian Solar Union" turn="0">
+     <Player id="1" name="First Last" email="last@hotmail.com">
+         <Ship>
+             <Name>Rostov</Name>
+             <Status>Ok</Status>
+             <Orders>0</Orders>
+             <DamageControl/>
+             <Position x="0.0" y="10.0"/>
+             <Heading heading="12"/>
+             <Speed speed="0"/>
+             <VectorSpeed speed="0.0"/>
+             <Course course="0.0"/>
+
+             <Race>Eurasian Solar Union</Race>
+             <ClassAbbrev>BDN</ClassAbbrev>
+             <ClassName>Rostov</ClassName>
+             <ShipClass>Battledreadnought</ShipClass>
+             <Mass>138</Mass>
+             <PointValue>458</PointValue>
+             <MainDrive type="Standard" initialThrust="4"/>
+             <FTLDrive/>
+             <Armor totalArmor="0"/>
+             <Hull value="138" type="Strong"/>
+             <Electronics>
+                 <FireControl xSSD="65"  ySSD="185"/>
+                 <FireControl xSSD="95"  ySSD="185"/>
+                 <FireControl xSSD="125" ySSD="185"/>
+             </Electronics>
+             <Defenses>
+                 <Screen xSSD="95"  ySSD="165"/>
+             </Defenses>
+             <Holds/>
+             <Weapons>
+                 <FighterBay   xSSD="95"  ySSD="25" />
+                 <BeamBattery  xSSD="145" ySSD="45"  rating="3" arcs="(F/FS/AS)"/>
+                 <BeamBattery  xSSD="45"  ySSD="45"  rating="3" arcs="(AP/FP/F)"/>
+                 <BeamBattery  xSSD="95"  ySSD="75"  rating="2" arcs="(FP/F/FS)"/>
+                 <BeamBattery  xSSD="35"  ySSD="85"  rating="2" arcs="(AP/FP/F)"/>
+                 <BeamBattery  xSSD="155" ySSD="85"  rating="2" arcs="(F/FS/AS)"/>
+                 <BeamBattery  xSSD="95"  ySSD="115" rating="1" arcs="(All arcs)"/>
+                 <PointDefense xSSD="55"  ySSD="145" />
+                 <PointDefense xSSD="95"  ySSD="145" />
+                 <PointDefense xSSD="135" ySSD="145" />
+             </Weapons>
+         </Ship>
+
+         <Ship>
+             <Name>Komarov</Name>
+             <Status>Ok</Status>
+             <Orders>0</Orders>
+             <DamageControl/>
+             <Position x="10.0" y="10.0"/>
+             <Heading heading="12"/>
+             <Speed speed="0"/>
+             <VectorSpeed speed="0.0"/>
+             <Course course="0.0"/>
+
+             <Race>Eurasian Solar Union</Race>
+             <ClassAbbrev>SDN</ClassAbbrev>
+             <ClassName>Komarov</ClassName>
+             <ShipClass>Superdreadnought</ShipClass>
+             <Mass>220</Mass>
+             <PointValue>751</PointValue>
+             <MainDrive type="Standard" initialThrust="2"/>
+             <FTLDrive/>
+             <Armor totalArmor="0"/>
+             <Hull value="220" type="Strong"/>
+             <Electronics>
+                 <FireControl xSSD="115"  ySSD="175"/>
+                 <FireControl xSSD="145"  ySSD="175"/>
+                 <FireControl xSSD="175"  ySSD="175"/>
+             </Electronics>
+             <Defenses>
+                 <Screen xSSD="135"  ySSD="150"/>
+                 <Screen xSSD="155"  ySSD="150"/>
+             </Defenses>
+             <Holds/>
+             <Weapons>
+                 <BeamBattery xSSD="55"  ySSD="30" rating="4" arcs="(FP/F)"/>
+                 <BeamBattery xSSD="235" ySSD="30" rating="4" arcs="(F/FS)"/>
+
+                 <FighterBay  xSSD="145" ySSD="30" />
+
+                 <BeamBattery xSSD="95"  ySSD="30"  rating="3" arcs="(FP/F/FS)"/>
+                 <BeamBattery xSSD="195" ySSD="30"  rating="3" arcs="(FP/F/FS)"/>
+                 <BeamBattery xSSD="85"  ySSD="70"  rating="3" arcs="(AP/FP/F)"/>
+                 <BeamBattery xSSD="205" ySSD="70"  rating="3" arcs="(F/FS/AS)"/>
+                 <BeamBattery xSSD="75"  ySSD="110" rating="2" arcs="(AP/FP/F)"/>
+                 <BeamBattery xSSD="215" ySSD="110" rating="2" arcs="(F/FS/AS)"/>
+                 <BeamBattery xSSD="120" ySSD="105" rating="1" arcs="(All arcs)"/>
+                 <BeamBattery xSSD="170" ySSD="105" rating="1" arcs="(All arcs)"/>
+
+                 <PointDefense xSSD="65"  ySSD="150" />
+                 <PointDefense xSSD="95"  ySSD="150" />
+                 <PointDefense xSSD="195" ySSD="150" />
+                 <PointDefense xSSD="225" ySSD="150" />
+             </Weapons>
+         </Ship>
+
+         <Ship>
+             <Name>Tsiolkovsky</Name>
+             <Status>Ok</Status>
+             <Orders>0</Orders>
+             <DamageControl/>
+             <Position x="20.0" y="10.0"/>
+             <Heading heading="12"/>
+             <Speed speed="0"/>
+             <VectorSpeed speed="0.0"/>
+             <Course course="0.0"/>
+
+             <Race>Eurasian Solar Union</Race>
+             <ClassAbbrev>CVL</ClassAbbrev>
+             <ClassName>Tsiolkovsky</ClassName>
+             <ShipClass>Light Carrier</ShipClass>
+             <Mass>150</Mass>
+             <PointValue>512</PointValue>
+             <MainDrive type="Standard" initialThrust="4"/>
+             <FTLDrive/>
+             <Armor totalArmor="0"/>
+             <Hull value="150" type="Average"/>
+             <Electronics>
+                 <FireControl xSSD="70"  ySSD="180"/>
+                 <FireControl xSSD="110" ySSD="180"/>
+             </Electronics>
+             <Defenses>
+                 <Screen xSSD="90" ySSD="160"/>
+             </Defenses>
+             <Holds/>
+             <Weapons>
+                 <FighterBay  xSSD="70"  ySSD="25" />
+                 <FighterBay  xSSD="30"  ySSD="25" />
+                 <FighterBay  xSSD="110" ySSD="25" />
+                 <FighterBay  xSSD="150" ySSD="25" />
+
+                 <BeamBattery xSSD="70"  ySSD="75" rating="2" arcs="(FP/F/FS)"/>
+                 <BeamBattery xSSD="110" ySSD="75" rating="2" arcs="(FP/F/FS)"/>
+                 <BeamBattery xSSD="30"  ySSD="100" rating="2" arcs="(AP/FP/F)"/>
+                 <BeamBattery xSSD="150" ySSD="100" rating="2" arcs="(F/FS/AS)"/>
+                 <BeamBattery xSSD="70"  ySSD="125" rating="1" arcs="(All arcs)"/>
+                 <BeamBattery xSSD="110" ySSD="125" rating="1" arcs="(All arcs)"/>
+
+                 <PointDefense xSSD="50"  ySSD="165" />
+                 <PointDefense xSSD="20"  ySSD="165" />
+                 <PointDefense xSSD="160" ySSD="165" />
+                 <PointDefense xSSD="130" ySSD="165" />
+             </Weapons>
+         </Ship>
+
+         <Ship>
+             <Name>Konstantin</Name>
+             <Status>Ok</Status>
+             <Orders>0</Orders>
+             <DamageControl/>
+             <Position x="30.0" y="10.0"/>
+             <Heading heading="12"/>
+             <Speed speed="0"/>
+             <VectorSpeed speed="0.0"/>
+             <Course course="0.0"/>
+
+             <Race>Eurasian Solar Union</Race>
+             <ClassAbbrev>CV</ClassAbbrev>
+             <ClassName>Konstantin</ClassName>
+             <ShipClass>Attack Carrier</ShipClass>
+             <Mass>240</Mass>
+             <PointValue>842</PointValue>
+             <MainDrive type="Standard" initialThrust="2"/>
+             <FTLDrive/>
+             <Armor totalArmor="0"/>
+             <Hull value="240" type="Average"/>
+             <Electronics>
+                 <FireControl xSSD="110" ySSD="180"/>
+                 <FireControl xSSD="130" ySSD="180"/>
+             </Electronics>
+             <Defenses>
+                 <Screen xSSD="110" ySSD="155"/>
+                 <Screen xSSD="130" ySSD="155"/>
+             </Defenses>
+             <Holds/>
+             <Weapons>
+                 <FighterBay  xSSD="30"  ySSD="25" />
+                 <FighterBay  xSSD="65"  ySSD="25" />
+                 <FighterBay  xSSD="100" ySSD="25" />
+                 <FighterBay  xSSD="140" ySSD="25" />
+                 <FighterBay  xSSD="175" ySSD="25" />
+                 <FighterBay  xSSD="210" ySSD="25" />
+
+                 <BeamBattery xSSD="100" ySSD="70"  rating="3" arcs="(FP/F/FS)"/>
+                 <BeamBattery xSSD="140" ySSD="70"  rating="3" arcs="(FP/F/FS)"/>
+                 <BeamBattery xSSD="180" ySSD="70"  rating="3" arcs="(F/FS/AS)"/>
+                 <BeamBattery xSSD="60"  ySSD="70"  rating="3" arcs="(AP/FP/F)"/>
+                 <BeamBattery xSSD="60"  ySSD="110" rating="2" arcs="(AP/FP/F)"/>
+                 <BeamBattery xSSD="100" ySSD="110" rating="2" arcs="(AP/FP/F)"/>
+                 <BeamBattery xSSD="140" ySSD="110" rating="2" arcs="(F/FS/AS)"/>
+                 <BeamBattery xSSD="180" ySSD="110" rating="2" arcs="(F/FS/AS)"/>
+                 <BeamBattery xSSD="30"  ySSD="140" rating="1" arcs="(All arcs)"/>
+                 <BeamBattery xSSD="210" ySSD="140" rating="1" arcs="(All arcs)"/>
+
+                 <PointDefense xSSD="30"  ySSD="175"/>
+                 <PointDefense xSSD="55"  ySSD="175"/>
+                 <PointDefense xSSD="80"  ySSD="175"/>
+                 <PointDefense xSSD="160" ySSD="175"/>
+                 <PointDefense xSSD="185" ySSD="175"/>
+                 <PointDefense xSSD="210" ySSD="175"/>
+             </Weapons>
+         </Ship>
+
+         <Ship>
+             <Name>Petrograd</Name>
+             <Status>Ok</Status>
+             <Orders>0</Orders>
+             <DamageControl/>
+             <Position x="0.0" y="0.0"/>
+             <Heading heading="12"/>
+             <Speed speed="0"/>
+             <VectorSpeed speed="0.0"/>
+             <Course course="0.0"/>
+
+             <Race>Eurasian Solar Union</Race>
+             <ClassAbbrev>BB</ClassAbbrev>
+             <ClassName>Petrograd</ClassName>
+             <ShipClass>Battleship</ShipClass>
+             <Mass>116</Mass>
+             <PointValue>386</PointValue>
+             <MainDrive type="Standard" initialThrust="4"/>
+             <FTLDrive/>
+             <Armor totalArmor="0"/>
+             <Hull value="116" type="Strong"/>
+             <Electronics>
+                 <FireControl xSSD="75"   ySSD="170"/>
+                 <FireControl xSSD="100"  ySSD="170"/>
+                 <FireControl xSSD="125"  ySSD="170"/>
+             </Electronics>
+             <Defenses>
+                 <Screen xSSD="101"  ySSD="110"/>
+             </Defenses>
+             <Holds/>
+             <Weapons>
+                 <BeamBattery  xSSD="55"  ySSD="30"  rating="3" arcs="(FP/F/FS)"/>
+                 <BeamBattery  xSSD="145" ySSD="30"  rating="3" arcs="(FP/F/FS)"/>
+                 <BeamBattery  xSSD="40"  ySSD="65"  rating="2" arcs="(FP/F/FS))"/>
+                 <BeamBattery  xSSD="160" ySSD="65"  rating="2" arcs="(FP/F/FS))"/>
+                 <BeamBattery  xSSD="25"  ySSD="100" rating="2" arcs="(AP/FP/F)"/>
+                 <BeamBattery  xSSD="175" ySSD="100" rating="2" arcs="(F/FS/AS)"/>
+                 <BeamBattery  xSSD="70"  ySSD="100" rating="1" arcs="(All arcs)"/>
+                 <BeamBattery  xSSD="100" ySSD="65"  rating="1" arcs="(All arcs)"/>
+                 <BeamBattery  xSSD="130" ySSD="100" rating="1" arcs="(All arcs)"/>
+                 <PointDefense xSSD="70"  ySSD="140"  />
+                 <PointDefense xSSD="100" ySSD="140"  />
+                 <PointDefense xSSD="130" ySSD="140"  />
+             </Weapons>
+         </Ship>
+
+         <Ship>
+             <Name>Manchuria</Name>
+             <Status>Ok</Status>
+             <Orders>0</Orders>
+             <DamageControl/>
+             <Position x="10.0" y="0.0"/>
+             <Heading heading="12"/>
+             <Speed speed="0"/>
+             <VectorSpeed speed="0.0"/>
+             <Course course="0.0"/>
+
+             <Race>Eurasian Solar Union</Race>
+             <ClassAbbrev>BC</ClassAbbrev>
+             <ClassName>Manchuria</ClassName>
+             <ShipClass>Battlecruiser</ShipClass>
+             <Mass>94</Mass>
+             <PointValue>312</PointValue>
+             <MainDrive type="Standard" initialThrust="4"/>
+             <FTLDrive/>
+             <Armor totalArmor="0"/>
+             <Hull value="94" type="Strong"/>
+             <Electronics>
+                 <FireControl xSSD="70"  ySSD="170"/>
+                 <FireControl xSSD="130" ySSD="170"/>
+             </Electronics>
+             <Defenses>
+                 <Screen xSSD="100" ySSD="150"/>
+             </Defenses>
+             <Holds/>
+             <Weapons>
+                 <BeamBattery  xSSD="55"  ySSD="35"  rating="3" arcs="(FP/F/FS)"/>
+                 <BeamBattery  xSSD="145" ySSD="35"  rating="3" arcs="(FP/F/FS)"/>
+                 <BeamBattery  xSSD="100" ySSD="55"  rating="2" arcs="(FP/F/FS))"/>
+                 <BeamBattery  xSSD="50"  ySSD="80"  rating="2" arcs="(AP/FP/F)"/>
+                 <BeamBattery  xSSD="150" ySSD="80"  rating="2" arcs="(F/FS/AS)"/>
+                 <BeamBattery  xSSD="100" ySSD="100" rating="1" arcs="(All arcs)"/>
+                 <PointDefense xSSD="70"  ySSD="130"  />
+                 <PointDefense xSSD="130" ySSD="130"  />
+             </Weapons>
+         </Ship>
+
+         <Ship>
+             <Name>Gorshkov</Name>
+             <Status>Ok</Status>
+             <Orders>0</Orders>
+             <DamageControl/>
+             <Position x="20.0" y="0.0"/>
+             <Heading heading="12"/>
+             <Speed speed="0"/>
+             <VectorSpeed speed="0.0"/>
+             <Course course="0.0"/>
+
+             <Race>Eurasian Solar Union</Race>
+             <ClassAbbrev>CA</ClassAbbrev>
+             <ClassName>Gorshkov</ClassName>
+             <ShipClass>Heavy Cruiser</ShipClass>
+             <Mass>70</Mass>
+             <PointValue>240</PointValue>
+             <MainDrive type="Standard" initialThrust="4"/>
+             <FTLDrive/>
+             <Armor totalArmor="0"/>
+             <Hull value="70" type="Average"/>
+             <Electronics>
+                 <FireControl xSSD="95"  ySSD="175"/>
+                 <FireControl xSSD="135" ySSD="175"/>
+             </Electronics>
+             <Defenses>
+                 <Screen xSSD="115" ySSD="155"/>
+             </Defenses>
+             <Holds/>
+             <Weapons>
+                 <SalvoMissileRack xSSD="90"  ySSD="25"/>
+                 <SalvoMissileRack xSSD="140" ySSD="25"/>
+                 <BeamBattery      xSSD="115" ySSD="60"  rating="3" arcs="(FP/F/FS)"/>
+                 <BeamBattery      xSSD="70"  ySSD="80" rating="2" arcs="(AP/FP/F)"/>
+                 <BeamBattery      xSSD="165" ySSD="80" rating="2" arcs="(F/FS/AS)"/>
+                 <BeamBattery      xSSD="140" ySSD="125" rating="1" arcs="(All arcs)"/>
+                 <BeamBattery      xSSD="90"  ySSD="125" rating="1" arcs="(All arcs)"/>
+                 <PointDefense     xSSD="70"  ySSD="160"/>
+                 <PointDefense     xSSD="160" ySSD="160"/>
+             </Weapons>
+         </Ship>
+
+         <Ship>
+             <Name>Voroshilev</Name>
+             <Status>Ok</Status>
+             <Orders>0</Orders>
+             <DamageControl/>
+             <Position x="30.0" y="0.0"/>
+             <Heading heading="12"/>
+             <Speed speed="0"/>
+             <VectorSpeed speed="0.0"/>
+             <Course course="0.0"/>
+
+             <Race>Eurasian Solar Union</Race>
+             <ClassAbbrev>CA</ClassAbbrev>
+             <ClassName>Voroshilev</ClassName>
+             <ShipClass>Heavy Cruiser</ShipClass>
+             <Mass>78</Mass>
+             <PointValue>262</PointValue>
+             <MainDrive type="Standard" initialThrust="4"/>
+             <FTLDrive/>
+             <Armor totalArmor="5"/>
+             <Hull value="78" type="Average"/>
+             <Electronics>
+                 <FireControl xSSD="108" ySSD="175"/>
+                 <FireControl xSSD="136" ySSD="175"/>
+             </Electronics>
+             <Defenses>
+                 <Screen xSSD="122" ySSD="150"/>
+             </Defenses>
+             <Holds/>
+             <Weapons>
+                 <BeamBattery  xSSD="95"  ySSD="35"  rating="3" arcs="(FP/F/FS)"/>
+                 <BeamBattery  xSSD="145" ySSD="35"  rating="3" arcs="(FP/F/FS)"/>
+                 <BeamBattery  xSSD="70"  ySSD="70"  rating="2" arcs="(AP/FP/F)"/>
+                 <BeamBattery  xSSD="170" ySSD="70"  rating="2" arcs="(F/FS/AS)"/>
+                 <BeamBattery  xSSD="60"  ySSD="110" rating="1" arcs="(All arcs)"/>
+                 <BeamBattery  xSSD="180" ySSD="110" rating="1" arcs="(All arcs)"/>
+                 <PointDefense xSSD="90" ySSD="140"  />
+                 <PointDefense xSSD="150" ySSD="140"  />
+             </Weapons>
+         </Ship>
+
+         <Ship>
+             <Name>Beijing/B</Name>
+             <Status>Ok</Status>
+             <Orders>0</Orders>
+             <DamageControl/>
+             <Position x="40.0" y="0.0"/>
+             <Heading heading="12"/>
+             <Speed speed="0"/>
+             <VectorSpeed speed="0.0"/>
+             <Course course="0.0"/>
+
+             <Race>Eurasian Solar Union</Race>
+             <ClassAbbrev>CE</ClassAbbrev>
+             <ClassName>Beijing/B</ClassName>
+             <ShipClass>Escort Cruiser</ShipClass>
+             <Mass>60</Mass>
+             <PointValue>201</PointValue>
+             <MainDrive type="Standard" initialThrust="4"/>
+             <FTLDrive/>
+             <Armor totalArmor="5"/>
+             <Hull value="60" type="Average"/>
+             <Electronics>
+                 <FireControl xSSD="90"  ySSD="170"/>
+                 <FireControl xSSD="130" ySSD="170"/>
+             </Electronics>
+             <Defenses>
+                 <Screen xSSD="110" ySSD="110"/>
+             </Defenses>
+             <Holds/>
+             <Weapons>
+                 <BeamBattery  xSSD="110" ySSD="55"  rating="3" arcs="(FP/F/FS)"/>
+                 <BeamBattery  xSSD="60"  ySSD="70"  rating="2" arcs="(AP/FP/F)"/>
+                 <BeamBattery  xSSD="160" ySSD="70"  rating="2" arcs="(F/FS/AS)"/>
+                 <BeamBattery  xSSD="50"  ySSD="110" rating="1" arcs="(All arcs)"/>
+                 <BeamBattery  xSSD="170" ySSD="110" rating="1" arcs="(All arcs)"/>
+                 <PointDefense xSSD="90"  ySSD="140"  />
+                 <PointDefense xSSD="130" ySSD="140"  />
+             </Weapons>
+         </Ship>
+
+         <Ship>
+             <Name>Hangor</Name>
+             <Status>Ok</Status>
+             <Orders>0</Orders>
+             <DamageControl/>
+             <Position x="50.0" y="0.0"/>
+             <Heading heading="12"/>
+             <Speed speed="0"/>
+             <VectorSpeed speed="0.0"/>
+             <Course course="12.0"/>
+
+             <Race>Eurasian Solar Union</Race>
+             <ClassAbbrev>CE</ClassAbbrev>
+             <ClassName>Beijing/B</ClassName>
+             <ShipClass>Escort Cruiser</ShipClass>
+             <Mass>60</Mass>
+             <PointValue>201</PointValue>
+             <MainDrive type="Standard" initialThrust="4"/>
+             <FTLDrive/>
+             <Armor totalArmor="5"/>
+             <Hull value="60" type="Average"/>
+             <Electronics>
+                 <FireControl xSSD="70"  ySSD="175"/>
+                 <FireControl xSSD="110" ySSD="175"/>
+                 <AreaDefenseFireControl xSSD="150" ySSD="175"/>
+             </Electronics>
+             <Defenses>
+                 <Screen xSSD="110" ySSD="110"/>
+             </Defenses>
+             <Holds/>
+             <Weapons>
+                 <BeamBattery  xSSD="60"  ySSD="30"  rating="2" arcs="(AP/FP/F)"/>
+                 <BeamBattery  xSSD="160" ySSD="30"  rating="2" arcs="(F/FS/AS)"/>
+                 <BeamBattery  xSSD="50"  ySSD="70" rating="1" arcs="(All arcs)"/>
+                 <BeamBattery  xSSD="170" ySSD="70" rating="1" arcs="(All arcs)"/>
+                 <PointDefense xSSD="50"  ySSD="140"  />
+                 <PointDefense xSSD="90"  ySSD="140"  />
+                 <PointDefense xSSD="130" ySSD="140"  />
+                 <PointDefense xSSD="170" ySSD="140"  />
+                 <PointDefense xSSD="50"  ySSD="110"  />
+                 <PointDefense xSSD="170" ySSD="110"  />
+             </Weapons>
+         </Ship>
+
+         <Ship>
+             <Name>Tibet</Name>
+             <Status>Ok</Status>
+             <Orders>0</Orders>
+             <DamageControl/>
+             <Position x="60.0" y="0.0"/>
+             <Heading heading="12"/>
+             <Speed speed="0"/>
+             <VectorSpeed speed="0.0"/>
+             <Course course="0.0"/>
+
+             <Race>Eurasian Solar Union</Race>
+             <ClassAbbrev>CL</ClassAbbrev>
+             <ClassName>Tibet</ClassName>
+             <ShipClass>Light Cruiser</ShipClass>
+             <Mass>48</Mass>
+             <PointValue>162</PointValue>
+             <MainDrive type="Standard" initialThrust="4"/>
+             <FTLDrive/>
+             <Armor totalArmor="3"/>
+             <Hull value="48" type="Average"/>
+             <Electronics>
+                 <FireControl xSSD="80"  ySSD="160"/>
+                 <FireControl xSSD="120" ySSD="160"/>
+             </Electronics>
+             <Defenses>
+                 <Screen xSSD="100" ySSD="140"/>
+             </Defenses>
+             <Holds/>
+             <Weapons>
+                 <BeamBattery  xSSD="100" ySSD="55"  rating="2" arcs="(All arcs)"/>
+                 <BeamBattery  xSSD="50"  ySSD="70"  rating="2" arcs="(AP/FP/F)"/>
+                 <BeamBattery  xSSD="150" ySSD="70"  rating="2" arcs="(F/FS/AS)"/>
+                 <BeamBattery  xSSD="40"  ySSD="110" rating="1" arcs="(All arcs)"/>
+                 <BeamBattery  xSSD="160" ySSD="110" rating="1" arcs="(All arcs)"/>
+                 <PointDefense xSSD="80"  ySSD="100"  />
+                 <PointDefense xSSD="120" ySSD="100" />
+             </Weapons>
+         </Ship>
+
+         <Ship>
+             <Name>Warsaw</Name>
+             <Status>Ok</Status>
+             <Orders>0</Orders>
+             <DamageControl/>
+             <Position x="0.0" y="-10.0"/>
+             <Heading heading="12"/>
+             <Speed speed="0"/>
+             <VectorSpeed speed="0.0"/>
+             <Course course="0.0"/>
+
+             <Race>Eurasian Solar Union</Race>
+             <ClassAbbrev>DD</ClassAbbrev>
+             <ClassName>Warsaw</ClassName>
+             <ShipClass>Destroyer</ShipClass>
+             <Mass>28</Mass>
+             <PointValue>93</PointValue>
+             <MainDrive type="Standard" initialThrust="4"/>
+             <FTLDrive/>
+             <Armor totalArmor="3"/>
+             <Hull value="28" type="Average"/>
+             <Electronics>
+                 <FireControl xSSD="100" ySSD="170"/>
+             </Electronics>
+             <Defenses/>
+             <Holds/>
+             <Weapons>
+                 <BeamBattery  xSSD="50"  ySSD="70"  rating="2" arcs="(AP/FP/F)"/>
+                 <BeamBattery  xSSD="150" ySSD="70"  rating="2" arcs="(F/FS/AS)"/>
+                 <BeamBattery  xSSD="40"  ySSD="110" rating="1" arcs="(All arcs)"/>
+                 <BeamBattery  xSSD="160" ySSD="110" rating="1" arcs="(All arcs)"/>
+                 <PointDefense xSSD="100" ySSD="140"  />
+             </Weapons>
+         </Ship>
+
+         <Ship>
+             <Name>Volga</Name>
+             <Status>Ok</Status>
+             <Orders>0</Orders>
+             <DamageControl/>
+             <Position x="10.0" y="-10.0"/>
+             <Heading heading="12"/>
+             <Speed speed="0"/>
+             <VectorSpeed speed="0.0"/>
+             <Course course="0.0"/>
+
+             <Race>Eurasian Solar Union</Race>
+             <ClassAbbrev>DH</ClassAbbrev>
+             <ClassName>Volga</ClassName>
+             <ShipClass>Super Destroyer</ShipClass>
+             <Mass>34</Mass>
+             <PointValue>115</PointValue>
+             <MainDrive type="Standard" initialThrust="4"/>
+             <FTLDrive/>
+             <Armor totalArmor="2"/>
+             <Hull value="34" type="Average"/>
+             <Electronics>
+                 <FireControl xSSD="100" ySSD="160"/>
+             </Electronics>
+             <Defenses/>
+             <Holds/>
+             <Weapons>
+                 <BeamBattery  xSSD="100" ySSD="55"  rating="2" arcs="(All arcs)"/>
+                 <BeamBattery  xSSD="50"  ySSD="70"  rating="2" arcs="(AP/FP/F)"/>
+                 <BeamBattery  xSSD="150" ySSD="70"  rating="2" arcs="(F/FS/AS)"/>
+                 <BeamBattery  xSSD="40"  ySSD="110" rating="1" arcs="(All arcs)"/>
+                 <BeamBattery  xSSD="160" ySSD="110" rating="1" arcs="(All arcs)"/>
+                 <PointDefense xSSD="80"  ySSD="100"  />
+                 <PointDefense xSSD="120" ySSD="100" />
+             </Weapons>
+         </Ship>
+
+         <Ship>
+             <Name>Novgorod</Name>
+             <Status>Ok</Status>
+             <Orders>0</Orders>
+             <DamageControl/>
+             <Position x="20.0" y="-10.0"/>
+             <Heading heading="12"/>
+             <Speed speed="0"/>
+             <VectorSpeed speed="0.0"/>
+             <Course course="0.0"/>
+
+             <Race>Eurasian Solar Union</Race>
+             <ClassAbbrev>FF</ClassAbbrev>
+             <ClassName>Novgorod</ClassName>
+             <ShipClass>Frigate</ShipClass>
+             <Mass>22</Mass>
+             <PointValue>73</PointValue>
+             <MainDrive type="Standard" initialThrust="6"/>
+             <FTLDrive/>
+             <Armor totalArmor="0"/>
+             <Hull value="22" type="Average"/>
+             <Electronics>
+                 <FireControl  xSSD="90"  ySSD="150"/>
+             </Electronics>
+             <Defenses/>
+             <Holds/>
+             <Weapons>
+                 <BeamBattery  xSSD="90"  ySSD="60"  rating="2" arcs="(FP/F/FS)"/>
+                 <BeamBattery  xSSD="50"  ySSD="100" rating="1" arcs="(All arcs)"/>
+                 <BeamBattery  xSSD="130" ySSD="100" rating="1" arcs="(All arcs)"/>
+                 <PointDefense xSSD="90"  ySSD="120"  />
+             </Weapons>
+         </Ship>
+
+         <Ship>
+             <Name>Nanuchka II</Name>
+             <Status>Ok</Status>
+             <Orders>0</Orders>
+             <DamageControl/>
+             <Position x="30.0" y="-10.0"/>
+             <Heading heading="12"/>
+             <Speed speed="0"/>
+             <VectorSpeed speed="0.0"/>
+             <Course course="0.0"/>
+
+             <Race>Eurasian Solar Union</Race>
+             <ClassAbbrev>CT</ClassAbbrev>
+             <ClassName>Nanuchka II</ClassName>
+             <ShipClass>Corvette</ShipClass>
+             <Mass>14</Mass>
+             <PointValue>48</PointValue>
+             <MainDrive type="Standard" initialThrust="6"/>
+             <FTLDrive/>
+             <Armor totalArmor="0"/>
+             <Hull value="14" type="Average"/>
+             <Electronics>
+                 <FireControl xSSD="90" ySSD="170"/>
+             </Electronics>
+             <Defenses/>
+             <Holds/>
+             <Weapons>
+                 <BeamBattery  xSSD="90"  ySSD="60"  rating="2" arcs="(FP/F/FS)"/>
+                 <BeamBattery  xSSD="90"  ySSD="100" rating="1" arcs="(All arcs)"/>
+                 <PointDefense xSSD="90"  ySSD="140" />
+             </Weapons>
+         </Ship>
+
+         <Ship>
+             <Name>Lenov</Name>
+             <Status>Ok</Status>
+             <Orders>0</Orders>
+             <DamageControl/>
+             <Position x="40.0" y="-10.0"/>
+             <Heading heading="12"/>
+             <Speed speed="0"/>
+             <VectorSpeed speed="0.0"/>
+             <Course course="0.0"/>
+
+             <Race>Eurasian Solar Union</Race>
+             <ClassAbbrev>SC</ClassAbbrev>
+             <ClassName>Lenov</ClassName>
+             <ShipClass>Scoutship</ShipClass>
+             <Mass>6</Mass>
+             <PointValue>21</PointValue>
+             <MainDrive type="Standard" initialThrust="8"/>
+             <FTLDrive/>
+             <Armor totalArmor="0"/>
+             <Hull value="6" type="Weak"/>
+             <Electronics>
+                 <FireControl xSSD="90"  ySSD="110"/>
+             </Electronics>
+             <Defenses/>
+             <Holds/>
+             <Weapons>
+                 <BeamBattery xSSD="90"  ySSD="60" rating="1" arcs="(All arcs)"/>
+             </Weapons>
+         </Ship>
+
+
+        <FighterGroup id="1106">
+            <Position x="0.0" y="-20.0"/>
+            <Heading heading="12"/>
+            <Race>Eurasian Solar Union</Race>
+            <Type>Standard</Type>
+            <Count>6</Count>
+            <Endurance>6</Endurance>
+            <PilotQuality>Normal</PilotQuality>
+        </FighterGroup>
+
+        <FighterGroup id="1105">
+            <Position x="10.0" y="-20.0"/>
+            <Heading heading="1"/>
+            <Race>Eurasian Solar Union</Race>
+            <Type>Standard</Type>
+            <Count>5</Count>
+            <Endurance>6</Endurance>
+            <PilotQuality>Normal</PilotQuality>
+        </FighterGroup>
+
+
+        <FighterGroup id="1104">
+            <Position x="20.0" y="-20.0"/>
+            <Heading heading="2"/>
+            <Race>Eurasian Solar Union</Race>
+            <Type>Standard</Type>
+            <Count>4</Count>
+            <Endurance>6</Endurance>
+            <PilotQuality>Normal</PilotQuality>
+        </FighterGroup>
+
+
+        <FighterGroup id="1103">
+            <Position x="30.0" y="-20.0"/>
+            <Heading heading="3"/>
+            <Race>Eurasian Solar Union</Race>
+            <Type>Standard</Type>
+            <Count>3</Count>
+            <Endurance>6</Endurance>
+            <PilotQuality>Normal</PilotQuality>
+        </FighterGroup>
+
+
+        <FighterGroup id="1102">
+            <Position x="40.0" y="-20.0"/>
+            <Heading heading="4"/>
+            <Race>Eurasian Solar Union</Race>
+            <Type>Standard</Type>
+            <Count>2</Count>
+            <Endurance>6</Endurance>
+            <PilotQuality>Normal</PilotQuality>
+        </FighterGroup>
+
+        <FighterGroup id="1101">
+            <Position x="50.0" y="-20.0"/>
+            <Heading heading="6"/>
+            <Race>Eurasian Solar Union</Race>
+            <Type>Standard</Type>
+            <Count>1</Count>
+            <Endurance>6</Endurance>
+            <PilotQuality>Normal</PilotQuality>
+        </FighterGroup>
+
+     </Player>
+</GameEngine>
+

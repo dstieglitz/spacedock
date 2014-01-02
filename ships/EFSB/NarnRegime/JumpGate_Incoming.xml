@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Jumpgate</Name>
+    <Race>NarnRegime</Race>
+    <ClassAbbrev>JJJ</ClassAbbrev>
+    <ClassName>Jumpgate</ClassName>
+    <ShipClass>Jumpgate</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>100</Mass>
+    <PointValue>305</PointValue>
+    <FTLDrive/>
+    <Armor totalArmor="0"/>
+    <Hull value="100" type="Custom" class="Military" stealth="0" totalHullBoxes="87"/>
+    <Electronics>
+        <AreaDefenseFireControl xSSD="83" ySSD="157"/>
+    </Electronics>
+    <Defenses>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <PointDefense xSSD="41" ySSD="156"/>
+    </Weapons>
+</Ship>
+

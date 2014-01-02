@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Vigilant</Name>
+    <Race>EarthAlliance</Race>
+    <ClassAbbrev>CL</ClassAbbrev>
+    <ClassName>Vigilant</ClassName>
+    <ShipClass>Light Cruiser</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>78</Mass>
+    <PointValue>277</PointValue>
+    <MainDrive type="Standard" initialThrust="6" active="false" />
+    <Armor totalArmor="0"/>
+    <Hull value="78" type="Custom" class="Military" stealth="0" totalHullBoxes="24"/>
+    <Electronics>
+        <FireControl xSSD="78" ySSD="169"/>
+        <FireControl xSSD="117" ySSD="169"/>
+        <AreaDefenseFireControl xSSD="97" ySSD="169"/>
+    </Electronics>
+    <Defenses>
+        <Screen xSSD="96" ySSD="139"/>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <FighterBay xSSD="38" ySSD="68"/>
+        <KineticGun  xSSD="152" ySSD="74" rating="4" arcs="(F)"/>
+        <BeamBattery  xSSD="97" ySSD="47" rating="1" arcs="(All arcs)"/>
+        <BeamBattery  xSSD="97" ySSD="97" rating="1" arcs="(All arcs)"/>
+        <PointDefense xSSD="28" ySSD="142"/>
+        <PointDefense xSSD="62" ySSD="141"/>
+        <PointDefense xSSD="130" ySSD="140"/>
+        <PointDefense xSSD="165" ySSD="138"/>
+    </Weapons>
+</Ship>
+

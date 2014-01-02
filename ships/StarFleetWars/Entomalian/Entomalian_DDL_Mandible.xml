@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <Designer>Dean Gundberg</Designer>
+            <Race>Entomalian</Race>
+            <ClassAbbrev>DDL</ClassAbbrev>
+            <ClassName>Mandible</ClassName>
+            <ShipClass>Destroyer Leader</ShipClass>
+            <Mass>46</Mass>
+            <PointValue>155</PointValue>
+            <MainDrive initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="7"/>
+            <Hull  value="46" type="Fragile"/>
+            <Electronics>
+                <FireControl xSSD="90"  ySSD="175"/>
+                <FireControl xSSD="110" ySSD="175"/>
+            </Electronics>
+            <Defenses/>
+            <Weapons>
+                <SubmunitionPack xSSD="45"  ySSD="30"/>
+                <SubmunitionPack xSSD="85"  ySSD="30"/>
+                <SubmunitionPack xSSD="125" ySSD="30"/>
+                <SubmunitionPack xSSD="165" ySSD="30"/>
+                <SubmunitionPack xSSD="65"  ySSD="60"/>
+                <SubmunitionPack xSSD="145" ySSD="60"/>
+                <BeamBattery  xSSD="100" ySSD="70"  rating="2" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="100" ySSD="110" rating="2" arcs="(AP/A/AS)"/>
+                <BeamBattery  xSSD="60"  ySSD="130" rating="1"/>
+                <BeamBattery  xSSD="140" ySSD="130" rating="1"/>
+                <PointDefense xSSD="100" ySSD="150"/>
+            </Weapons>
+        </Ship>

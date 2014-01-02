@@ -1,0 +1,48 @@
+<?xml version="1.0" standalone="yes" ?>
+         <Ship>
+             <Race>Eurasian Solar Union</Race>
+             <ClassAbbrev>CV</ClassAbbrev>
+             <ClassName>Konstantin</ClassName>
+             <ShipClass>Attack Carrier</ShipClass>
+             <Mass>240</Mass>
+             <PointValue>842</PointValue>
+             <MainDrive type="Standard" initialThrust="2"/>
+             <FTLDrive/>
+             <Armor totalArmor="0"/>
+             <Hull value="240" type="Average"/>
+             <Electronics>
+                 <FireControl xSSD="110" ySSD="180"/>
+                 <FireControl xSSD="130" ySSD="180"/>
+             </Electronics>
+             <Defenses>
+                 <Screen xSSD="110" ySSD="155"/>
+                 <Screen xSSD="130" ySSD="155"/>
+             </Defenses>
+             <Holds/>
+             <Weapons>
+                 <FighterBay  xSSD="30"  ySSD="25" />
+                 <FighterBay  xSSD="65"  ySSD="25" />
+                 <FighterBay  xSSD="100" ySSD="25" />
+                 <FighterBay  xSSD="140" ySSD="25" />
+                 <FighterBay  xSSD="175" ySSD="25" />
+                 <FighterBay  xSSD="210" ySSD="25" />
+
+                 <BeamBattery xSSD="100" ySSD="70"  rating="3" arcs="(FP/F/FS)"/>
+                 <BeamBattery xSSD="140" ySSD="70"  rating="3" arcs="(FP/F/FS)"/>
+                 <BeamBattery xSSD="180" ySSD="70"  rating="3" arcs="(F/FS/AS)"/>
+                 <BeamBattery xSSD="60"  ySSD="70"  rating="3" arcs="(AP/FP/F)"/>
+                 <BeamBattery xSSD="60"  ySSD="110" rating="2" arcs="(AP/FP/F)"/>
+                 <BeamBattery xSSD="100" ySSD="110" rating="2" arcs="(AP/FP/F)"/>
+                 <BeamBattery xSSD="140" ySSD="110" rating="2" arcs="(F/FS/AS)"/>
+                 <BeamBattery xSSD="180" ySSD="110" rating="2" arcs="(F/FS/AS)"/>
+                 <BeamBattery xSSD="30"  ySSD="140" rating="1" arcs="(All arcs)"/>
+                 <BeamBattery xSSD="210" ySSD="140" rating="1" arcs="(All arcs)"/>
+
+                 <PointDefense xSSD="30"  ySSD="175"/>
+                 <PointDefense xSSD="55"  ySSD="175"/>
+                 <PointDefense xSSD="80"  ySSD="175"/>
+                 <PointDefense xSSD="160" ySSD="175"/>
+                 <PointDefense xSSD="185" ySSD="175"/>
+                 <PointDefense xSSD="210" ySSD="175"/>
+             </Weapons>
+         </Ship>

@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>New Anglian Confederation</Race>
+            <ClassAbbrev>FF</ClassAbbrev>
+            <ClassName>Minerva</ClassName>
+            <ShipClass>Frigate</ShipClass>
+            <Mass>18</Mass>
+            <PointValue>61</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="18" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="140" ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <BeamBattery  xSSD="140" ySSD="50" rating="2" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="100" ySSD="90" rating="1" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="180" ySSD="90" rating="1" arcs="(All arcs)"/>
+                <PointDefense xSSD="140" ySSD="140"/>
+            </Weapons>
+        </Ship>

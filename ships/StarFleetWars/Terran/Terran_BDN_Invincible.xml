@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <Designer>Dean Gundberg</Designer>
+            <Race>Terran</Race>
+            <ClassAbbrev>BDN</ClassAbbrev>
+            <ClassName>Invincible</ClassName>
+            <ShipClass>Galactic Dreadnought</ShipClass>
+            <Mass>190</Mass>
+            <PointValue>653</PointValue>
+            <MainDrive initialThrust="3"/>
+            <FTLDrive/>
+            <Armor totalArmor="8"/>
+            <Hull  value="190" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="100" ySSD="180"/>
+                <FireControl xSSD="120" ySSD="180"/>
+                <FireControl xSSD="140" ySSD="180"/>
+                <FireControl xSSD="160" ySSD="180"/>
+                <AreaDefenseFireControl xSSD="180" ySSD="180"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="120" ySSD="160"/>
+                <Screen xSSD="160" ySSD="160"/>
+            </Defenses>
+            <Weapons>
+                <PulseTorpedo xSSD="140" ySSD="30"  arcs="(F)"/>
+                <FighterBay   xSSD="140" ySSD="80"/>
+                <BeamBattery xSSD="100" ySSD="40" rating="3" arcs="(FP/F/FS)"/>
+                <BeamBattery xSSD="180" ySSD="40" rating="3" arcs="(FP/F/FS)"/>
+                <BeamBattery xSSD="60"  ySSD="40" rating="3" arcs="(AP/FP/F)"/>
+                <BeamBattery xSSD="220" ySSD="40" rating="3" arcs="(F/FS/AS)"/>
+                <BeamBattery xSSD="80"  ySSD="90" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery xSSD="200" ySSD="90" rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery xSSD="40"  ySSD="90" rating="2" arcs="(A/AP/FP)"/>
+                <BeamBattery xSSD="240" ySSD="90" rating="2" arcs="(A/AS/FS)"/>
+                <BeamBattery xSSD="80"  ySSD="135" rating="1"/>
+                <BeamBattery xSSD="200" ySSD="135" rating="1"/>
+                <PointDefense xSSD="20"  ySSD="160"/>
+                <PointDefense xSSD="60"  ySSD="160"/>
+                <PointDefense xSSD="260" ySSD="160"/>
+                <PointDefense xSSD="220" ySSD="160"/>
+            </Weapons>
+        </Ship>

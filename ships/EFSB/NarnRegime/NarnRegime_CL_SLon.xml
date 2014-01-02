@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>S'Lon</Name>
+    <Race>NarnRegime</Race>
+    <ClassAbbrev>CL</ClassAbbrev>
+    <ClassName>S'Lon</ClassName>
+    <ShipClass>Light Cruiser</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>55</Mass>
+    <PointValue>184</PointValue>
+    <MainDrive type="Standard" initialThrust="6" active="false" />
+    <Armor totalArmor="0"/>
+    <Hull value="55" type="Custom" class="Military" stealth="0" totalHullBoxes="24"/>
+    <Electronics>
+        <FireControl xSSD="77" ySSD="167"/>
+        <FireControl xSSD="132" ySSD="168"/>
+    </Electronics>
+    <Defenses>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <KineticGun  xSSD="104" ySSD="28" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="105" ySSD="78" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="104" ySSD="130" rating="1" arcs="(AP/FP/F/FS/AS)"/>
+        <BeamBattery  xSSD="175" ySSD="91" rating="2" arcs="(FS/AS)"/>
+        <BeamBattery  xSSD="32" ySSD="92" rating="2" arcs="(AP/FP)"/>
+        <PointDefense xSSD="43" ySSD="144"/>
+        <PointDefense xSSD="164" ySSD="144"/>
+    </Weapons>
+</Ship>
+

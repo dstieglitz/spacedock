@@ -1,0 +1,48 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <Designer>Dean Gundberg</Designer>
+            <Race>Entomalian</Race>
+            <ClassAbbrev>BC</ClassAbbrev>
+            <ClassName>Roach</ClassName>
+            <ShipClass>Battlecruiser</ShipClass>
+            <Mass>120</Mass>
+            <PointValue>417</PointValue>
+            <MainDrive initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="18"/>
+            <Hull  value="120" type="Fragile"/>
+            <Electronics>
+                <FireControl xSSD="100" ySSD="175"/>
+                <FireControl xSSD="120" ySSD="175"/>
+                <FireControl xSSD="140" ySSD="175"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="120" ySSD="155"/>
+            </Defenses>
+            <Weapons>
+                <SalvoMissileLauncher xSSD="80"  ySSD="20" smmId="51" arcs="(AP/FP/F)"/>
+                <SalvoMissileLauncher xSSD="160" ySSD="20" smmId="51" arcs="(F/FS/AS)"/>
+                <SalvoMissileMagazine xSSD="120" ySSD="60" id="51" maxInRow="4" capacity="16">
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                </SalvoMissileMagazine>
+
+                <BeamBattery xSSD="30"  ySSD="40"  rating="3" arcs="(F)"/>
+                <BeamBattery xSSD="210"  ySSD="40"  rating="3" arcs="(FP/F/FS)"/>
+                <BeamBattery xSSD="60"  ySSD="70"  rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery xSSD="180" ySSD="70"  rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery xSSD="60"  ySSD="110" rating="2" arcs="(A/AP/FP)"/>
+                <BeamBattery xSSD="180" ySSD="110" rating="2" arcs="(A/AS/FS)"/>
+                <BeamBattery xSSD="60"  ySSD="150" rating="1"/>
+                <BeamBattery xSSD="180" ySSD="150" rating="1"/>
+                <PointDefense xSSD="100" ySSD="130"/>
+                <PointDefense xSSD="120" ySSD="110"/>
+                <PointDefense xSSD="140" ySSD="130"/>
+            </Weapons>
+        </Ship>

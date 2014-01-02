@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>Neu Swabian League</Race>
+            <ClassAbbrev>BB</ClassAbbrev>
+            <ClassName>Maria Von Burgund</ClassName>
+            <ShipClass>Battleship</ShipClass>
+            <Mass>120</Mass>
+            <PointValue>414</PointValue>
+            <MainDrive type="Standard" initialThrust="2"/>
+            <FTLDrive/>
+            <Armor totalArmor="10"/>
+            <Hull value="120" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="85"  ySSD="170"/>
+                <FireControl xSSD="100" ySSD="170"/>
+                <FireControl xSSD="115" ySSD="170"/>
+                <FireControl xSSD="130" ySSD="170"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <PulseTorpedo xSSD="107" ySSD="40" arcs="(FP/F/FS)"/>
+                
+                <BeamBattery  xSSD="107" ySSD="100" rating="3" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="70" ySSD="70" rating="3" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="70" ySSD="130" rating="3" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="140" ySSD="70" rating="3" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="140" ySSD="130" rating="3" arcs="(F/FS/AS)"/>
+                
+                <BeamBattery  xSSD="30" ySSD="100" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="180" ySSD="100" rating="2" arcs="(F/FS/AS)"/>
+                
+                <BeamBattery  xSSD="30" ySSD="60" rating="1" arcs="(All Arcs)"/>
+                <BeamBattery  xSSD="180" ySSD="60" rating="1" arcs="(All Arcs)"/>
+                
+                <PointDefense xSSD="25" ySSD="150"/>
+                <PointDefense xSSD="45" ySSD="165"/>
+                <PointDefense xSSD="185" ySSD="150"/>
+                <PointDefense xSSD="165" ySSD="165"/>
+            </Weapons>
+        </Ship>

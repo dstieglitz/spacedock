@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="yes" ?>
+         <Ship>
+             <Race>Eurasian Solar Union</Race>
+             <ClassAbbrev>CE</ClassAbbrev>
+             <ClassName>Beijing/B</ClassName>
+             <ShipClass>Escort Cruiser</ShipClass>
+             <Mass>60</Mass>
+             <PointValue>201</PointValue>
+             <MainDrive type="Standard" initialThrust="4"/>
+             <FTLDrive/>
+             <Armor totalArmor="5"/>
+             <Hull value="60" type="Average"/>
+             <Electronics>
+                 <FireControl xSSD="90"  ySSD="170"/>
+                 <FireControl xSSD="130" ySSD="170"/>
+             </Electronics>
+             <Defenses>
+                 <Screen xSSD="110" ySSD="110"/>
+             </Defenses>
+             <Holds/>
+             <Weapons>
+                 <BeamBattery  xSSD="110" ySSD="55"  rating="3" arcs="(FP/F/FS)"/>
+                 <BeamBattery  xSSD="60"  ySSD="70"  rating="2" arcs="(AP/FP/F)"/>
+                 <BeamBattery  xSSD="160" ySSD="70"  rating="2" arcs="(F/FS/AS)"/>
+                 <BeamBattery  xSSD="50"  ySSD="110" rating="1" arcs="(All arcs)"/>
+                 <BeamBattery  xSSD="170" ySSD="110" rating="1" arcs="(All arcs)"/>
+                 <PointDefense xSSD="90"  ySSD="140"  />
+                 <PointDefense xSSD="130" ySSD="140"  />
+             </Weapons>
+         </Ship>

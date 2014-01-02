@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>UNSC</Race>
+            <ClassAbbrev>DD</ClassAbbrev>
+            <ClassName>Lake</ClassName>
+            <ShipClass>Destroyer</ShipClass>
+            <Mass>34</Mass>
+            <PointValue>130</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="34" type="Custom" totalHullBoxes="9" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="100"  ySSD="185"/>
+            </Electronics>
+            <Defenses>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <AntiMatterTorpedoLauncher xSSD="60"  ySSD="40"/>
+                <AntiMatterTorpedoLauncher xSSD="100" ySSD="40"/>
+                <AntiMatterTorpedoLauncher xSSD="140" ySSD="40"/>
+
+                <BeamBattery  xSSD="100" ySSD="90"  rating="2" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="100" ySSD="140" rating="1"/>
+
+                <PointDefense xSSD="50"  ySSD="135"/>
+                <PointDefense xSSD="150" ySSD="135"/>
+            </Weapons>
+        </Ship>

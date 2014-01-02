@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <PointValue>294</PointValue>
+            <ClassName>Klashh-Huulth</ClassName>
+            <Race>Phalon</Race>
+            <ClassAbbrev>CE</ClassAbbrev>
+            <Mass>70</Mass>
+            <ShipClass>Warrior</ShipClass>
+            <Designer>GZG</Designer>
+            <MainDrive initialThrust="4"/>
+            <Hull totalHullBoxes="12" type="Custom" value="70"/>
+            <Armor totalArmor="4,3"/>
+            <FTLDrive/>
+            <Defenses>
+                <VapourShroud xSSD="120" ySSD="150"/>
+            </Defenses>
+            <Electronics>
+                <FireControl xSSD="50" ySSD="150"/>
+                <FireControl xSSD="70" ySSD="150"/>
+                <AreaDefenseFireControl xSSD="90" ySSD="150"/>
+            </Electronics>
+            <Weapons>
+                <Pulser arcs="(All arcs)" xSSD="70"  ySSD="30"/>
+                <Pulser arcs="(All arcs)" xSSD="110" ySSD="30"/>
+                <Pulser arcs="(All arcs)" xSSD="70"  ySSD="110"/>
+                <Pulser arcs="(All arcs)" xSSD="110" ySSD="110"/>
+                <Pulser arcs="(AP/FP/F)" xSSD="30" ySSD="70"/>
+                <Pulser arcs="(F/FS/AS)" xSSD="150" ySSD="70"/>
+            </Weapons>
+        </Ship>

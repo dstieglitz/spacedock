@@ -40,7 +40,7 @@ class FileTreeModel implements TreeModel {
     public Object getChild(Object parent, int index) {
         String[] children = ((File) parent).list();
         if ((children == null) || (index >= children.length)) return null;
-        return new File((File) parent, children[index]);
+        return new FileToStringWrapper((File) parent, children[index]);
     }
 
     // Figure out a child's position in its parent node.
@@ -66,5 +66,15 @@ class FileTreeModel implements TreeModel {
     }
 
     public void removeTreeModelListener(TreeModelListener l) {
+    }
+
+    class FileToStringWrapper extends File {
+        public FileToStringWrapper(File file, String s) {
+            super(file, s);    //To change body of overridden methods use File | Settings | File Templates.
+        }
+
+        public String toString() {
+            return this.getName();
+        }
     }
 }

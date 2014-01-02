@@ -1,0 +1,681 @@
+<?xml version="1.0" standalone="yes" ?>
+<GameEngine id="1111" name="Phalon" turn="0">
+    <Player id="1" name="First Last" email="last@hotmail.com">
+        <Ship>
+            <Name>Ptath</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="0.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="0.0"/>
+
+            <PointValue>522</PointValue>
+            <ClassName>Ptath</ClassName>
+            <Race>Phalon</Race>
+            <ClassAbbrev>BB</ClassAbbrev>
+            <Mass>132</Mass>
+            <ShipClass>Great Warrior</ShipClass>
+            <Designer>GZG</Designer>
+            <Armor totalArmor="8,4,4"/>
+            <MainDrive initialThrust="4"/>
+            <Hull totalHullBoxes="24" type="Custom" value="132"/>
+            <FTLDrive/>
+            <Defenses>
+                <VapourShroud xSSD="175" ySSD="160"/>
+            </Defenses>
+            <Electronics>
+                <FireControl xSSD="80"  ySSD="140"/>
+                <FireControl xSSD="100" ySSD="140"/>
+                <FireControl xSSD="120" ySSD="140"/>
+            </Electronics>
+            <Weapons>
+                <PlasmaBoltLauncher arcs="(FP/F/FS)" rating="4" xSSD="100" ySSD="30"/>
+                <Pulser arcs="(AP/FP/F)" xSSD="25" ySSD="100"/>
+                <Pulser arcs="(F/FS/AS)" xSSD="175" ySSD="100"/>
+                <Pulser arcs="(FP/F/FS)" xSSD="50" ySSD="30"/>
+                <Pulser arcs="(FP/F/FS)" xSSD="150" ySSD="30"/>
+                <Pulser arcs="(FP/F/FS)" xSSD="100" ySSD="70"/>
+                <Pulser arcs="(All arcs)" xSSD="75" ySSD="100"/>
+                <Pulser arcs="(All arcs)" xSSD="125" ySSD="100"/>
+            </Weapons>
+        </Ship>
+            
+        <Ship>
+            <Name>Keraph</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="10.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="0.0"/>
+
+            <PointValue>398</PointValue>
+            <ClassName>Keraph</ClassName>
+            <Race>Phalon</Race>
+            <ClassAbbrev>BC</ClassAbbrev>
+            <Mass>104</Mass>
+            <ShipClass>Warrior</ShipClass>
+            <Designer>GZG</Designer>
+            <MainDrive initialThrust="4"/>
+            <Hull totalHullBoxes="20" type="Custom" value="104"/>
+            <Armor totalArmor="8,4"/>
+            <FTLDrive/>
+            <Defenses>
+                <VapourShroud xSSD="160" ySSD="150"/>
+            </Defenses>
+            <Electronics>
+                <FireControl xSSD="60"  ySSD="150"/>
+                <FireControl xSSD="80"  ySSD="150"/>
+                <FireControl xSSD="100" ySSD="150"/>
+                <AreaDefenseFireControl xSSD="120" ySSD="150"/>
+            </Electronics>
+            <Weapons>
+                <PlasmaBoltLauncher arcs="(FP/F/FS)" rating="3" xSSD="90" ySSD="30"/>
+                <Pulser arcs="(F)" xSSD="90" ySSD="70"/>
+                <Pulser arcs="(AP/FP/F)" xSSD="30" ySSD="80"/>
+                <Pulser arcs="(F/FS/AS)" xSSD="150" ySSD="80"/>
+                <Pulser arcs="(All arcs)" xSSD="60" ySSD="115"/>
+                <Pulser arcs="(All arcs)" xSSD="120" ySSD="115"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>
+            <Name>Tuuloth</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="20.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="0.0"/>
+
+            <PointValue>299</PointValue>
+            <ClassName>Tuuloth</ClassName>
+            <Race>Phalon</Race>
+            <ClassAbbrev>CA</ClassAbbrev>
+            <Mass>80</Mass>
+            <ShipClass>Warrior</ShipClass>
+            <Designer>GZG</Designer>
+            <MainDrive initialThrust="4"/>
+            <Hull type="Weak" value="80"/>
+            <Armor totalArmor="6,3"/>
+            <FTLDrive/>
+            <Defenses>
+                <VapourShroud xSSD="120" ySSD="150"/>
+            </Defenses>
+            <Electronics>
+                <FireControl xSSD="50" ySSD="150"/>
+                <FireControl xSSD="70" ySSD="150"/>
+            </Electronics>
+            <Weapons>
+                <PlasmaBoltLauncher arcs="(FP/F/FS)" rating="3" xSSD="60" ySSD="30"/>
+                <Pulser arcs="(All arcs)" xSSD="60" ySSD="70"/>
+                <Pulser arcs="(AP/FP/F)"  xSSD="30" ySSD="110"/>
+                <Pulser arcs="(F/FS/AS)"  xSSD="90" ySSD="110"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>
+            <Name>Klashh-Huulth</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="30.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="0.0"/>
+
+            <PointValue>294</PointValue>
+            <ClassName>Klashh-Huulth</ClassName>
+            <Race>Phalon</Race>
+            <ClassAbbrev>CE</ClassAbbrev>
+            <Mass>70</Mass>
+            <ShipClass>Warrior</ShipClass>
+            <Designer>GZG</Designer>
+            <MainDrive initialThrust="4"/>
+            <Hull totalHullBoxes="12" type="Custom" value="70"/>
+            <Armor totalArmor="4,3"/>
+            <FTLDrive/>
+            <Defenses>
+                <VapourShroud xSSD="120" ySSD="150"/>
+            </Defenses>
+            <Electronics>
+                <FireControl xSSD="50" ySSD="150"/>
+                <FireControl xSSD="70" ySSD="150"/>
+                <AreaDefenseFireControl xSSD="90" ySSD="150"/>
+            </Electronics>
+            <Weapons>
+                <Pulser arcs="(All arcs)" xSSD="70"  ySSD="30"/>
+                <Pulser arcs="(All arcs)" xSSD="110" ySSD="30"/>
+                <Pulser arcs="(All arcs)" xSSD="70"  ySSD="110"/>
+                <Pulser arcs="(All arcs)" xSSD="110" ySSD="110"/>
+                <Pulser arcs="(AP/FP/F)" xSSD="30" ySSD="70"/>
+                <Pulser arcs="(F/FS/AS)" xSSD="150" ySSD="70"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>
+            <Name>Tsaara</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="40.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="0.0"/>
+
+            <PointValue>225</PointValue>
+            <ClassName>Tsaara</ClassName>
+            <Race>Phalon</Race>
+            <ClassAbbrev>CL</ClassAbbrev>
+            <Mass>58</Mass>
+            <ShipClass>Warrior</ShipClass>
+            <Designer>GZG</Designer>
+            <MainDrive initialThrust="4"/>
+            <Hull totalHullBoxes="10" type="Custom" value="58"/>
+            <Armor totalArmor="3,2"/>
+            <FTLDrive/>
+            <Defenses>
+                <VapourShroud xSSD="120" ySSD="150"/>
+            </Defenses>
+            <Electronics>
+                <FireControl xSSD="50" ySSD="150"/>
+                <FireControl xSSD="70" ySSD="150"/>
+            </Electronics>
+            <Weapons>
+                <PlasmaBoltLauncher arcs="(FP/F/FS)" rating="2" xSSD="60" ySSD="30"/>
+                <Pulser arcs="(F)" xSSD="60" ySSD="70"/>
+                <Pulser arcs="(All arcs)" xSSD="30" ySSD="110"/>
+                <Pulser arcs="(All arcs)" xSSD="90" ySSD="110"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>
+            <Name>Huulth</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="50.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="0.0"/>
+
+            <PointValue>276</PointValue>
+            <ClassName>Huulth</ClassName>
+            <Race>Phalon</Race>
+            <ClassAbbrev>CP</ClassAbbrev>
+            <Mass>70</Mass>
+            <ShipClass>Warrior</ShipClass>
+            <Designer>GZG</Designer>
+            <MainDrive initialThrust="4"/>
+            <Hull totalHullBoxes="12" type="Custom" value="70"/>
+            <Armor totalArmor="4,3"/>
+            <FTLDrive/>
+            <Defenses>
+                <VapourShroud xSSD="120" ySSD="150"/>
+            </Defenses>
+            <Electronics>
+                <FireControl xSSD="50" ySSD="150"/>
+                <FireControl xSSD="70" ySSD="150"/>
+            </Electronics>
+            <Weapons>
+                <PlasmaBoltLauncher arcs="(FP/F/FS)" rating="2" xSSD="60" ySSD="30"/>
+                <Pulser arcs="(AP/FP/F)" xSSD="30" ySSD="65"/>
+                <Pulser arcs="(F/FS/AS)" xSSD="90" ySSD="65"/>
+                <Pulser arcs="(All arcs)" xSSD="30" ySSD="110"/>
+                <Pulser arcs="(All arcs)" xSSD="90" ySSD="110"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>
+            <Name>Dorrth</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="0.0" y="10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="0.0"/>
+
+            <PointValue>60</PointValue>
+            <ClassName>Dorrth</ClassName>
+            <Race>Phalon</Race>
+            <ClassAbbrev>CT</ClassAbbrev>
+            <Mass>16</Mass>
+            <ShipClass>Protector</ShipClass>
+            <Designer>GZG</Designer>
+            <MainDrive initialThrust="6"/>
+            <Armor totalArmor="2"/>
+            <FTLDrive/>
+            <Hull type="Fragile" value="16"/>
+            <Defenses>
+                <VapourShroud xSSD="60" ySSD="120"/>
+            </Defenses>
+            <Electronics>
+                <FireControl xSSD="60" ySSD="80"/>
+            </Electronics>
+            <Weapons>
+                <Pulser arcs="(FP/F/FS)" xSSD="60" ySSD="40"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>
+            <Name>Vlath</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="10.0" y="10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="0.0"/>
+
+            <PointValue>51</PointValue>
+            <ClassName>Vlath</ClassName>
+            <Race>Phalon</Race>
+            <ClassAbbrev>CT</ClassAbbrev>
+            <Mass>12</Mass>
+            <ShipClass>Protector</ShipClass>
+            <Designer>GZG</Designer>
+            <MainDrive initialThrust="4"/>
+            <Hull type="Weak" value="12"/>
+            <Armor totalArmor="1"/>
+            <FTLDrive/>
+            <Defenses>
+                <VapourShroud xSSD="60" ySSD="120"/>
+            </Defenses>
+            <Electronics>
+                <FireControl xSSD="60" ySSD="80"/>
+            </Electronics>
+            <Weapons>
+                <Pulser arcs="(All arcs)" xSSD="60" ySSD="40"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>
+            <Name>Draath</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="20.0" y="10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="0.0"/>
+
+            <PointValue>1002</PointValue>
+            <ClassName>Draath</ClassName>
+            <Race>Phalon</Race>
+            <ClassAbbrev>CVA</ClassAbbrev>
+            <Mass>250</Mass>
+            <ShipClass>Mothership</ShipClass>
+            <Designer>GZG</Designer>
+            <Armor totalArmor="12,8,6,4"/>
+            <Hull totalHullBoxes="40" type="Custom" value="250"/>
+            <MainDrive initialThrust="2"/>
+            <FTLDrive/>
+            <Defenses>
+                <VapourShroud xSSD="240" ySSD="190"/>
+            </Defenses>
+            <Electronics>
+                <FireControl xSSD="220" ySSD="220"/>
+                <FireControl xSSD="260" ySSD="220"/>
+            </Electronics>
+            <Weapons>
+                <PlasmaBoltLauncher arcs="(FP/F/FS)" rating="3" xSSD="145" ySSD="65"/>
+                <Pulser arcs="(All arcs)" xSSD="105" ySSD="30"/>
+                <Pulser arcs="(All arcs)" xSSD="185" ySSD="30"/>
+                <Pulser arcs="(All arcs)" xSSD="105" ySSD="80"/>
+                <Pulser arcs="(All arcs)" xSSD="185" ySSD="80"/>
+                <Pulser arcs="(AP/FP/F)" xSSD="25" ySSD="120"/>
+                <Pulser arcs="(AP/FP/F)" xSSD="65" ySSD="120"/>
+                <Pulser arcs="(F/FS/AS)" xSSD="225" ySSD="120"/>
+                <Pulser arcs="(F/FS/AS)" xSSD="265" ySSD="120"/>
+                <FighterBay xSSD="25" ySSD="25"/>
+                <FighterBay xSSD="65" ySSD="25"/>
+                <FighterBay xSSD="25" ySSD="75"/>
+                <FighterBay xSSD="65" ySSD="75"/>
+                <FighterBay xSSD="225" ySSD="25"/>
+                <FighterBay xSSD="265" ySSD="25"/>
+                <FighterBay xSSD="225" ySSD="75"/>
+                <FighterBay xSSD="265" ySSD="75"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>
+            <Name>Taanis</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="30.0" y="10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="0.0"/>
+
+            <PointValue>641</PointValue>
+            <ClassName>Taanis</ClassName>
+            <Race>Phalon</Race>
+            <ClassAbbrev>CVL</ClassAbbrev>
+            <Mass>170</Mass>
+            <ShipClass>Mothership</ShipClass>
+            <Designer>GZG</Designer>
+            <MainDrive initialThrust="4"/>
+            <Hull totalHullBoxes="30" type="Custom" value="170"/>
+            <Armor totalArmor="8,4,4"/>
+            <FTLDrive/>
+            <Defenses>
+                <VapourShroud xSSD="195" ySSD="160"/>
+            </Defenses>
+            <Electronics>
+                <FireControl xSSD="100" ySSD="140"/>
+                <FireControl xSSD="140" ySSD="140"/>
+            </Electronics>
+            <Weapons>
+                <PlasmaBoltLauncher arcs="(FP/F/FS)" rating="2" xSSD="120" ySSD="20"/>
+                <Pulser arcs="(All arcs)" xSSD="120" ySSD="60"/>
+                <Pulser arcs="(F/FS/AS)" xSSD="170" ySSD="40"/>
+                <Pulser arcs="(F/FS/AS)" xSSD="170" ySSD="90"/>
+                <Pulser arcs="(AP/FP/F)" xSSD="70" ySSD="40"/>
+                <Pulser arcs="(AP/FP/F)" xSSD="70" ySSD="90"/>
+                <FighterBay xSSD="25" ySSD="30"/>
+                <FighterBay xSSD="25" ySSD="110"/>
+                <FighterBay xSSD="215" ySSD="30"/>
+                <FighterBay xSSD="215" ySSD="110"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>
+            <Name>Dinth</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="40.0" y="10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="0.0"/>
+
+            <PointValue>150</PointValue>
+            <ClassName>Dinth</ClassName>
+            <Race>Phalon</Race>
+            <ClassAbbrev>DDH</ClassAbbrev>
+            <Mass>41</Mass>
+            <ShipClass>Protector</ShipClass>
+            <Designer>GZG</Designer>
+            <MainDrive initialThrust="6"/>
+            <Hull totalHullBoxes="7" type="Custom" value="41"/>
+            <Armor totalArmor="4"/>
+            <FTLDrive/>
+            <Defenses>
+                <VapourShroud xSSD="120" ySSD="150"/>
+            </Defenses>
+            <Electronics>
+                <FireControl xSSD="60" ySSD="150"/>
+            </Electronics>
+            <Weapons>
+                <PlasmaBoltLauncher arcs="(FP/F/FS)" rating="1" xSSD="60" ySSD="40"/>
+                <Pulser arcs="(All arcs)" xSSD="30" ySSD="80"/>
+                <Pulser arcs="(F)" xSSD="90" ySSD="80"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>
+            <Name>Phuun</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="0.0" y="20.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="0.0"/>
+
+            <PointValue>89</PointValue>
+            <ClassName>Phuun</ClassName>
+            <Race>Phalon</Race>
+            <ClassAbbrev>FF</ClassAbbrev>
+            <Mass>24</Mass>
+            <ShipClass>Protector</ShipClass>
+            <Designer>GZG</Designer>
+            <MainDrive initialThrust="6"/>
+            <Hull totalHullBoxes="3" type="Custom" value="24"/>
+            <Armor totalArmor="2"/>
+            <FTLDrive/>
+            <Defenses>
+                <VapourShroud xSSD="120" ySSD="150"/>
+            </Defenses>
+            <Electronics>
+                <FireControl xSSD="60" ySSD="150"/>
+            </Electronics>
+            <Weapons>
+                <PlasmaBoltLauncher arcs="(FP/F/FS)" rating="1" xSSD="60" ySSD="40"/>
+                <Pulser arcs="(FP/F/FS)" xSSD="60" ySSD="80"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>
+            <Name>Tyaph</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="10.0" y="20.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="0.0"/>
+
+            <PointValue>84</PointValue>
+            <ClassName>Tyaph</ClassName>
+            <Race>Phalon</Race>
+            <ClassAbbrev>FF</ClassAbbrev>
+            <Mass>21</Mass>
+            <ShipClass>Protector</ShipClass>
+            <Designer>GZG</Designer>
+            <MainDrive initialThrust="6"/>
+            <Hull totalHullBoxes="3" type="Custom" value="21"/>
+            <Armor totalArmor="2"/>
+            <FTLDrive/>
+            <Defenses>
+                <VapourShroud xSSD="60" ySSD="120"/>
+            </Defenses>
+            <Electronics>
+                <FireControl xSSD="60" ySSD="80"/>
+            </Electronics>
+            <Weapons>
+                <Pulser arcs="(All arcs)" xSSD="90" ySSD="40"/>
+                <Pulser arcs="(F)" xSSD="30" ySSD="40"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>
+            <Name>Phyaa</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="20.0" y="20.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="0.0"/>
+
+            <PointValue>39</PointValue>
+            <ClassName>Phyaa</ClassName>
+            <Race>Phalon</Race>
+            <ClassAbbrev>SC</ClassAbbrev>
+            <Mass>10</Mass>
+            <ShipClass>Protector</ShipClass>
+            <Designer>GZG</Designer>
+            <MainDrive initialThrust="6"/>
+            <Armor totalArmor="1"/>
+            <FTLDrive/>
+            <Hull type="Fragile" value="10"/>
+            <Defenses>
+                <VapourShroud xSSD="60" ySSD="120"/>
+            </Defenses>
+            <Electronics>
+                <FireControl xSSD="60" ySSD="80"/>
+            </Electronics>
+            <Weapons>
+                <Pulser arcs="(F)" xSSD="60" ySSD="40"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>
+            <Name>Klassh-Voth</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="30.0" y="20.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="0.0"/>
+
+            <PointValue>1037</PointValue>
+            <ClassName>Klassh-Voth</ClassName>
+            <Race>Phalon</Race>
+            <ClassAbbrev>SDN</ClassAbbrev>
+            <Mass>250</Mass>
+            <ShipClass>Great Warrior</ShipClass>
+            <Designer>GZG</Designer>
+            <Armor totalArmor="16,10,8,6"/>
+            <Hull totalHullBoxes="42" type="Custom" value="250"/>
+            <MainDrive initialThrust="2"/>
+            <FTLDrive/>
+            <Defenses>
+                <VapourShroud xSSD="240" ySSD="190"/>
+            </Defenses>
+            <Electronics>
+                <FireControl xSSD="200" ySSD="220"/>
+                <FireControl xSSD="220" ySSD="220"/>
+                <FireControl xSSD="240" ySSD="220"/>
+                <FireControl xSSD="260" ySSD="220"/>
+                <FireControl xSSD="280" ySSD="220"/>
+                <AreaDefenseFireControl xSSD="160" ySSD="220"/>
+                <AreaDefenseFireControl xSSD="180" ySSD="220"/>
+            </Electronics>
+            <Weapons>
+                <PlasmaBoltLauncher arcs="(FP/F/FS)" rating="6" xSSD="140" ySSD="20"/>
+                <PlasmaBoltLauncher arcs="(AP/FP/F)" rating="3" xSSD="30" ySSD="80"/>
+                <PlasmaBoltLauncher arcs="(F/FS/AS)" rating="3" xSSD="250" ySSD="80"/>
+                <Pulser arcs="(All arcs)" xSSD="80"  ySSD="80"/>
+                <Pulser arcs="(All arcs)" xSSD="200" ySSD="80"/>
+                <Pulser arcs="(All arcs)" xSSD="50"  ySSD="120"/>
+                <Pulser arcs="(All arcs)" xSSD="110" ySSD="120"/>
+                <Pulser arcs="(All arcs)" xSSD="170" ySSD="120"/>
+                <Pulser arcs="(All arcs)" xSSD="230" ySSD="120"/>
+                <Pulser arcs="(AP/FP/F)" xSSD="60"  ySSD="40"/>
+                <Pulser arcs="(AP/FP/F)" xSSD="100" ySSD="40"/>
+                <Pulser arcs="(F/FS/AS)" xSSD="180" ySSD="40"/>
+                <Pulser arcs="(F/FS/AS)" xSSD="220" ySSD="40"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>
+            <Name>Saath</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="40.0" y="20.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="0.0"/>
+
+            <PointValue>658</PointValue>
+            <ClassName>Saath</ClassName>
+            <Race>Phalon</Race>
+            <ClassAbbrev>BDN</ClassAbbrev>
+            <Mass>170</Mass>
+            <ShipClass>Great Warrior</ShipClass>
+            <Designer>GZG</Designer>
+            <MainDrive initialThrust="4"/>
+            <Armor totalArmor="9,5,4"/>
+            <Hull totalHullBoxes="30" type="Custom" value="170"/>
+            <FTLDrive/>
+            <Defenses>
+                <VapourShroud xSSD="195" ySSD="160"/>
+            </Defenses>
+            <Electronics>
+                <FireControl xSSD="100" ySSD="140"/>
+                <FireControl xSSD="120" ySSD="140"/>
+                <FireControl xSSD="140" ySSD="140"/>
+            </Electronics>
+            <Weapons>
+                <PlasmaBoltLauncher arcs="(FP/F/FS)" rating="5" xSSD="80" ySSD="20"/>
+                <PlasmaBoltLauncher arcs="(FP/F/FS)" rating="2" xSSD="160" ySSD="20"/>
+                <Pulser arcs="(FP/F/FS)" xSSD="80" ySSD="60"/>
+                <Pulser arcs="(FP/F/FS)" xSSD="160" ySSD="60"/>
+                <Pulser arcs="(All arcs)" xSSD="80" ySSD="110"/>
+                <Pulser arcs="(All arcs)" xSSD="120" ySSD="110"/>
+                <Pulser arcs="(All arcs)" xSSD="160" ySSD="110"/>
+                <Pulser arcs="(AP/FP/F)" xSSD="40" ySSD="85"/>
+                <Pulser arcs="(F/FS/AS)" xSSD="200" ySSD="85"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>
+            <Name>Voth</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="50.0" y="20.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="0.0"/>
+
+            <PointValue>1041</PointValue>
+            <ClassName>Voth</ClassName>
+            <Race>Phalon</Race>
+            <ClassAbbrev>SDN</ClassAbbrev>
+            <Mass>250</Mass>
+            <ShipClass>Great Warrior</ShipClass>
+            <Designer>GZG</Designer>
+            <Armor totalArmor="16,10,8,6"/>
+            <Hull totalHullBoxes="42" type="Custom" value="250"/>
+            <MainDrive initialThrust="2"/>
+            <FTLDrive/>
+            <Defenses>
+                <VapourShroud xSSD="240" ySSD="190"/>
+            </Defenses>
+            <Electronics>
+                <FireControl xSSD="200" ySSD="220"/>
+                <FireControl xSSD="220" ySSD="220"/>
+                <FireControl xSSD="240" ySSD="220"/>
+                <FireControl xSSD="260" ySSD="220"/>
+                <FireControl xSSD="280" ySSD="220"/>
+            </Electronics>
+            <Weapons>
+                <PlasmaBoltLauncher arcs="(FP/F/FS)" rating="6" xSSD="140" ySSD="20"/>
+                <PlasmaBoltLauncher arcs="(AP/FP/F)" rating="3" xSSD="30" ySSD="80"/>
+                <PlasmaBoltLauncher arcs="(F/FS/AS)" rating="3" xSSD="250" ySSD="80"/>
+                <Pulser arcs="(All arcs)" xSSD="80"  ySSD="80"/>
+                <Pulser arcs="(All arcs)" xSSD="140" ySSD="80"/>
+                <Pulser arcs="(All arcs)" xSSD="200" ySSD="80"/>
+                <Pulser arcs="(All arcs)" xSSD="50"  ySSD="120"/>
+                <Pulser arcs="(All arcs)" xSSD="110" ySSD="120"/>
+                <Pulser arcs="(All arcs)" xSSD="170" ySSD="120"/>
+                <Pulser arcs="(All arcs)" xSSD="230" ySSD="120"/>
+                <Pulser arcs="(AP/FP/F)" xSSD="60"  ySSD="40"/>
+                <Pulser arcs="(AP/FP/F)" xSSD="100" ySSD="40"/>
+                <Pulser arcs="(F/FS/AS)" xSSD="180" ySSD="40"/>
+                <Pulser arcs="(F/FS/AS)" xSSD="220" ySSD="40"/>
+            </Weapons>
+        </Ship>
+
+    </Player>
+</GameEngine>
+
+

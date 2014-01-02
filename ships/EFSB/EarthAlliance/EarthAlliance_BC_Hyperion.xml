@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Hyperion</Name>
+    <Race>EarthAlliance</Race>
+    <ClassAbbrev>CH</ClassAbbrev>
+    <ClassName>Hyperion</ClassName>
+    <ShipClass>Heavy Cruiser</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>114</Mass>
+    <PointValue>421</PointValue>
+    <MainDrive type="Standard" initialThrust="4" active="false" />
+    <Armor totalArmor="0"/>
+    <Hull value="114" type="Custom" class="Military" stealth="0" totalHullBoxes="32"/>
+    <Electronics>
+        <FireControl xSSD="70" ySSD="140"/>
+        <FireControl xSSD="110" ySSD="140"/>
+        <AreaDefenseFireControl xSSD="150" ySSD="140"/>
+    </Electronics>
+    <Defenses>
+        <Screen xSSD="125" ySSD="105"/>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <FighterBay xSSD="25" ySSD="40"/>
+        <FighterBay xSSD="215" ySSD="40"/>
+        <KineticGun  xSSD="75" ySSD="30" rating="4" arcs="(F)"/>
+        <KineticGun  xSSD="170" ySSD="30" rating="4" arcs="(F)"/>
+        <BeamBattery  xSSD="125" ySSD="30" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="75" ySSD="70" rating="2" arcs="(All arcs)"/>
+        <BeamBattery  xSSD="125" ySSD="70" rating="2" arcs="(All arcs)"/>
+        <BeamBattery  xSSD="170" ySSD="70" rating="2" arcs="(All arcs)"/>
+        <PointDefense xSSD="50" ySSD="105"/>
+        <PointDefense xSSD="90" ySSD="105"/>
+        <PointDefense xSSD="160" ySSD="105"/>
+        <PointDefense xSSD="200" ySSD="105"/>
+    </Weapons>
+</Ship>
+

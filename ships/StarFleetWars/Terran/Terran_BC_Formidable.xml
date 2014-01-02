@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <Designer>Dean Gundberg</Designer>
+            <Race>Terran</Race>
+            <ClassAbbrev>BC</ClassAbbrev>
+            <ClassName>Formidable</ClassName>
+            <ShipClass>Battlecruiser</ShipClass>
+            <Mass>144</Mass>
+            <PointValue>489</PointValue>
+            <MainDrive initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="4"/>
+            <Hull  value="144" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="100" ySSD="185"/>
+                <FireControl xSSD="120" ySSD="185"/>
+                <FireControl xSSD="140" ySSD="185"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="120" ySSD="165"/>
+            </Defenses>
+            <Weapons>
+                <PulseTorpedo xSSD="120" ySSD="40"  arcs="(F)"/>
+                <FighterBay xSSD="70"  ySSD="40"/>
+                <FighterBay xSSD="170" ySSD="40"/>
+                <BeamBattery xSSD="80"  ySSD="90"  rating="3" arcs="(AP/FP/F)"/>
+                <BeamBattery xSSD="160" ySSD="90"  rating="3" arcs="(F/FS/AS)"/>
+                <BeamBattery xSSD="120" ySSD="110" rating="2" arcs="(FP/F/FS)"/>
+                <BeamBattery xSSD="40"  ySSD="120" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery xSSD="200" ySSD="120" rating="2" arcs="(F/FS/AS)"/>
+                <PointDefense xSSD="40"  ySSD="160"/>
+                <PointDefense xSSD="80"  ySSD="160"/>
+                <PointDefense xSSD="160" ySSD="160"/>
+                <PointDefense xSSD="200" ySSD="160"/>
+            </Weapons>
+        </Ship>

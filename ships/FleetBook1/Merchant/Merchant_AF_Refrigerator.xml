@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>Merchant</Race>
+            <ClassAbbrev>AF</ClassAbbrev>
+            <ClassName>Refrigerator</ClassName>
+            <ShipClass>Bulk Carrier</ShipClass>
+            <Mass>200</Mass>
+            <PointValue>303</PointValue>
+            <MainDrive type="Standard" initialThrust="1"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="200" type="Fragile" class="Merchant"/>
+            <Electronics/>
+            <Defenses/>
+            <Holds>
+                <CargoHold    xSSD="80" ySSD="40" type="Cargo Hold"   totalSize="149"/>
+            </Holds>
+            <Weapons>
+                <PointDefense xSSD="80" ySSD="175"/>
+            </Weapons>
+        </Ship>

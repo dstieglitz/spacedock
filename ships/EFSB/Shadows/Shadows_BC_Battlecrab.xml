@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Battlecrab</Name>
+    <Race>Shadows</Race>
+    <ClassAbbrev>CE</ClassAbbrev>
+    <ClassName>Cruiser</ClassName>
+    <ShipClass>Patrol Cruiser</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>160</Mass>
+    <PointValue>768</PointValue>
+    <MainDrive type="Advanced" initialThrust="6" active="false" />
+    <FTLDrive/>
+    <Armor totalArmor="8,5"/>
+    <Hull value="160" type="Custom" class="Military" stealth="2" rows="3" totalHullBoxes="24"/>
+    <Electronics>
+        <FireControl xSSD="95" ySSD="161"/>
+    </Electronics>
+    <Defenses>
+        <Screen xSSD="83" ySSD="111"/>
+        <Screen xSSD="105" ySSD="111"/>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <KineticGun  xSSD="95" ySSD="24" rating="7" arcs="(F)"/>
+        <KineticGun  xSSD="95" ySSD="62" rating="7" arcs="(F)"/>
+        <Scattergun xSSD="41" ySSD="36"/>
+        <Scattergun xSSD="157" ySSD="35"/>
+        <Scattergun xSSD="41" ySSD="68"/>
+        <Scattergun xSSD="157" ySSD="68"/>
+        <Scattergun xSSD="41" ySSD="104"/>
+        <Scattergun xSSD="158" ySSD="101"/>
+        <Scattergun xSSD="41" ySSD="138"/>
+        <Scattergun xSSD="156" ySSD="135"/>
+    </Weapons>
+</Ship>
+

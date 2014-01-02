@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Starliner</Name>
+    <Race>EarthAlliance</Race>
+    <ClassAbbrev>AL</ClassAbbrev>
+    <ClassName>Starliner</ClassName>
+    <ShipClass>AL</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>60</Mass>
+    <PointValue>131</PointValue>
+    <MainDrive type="Standard" initialThrust="4" active="false" />
+    <Armor totalArmor="0"/>
+    <Hull value="60" type="Custom" class="Military" stealth="0" totalHullBoxes="20" rows="5"/>
+    <Electronics>
+        <FireControl xSSD="98" ySSD="81"/>
+    </Electronics>
+    <Defenses>
+    </Defenses>
+    <Holds>
+        <CargoHold  xSSD="99" ySSD="127" type="Passenger Space" totalSize="26"/>
+    </Holds>
+    <Weapons>
+        <BeamBattery  xSSD="98" ySSD="43" rating="1" arcs="(All arcs)"/>
+    </Weapons>
+</Ship>
+

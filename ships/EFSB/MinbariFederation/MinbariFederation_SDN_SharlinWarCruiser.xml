@@ -1,0 +1,47 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Black Star</Name>
+    <Race>MinbariFederation</Race>
+    <ClassAbbrev>SDN</ClassAbbrev>
+    <ClassName>War Cruiser</ClassName>
+    <ShipClass>Superdreadnought</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>314</Mass>
+    <PointValue>1340</PointValue>
+    <MainDrive type="Advanced" initialThrust="6" active="false" />
+    <FTLDrive/>
+    <Armor totalArmor="0"/>
+    <Hull value="314" type="Custom" class="Military" stealth="1" totalHullBoxes="60"/>
+    <Electronics>
+        <FireControl xSSD="104" ySSD="165"/>
+        <FireControl xSSD="135" ySSD="165"/>
+        <FireControl xSSD="164" ySSD="165"/>
+    </Electronics>
+    <Defenses>
+        <Screen xSSD="123" ySSD="80"/>
+        <Screen xSSD="144" ySSD="80"/>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <FighterBay xSSD="25" ySSD="27"/>
+        <FighterBay xSSD="25" ySSD="75"/>
+        <FighterBay xSSD="226" ySSD="27"/>
+        <FighterBay xSSD="226" ySSD="75"/>
+        <KineticGun  xSSD="113" ySSD="34" rating="4" arcs="(F)"/>
+        <KineticGun  xSSD="155" ySSD="34" rating="4" arcs="(F)"/>
+        <KineticGun  xSSD="182" ySSD="65" rating="4" arcs="(FS/AS)"/>
+        <KineticGun  xSSD="182" ySSD="96" rating="3" arcs="(FS/AS)"/>
+        <KineticGun  xSSD="88" ySSD="66" rating="4" arcs="(AP/FP)"/>
+        <KineticGun  xSSD="88" ySSD="97" rating="3" arcs="(AP/FP)"/>
+        <KineticGun  xSSD="114" ySSD="127" rating="3" arcs="(A)"/>
+        <KineticGun  xSSD="153" ySSD="126" rating="3" arcs="(A)"/>
+        <PointDefense xSSD="60" ySSD="132"/>
+        <PointDefense xSSD="27" ySSD="132"/>
+        <PointDefense xSSD="45" ySSD="160"/>
+        <PointDefense xSSD="204" ySSD="131"/>
+        <PointDefense xSSD="234" ySSD="131"/>
+        <PointDefense xSSD="222" ySSD="157"/>
+    </Weapons>
+</Ship>
+

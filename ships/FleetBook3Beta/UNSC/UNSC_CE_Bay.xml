@@ -1,0 +1,34 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>UNSC</Race>
+            <ClassAbbrev>CE</ClassAbbrev>
+            <ClassName>Bay</ClassName>
+            <ShipClass>Escort Cruiser</ShipClass>
+            <Mass>70</Mass>
+            <PointValue>256</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="70" type="Custom" totalHullBoxes="21" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="60" ySSD="185"/>
+                <FireControl xSSD="140"  ySSD="185"/>
+                <AreaDefenseFireControl xSSD="100" ySSD="185"/>
+            </Electronics>
+            <Defenses>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <PulseTorpedo xSSD="100" ySSD="40" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="50"  ySSD="50"  rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="150" ySSD="50"  rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="100" ySSD="100" rating="1"/>
+
+                <PointDefense xSSD="35"  ySSD="160"/>
+                <PointDefense xSSD="50"  ySSD="135"/>
+                <PointDefense xSSD="65"  ySSD="160"/>
+                <PointDefense xSSD="135" ySSD="160"/>
+                <PointDefense xSSD="150" ySSD="135"/>
+                <PointDefense xSSD="165" ySSD="160"/>
+            </Weapons>
+        </Ship>

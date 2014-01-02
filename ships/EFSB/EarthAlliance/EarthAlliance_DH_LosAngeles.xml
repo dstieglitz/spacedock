@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Los Angeles</Name>
+    <Race>EarthAlliance</Race>
+    <ClassAbbrev>DH</ClassAbbrev>
+    <ClassName>Los Angeles</ClassName>
+    <ShipClass>Heavy Destroyer</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>48</Mass>
+    <PointValue>160</PointValue>
+    <MainDrive type="Standard" initialThrust="6" active="false" />
+    <Armor totalArmor="0"/>
+    <Hull value="48" type="Custom" class="Military" stealth="0" totalHullBoxes="20"/>
+    <Electronics>
+        <FireControl xSSD="97" ySSD="167"/>
+        <FireControl xSSD="119" ySSD="168"/>
+    </Electronics>
+    <Defenses>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <BeamBattery  xSSD="33" ySSD="36" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="98" ySSD="36" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="167" ySSD="34" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="34" ySSD="82" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="98" ySSD="81" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="166" ySSD="79" rating="2" arcs="(F)"/>
+    </Weapons>
+</Ship>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>New Anglian Confederation</Race>
+            <ClassAbbrev>CT</ClassAbbrev>
+            <ClassName>Arapaho</ClassName>
+            <ShipClass>Corvette</ShipClass>
+            <Mass>12</Mass>
+            <PointValue>41</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="1"/>
+            <Hull value="12" type="Weak"/>
+            <Electronics>
+                <FireControl xSSD="140" ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <BeamBattery  xSSD="100" ySSD="90" rating="1" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="180" ySSD="90" rating="1" arcs="(All arcs)"/>
+                <PointDefense xSSD="140" ySSD="140"/>
+            </Weapons>
+        </Ship>

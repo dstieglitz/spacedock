@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <Designer>Oerjan Ohlson</Designer>
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>CH</ClassAbbrev>
+            <ClassName>Ka'Ton</ClassName>
+            <ShipClass>Heavy Cruiser</ShipClass>
+            <Mass>82</Mass>
+            <PointValue>322</PointValue>
+            <MainDrive initialThrust="4" type="Advanced"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull totalHullBoxes="30" type="Custom" value="82"/>
+            <Electronics>
+                <FireControl xSSD="70"  ySSD="180"/>
+                <FireControl xSSD="90"  ySSD="180"/>
+            </Electronics>
+            <Weapons>
+                <KineticGun xSSD="20"  ySSD="115" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="140"  ySSD="115" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="80"  ySSD="55" rating="1"/>
+                <KineticGun xSSD="80"  ySSD="85" rating="1"/>
+                <KineticGun xSSD="80"  ySSD="115" rating="1"/>
+                <MultipleKineticPenetratorPack xSSD="40"  ySSD="40" arcs="(F)"/>
+                <MultipleKineticPenetratorPack xSSD="25" ySSD="65" arcs="(F)"/>
+                <MultipleKineticPenetratorPack xSSD="55"  ySSD="65" arcs="(F)"/>
+                <MultipleKineticPenetratorPack xSSD="120" ySSD="40" arcs="(F)"/>
+                <MultipleKineticPenetratorPack xSSD="135"  ySSD="65" arcs="(F)"/>
+                <MultipleKineticPenetratorPack xSSD="105"  ySSD="65" arcs="(F)"/>
+                <Scattergun xSSD="20"  ySSD="150"/>
+                <Scattergun xSSD="60"  ySSD="150"/>
+                <Scattergun xSSD="100" ySSD="150"/>
+                <Scattergun xSSD="140" ySSD="150"/>
+            </Weapons>
+        </Ship>
+

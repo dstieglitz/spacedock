@@ -1,0 +1,104 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <Designer>Dean Gundberg</Designer>
+            <Race>Entomalian</Race>
+            <ClassAbbrev>SDN</ClassAbbrev>
+            <ClassName>Swarm Mk II</ClassName>
+            <ShipClass>Superdreadnought</ShipClass>
+            <Mass>410</Mass>
+            <PointValue>1464</PointValue>
+            <MainDrive initialThrust="2"/>
+            <FTLDrive/>
+            <Armor totalArmor="60"/>
+            <Hull  value="410" type="Fragile"/>
+            <Electronics>
+                <FireControl xSSD="250" ySSD="235"/>
+                <FireControl xSSD="270" ySSD="235"/>
+                <FireControl xSSD="290" ySSD="235"/>
+                <FireControl xSSD="310" ySSD="235"/>
+                <FireControl xSSD="330" ySSD="235"/>
+                <AreaDefenseFireControl xSSD="350" ySSD="235"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="280" ySSD="215"/>
+                <Screen xSSD="320" ySSD="215"/>
+            </Defenses>
+            <Weapons>
+                <SalvoMissileLauncher xSSD="260" ySSD="20" smmId="51" arcs="(AP/FP/F)"/>
+                <SalvoMissileLauncher xSSD="240" ySSD="60" smmId="51" arcs="(AP/FP/F)"/>
+                <SalvoMissileLauncher xSSD="300" ySSD="20" smmId="51" arcs="(FP/F/FS)"/>
+                <SalvoMissileLauncher xSSD="340" ySSD="20" smmId="51" arcs="(F/FS/AS)"/>
+                <SalvoMissileLauncher xSSD="360" ySSD="60" smmId="51" arcs="(F/FS/AS)"/>
+                <SalvoMissileMagazine xSSD="300" ySSD="80" id="51" maxInRow="4" capacity="32">
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                </SalvoMissileMagazine>
+
+                <FighterBay  xSSD="200"  ySSD="50" />
+                <FighterBay  xSSD="400"  ySSD="50" />
+
+                <BeamBattery xSSD="60"  ySSD="65" rating="4" arcs="(FP/F)"/>
+                <BeamBattery xSSD="100" ySSD="65" rating="4" arcs="(FP/F/FS)"/>
+                <BeamBattery xSSD="500" ySSD="65" rating="4" arcs="(FP/F/FS)"/>
+                <BeamBattery xSSD="540" ySSD="65" rating="4" arcs="(F/FS)"/>
+
+                <BeamBattery xSSD="60"  ySSD="100" rating="3" arcs="(AP/FP/F)"/>
+                <BeamBattery xSSD="100" ySSD="100" rating="3" arcs="(AP/FP/F)"/>
+                <BeamBattery xSSD="140" ySSD="100" rating="3" arcs="(FP/F/FS)"/>
+                <BeamBattery xSSD="500" ySSD="100" rating="3" arcs="(F/FS/AS)"/>
+                <BeamBattery xSSD="540" ySSD="100" rating="3" arcs="(F/FS/AS)"/>
+
+                <BeamBattery xSSD="60"  ySSD="135" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery xSSD="100" ySSD="135" rating="2" arcs="(A/AP/FP)"/>
+                <BeamBattery xSSD="140" ySSD="135" rating="2" arcs="(A/AP/FP)"/>
+                <BeamBattery xSSD="460" ySSD="135" rating="2" arcs="(A/AS/FS)"/>
+                <BeamBattery xSSD="500" ySSD="135" rating="2" arcs="(A/AS/FS)"/>
+                <BeamBattery xSSD="540" ySSD="135" rating="2" arcs="(F/FS/AS)"/>
+
+                <BeamBattery xSSD="40"  ySSD="165" rating="1"/>
+                <BeamBattery xSSD="80"  ySSD="165" rating="1"/>
+                <BeamBattery xSSD="120" ySSD="165" rating="1"/>
+                <BeamBattery xSSD="160" ySSD="165" rating="1"/>
+                <BeamBattery xSSD="440" ySSD="165" rating="1"/>
+                <BeamBattery xSSD="480" ySSD="165" rating="1"/>
+                <BeamBattery xSSD="520" ySSD="165" rating="1"/>
+                <BeamBattery xSSD="560" ySSD="165" rating="1"/>
+
+                <SubmunitionPack xSSD="25"  ySSD="30" arcs="(FP)"/>
+                <SubmunitionPack xSSD="65"  ySSD="30" arcs="(FP)"/>
+                <SubmunitionPack xSSD="105" ySSD="30" arcs="(FP)"/>
+                <SubmunitionPack xSSD="145" ySSD="30" arcs="(FP)"/>
+                <SubmunitionPack xSSD="185" ySSD="30" arcs="(FP)"/>
+
+                <SubmunitionPack xSSD="225" ySSD="150" arcs="(F)"/>
+                <SubmunitionPack xSSD="265" ySSD="150" arcs="(F)"/>
+                <SubmunitionPack xSSD="345" ySSD="150" arcs="(F)"/>
+                <SubmunitionPack xSSD="385" ySSD="150" arcs="(F)"/>
+
+                <SubmunitionPack xSSD="425" ySSD="30" arcs="(FS)"/>
+                <SubmunitionPack xSSD="465" ySSD="30" arcs="(FS)"/>
+                <SubmunitionPack xSSD="505" ySSD="30" arcs="(FS)"/>
+                <SubmunitionPack xSSD="545" ySSD="30" arcs="(FS)"/>
+                <SubmunitionPack xSSD="585" ySSD="30" arcs="(FS)"/>
+
+                <PointDefense xSSD="380" ySSD="220"/>
+                <PointDefense xSSD="410" ySSD="220"/>
+                <PointDefense xSSD="440" ySSD="220"/>
+                <PointDefense xSSD="470" ySSD="220"/>
+                <PointDefense xSSD="500" ySSD="220" />
+            </Weapons>
+        </Ship>

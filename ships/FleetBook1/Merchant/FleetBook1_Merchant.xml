@@ -1,0 +1,273 @@
+<?xml version="1.0" standalone="yes" ?>
+<GameEngine id="1111" name="Merchant" turn="0">
+    <Player id="1" name="First Last" email="last@hotmail.com">
+        <Ship>        
+            <Name>Tagus</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="0.0" y="10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Merchant</Race>
+            <ClassAbbrev>AKH</ClassAbbrev>
+            <ClassName>Tagus</ClassName>
+            <ShipClass>Heavy Freighter</ShipClass>
+            <Mass>120</Mass>
+            <PointValue>195</PointValue>
+            <MainDrive type="Standard" initialThrust="2"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="120" type="Fragile" class="Merchant"/>
+            <Electronics/>
+            <Defenses/>
+            <Holds>
+                <CargoHold xSSD="80" ySSD="40" type="Cargo Hold"   totalSize="83"/>
+            </Holds>
+            <Weapons>
+                <PointDefense xSSD="80" ySSD="185"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Turkey Run</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="10.0" y="10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="12.0"/>
+            <Course course="0.0"/>
+            
+            <Race>Merchant</Race>
+            <ClassAbbrev>AKL</ClassAbbrev>
+            <ClassName>Turkey Run</ClassName>
+            <ShipClass>Light Frieghter</ShipClass>
+            <Mass>40</Mass>
+            <PointValue>67</PointValue>
+            <MainDrive type="Standard" initialThrust="2"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="40" type="Fragile" class="Merchant"/>
+            <Electronics/>
+            <Defenses/>
+            <Holds>
+                <CargoHold xSSD="80" ySSD="40" type="Cargo Hold"   totalSize="27"/>
+            </Holds>
+            <Weapons>
+                <PointDefense xSSD="80" ySSD="185"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Camel</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="20.0" y="10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Merchant</Race>
+            <ClassAbbrev>AO</ClassAbbrev>
+            <ClassName>Camel</ClassName>
+            <ShipClass>Fleet Auxiliary</ShipClass>
+            <Mass>100</Mass>
+            <PointValue>193</PointValue>
+            <MainDrive type="Standard" initialThrust="2"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="100" type="Weak" class="Merchant"/>
+            <Electronics>
+                <FireControl xSSD="80" ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds>
+                <CargoHold      xSSD="80" ySSD="40" type="Cargo Hold"   totalSize="56"/>
+            </Holds>
+            <Weapons>
+                <BeamBattery    xSSD="80" ySSD="110" rating="1" arcs="(All arcs)"/>
+
+                <PointDefense   xSSD="55"  ySSD="155"/>
+                <PointDefense   xSSD="105" ySSD="155"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Refrigerator</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="30.0" y="10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Merchant</Race>
+            <ClassAbbrev>AF</ClassAbbrev>
+            <ClassName>Refrigerator</ClassName>
+            <ShipClass>Bulk Carrier</ShipClass>
+            <Mass>200</Mass>
+            <PointValue>303</PointValue>
+            <MainDrive type="Standard" initialThrust="1"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="200" type="Fragile" class="Merchant"/>
+            <Electronics/>
+            <Defenses/>
+            <Holds>
+                <CargoHold    xSSD="80" ySSD="40" type="Cargo Hold"   totalSize="149"/>
+            </Holds>
+            <Weapons>
+                <PointDefense xSSD="80" ySSD="175"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Fruit Basket</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="0.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Merchant</Race>
+            <ClassAbbrev>AKM</ClassAbbrev>
+            <ClassName>Fruit Basket</ClassName>
+            <ShipClass>Medium Freighter</ShipClass>
+            <Mass>80</Mass>
+            <PointValue>131</PointValue>
+            <MainDrive type="Standard" initialThrust="2"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="80" type="Fragile" class="Merchant"/>
+            <Electronics/>
+            <Defenses/>
+            <Holds>
+                <CargoHold    xSSD="80" ySSD="40" type="Cargo Hold"   totalSize="55"/>
+            </Holds>
+            <Weapons>
+                <PointDefense xSSD="80" ySSD="175"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Free Trader</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="10.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Merchant</Race>
+            <ClassAbbrev>AG</ClassAbbrev>
+            <ClassName>Free Trader</ClassName>
+            <ShipClass>Free Trader</ShipClass>
+            <Mass>20</Mass>
+            <PointValue>47</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="20" type="Weak" class="Merchant"/>
+            <Electronics>
+                <FireControl xSSD="80" ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds>
+                <CargoHold      xSSD="80" ySSD="40" type="Cargo Hold"   totalSize="8"/>
+            </Holds>
+            <Weapons>
+                <BeamBattery    xSSD="80" ySSD="110" rating="1" arcs="(All arcs)"/>
+
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Alligator</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="20.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Eurasian Solar Union</Race>
+            <ClassAbbrev>APA</ClassAbbrev>
+            <ClassName>Alligator</ClassName>
+            <ShipClass>Assault Transport</ShipClass>
+            <Mass>120</Mass>
+            <PointValue>377</PointValue>
+            <MainDrive type="Standard" initialThrust="2"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="120" type="Weak" class="Merchant"/>
+            <Electronics>
+                <FireControl xSSD="80" ySSD="180"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="80" ySSD="160"/>
+            </Defenses>
+            <Holds>
+                <CargoHold      xSSD="80" ySSD="40" type="Troop Transport" totalSize="32"/>
+            </Holds>
+            <Weapons>
+<!--            <HangerBay size="20"/> -->
+                <BeamBattery    xSSD="80" ySSD="110" rating="1" arcs="(All arcs)"/>
+
+                <PointDefense   xSSD="45"  ySSD="165"/>
+                <PointDefense   xSSD="115" ySSD="165"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Blue Orchid</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="30.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Merchant</Race>
+            <ClassAbbrev>AL</ClassAbbrev>
+            <ClassName>Blue Orchid</ClassName>
+            <ShipClass>Starliner</ShipClass>
+            <Mass>120</Mass>
+            <PointValue>205</PointValue>
+            <MainDrive type="Standard" initialThrust="2"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="120" type="Fragile" class="Merchant"/>
+            <Electronics>
+                <FireControl  xSSD="80" ySSD="185"/>
+            </Electronics>
+            <Defenses/>
+            <Holds>
+                <CargoHold      xSSD="80" ySSD="40"  type="Passenger"   totalSize="80"/>
+            </Holds>
+            <Weapons>
+                <BeamBattery    xSSD="80" ySSD="110" rating="1" arcs="(All arcs)"/>
+
+                <PointDefense   xSSD="55"  ySSD="145"/>
+                <PointDefense   xSSD="105" ySSD="145"/>
+            </Weapons>
+        </Ship>
+    </Player>
+</GameEngine>

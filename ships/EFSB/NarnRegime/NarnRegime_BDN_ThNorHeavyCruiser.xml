@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Th'Nor</Name>
+    <Race>NarnRegime</Race>
+    <ClassAbbrev>BDN</ClassAbbrev>
+    <ClassName>Th'Nor</ClassName>
+    <ShipClass>Heavy Battleship</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>170</Mass>
+    <PointValue>584</PointValue>
+    <MainDrive type="Standard" initialThrust="6" active="false" />
+    <FTLDrive/>
+    <Armor totalArmor="0"/>
+    <Hull value="170" type="Custom" class="Military" stealth="0" totalHullBoxes="36"/>
+    <Electronics>
+        <FireControl xSSD="140" ySSD="165"/>
+        <FireControl xSSD="165" ySSD="165"/>
+    </Electronics>
+    <Defenses>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <FighterBay xSSD="40" ySSD="50"/>
+        <FighterBay xSSD="250" ySSD="50"/>
+        <FighterBay xSSD="44" ySSD="109"/>
+        <FighterBay xSSD="249" ySSD="105"/>
+        <PlasmaBoltLauncher xSSD="148" ySSD="40" rating="2" arcs="(F)"/>
+        <KineticGun  xSSD="80" ySSD="40" rating="2" arcs="(F)"/>
+        <KineticGun  xSSD="205" ySSD="40" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="105" ySSD="85" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="190" ySSD="85" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="175" ySSD="125" rating="2" arcs="(FS/AS)"/>
+        <BeamBattery  xSSD="130" ySSD="125" rating="2" arcs="(AP/FP)"/>
+        <BeamBattery  xSSD="150" ySSD="85" rating="2" arcs="(A)"/>
+        <PointDefense xSSD="90" ySSD="165"/>
+        <PointDefense xSSD="218" ySSD="168"/>
+    </Weapons>
+</Ship>
+

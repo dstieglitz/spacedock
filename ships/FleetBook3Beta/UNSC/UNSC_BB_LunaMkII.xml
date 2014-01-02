@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>UNSC</Race>
+            <ClassAbbrev>BB</ClassAbbrev>
+            <ClassName>Luna/MkII</ClassName>
+            <ShipClass>Battleship</ShipClass>
+            <Mass>137</Mass>
+            <PointValue>531</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="137" type="Custom" totalHullBoxes="39" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="130" ySSD="185"/>
+                <FireControl xSSD="150" ySSD="185"/>
+                <FireControl xSSD="170" ySSD="185"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="150" ySSD="160"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <PulseTorpedo xSSD="125" ySSD="40" arcs="(FP/F/FS)"/>
+                <PulseTorpedo xSSD="175" ySSD="40" arcs="(FP/F/FS)"/>
+
+                <Graser       xSSD="150" ySSD="90" rating="2" arcs="(FP/F/FS)"/>
+                <Graser       xSSD="70"  ySSD="60" rating="1" arcs="(AP/FP/F)"/>
+                <Graser       xSSD="230" ySSD="60" rating="1" arcs="(F/FS/AS)"/>
+
+                <BeamBattery  xSSD="50"  ySSD="100" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="90"  ySSD="100" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="210" ySSD="100" rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="250" ySSD="100" rating="2" arcs="(F/FS/AS)"/>
+
+                <BeamBattery  xSSD="130" ySSD="130" rating="1"/>
+                <BeamBattery  xSSD="170" ySSD="130" rating="1"/>
+
+                <PointDefense xSSD="90"  ySSD="165"/>
+                <PointDefense xSSD="120" ySSD="165"/>
+                <PointDefense xSSD="180" ySSD="165"/>
+                <PointDefense xSSD="210" ySSD="165"/>
+            </Weapons>
+        </Ship>

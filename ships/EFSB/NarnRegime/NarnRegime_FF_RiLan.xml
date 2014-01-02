@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Ri'Lan</Name>
+    <Race>Narn Regime</Race>
+    <ClassAbbrev>FF</ClassAbbrev>
+    <ClassName>Ri'Lan</ClassName>
+    <ShipClass>Frigate</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>27</Mass>
+    <PointValue>104</PointValue>
+    <MainDrive type="Standard" initialThrust="6" active="false" />
+    <Armor totalArmor="0"/>
+    <Hull value="27" type="Custom" class="Military" stealth="0" rows="3" totalHullBoxes="12"/>
+    <Electronics>
+        <FireControl xSSD="103" ySSD="132"/>
+    </Electronics>
+    <Defenses>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <KineticGun  xSSD="103" ySSD="35" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="47" ySSD="28" rating="1" arcs="(AP/FP/F/FS/AS)"/>
+        <BeamBattery  xSSD="165" ySSD="27" rating="1" arcs="(AP/FP/F/FS/AS)"/>
+        <PointDefense xSSD="104" ySSD="83"/>
+    </Weapons>
+</Ship>
+

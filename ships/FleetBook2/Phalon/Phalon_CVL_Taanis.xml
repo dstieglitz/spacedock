@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <PointValue>641</PointValue>
+            <ClassName>Taanis</ClassName>
+            <Race>Phalon</Race>
+            <ClassAbbrev>CVL</ClassAbbrev>
+            <Mass>170</Mass>
+            <ShipClass>Mothership</ShipClass>
+            <Designer>GZG</Designer>
+            <MainDrive initialThrust="4"/>
+            <Hull totalHullBoxes="30" type="Custom" value="170"/>
+            <Armor totalArmor="8,4,4"/>
+            <FTLDrive/>
+            <Defenses>
+                <VapourShroud xSSD="195" ySSD="160"/>
+            </Defenses>
+            <Electronics>
+                <FireControl xSSD="100" ySSD="140"/>
+                <FireControl xSSD="140" ySSD="140"/>
+            </Electronics>
+            <Weapons>
+                <PlasmaBoltLauncher arcs="(FP/F/FS)" rating="2" xSSD="120" ySSD="20"/>
+                <Pulser arcs="(All arcs)" xSSD="120" ySSD="60"/>
+                <Pulser arcs="(F/FS/AS)" xSSD="170" ySSD="40"/>
+                <Pulser arcs="(F/FS/AS)" xSSD="170" ySSD="90"/>
+                <Pulser arcs="(AP/FP/F)" xSSD="70" ySSD="40"/>
+                <Pulser arcs="(AP/FP/F)" xSSD="70" ySSD="90"/>
+                <FighterBay xSSD="25" ySSD="30"/>
+                <FighterBay xSSD="25" ySSD="110"/>
+                <FighterBay xSSD="215" ySSD="30"/>
+                <FighterBay xSSD="215" ySSD="110"/>
+            </Weapons>
+        </Ship>

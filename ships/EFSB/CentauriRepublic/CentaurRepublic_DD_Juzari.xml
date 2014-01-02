@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Juzari</Name>
+    <Race>CentauriRepublic</Race>
+    <ClassAbbrev>DD</ClassAbbrev>
+    <ClassName>Juzari</ClassName>
+    <ShipClass>Destroyer</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>36</Mass>
+    <PointValue>119</PointValue>
+    <MainDrive type="Standard" initialThrust="6" active="false" />
+    <Armor totalArmor="0"/>
+    <Hull value="36" type="Custom" class="Military" stealth="0" totalHullBoxes="16"/>
+    <Electronics>
+        <FireControl xSSD="88" ySSD="166"/>
+        <FireControl xSSD="115" ySSD="166"/>
+    </Electronics>
+    <Defenses>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <BeamBattery  xSSD="98" ySSD="37" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="57" ySSD="89" rating="2" arcs="(AP/FP)"/>
+        <BeamBattery  xSSD="141" ySSD="87" rating="2" arcs="(FS/AS)"/>
+        <PointDefense xSSD="102" ySSD="124"/>
+    </Weapons>
+</Ship>
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <Designer>Oerjan Ohlson</Designer>
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>CL</ClassAbbrev>
+            <ClassName>De'Rek</ClassName>
+            <ShipClass>Light Cruiser</ShipClass>
+            <Mass>60</Mass>
+            <PointValue>235</PointValue>
+            <MainDrive initialThrust="4" type="Advanced"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull totalHullBoxes="22" type="Custom" value="60"/>
+            <Electronics>
+                <FireControl xSSD="70"  ySSD="180"/>
+                <FireControl xSSD="90"  ySSD="180"/>
+            </Electronics>
+            <Weapons>
+                <KineticGun xSSD="80"  ySSD="60" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="50"  ySSD="80" rating="2" arcs="(FP/F)"/>
+                <KineticGun xSSD="110"  ySSD="80" rating="2" arcs="(F/FS)"/>
+                <KineticGun xSSD="80"  ySSD="100" rating="1"/>
+                <Scattergun xSSD="40"  ySSD="140"/>
+                <Scattergun xSSD="80" ySSD="140"/>
+                <Scattergun xSSD="120" ySSD="140"/>
+            </Weapons>
+        </Ship>
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Eiger</Name>
+    <Race>EarthAlliance</Race>
+    <ClassAbbrev>CE </ClassAbbrev>
+    <ClassName>Eiger Aegis</ClassName>
+    <ShipClass>Escort Cruiser</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>59</Mass>
+    <PointValue>202</PointValue>
+    <MainDrive type="Standard" initialThrust="4" active="false" />
+    <FTLDrive/>
+    <Armor totalArmor="0"/>
+    <Hull value="59" type="Custom" class="Military" stealth="0" totalHullBoxes="24"/>
+    <Electronics>
+        <AreaDefenseFireControl xSSD="99" ySSD="153"/>
+        <FireControl xSSD="79" ySSD="153"/>
+        <FireControl xSSD="118" ySSD="153"/>
+        <AreaDefenseFireControl xSSD="60" ySSD="153"/>
+        <AreaDefenseFireControl xSSD="138" ySSD="153"/>
+    </Electronics>
+    <Defenses>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <BeamBattery  xSSD="94" ySSD="27" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="95" ySSD="87" rating="1" arcs="(All arcs)"/>
+        <PointDefense xSSD="22" ySSD="125"/>
+        <PointDefense xSSD="63" ySSD="125"/>
+        <PointDefense xSSD="42" ySSD="98"/>
+        <PointDefense xSSD="132" ySSD="120"/>
+        <PointDefense xSSD="172" ySSD="120"/>
+        <PointDefense xSSD="151" ySSD="92"/>
+    </Weapons>
+</Ship>
+

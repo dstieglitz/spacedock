@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <PointValue>84</PointValue>
+            <ClassName>Tyaph</ClassName>
+            <Race>Phalon</Race>
+            <ClassAbbrev>FF</ClassAbbrev>
+            <Mass>21</Mass>
+            <ShipClass>Protector</ShipClass>
+            <Designer>GZG</Designer>
+            <MainDrive initialThrust="6"/>
+            <Hull totalHullBoxes="3" type="Custom" value="21"/>
+            <Armor totalArmor="2"/>
+            <FTLDrive/>
+            <Defenses>
+                <VapourShroud xSSD="60" ySSD="120"/>
+            </Defenses>
+            <Electronics>
+                <FireControl xSSD="60" ySSD="80"/>
+            </Electronics>
+            <Weapons>
+                <Pulser arcs="(All arcs)" xSSD="90" ySSD="40"/>
+                <Pulser arcs="(F)" xSSD="30" ySSD="40"/>
+            </Weapons>
+        </Ship>
+

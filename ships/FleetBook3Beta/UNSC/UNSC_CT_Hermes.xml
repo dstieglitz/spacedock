@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>UNSC</Race>
+            <ClassAbbrev>CT</ClassAbbrev>
+            <ClassName>Hermes</ClassName>
+            <ShipClass>Courier</ShipClass>
+            <Mass>8</Mass>
+            <PointValue>29</PointValue>
+            <MainDrive type="Standard" initialThrust="7"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="8" type="Custom" totalHullBoxes="1" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="100"  ySSD="185"/>
+            </Electronics>
+            <Defenses>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <BeamBattery  xSSD="100" ySSD="60"  rating="1"/>
+                <BeamBattery  xSSD="100" ySSD="100" rating="1"/>
+            </Weapons>
+        </Ship>

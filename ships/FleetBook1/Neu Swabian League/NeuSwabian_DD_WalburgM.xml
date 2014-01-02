@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>Neu Swabian League</Race>
+            <ClassAbbrev>DD</ClassAbbrev>
+            <ClassName>WaldburgM</ClassName>
+            <ShipClass>Missile Destroyer</ShipClass>
+            <Mass>30</Mass>
+            <PointValue>101</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="2"/>
+            <Hull value="30" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="100" ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <SalvoMissileLauncher xSSD="100" ySSD="20" smmId="101" arcs="(FP/F/FS)"/>
+                <SalvoMissileMagazine xSSD="100" ySSD="60" id="101" maxInRow="2" capacity="4">
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                </SalvoMissileMagazine>
+
+                <BeamBattery  xSSD="100" ySSD="110" rating="1" arcs="(All arcs)"/>
+                <PointDefense xSSD="100" ySSD="150" />
+            </Weapons>
+        </Ship>

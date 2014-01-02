@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>UNSC</Race>
+            <ClassAbbrev>CVE</ClassAbbrev>
+            <ClassName>Comet</ClassName>
+            <ShipClass>Escort Carrier</ShipClass>
+            <Mass>87</Mass>
+            <PointValue>326</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="87" type="Custom" totalHullBoxes="24" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="110" ySSD="190"/>
+                <FireControl xSSD="140" ySSD="190"/>
+                <AreaDefenseFireControl xSSD="170" ySSD="190"/>
+            </Electronics>
+            <Defenses>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <FighterBay   xSSD="50"  ySSD="50"/>
+                <FighterBay   xSSD="230" ySSD="50"/>
+
+                <BeamBattery  xSSD="110" ySSD="80" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="140" ySSD="50"  rating="2" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="170" ySSD="80" rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="110" ySSD="120" rating="1"/>
+                <BeamBattery  xSSD="170" ySSD="120" rating="1"/>
+
+                <PointDefense xSSD="65"  ySSD="155"/>
+                <PointDefense xSSD="95"  ySSD="155"/>
+                <PointDefense xSSD="125" ySSD="155"/>
+                <PointDefense xSSD="155" ySSD="155"/>
+                <PointDefense xSSD="185" ySSD="155"/>
+                <PointDefense xSSD="215" ySSD="155"/>
+            </Weapons>
+        </Ship>

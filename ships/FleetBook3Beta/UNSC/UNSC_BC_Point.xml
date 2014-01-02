@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>UNSC</Race>
+            <ClassAbbrev>BC</ClassAbbrev>
+            <ClassName>Point</ClassName>
+            <ShipClass>Battlecruiser</ShipClass>
+            <Mass>109</Mass>
+            <PointValue>415</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="109" type="Custom" totalHullBoxes="33" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="80"  ySSD="185"/>
+                <FireControl xSSD="100" ySSD="185"/>
+                <FireControl xSSD="120" ySSD="185"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="100" ySSD="160"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <PulseTorpedo xSSD="75"  ySSD="40" arcs="(FP/F/FS)"/>
+                <PulseTorpedo xSSD="125" ySSD="40" arcs="(FP/F/FS)"/>
+
+                <Graser       xSSD="100" ySSD="90" rating="2" arcs="(F)"/>
+
+                <BeamBattery  xSSD="40"  ySSD="60"  rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="160" ySSD="60"  rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="40"  ySSD="100" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="160" ySSD="100" rating="2" arcs="(F/FS/AS)"/>
+
+                <BeamBattery  xSSD="80"  ySSD="130" rating="1"/>
+                <BeamBattery  xSSD="120" ySSD="130" rating="1"/>
+
+                <PointDefense xSSD="40"  ySSD="165"/>
+                <PointDefense xSSD="70"  ySSD="165"/>
+                <PointDefense xSSD="130" ySSD="165"/>
+                <PointDefense xSSD="160" ySSD="165"/>
+            </Weapons>
+        </Ship>

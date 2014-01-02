@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>Merchant</Race>
+            <ClassAbbrev>AKM</ClassAbbrev>
+            <ClassName>Fruit Basket</ClassName>
+            <ShipClass>Medium Freighter</ShipClass>
+            <Mass>80</Mass>
+            <PointValue>131</PointValue>
+            <MainDrive type="Standard" initialThrust="2"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="80" type="Fragile" class="Merchant"/>
+            <Electronics/>
+            <Defenses/>
+            <Holds>
+                <CargoHold    xSSD="80" ySSD="40" type="Cargo Hold"   totalSize="55"/>
+            </Holds>
+            <Weapons>
+                <PointDefense xSSD="80" ySSD="175"/>
+            </Weapons>
+        </Ship>

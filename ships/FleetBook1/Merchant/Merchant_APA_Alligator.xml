@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>Eurasian Solar Union</Race>
+            <ClassAbbrev>APA</ClassAbbrev>
+            <ClassName>Alligator</ClassName>
+            <ShipClass>Assault Transport</ShipClass>
+            <Mass>120</Mass>
+            <PointValue>377</PointValue>
+            <MainDrive type="Standard" initialThrust="2"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="120" type="Weak" class="Merchant"/>
+            <Electronics>
+                <FireControl xSSD="80" ySSD="180"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="80" ySSD="160"/>
+            </Defenses>
+            <Holds>
+                <CargoHold      xSSD="80" ySSD="40" type="Troop Transport" totalSize="32"/>
+            </Holds>
+            <Weapons>
+<!--            <HangerBay size="20"/> -->
+                <BeamBattery    xSSD="80" ySSD="110" rating="1" arcs="(All arcs)"/>
+
+                <PointDefense   xSSD="45"  ySSD="165"/>
+                <PointDefense   xSSD="115" ySSD="165"/>
+            </Weapons>
+        </Ship>

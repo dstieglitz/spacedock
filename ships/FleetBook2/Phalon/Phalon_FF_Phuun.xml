@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <PointValue>89</PointValue>
+            <ClassName>Phuun</ClassName>
+            <Race>Phalon</Race>
+            <ClassAbbrev>FF</ClassAbbrev>
+            <Mass>24</Mass>
+            <ShipClass>Protector</ShipClass>
+            <Designer>GZG</Designer>
+            <MainDrive initialThrust="6"/>
+            <Hull totalHullBoxes="3" type="Custom" value="24"/>
+            <Armor totalArmor="2"/>
+            <FTLDrive/>
+            <Defenses>
+                <VapourShroud xSSD="120" ySSD="150"/>
+            </Defenses>
+            <Electronics>
+                <FireControl xSSD="60" ySSD="150"/>
+            </Electronics>
+            <Weapons>
+                <PlasmaBoltLauncher arcs="(FP/F/FS)" rating="1" xSSD="60" ySSD="40"/>
+                <Pulser arcs="(FP/F/FS)" xSSD="60" ySSD="80"/>
+            </Weapons>
+        </Ship>

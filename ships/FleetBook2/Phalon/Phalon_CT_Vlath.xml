@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <PointValue>51</PointValue>
+            <ClassName>Vlath</ClassName>
+            <Race>Phalon</Race>
+            <ClassAbbrev>CT</ClassAbbrev>
+            <Mass>12</Mass>
+            <ShipClass>Protector</ShipClass>
+            <Designer>GZG</Designer>
+            <MainDrive initialThrust="4"/>
+            <Hull type="Weak" value="12"/>
+            <Armor totalArmor="1"/>
+            <FTLDrive/>
+            <Defenses>
+                <VapourShroud xSSD="60" ySSD="120"/>
+            </Defenses>
+            <Electronics>
+                <FireControl xSSD="60" ySSD="80"/>
+            </Electronics>
+            <Weapons>
+                <Pulser arcs="(All arcs)" xSSD="60" ySSD="40"/>
+            </Weapons>
+        </Ship>

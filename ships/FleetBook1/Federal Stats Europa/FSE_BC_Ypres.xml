@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>Federal Stats Europa</Race>
+            <ClassAbbrev>BC</ClassAbbrev>
+            <ClassName>Ypres</ClassName>
+            <ShipClass>Battlecruiser</ShipClass>
+            <Mass>96</Mass>
+            <PointValue>318</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="96" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="80"  ySSD="180"/>
+                <FireControl xSSD="120" ySSD="180"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="100"  ySSD="165"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <SalvoMissileLauncher xSSD="100" ySSD="20" smmId="101" arcs="(FP/F/FS)"/>
+                <SalvoMissileMagazine xSSD="100" ySSD="60" id="101" maxInRow="3" capacity="6">
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                </SalvoMissileMagazine>
+
+                <BeamBattery rating="2" xSSD="100" ySSD="100" arcs="(All arcs)"/>
+                <BeamBattery rating="2" xSSD="60"  ySSD="100" arcs="(AP/FP/F)"/>
+                <BeamBattery rating="2" xSSD="140" ySSD="100" arcs="(F/FS/AS)"/>
+
+                <BeamBattery rating="1" xSSD="40" ySSD="60" arcs="(All arcs)"/>
+                <BeamBattery rating="1" xSSD="160" ySSD="60" arcs="(All arcs)"/>
+
+                <PointDefense xSSD="70"  ySSD="140"/>
+                <PointDefense xSSD="100" ySSD="140"/>
+                <PointDefense xSSD="130" ySSD="140"/>
+            </Weapons>
+        </Ship>

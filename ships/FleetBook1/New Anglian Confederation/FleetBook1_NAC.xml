@@ -1,0 +1,735 @@
+<?xml version="1.0" standalone="yes" ?>
+<GameEngine id="1111" name="New Anglian Confederation" turn="0">
+    <Player id="1" name="First Last" email="last@hotmail.com">
+        <Ship>        
+            <Name>Excalibur</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="0.0" y="10.0"/>
+            <Heading heading="2"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="2.0"/>
+            
+            <Race>New Anglian Confederation</Race>
+            <ClassAbbrev>BDN</ClassAbbrev>
+            <ClassName>Excalibur</ClassName>
+            <ShipClass>Battledreadnought</ShipClass>
+            <Mass>140</Mass>
+            <PointValue>472</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="7"/>
+            <Hull value="140" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="120" ySSD="175"/>
+                <FireControl xSSD="140" ySSD="175"/>
+                <FireControl xSSD="160" ySSD="175"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="140" ySSD="150"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <PulseTorpedo  xSSD="140" ySSD="25" arcs="(F)"/>
+                <FighterBay    xSSD="40" ySSD="60"/>
+
+                <BeamBattery  xSSD="140" ySSD="70"  rating="3" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="90"  ySSD="80"  rating="3" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="190" ySSD="80"  rating="3" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="140" ySSD="110" rating="2" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="80"  ySSD="120" rating="1" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="200" ySSD="120" rating="1" arcs="(All arcs)"/>
+
+                <PointDefense xSSD="80"  ySSD="160"/>
+                <PointDefense xSSD="200" ySSD="160"/>
+                <PointDefense xSSD="40"  ySSD="160"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Valley Forge</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="10.0" y="10.0"/>
+            <Heading heading="2"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="2.0"/>
+            
+            <Race>New Anglian Confederation</Race>
+            <ClassAbbrev>SDN</ClassAbbrev>
+            <ClassName>Valley Forge</ClassName>
+            <ShipClass>Superdreadnought</ShipClass>
+            <Mass>190</Mass>
+            <PointValue>642</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="7"/>
+            <Hull value="190" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="120" ySSD="175"/>
+                <FireControl xSSD="140" ySSD="175"/>
+                <FireControl xSSD="160" ySSD="175"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="140" ySSD="150"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <PulseTorpedo  xSSD="120" ySSD="25" arcs="(F)"/>
+                <PulseTorpedo  xSSD="160" ySSD="25" arcs="(F)"/>
+
+                <FighterBay    xSSD="40"  ySSD="60"/>
+                <FighterBay    xSSD="240" ySSD="60"/>
+
+                <BeamBattery  xSSD="140" ySSD="70"  rating="3" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="90"  ySSD="80"  rating="3" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="190" ySSD="80"  rating="3" arcs="(F/FS/AS)"/>
+
+                <BeamBattery  xSSD="165" ySSD="115" rating="2" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="115" ySSD="115" rating="2" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="45"  ySSD="115" rating="1" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="235" ySSD="115" rating="1" arcs="(All arcs)"/>
+
+                <PointDefense xSSD="50" ySSD="150"/>
+                <PointDefense xSSD="80"  ySSD="150"/>
+                <PointDefense xSSD="200" ySSD="150"/>
+                <PointDefense xSSD="230" ySSD="150"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Inflexible</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="20.0" y="10.0"/>
+            <Heading heading="2"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="2.0"/>
+            
+            <Race>New Anglian Confederation</Race>
+            <ClassAbbrev>CVL</ClassAbbrev>
+            <ClassName>Inflexible</ClassName>
+            <ShipClass>Light Fleet Carrier</ShipClass>
+            <Mass>140</Mass>
+            <PointValue>483</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="9"/>
+            <Hull value="140" type="Weak"/>
+            <Electronics>
+                <FireControl xSSD="120" ySSD="170"/>
+                <FireControl xSSD="160" ySSD="170"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="120" ySSD="150"/>
+                <Screen xSSD="160" ySSD="150"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <FighterBay xSSD="80"  ySSD="30"/>
+                <FighterBay xSSD="120" ySSD="30"/>
+                <FighterBay xSSD="160" ySSD="30"/>
+                <FighterBay xSSD="200" ySSD="30"/>
+
+                <BeamBattery xSSD="140" ySSD="80" rating="2" arcs="(All arcs)"/>
+                <BeamBattery xSSD="70"  ySSD="90" rating="1" arcs="(All arcs)"/>
+                <BeamBattery xSSD="210" ySSD="90" rating="1" arcs="(All arcs)"/>
+
+                <PointDefense xSSD="90"  ySSD="130"/>
+                <PointDefense xSSD="120" ySSD="120"/>
+                <PointDefense xSSD="160" ySSD="120"/>
+                <PointDefense xSSD="190" ySSD="130"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Ark Royal</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="30.0" y="10.0"/>
+            <Heading heading="2"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="2.0"/>
+            
+            <Race>New Anglian Confederation</Race>
+            <ClassAbbrev>CV</ClassAbbrev>
+            <ClassName>Ark Royal</ClassName>
+            <ShipClass>Fleet Carrier</ShipClass>
+            <Mass>200</Mass>
+            <PointValue>690</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="12"/>
+            <Hull value="200" type="Weak"/>
+            <Electronics>
+                <FireControl xSSD="120" ySSD="170"/>
+                <FireControl xSSD="160" ySSD="170"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="120" ySSD="150"/>
+                <Screen xSSD="160" ySSD="150"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <FighterBay xSSD="40"  ySSD="30"/>
+                <FighterBay xSSD="80"  ySSD="30"/>
+                <FighterBay xSSD="120" ySSD="30"/>
+                <FighterBay xSSD="160" ySSD="30"/>
+                <FighterBay xSSD="200" ySSD="30"/>
+                <FighterBay xSSD="240" ySSD="30"/>
+
+                <BeamBattery xSSD="120" ySSD="80" rating="2" arcs="(All arcs)"/>
+                <BeamBattery xSSD="160" ySSD="80" rating="2" arcs="(All arcs)"/>
+                <BeamBattery xSSD="70"  ySSD="90" rating="1" arcs="(All arcs)"/>
+                <BeamBattery xSSD="210" ySSD="90" rating="1" arcs="(All arcs)"/>
+
+                <PointDefense xSSD="90"  ySSD="130"/>
+                <PointDefense xSSD="120" ySSD="120"/>
+                <PointDefense xSSD="160" ySSD="120"/>
+                <PointDefense xSSD="190" ySSD="130"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Victoria</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="0.0" y="0.0"/>
+            <Heading heading="2"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="2.0"/>
+            
+            <Race>New Anglian Confederation</Race>
+            <ClassAbbrev>BB</ClassAbbrev>
+            <ClassName>Victoria</ClassName>
+            <ShipClass>Battleship</ShipClass>
+            <Mass>120</Mass>
+            <PointValue>406</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="5"/>
+            <Hull value="120" type="Average"/>
+            <Electronics>
+                <FireControl  xSSD="120" ySSD="185"/>
+                <FireControl  xSSD="140" ySSD="185"/>
+                <FireControl  xSSD="160" ySSD="185"/>
+            </Electronics>
+            <Defenses>
+                <Screen  xSSD="140"  ySSD="165"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <PulseTorpedo  xSSD="90"  ySSD="25"  arcs="(F)"/>
+                <PulseTorpedo  xSSD="190" ySSD="25"  arcs="(F)"/>
+
+                <BeamBattery   xSSD="140" ySSD="60"  rating="3" arcs="(FP/F/FS)"/>
+                <BeamBattery   xSSD="90"  ySSD="70"  rating="3" arcs="(AP/FP/F)"/>
+                <BeamBattery   xSSD="190" ySSD="70"  rating="3" arcs="(F/FS/AS)"/>
+
+                <BeamBattery   xSSD="140" ySSD="105"  rating="2" arcs="(All arcs)"/>
+                <BeamBattery   xSSD="80"  ySSD="110"  rating="1" arcs="(All arcs)"/>
+                <BeamBattery   xSSD="200" ySSD="110"  rating="1" arcs="(All arcs)"/>
+
+                <PointDefense  xSSD="110" ySSD="140"/>
+                <PointDefense  xSSD="140" ySSD="135"/>
+                <PointDefense  xSSD="170" ySSD="140"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Majestic</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="10.0" y="0.0"/>
+            <Heading heading="2"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="2.0"/>
+            
+            <Race>New Anglian Confederation</Race>
+            <ClassAbbrev>BC</ClassAbbrev>
+            <ClassName>Majestic</ClassName>
+            <ShipClass>Battlecruiser</ShipClass>
+            <Mass>106</Mass>
+            <PointValue>358</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="5"/>
+            <Hull value="106" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="120" ySSD="175"/>
+                <FireControl xSSD="140" ySSD="175"/>
+                <FireControl xSSD="160" ySSD="175"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="140" ySSD="150"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <SalvoMissileLauncher xSSD="140" ySSD="20" smmId="101" arcs="(FP/F/FS)"/>
+                <SalvoMissileMagazine xSSD="140" ySSD="60" id="101" maxInRow="3" capacity="6">
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                </SalvoMissileMagazine>
+
+                <BeamBattery  xSSD="70"  ySSD="80"  rating="3" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="210" ySSD="80"  rating="3" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="140" ySSD="110" rating="2" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="80"  ySSD="120" rating="1" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="200" ySSD="120" rating="1" arcs="(All arcs)"/>
+
+                <PointDefense xSSD="80"  ySSD="160"/>
+                <PointDefense xSSD="200" ySSD="160"/>
+                <PointDefense xSSD="40"  ySSD="160"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Vandenburg</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="20.0" y="0.0"/>
+            <Heading heading="2"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="2.0"/>
+            
+            <Race>New Anglian Confederation</Race>
+            <ClassAbbrev>CA</ClassAbbrev>
+            <ClassName>Vandenburg</ClassName>
+            <ShipClass>Heavy Cruiser</ShipClass>
+            <Mass>80</Mass>
+            <PointValue>261</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="5"/>
+            <Hull value="80" type="Average"/>
+            <Electronics>
+                <FireControl  xSSD="120" ySSD="185"/>
+                <FireControl  xSSD="160" ySSD="185"/>
+            </Electronics>
+            <Defenses>
+                <Screen  xSSD="140"  ySSD="165"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <BeamBattery  xSSD="140" ySSD="50"  rating="3" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="90"  ySSD="80"  rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="190" ySSD="80"  rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="140" ySSD="110" rating="1" arcs="(All arcs)"/>
+                <PointDefense xSSD="90"  ySSD="130"/>
+                <PointDefense xSSD="190" ySSD="130"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Vandenburg/T</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="30.0" y="0.0"/>
+            <Heading heading="2"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="2.0"/>
+            
+            <Race>New Anglian Confederation</Race>
+            <ClassAbbrev>CA</ClassAbbrev>
+            <ClassName>Vandenburg/T</ClassName>
+            <ShipClass>Heavy Cruiser</ShipClass>
+            <Mass>80</Mass>
+            <PointValue>269</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="5"/>
+            <Hull value="80" type="Average"/>
+            <Electronics>
+                <FireControl  xSSD="120" ySSD="185"/>
+                <FireControl  xSSD="160" ySSD="185"/>
+            </Electronics>
+            <Defenses>
+                <Screen  xSSD="140"  ySSD="165"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <PulseTorpedo  xSSD="90"  ySSD="25"  arcs="(F)"/>
+                <PulseTorpedo  xSSD="190" ySSD="25"  arcs="(F)"/>
+
+                <BeamBattery  xSSD="140" ySSD="50"  rating="3" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="90"  ySSD="80"  rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="190" ySSD="80"  rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="140" ySSD="110" rating="1" arcs="(All arcs)"/>
+                <PointDefense xSSD="90"  ySSD="130"/>
+                <PointDefense xSSD="190" ySSD="130"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Furious</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="40.0" y="0.0"/>
+            <Heading heading="2"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="2.0"/>
+            
+            <Race>New Anglian Confederation</Race>
+            <ClassAbbrev>CE</ClassAbbrev>
+            <ClassName>Furious</ClassName>
+            <ShipClass>Escort Cruiser</ShipClass>
+            <Mass>64</Mass>
+            <PointValue>219</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="3"/>
+            <Hull value="64" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="120" ySSD="175"/>
+                <FireControl xSSD="140" ySSD="175"/>
+                <AreaDefenseFireControl xSSD="160" ySSD="175"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="140" ySSD="150"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <PulseTorpedo  xSSD="140" ySSD="25" arcs="(F)"/>
+
+                <BeamBattery  xSSD="140" ySSD="70"  rating="3" arcs="(F)"/>
+                <BeamBattery  xSSD="90"  ySSD="90"  rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="190" ySSD="90"  rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="140" ySSD="110" rating="1" arcs="(All arcs)"/>
+
+                <PointDefense xSSD="80"  ySSD="160"/>
+                <PointDefense xSSD="200" ySSD="160"/>
+                <PointDefense xSSD="80"  ySSD="130"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Huron</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="50.0" y="0.0"/>
+            <Heading heading="2"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="2.0"/>
+            
+            <Race>New Anglian Confederation</Race>
+            <ClassAbbrev>CL</ClassAbbrev>
+            <ClassName>Huron</ClassName>
+            <ShipClass>Light Cruiser</ShipClass>
+            <Mass>50</Mass>
+            <PointValue>167</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="50" type="Average"/>
+            <Electronics>
+                <FireControl  xSSD="120" ySSD="185"/>
+                <FireControl  xSSD="160" ySSD="185"/>
+            </Electronics>
+            <Defenses>
+                <Screen  xSSD="140"  ySSD="165"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <BeamBattery    xSSD="140" ySSD="40"  rating="2" arcs="(FP/F/FS)"/>
+                <BeamBattery    xSSD="80"  ySSD="60"  rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery    xSSD="200" ySSD="60"  rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery    xSSD="115" ySSD="100" rating="1" arcs="(All arcs)"/>
+                <BeamBattery    xSSD="165" ySSD="100" rating="1" arcs="(All arcs)"/>
+
+                <PointDefense   xSSD="105" ySSD="135"/>
+                <PointDefense   xSSD="175" ySSD="135"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Ticonderoga</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="0.0" y="-10.0"/>
+            <Heading heading="2"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="2.0"/>
+            
+            <Race>New Anglian Confederation</Race>
+            <ClassAbbrev>DD</ClassAbbrev>
+            <ClassName>Ticonderoga</ClassName>
+            <ShipClass>Destroyer</ShipClass>
+            <Mass>30</Mass>
+            <PointValue>100</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="30" type="Average"/>
+            <Electronics>
+                <FireControl  xSSD="140" ySSD="185"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <BeamBattery    xSSD="115" ySSD="60"  rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery    xSSD="165" ySSD="60"  rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery    xSSD="90"  ySSD="100" rating="1" arcs="(All arcs)"/>
+                <BeamBattery    xSSD="190" ySSD="100" rating="1" arcs="(All arcs)"/>
+
+                <PointDefense   xSSD="115" ySSD="140"/>
+                <PointDefense   xSSD="165" ySSD="140"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Tacoma</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="10.0" y="-10.0"/>
+            <Heading heading="2"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="2.0"/>
+            
+            <Race>New Anglian Confederation</Race>
+            <ClassAbbrev>FH</ClassAbbrev>
+            <ClassName>Tacoma</ClassName>
+            <ShipClass>Heavy Frigate</ShipClass>
+            <Mass>24</Mass>
+            <PointValue>81</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="24" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="140" ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <BeamBattery  xSSD="110" ySSD="50"  rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="170" ySSD="50"  rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="100" ySSD="100" rating="1" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="180" ySSD="100" rating="1" arcs="(All arcs)"/>
+                <PointDefense xSSD="140" ySSD="140"/>
+            </Weapons>
+        </Ship>
+
+
+        <Ship>        
+            <Name>Tacoma/T</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="15.0" y="-10.0"/>
+            <Heading heading="2"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="2.0"/>
+            
+            <Race>New Anglian Confederation</Race>
+            <ClassAbbrev>FH</ClassAbbrev>
+            <ClassName>Tacoma/T</ClassName>
+            <ShipClass>Heavy Frigate</ShipClass>
+            <Mass>24</Mass>
+            <PointValue>81</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="24" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="140" ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <PulseTorpedo  xSSD="140" ySSD="25" arcs="(F)"/>
+                <BeamBattery  xSSD="100" ySSD="100" rating="1" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="180" ySSD="100" rating="1" arcs="(All arcs)"/>
+                <PointDefense xSSD="140" ySSD="140"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Minerva</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="20.0" y="-10.0"/>
+            <Heading heading="2"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="2.0"/>
+            
+            <Race>New Anglian Confederation</Race>
+            <ClassAbbrev>FF</ClassAbbrev>
+            <ClassName>Minerva</ClassName>
+            <ShipClass>Frigate</ShipClass>
+            <Mass>18</Mass>
+            <PointValue>61</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="18" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="140" ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <BeamBattery  xSSD="140" ySSD="50" rating="2" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="100" ySSD="90" rating="1" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="180" ySSD="90" rating="1" arcs="(All arcs)"/>
+                <PointDefense xSSD="140" ySSD="140"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Arapaho</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="30.0" y="-10.0"/>
+            <Heading heading="2"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="2.0"/>
+            
+            <Race>New Anglian Confederation</Race>
+            <ClassAbbrev>CT</ClassAbbrev>
+            <ClassName>Arapaho</ClassName>
+            <ShipClass>Corvette</ShipClass>
+            <Mass>12</Mass>
+            <PointValue>41</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="1"/>
+            <Hull value="12" type="Weak"/>
+            <Electronics>
+                <FireControl xSSD="140" ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <BeamBattery  xSSD="100" ySSD="90" rating="1" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="180" ySSD="90" rating="1" arcs="(All arcs)"/>
+                <PointDefense xSSD="140" ySSD="140"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Harrison</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="40.0" y="-10.0"/>
+            <Heading heading="2"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="2.0"/>
+            
+            <Race>New Anglian Confederation</Race>
+            <ClassAbbrev>SC</ClassAbbrev>
+            <ClassName>Harrison</ClassName>
+            <ShipClass>Scoutship</ShipClass>
+            <Mass>6</Mass>
+            <PointValue>21</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="6" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="140" ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <BeamBattery xSSD="140" ySSD="100" rating="1" arcs="(All arcs)"/>
+            </Weapons>
+        </Ship>
+
+
+        <FighterGroup id="1106">
+            <Position x="0.0" y="-20.0"/>
+            <Heading heading="12"/>
+            <Race>New Anglian Confederation</Race>
+            <Type>Standard</Type>
+            <Count>6</Count>
+            <Endurance>6</Endurance>
+            <PilotQuality>Normal</PilotQuality>
+        </FighterGroup>
+
+        <FighterGroup id="1105">
+            <Position x="10.0" y="-20.0"/>
+            <Heading heading="1"/>
+            <Race>New Anglian Confederation</Race>
+            <Type>Standard</Type>
+            <Count>5</Count>
+            <Endurance>6</Endurance>
+            <PilotQuality>Normal</PilotQuality>
+        </FighterGroup>
+
+
+        <FighterGroup id="1104">
+            <Position x="20.0" y="-20.0"/>
+            <Heading heading="2"/>
+            <Race>New Anglian Confederation</Race>
+            <Type>Standard</Type>
+            <Count>4</Count>
+            <Endurance>6</Endurance>
+            <PilotQuality>Normal</PilotQuality>
+        </FighterGroup>
+
+
+        <FighterGroup id="1103">
+            <Position x="30.0" y="-20.0"/>
+            <Heading heading="3"/>
+            <Race>New Anglian Confederation</Race>
+            <Type>Standard</Type>
+            <Count>3</Count>
+            <Endurance>6</Endurance>
+            <PilotQuality>Normal</PilotQuality>
+        </FighterGroup>
+
+
+        <FighterGroup id="1102">
+            <Position x="40.0" y="-20.0"/>
+            <Heading heading="4"/>
+            <Race>New Anglian Confederation</Race>
+            <Type>Standard</Type>
+            <Count>2</Count>
+            <Endurance>6</Endurance>
+            <PilotQuality>Normal</PilotQuality>
+        </FighterGroup>
+
+        <FighterGroup id="1101">
+            <Position x="50.0" y="-20.0"/>
+            <Heading heading="6"/>
+            <Race>New Anglian Confederation</Race>
+            <Type>Standard</Type>
+            <Count>1</Count>
+            <Endurance>6</Endurance>
+            <PilotQuality>Normal</PilotQuality>
+        </FighterGroup>
+
+    </Player>
+</GameEngine>

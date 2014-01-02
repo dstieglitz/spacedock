@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>SC</ClassAbbrev>
+            <ClassName>Lu'Dak</ClassName>
+            <ShipClass>Scoutship</ShipClass>
+            <Mass>11</Mass>
+            <PointValue>44</PointValue>
+            <MainDrive type="Advanced" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="11" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="80"  ySSD="180"/>
+            </Electronics>
+            <Weapons>
+                <MultipleKineticPenetratorPack xSSD="80"  ySSD="60" arcs="(F)"/>
+                <KineticGun xSSD="80"  ySSD="110" rating="1"/>
+            </Weapons>
+        </Ship>

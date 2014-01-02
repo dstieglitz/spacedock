@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>Neu Swabian League</Race>
+            <ClassAbbrev>CT</ClassAbbrev>
+            <ClassName>Stroschen</ClassName>
+            <ShipClass>Corvette</ShipClass>
+            <Mass>14</Mass>
+            <PointValue>47</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="2"/>
+            <Hull value="14" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="100" ySSD="150"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <BeamBattery  xSSD="100" ySSD="70" rating="2" arcs="(FP/F/FS)"/>
+                <PointDefense xSSD="100" ySSD="110"/>
+            </Weapons>
+        </Ship>

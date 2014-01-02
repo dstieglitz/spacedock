@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>UNSC</Race>
+            <ClassAbbrev>FF</ClassAbbrev>
+            <ClassName>Lawkeeper</ClassName>
+            <ShipClass>Frigate</ShipClass>
+            <Mass>20</Mass>
+            <PointValue>76</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="20" type="Custom" totalHullBoxes="6" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="100"  ySSD="185"/>
+            </Electronics>
+            <Defenses>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <Graser       xSSD="100" ySSD="40"  rating="1" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="100"  ySSD="100" rating="1"/>
+                <PointDefense xSSD="100" ySSD="140"/>
+            </Weapons>
+        </Ship>

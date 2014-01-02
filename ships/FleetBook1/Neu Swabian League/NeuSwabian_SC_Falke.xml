@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>Neu Swabian League</Race>
+            <ClassAbbrev>SC</ClassAbbrev>
+            <ClassName>Falke</ClassName>
+            <ShipClass>Scoutship</ShipClass>
+            <Mass>8</Mass>
+            <PointValue>27</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="1"/>
+            <Hull value="8" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="100" ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <BeamBattery  xSSD="100" ySSD="100" rating="1" arcs="(All arcs)"/>
+            </Weapons>
+        </Ship>

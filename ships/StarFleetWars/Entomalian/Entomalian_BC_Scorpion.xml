@@ -1,0 +1,53 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <Designer>Dean Gundberg</Designer>
+            <Race>Entomalian</Race>
+            <ClassAbbrev>BC</ClassAbbrev>
+            <ClassName>Scorpion</ClassName>
+            <ShipClass>Battlecruiser</ShipClass>
+            <Mass>100</Mass>
+            <PointValue>353</PointValue>
+            <MainDrive initialThrust="3"/>
+            <FTLDrive/>
+            <Armor totalArmor="15"/>
+            <Hull  value="100" type="Fragile"/>
+            <Electronics>
+                <FireControl xSSD="100" ySSD="235"/>
+                <FireControl xSSD="120" ySSD="235"/>
+                <FireControl xSSD="140" ySSD="235"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="120" ySSD="215"/>
+            </Defenses>
+            <Weapons>
+                <SalvoMissileLauncher xSSD="80"  ySSD="20" smmId="51" arcs="(AP/FP/F)"/>
+                <SalvoMissileLauncher xSSD="160" ySSD="20" smmId="51" arcs="(F/FS/AS)"/>
+                <SalvoMissileMagazine xSSD="120" ySSD="60" id="51" maxInRow="4" capacity="16">
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                </SalvoMissileMagazine>
+
+                <SubmunitionPack xSSD="240" ySSD="60"/>
+                <SubmunitionPack xSSD="210" ySSD="60"/>
+                <SubmunitionPack xSSD="240" ySSD="90" />
+                <SubmunitionPack xSSD="210" ySSD="90"/>
+                <SubmunitionPack xSSD="45" ySSD="60" arcs="(FP)"/>
+                <SubmunitionPack xSSD="60" ySSD="90" arcs="(FP)"/>
+                <SubmunitionPack xSSD="30" ySSD="90" arcs="(FP)"/>
+                <BeamBattery xSSD="120" ySSD="105" rating="2" arcs="(FP/F/FS)"/>
+                <BeamBattery xSSD="160" ySSD="130" rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery xSSD="80"  ySSD="130" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery xSSD="120" ySSD="145" rating="2" arcs="(AP/A/AS)"/>
+                <BeamBattery xSSD="40"  ySSD="150" rating="1"/>
+                <BeamBattery xSSD="200" ySSD="150" rating="1"/>
+                <PointDefense xSSD="120" ySSD="175"/>
+                <PointDefense xSSD="90"  ySSD="175" />
+                <PointDefense xSSD="150" ySSD="175"/>
+            </Weapons>
+        </Ship>

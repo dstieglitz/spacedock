@@ -1,0 +1,670 @@
+<?xml version="1.0" standalone="yes" ?>
+<GameEngine id="1111" name="Neu Swabian League" turn="0">
+    <Player id="1" name="First Last" email="last@hotmail.com">
+        <Ship>        
+            <Name>Szent Istvan</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="0.0" y="10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Neu Swabian League</Race>
+            <ClassAbbrev>BDN</ClassAbbrev>
+            <ClassName>Szent Istvan</ClassName>
+            <ShipClass>Battledreadnought</ShipClass>
+            <Mass>150</Mass>
+            <PointValue>500</PointValue>
+            <MainDrive type="Standard" initialThrust="2"/>
+            <FTLDrive/>
+            <Armor totalArmor="14"/>
+            <Hull value="150" type="Strong"/>
+            <Electronics>
+                <FireControl xSSD="70"  ySSD="170"/>
+                <FireControl xSSD="90"  ySSD="170"/>
+                <FireControl xSSD="110" ySSD="170"/>
+                <FireControl xSSD="130" ySSD="170"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <FighterBay   xSSD="100" ySSD="125"/>
+
+                <BeamBattery  xSSD="70"  ySSD="90" rating="3" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="130" ySSD="90" rating="3" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="35"  ySSD="115" rating="3" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="165" ySSD="115" rating="3" arcs="(F/FS/AS)"/>
+
+                <BeamBattery  xSSD="25"  ySSD="75" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="175" ySSD="75" rating="2" arcs="(F/FS/AS)"/>
+
+                <BeamBattery  xSSD="100" ySSD="40" rating="1" arcs="(All arcs)"/>
+
+                <PointDefense xSSD="20"  ySSD="150"/>
+                <PointDefense xSSD="40"  ySSD="165"/>
+                <PointDefense xSSD="185" ySSD="150"/>
+                <PointDefense xSSD="160" ySSD="165"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Von Tegetthoff</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="10.0" y="10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Neu Swabian League</Race>
+            <ClassAbbrev>SDN</ClassAbbrev>
+            <ClassName>Von Tegetthoff</ClassName>
+            <ShipClass>Superdreadnought</ShipClass>
+            <Mass>200</Mass>
+            <PointValue>670</PointValue>
+            <MainDrive type="Standard" initialThrust="2"/>
+            <FTLDrive/>
+            <Armor totalArmor="14"/>
+            <Hull value="200" type="Strong"/>
+            <Electronics>
+                <FireControl xSSD="90"  ySSD="170"/>
+                <FireControl xSSD="110" ySSD="170"/>
+                <FireControl xSSD="130" ySSD="170"/>
+                <FireControl xSSD="150" ySSD="170"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <SalvoMissileLauncher xSSD="120" ySSD="20" smmId="101" arcs="(FP/F/FS)"/>
+                <SalvoMissileMagazine xSSD="120" ySSD="60" id="101" maxInRow="2" capacity="8">
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                </SalvoMissileMagazine>
+
+                <FighterBay xSSD="215" ySSD="160"/>
+
+                <BeamBattery rating="3" xSSD="70"  ySSD="25" arcs="(FP/F/FS)"/>
+                <BeamBattery rating="3" xSSD="170" ySSD="25" arcs="(FP/F/FS)"/>
+                <BeamBattery rating="3" xSSD="30"  ySSD="50" arcs="(AP/FP/F)"/>
+                <BeamBattery rating="3" xSSD="210" ySSD="50" arcs="(F/FS/AS)"/>
+
+                <BeamBattery rating="2" xSSD="30"  ySSD="115" arcs="(All arcs)"/>
+                <BeamBattery rating="2" xSSD="80"  ySSD="115" arcs="(All arcs)"/>
+                <BeamBattery rating="2" xSSD="160" ySSD="115" arcs="(All arcs)"/>
+                <BeamBattery rating="2" xSSD="210" ySSD="115" arcs="(All arcs)"/>
+                <BeamBattery rating="1" xSSD="70"  ySSD="75" arcs="(All arcs)"/>
+                <BeamBattery rating="1" xSSD="170" ySSD="75" arcs="(All arcs)"/>
+
+                <PointDefense xSSD="60"  ySSD="145"/>
+                <PointDefense xSSD="90"  ySSD="145"/>
+                <PointDefense xSSD="150" ySSD="145"/>
+                <PointDefense xSSD="180" ySSD="145"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Der Theuerdank</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="20.0" y="10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Neu Swabian League</Race>
+            <ClassAbbrev>CV</ClassAbbrev>
+            <ClassName>Der Theuerdank</ClassName>
+            <ShipClass>Fighter Carrier</ShipClass>
+            <Mass>220</Mass>
+            <PointValue>737</PointValue>
+            <MainDrive type="Standard" initialThrust="2"/>
+            <FTLDrive/>
+            <Armor totalArmor="14"/>
+            <Hull value="220" type="Strong"/>
+            <Electronics>
+                <FireControl xSSD="130" ySSD="170"/>
+                <FireControl xSSD="110" ySSD="170"/>
+                <FireControl xSSD="150" ySSD="170"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <FighterBay xSSD="70"  ySSD="130"/>
+                <FighterBay xSSD="105" ySSD="120"/>
+                <FighterBay xSSD="155" ySSD="120"/>
+                <FighterBay xSSD="190" ySSD="130"/>
+
+                <BeamBattery xSSD="130" ySSD="80" rating="3" arcs="(FP/F/FS)"/>
+                <BeamBattery xSSD="60" ySSD="70" rating="3" arcs="(AP/FP/F)"/>
+                <BeamBattery xSSD="200" ySSD="70" rating="3" arcs="(F/FS/AS)"/>
+
+                <BeamBattery xSSD="20" ySSD="120" rating="2" arcs="(All arcs)"/>
+                <BeamBattery xSSD="240" ySSD="120" rating="2" arcs="(All arcs)"/>
+                <BeamBattery xSSD="130" ySSD="40" rating="2" arcs="(All arcs)"/>
+                <BeamBattery xSSD="20" ySSD="40" rating="1" arcs="(All arcs)"/>
+                <BeamBattery xSSD="240" ySSD="40" rating="1" arcs="(All arcs)"/>
+
+                <PointDefense xSSD="20" ySSD="170"/>
+                <PointDefense xSSD="50" ySSD="170"/>
+                <PointDefense xSSD="80" ySSD="170"/>
+                <PointDefense xSSD="240" ySSD="170"/>
+                <PointDefense xSSD="210" ySSD="170"/>
+                <PointDefense xSSD="180" ySSD="170"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Maria Von Burgund</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="0.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Neu Swabian League</Race>
+            <ClassAbbrev>BB</ClassAbbrev>
+            <ClassName>Maria Von Burgund</ClassName>
+            <ShipClass>Battleship</ShipClass>
+            <Mass>120</Mass>
+            <PointValue>414</PointValue>
+            <MainDrive type="Standard" initialThrust="2"/>
+            <FTLDrive/>
+            <Armor totalArmor="10"/>
+            <Hull value="120" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="85"  ySSD="170"/>
+                <FireControl xSSD="100" ySSD="170"/>
+                <FireControl xSSD="115" ySSD="170"/>
+                <FireControl xSSD="130" ySSD="170"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <PulseTorpedo xSSD="107" ySSD="40" arcs="(FP/F/FS)"/>
+                
+                <BeamBattery  xSSD="107" ySSD="100" rating="3" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="70" ySSD="70" rating="3" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="70" ySSD="130" rating="3" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="140" ySSD="70" rating="3" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="140" ySSD="130" rating="3" arcs="(F/FS/AS)"/>
+                
+                <BeamBattery  xSSD="30" ySSD="100" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="180" ySSD="100" rating="2" arcs="(F/FS/AS)"/>
+                
+                <BeamBattery  xSSD="30" ySSD="60" rating="1" arcs="(All Arcs)"/>
+                <BeamBattery  xSSD="180" ySSD="60" rating="1" arcs="(All Arcs)"/>
+                
+                <PointDefense xSSD="25" ySSD="150"/>
+                <PointDefense xSSD="45" ySSD="165"/>
+                <PointDefense xSSD="185" ySSD="150"/>
+                <PointDefense xSSD="165" ySSD="165"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Maximilian</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="10.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Neu Swabian League</Race>
+            <ClassAbbrev>BC</ClassAbbrev>
+            <ClassName>Maximilian</ClassName>
+            <ShipClass>Battlecruiser</ShipClass>
+            <Mass>100</Mass>
+            <PointValue>333</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="10"/>
+            <Hull value="100" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="75"  ySSD="170"/>
+                <FireControl xSSD="100" ySSD="170"/>
+                <FireControl xSSD="125" ySSD="170"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <BeamBattery  xSSD="100" ySSD="40" rating="3" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="70"  ySSD="77" rating="3" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="130" ySSD="77" rating="3" arcs="(F/FS/AS)"/>
+                
+                <BeamBattery  xSSD="45"  ySSD="125" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="155" ySSD="125" rating="2" arcs="(F/FS/AS)"/>
+                
+                <BeamBattery  xSSD="40"  ySSD="45" rating="1" arcs="(All Arcs)"/>
+                <BeamBattery  xSSD="160" ySSD="45" rating="1" arcs="(All Arcs)"/>
+                
+                <PointDefense xSSD="75"  ySSD="145"/>
+                <PointDefense xSSD="100" ySSD="125"/>
+                <PointDefense xSSD="125" ySSD="145"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Markgraf</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="20.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Neu Swabian League</Race>
+            <ClassAbbrev>CA</ClassAbbrev>
+            <ClassName>Markgraf</ClassName>
+            <ShipClass>Heavy Cruiser</ShipClass>
+            <Mass>82</Mass>
+            <PointValue>271</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="10"/>
+            <Hull value="82" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="70" ySSD="170"/>
+                <FireControl xSSD="130" ySSD="170"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <BeamBattery  xSSD="75"  ySSD="40" rating="3" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="125" ySSD="40" rating="3" arcs="(FP/F/FS)"/>
+                
+                <BeamBattery  xSSD="60" ySSD="110" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="140" ySSD="110" rating="2" arcs="(F/FS/AS)"/>
+                
+                <BeamBattery  xSSD="30" ySSD="70" rating="1" arcs="(All Arcs)"/>
+                <BeamBattery  xSSD="170" ySSD="70" rating="1" arcs="(All Arcs)"/>
+                
+                <PointDefense xSSD="40"  ySSD="150"/>
+                <PointDefense xSSD="100" ySSD="150"/>
+                <PointDefense xSSD="160" ySSD="150"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Richthofen</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="30.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Neu Swabian League</Race>
+            <ClassAbbrev>BC</ClassAbbrev>
+            <ClassName>Richthofen</ClassName>
+            <ShipClass>Battlecruiser</ShipClass>
+            <Mass>104</Mass>
+            <PointValue>351</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="6"/>
+            <Hull value="104" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="75"  ySSD="170"/>
+                <FireControl xSSD="100" ySSD="170"/>
+                <FireControl xSSD="125" ySSD="170"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <BeamBattery  xSSD="70" ySSD="30" rating="3" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="130" ySSD="30" rating="3" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="70" ySSD="80" rating="3" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="130" ySSD="80" rating="3" arcs="(F/FS/AS)"/>
+                
+                <BeamBattery  xSSD="20" ySSD="100" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="180" ySSD="100" rating="2" arcs="(F/FS/AS)"/>
+                
+                <BeamBattery  xSSD="30" ySSD="60" rating="1" arcs="(All Arcs)"/>
+                <BeamBattery  xSSD="170" ySSD="60" rating="1" arcs="(All Arcs)"/>
+                
+                <PointDefense xSSD="30"  ySSD="150"/>
+                <PointDefense xSSD="100" ySSD="140"/>
+                <PointDefense xSSD="170" ySSD="150"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Radetsky</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="40.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Neu Swabian League</Race>
+            <ClassAbbrev>CE</ClassAbbrev>
+            <ClassName>Radetsky</ClassName>
+            <ShipClass>Escort Cruiser</ShipClass>
+            <Mass>58</Mass>
+            <PointValue>195</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="6"/>
+            <Hull value="58" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="75"  ySSD="170"/>
+                <FireControl xSSD="100" ySSD="170"/>
+                <AreaDefenseFireControl xSSD="125" ySSD="170"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <BeamBattery  xSSD="75"  ySSD="40" rating="2" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="125" ySSD="40" rating="2" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="65"  ySSD="110" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="135" ySSD="110" rating="2" arcs="(F/FS/AS)"/>
+                
+                <BeamBattery  xSSD="25"  ySSD="80" rating="1" arcs="(All Arcs)"/>
+                <BeamBattery  xSSD="175" ySSD="80" rating="1" arcs="(All Arcs)"/>
+                
+                <PointDefense xSSD="40"  ySSD="140"/>
+                <PointDefense xSSD="100" ySSD="140"/>
+                <PointDefense xSSD="160" ySSD="140"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Kronprinz Wilhelm</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="50.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Neu Swabian League</Race>
+            <ClassAbbrev>CL</ClassAbbrev>
+            <ClassName>Kronprinz Wilhelm</ClassName>
+            <ShipClass>Light Cruiser</ShipClass>
+            <Mass>48</Mass>
+            <PointValue>161</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="5"/>
+            <Hull value="48" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="70" ySSD="170"/>
+                <AreaDefenseFireControl xSSD="130" ySSD="170"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <BeamBattery  xSSD="60"  ySSD="110" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="100" ySSD="65"  rating="2" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="140" ySSD="110" rating="2" arcs="(F/FS/AS)"/>
+                
+                <BeamBattery  xSSD="40"  ySSD="50"  rating="1" arcs="(All Arcs)"/>
+                <BeamBattery  xSSD="160" ySSD="50"  rating="1" arcs="(All Arcs)"/>
+                
+                <PointDefense xSSD="40"  ySSD="150"/>
+                <PointDefense xSSD="100" ySSD="150"/>
+                <PointDefense xSSD="160" ySSD="150"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Waldburg</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="0.0" y="-10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Neu Swabian League</Race>
+            <ClassAbbrev>DD</ClassAbbrev>
+            <ClassName>Waldburg</ClassName>
+            <ShipClass>Destroyer</ShipClass>
+            <Mass>30</Mass>
+            <PointValue>100</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="3"/>
+            <Hull value="30" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="85" ySSD="150"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <BeamBattery  xSSD="60" ySSD="100" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="110" ySSD="100" rating="2" arcs="(F/FS/AS)"/>
+                
+                <BeamBattery  xSSD="30" ySSD="60" rating="1" arcs="(All Arcs)"/>
+                <BeamBattery  xSSD="140" ySSD="60" rating="1" arcs="(All Arcs)"/>
+                
+                <PointDefense xSSD="35" ySSD="140"/>
+                <PointDefense xSSD="135" ySSD="140"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Waldburg/M</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="10.0" y="-10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Neu Swabian League</Race>
+            <ClassAbbrev>DD</ClassAbbrev>
+            <ClassName>WaldburgM</ClassName>
+            <ShipClass>Missile Destroyer</ShipClass>
+            <Mass>30</Mass>
+            <PointValue>101</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="2"/>
+            <Hull value="30" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="100" ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <SalvoMissileLauncher xSSD="100" ySSD="20" smmId="101" arcs="(FP/F/FS)"/>
+                <SalvoMissileMagazine xSSD="100" ySSD="60" id="101" maxInRow="2" capacity="4">
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                </SalvoMissileMagazine>
+
+                <BeamBattery  xSSD="100" ySSD="110" rating="1" arcs="(All arcs)"/>
+                <PointDefense xSSD="100" ySSD="150" />
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Ehrenhold</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="20.0" y="-10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Neu Swabian League</Race>
+            <ClassAbbrev>FF</ClassAbbrev>
+            <ClassName>Ehrenhold</ClassName>
+            <ShipClass>Frigate</ShipClass>
+            <Mass>20</Mass>
+            <PointValue>67</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="2"/>
+            <Hull value="20" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="100" ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <BeamBattery  xSSD="70"  ySSD="100" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="130" ySSD="100" rating="2" arcs="(F/FS/AS)"/>
+                <PointDefense xSSD="100" ySSD="140"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Stroschen</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="30.0" y="-10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Neu Swabian League</Race>
+            <ClassAbbrev>CT</ClassAbbrev>
+            <ClassName>Stroschen</ClassName>
+            <ShipClass>Corvette</ShipClass>
+            <Mass>14</Mass>
+            <PointValue>47</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="2"/>
+            <Hull value="14" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="100" ySSD="150"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <BeamBattery  xSSD="100" ySSD="70" rating="2" arcs="(FP/F/FS)"/>
+                <PointDefense xSSD="100" ySSD="110"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Falke</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="40.0" y="-10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+            
+            <Race>Neu Swabian League</Race>
+            <ClassAbbrev>SC</ClassAbbrev>
+            <ClassName>Falke</ClassName>
+            <ShipClass>Scoutship</ShipClass>
+            <Mass>8</Mass>
+            <PointValue>27</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="1"/>
+            <Hull value="8" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="100" ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <BeamBattery  xSSD="100" ySSD="100" rating="1" arcs="(All arcs)"/>
+            </Weapons>
+        </Ship>
+
+        <FighterGroup id="1106">
+            <Position x="0.0" y="-20.0"/>
+            <Heading heading="12"/>
+            <Race>Neu Swabian League</Race>
+            <Type>Standard</Type>
+            <Count>6</Count>
+            <Endurance>6</Endurance>
+            <PilotQuality>Normal</PilotQuality>
+        </FighterGroup>
+
+        <FighterGroup id="1105">
+            <Position x="10.0" y="-20.0"/>
+            <Heading heading="1"/>
+            <Race>Neu Swabian League</Race>
+            <Type>Standard</Type>
+            <Count>5</Count>
+            <Endurance>6</Endurance>
+            <PilotQuality>Normal</PilotQuality>
+        </FighterGroup>
+
+
+        <FighterGroup id="1104">
+            <Position x="20.0" y="-20.0"/>
+            <Heading heading="2"/>
+            <Race>Neu Swabian League</Race>
+            <Type>Standard</Type>
+            <Count>4</Count>
+            <Endurance>6</Endurance>
+            <PilotQuality>Normal</PilotQuality>
+        </FighterGroup>
+
+
+        <FighterGroup id="1103">
+            <Position x="30.0" y="-20.0"/>
+            <Heading heading="3"/>
+            <Race>Neu Swabian League</Race>
+            <Type>Standard</Type>
+            <Count>3</Count>
+            <Endurance>6</Endurance>
+            <PilotQuality>Normal</PilotQuality>
+        </FighterGroup>
+
+
+        <FighterGroup id="1102">
+            <Position x="40.0" y="-20.0"/>
+            <Heading heading="4"/>
+            <Race>Neu Swabian League</Race>
+            <Type>Standard</Type>
+            <Count>2</Count>
+            <Endurance>6</Endurance>
+            <PilotQuality>Normal</PilotQuality>
+        </FighterGroup>
+
+        <FighterGroup id="1101">
+            <Position x="50.0" y="-20.0"/>
+            <Heading heading="6"/>
+            <Race>Neu Swabian League</Race>
+            <Type>Standard</Type>
+            <Count>1</Count>
+            <Endurance>6</Endurance>
+            <PilotQuality>Normal</PilotQuality>
+        </FighterGroup>
+
+    </Player>
+</GameEngine>

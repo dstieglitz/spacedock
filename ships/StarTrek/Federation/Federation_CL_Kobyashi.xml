@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <Designer>Brendan Robertson</Designer>
+            <Race>Federation</Race>
+            <ClassAbbrev>CL</ClassAbbrev>
+            <ClassName>Kobyashi Can-do</ClassName>
+            <ShipClass>Light Cruiser</ShipClass>
+            <Mass>44</Mass>
+            <PointValue>149</PointValue>
+            <MainDrive initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="44" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="80"  ySSD="160"/>
+                <FireControl xSSD="100" ySSD="160"/>
+                <FireControl xSSD="120" ySSD="160"/>
+            </Electronics>
+            <Defenses>
+            </Defenses>
+            <Weapons>
+		<PulseTorpedo xSSD="100" ySSD="40"  arcs="(F)"/>
+	        <BeamBattery  xSSD="145" ySSD="90"  rating="2" arcs="(F/FS/AS)"/>
+	        <BeamBattery  xSSD="55"  ySSD="90"  rating="2" arcs="(AP/FP/F)"/>
+	        <BeamBattery  xSSD="100" ySSD="90"  rating="1"/>
+	        <PointDefense xSSD="70"  ySSD="130"/>
+	        <PointDefense xSSD="130" ySSD="130"/>
+            </Weapons>
+        </Ship>

@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <Name>Planet</Name>
+            <Race>Generic</Race>
+            <ClassAbbrev>Planet8</ClassAbbrev>
+            <ClassName>Planet</ClassName>
+            <ShipClass>Planet</ShipClass>
+            <CrewQuality>First Rate</CrewQuality>
+            <Mass>1000</Mass>
+            <PointValue>149</PointValue>
+            <MainDrive id="3" type="Standard" initialThrust="0" currentThrust="0" status="Operational" active="false" />
+            <Armor totalArmor="0" remainingArmor="0"/>
+            <Hull value="1000" type="Average" class="Military" stealth="0" remainingHullBoxes="300"/>
+            <Electronics>
+            </Electronics>
+            <Defenses>
+            </Defenses>
+            <Holds>
+            </Holds>
+            <Weapons>
+            </Weapons>
+        </Ship>

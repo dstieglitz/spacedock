@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Mak'Aroon</Name>
+    <Race>NarnRegime</Race>
+    <ClassAbbrev>DN</ClassAbbrev>
+    <ClassName>Mak'Aroon</ClassName>
+    <ShipClass>Dreadnought</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>175</Mass>
+    <PointValue>601</PointValue>
+    <MainDrive type="Standard" initialThrust="6" active="false" />
+    <FTLDrive/>
+    <Armor totalArmor="0"/>
+    <Hull value="175" type="Custom" class="Military" stealth="0" totalHullBoxes="40"/>
+    <Electronics>
+        <FireControl xSSD="140" ySSD="165"/>
+        <FireControl xSSD="165" ySSD="165"/>
+    </Electronics>
+    <Defenses>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <FighterBay xSSD="40" ySSD="50"/>
+        <FighterBay xSSD="250" ySSD="50"/>
+        <PlasmaBoltLauncher xSSD="123" ySSD="40" rating="2" arcs="(F)"/>
+        <PlasmaBoltLauncher xSSD="166" ySSD="40" rating="2" arcs="(F)"/>
+        <KineticGun  xSSD="80" ySSD="40" rating="3" arcs="(F)"/>
+        <KineticGun  xSSD="205" ySSD="40" rating="3" arcs="(F)"/>
+        <BeamBattery  xSSD="105" ySSD="85" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="190" ySSD="85" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="175" ySSD="125" rating="2" arcs="(FS/AS)"/>
+        <BeamBattery  xSSD="130" ySSD="125" rating="2" arcs="(AP/FP)"/>
+        <BeamBattery  xSSD="150" ySSD="85" rating="2" arcs="(A)"/>
+        <PointDefense xSSD="90" ySSD="130"/>
+        <PointDefense xSSD="220" ySSD="130"/>
+        <PointDefense xSSD="90" ySSD="152"/>
+        <PointDefense xSSD="220" ySSD="151"/>
+    </Weapons>
+</Ship>
+

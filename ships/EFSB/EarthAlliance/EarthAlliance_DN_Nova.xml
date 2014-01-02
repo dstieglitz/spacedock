@@ -1,0 +1,45 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Nova</Name>
+    <Race>EarthAlliance</Race>
+    <ClassAbbrev>DN</ClassAbbrev>
+    <ClassName>Nova</ClassName>
+    <ShipClass>Dreadnought</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>205</Mass>
+    <PointValue>715</PointValue>
+    <MainDrive type="Standard" initialThrust="4" active="false" />
+    <FTLDrive/>
+    <Armor totalArmor="0"/>
+    <Hull value="205" type="Custom" class="Military" stealth="0" totalHullBoxes="48"/>
+    <Electronics>
+        <FireControl xSSD="217" ySSD="168"/>
+        <FireControl xSSD="120" ySSD="168"/>
+        <FireControl xSSD="152" ySSD="168"/>
+        <AreaDefenseFireControl xSSD="184" ySSD="168"/>
+    </Electronics>
+    <Defenses>
+        <Screen xSSD="175" ySSD="145"/>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <FighterBay xSSD="60" ySSD="40"/>
+        <FighterBay xSSD="275" ySSD="40"/>
+        <FighterBay xSSD="60" ySSD="100"/>
+        <FighterBay xSSD="275" ySSD="100"/>
+        <BeamBattery  xSSD="155" ySSD="30" rating="3" arcs="(F)"/>
+        <BeamBattery  xSSD="190" ySSD="30" rating="3" arcs="(F)"/>
+        <BeamBattery  xSSD="190" ySSD="68" rating="3" arcs="(FS/AS)"/>
+        <BeamBattery  xSSD="230" ySSD="68" rating="3" arcs="(FS/AS)"/>
+        <BeamBattery  xSSD="110" ySSD="68" rating="3" arcs="(AP/FP)"/>
+        <BeamBattery  xSSD="155" ySSD="68" rating="3" arcs="(AP/FP)"/>
+        <BeamBattery  xSSD="190" ySSD="105" rating="3" arcs="(A)"/>
+        <BeamBattery  xSSD="155" ySSD="105" rating="3" arcs="(A)"/>
+        <PointDefense xSSD="110" ySSD="145"/>
+        <PointDefense xSSD="140" ySSD="145"/>
+        <PointDefense xSSD="210" ySSD="145"/>
+        <PointDefense xSSD="240" ySSD="145"/>
+    </Weapons>
+</Ship>
+

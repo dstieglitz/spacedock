@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>Federal Stats Europa</Race>
+            <ClassAbbrev>FF</ClassAbbrev>
+            <ClassName>Ibiza</ClassName>
+            <ShipClass>Frigate</ShipClass>
+            <Mass>18</Mass>
+            <PointValue>61</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="18" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="100"  ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <SubmunitionPack xSSD="45"  ySSD="70"  arcs="(F)"/>
+                <SubmunitionPack xSSD="145" ySSD="70"  arcs="(F)"/>
+                <BeamBattery  xSSD="40"  ySSD="110" rating="1" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="160" ySSD="110" rating="1" arcs="(All arcs)"/>
+                <PointDefense xSSD="100" ySSD="140"  />
+            </Weapons>
+        </Ship>

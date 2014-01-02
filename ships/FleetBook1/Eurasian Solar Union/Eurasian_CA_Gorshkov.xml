@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="yes" ?>
+         <Ship>
+             <Race>Eurasian Solar Union</Race>
+             <ClassAbbrev>CA</ClassAbbrev>
+             <ClassName>Gorshkov</ClassName>
+             <ShipClass>Heavy Cruiser</ShipClass>
+             <Mass>70</Mass>
+             <PointValue>240</PointValue>
+             <MainDrive type="Standard" initialThrust="4"/>
+             <FTLDrive/>
+             <Armor totalArmor="0"/>
+             <Hull value="70" type="Average"/>
+             <Electronics>
+                 <FireControl xSSD="95"  ySSD="175"/>
+                 <FireControl xSSD="135" ySSD="175"/>
+             </Electronics>
+             <Defenses>
+                 <Screen xSSD="115" ySSD="155"/>
+             </Defenses>
+             <Holds/>
+             <Weapons>
+                 <SalvoMissileRack xSSD="90"  ySSD="25"/>
+                 <SalvoMissileRack xSSD="140" ySSD="25"/>
+                 <BeamBattery      xSSD="115" ySSD="60"  rating="3" arcs="(FP/F/FS)"/>
+                 <BeamBattery      xSSD="70"  ySSD="80" rating="2" arcs="(AP/FP/F)"/>
+                 <BeamBattery      xSSD="165" ySSD="80" rating="2" arcs="(F/FS/AS)"/>
+                 <BeamBattery      xSSD="140" ySSD="125" rating="1" arcs="(All arcs)"/>
+                 <BeamBattery      xSSD="90"  ySSD="125" rating="1" arcs="(All arcs)"/>
+                 <PointDefense     xSSD="70"  ySSD="160"/>
+                 <PointDefense     xSSD="160" ySSD="160"/>
+             </Weapons>
+         </Ship>

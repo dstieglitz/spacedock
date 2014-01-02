@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Parassi</Name>
+    <Race>CentauriRepublic</Race>
+    <ClassAbbrev>DH</ClassAbbrev>
+    <ClassName>Parassi</ClassName>
+    <ShipClass>Heavy Destroyer</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>47</Mass>
+    <PointValue>159</PointValue>
+    <MainDrive type="Standard" initialThrust="6" active="false" />
+    <Armor totalArmor="0"/>
+    <Hull value="47" type="Custom" class="Military" stealth="0" totalHullBoxes="16"/>
+    <Electronics>
+        <FireControl xSSD="88" ySSD="166"/>
+    </Electronics>
+    <Defenses>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <SalvoMissileRack xSSD="50" ySSD="74" type="Standard Salvo" arcs="(F)"/>
+        <SalvoMissileRack xSSD="154" ySSD="71" type="Standard Salvo" arcs="(F)"/>
+        <BeamBattery  xSSD="100" ySSD="55" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="29" ySSD="134" rating="2" arcs="(AP/FP)"/>
+        <BeamBattery  xSSD="164" ySSD="134" rating="2" arcs="(FS/AS)"/>
+        <PointDefense xSSD="87" ySSD="101"/>
+        <PointDefense xSSD="113" ySSD="100"/>
+    </Weapons>
+</Ship>
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Battlecrab</Name>
+    <Race>Shadows</Race>
+    <ClassAbbrev>BC</ClassAbbrev>
+    <ClassName>Battlecrab</ClassName>
+    <ShipClass>Battlecruiser</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>240</Mass>
+    <PointValue>1141</PointValue>
+    <MainDrive type="Advanced" initialThrust="5" active="false" />
+    <FTLDrive/>
+    <Armor totalArmor="9,5"/>
+    <Hull value="240" type="Custom" class="Military" stealth="2" rows="3" totalHullBoxes="33"/>
+    <Electronics>
+        <FireControl xSSD="98" ySSD="91"/>
+    </Electronics>
+    <Defenses>
+        <Screen xSSD="34" ySSD="83"/>
+        <Screen xSSD="157" ySSD="81"/>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <KineticGun  xSSD="96" ySSD="24" rating="10" arcs="(F)"/>
+        <FighterBay xSSD="36" ySSD="31"/>
+        <FighterBay xSSD="159" ySSD="29"/>
+        <KineticGun  xSSD="97" ySSD="60" rating="10" arcs="(F)"/>
+        <Scattergun xSSD="35" ySSD="118"/>
+        <Scattergun xSSD="67" ySSD="118"/>
+        <Scattergun xSSD="98" ySSD="119"/>
+        <Scattergun xSSD="130" ySSD="118"/>
+        <Scattergun xSSD="159" ySSD="117"/>
+        <Scattergun xSSD="35" ySSD="146"/>
+        <Scattergun xSSD="67" ySSD="145"/>
+        <Scattergun xSSD="99" ySSD="144"/>
+        <Scattergun xSSD="129" ySSD="145"/>
+        <Scattergun xSSD="161" ySSD="145"/>
+    </Weapons>
+</Ship>
+

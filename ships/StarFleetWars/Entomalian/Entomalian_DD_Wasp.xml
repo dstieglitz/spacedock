@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <Designer>Dean Gundberg</Designer>
+            <Race>Entomalian</Race>
+            <ClassAbbrev>DD</ClassAbbrev>
+            <ClassName>Wasp</ClassName>
+            <ShipClass>Destroyer</ShipClass>
+            <Mass>28</Mass>
+            <PointValue>95</PointValue>
+            <MainDrive initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="4"/>
+            <Hull  value="28" type="Fragile"/>
+            <Electronics>
+                <FireControl xSSD="100" ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Weapons>
+                <SubmunitionPack xSSD="45" ySSD="30"/>
+                <SubmunitionPack xSSD="85" ySSD="30"/>
+                <SubmunitionPack xSSD="125" ySSD="30"/>
+                <SubmunitionPack xSSD="165" ySSD="30"/>
+                <BeamBattery  xSSD="100" ySSD="90" rating="2" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="60"  ySSD="130" rating="1"/>
+                <BeamBattery  xSSD="140" ySSD="130" rating="1"/>
+                <PointDefense xSSD="100" ySSD="150"/>
+            </Weapons>
+        </Ship>

@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <PointValue>299</PointValue>
+            <ClassName>Tuuloth</ClassName>
+            <Race>Phalon</Race>
+            <ClassAbbrev>CA</ClassAbbrev>
+            <Mass>80</Mass>
+            <ShipClass>Warrior</ShipClass>
+            <Designer>GZG</Designer>
+            <MainDrive initialThrust="4"/>
+            <Hull type="Weak" value="80"/>
+            <Armor totalArmor="6,3"/>
+            <FTLDrive/>
+            <Defenses>
+                <VapourShroud xSSD="120" ySSD="150"/>
+            </Defenses>
+            <Electronics>
+                <FireControl xSSD="50" ySSD="150"/>
+                <FireControl xSSD="70" ySSD="150"/>
+            </Electronics>
+            <Weapons>
+                <PlasmaBoltLauncher arcs="(FP/F/FS)" rating="3" xSSD="60" ySSD="30"/>
+                <Pulser arcs="(All arcs)" xSSD="60" ySSD="70"/>
+                <Pulser arcs="(AP/FP/F)"  xSSD="30" ySSD="110"/>
+                <Pulser arcs="(F/FS/AS)"  xSSD="90" ySSD="110"/>
+            </Weapons>
+        </Ship>

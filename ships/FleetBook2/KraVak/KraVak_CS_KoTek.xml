@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <Designer>Jon Tuffley</Designer>
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>CS</ClassAbbrev>
+            <ClassName>Ko'Tek</ClassName>
+            <ShipClass>Strike Cruiser</ShipClass>
+            <Mass>70</Mass>
+            <PointValue>275</PointValue>
+            <MainDrive initialThrust="6" type="Advanced"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="70" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="70"  ySSD="180"/>
+                <FireControl xSSD="90"  ySSD="180"/>
+            </Electronics>
+            <Weapons>
+                <KineticGun xSSD="40"  ySSD="60" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="80"  ySSD="30" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="120" ySSD="60" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="80"  ySSD="90" rating="1"/>
+                <Scattergun xSSD="60"  ySSD="150"/>
+                <Scattergun xSSD="100" ySSD="150"/>
+            </Weapons>
+        </Ship>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <PointValue>60</PointValue>
+            <ClassName>Dorrth</ClassName>
+            <Race>Phalon</Race>
+            <ClassAbbrev>CT</ClassAbbrev>
+            <Mass>16</Mass>
+            <ShipClass>Protector</ShipClass>
+            <Designer>GZG</Designer>
+            <MainDrive initialThrust="6"/>
+            <Armor totalArmor="2"/>
+            <FTLDrive/>
+            <Hull type="Fragile" value="16"/>
+            <Defenses>
+                <VapourShroud xSSD="60" ySSD="120"/>
+            </Defenses>
+            <Electronics>
+                <FireControl xSSD="60" ySSD="80"/>
+            </Electronics>
+            <Weapons>
+                <Pulser arcs="(FP/F/FS)" xSSD="60" ySSD="40"/>
+            </Weapons>
+        </Ship>

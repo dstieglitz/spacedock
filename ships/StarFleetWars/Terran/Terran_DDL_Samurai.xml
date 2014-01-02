@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <Designer>Dean Gundberg</Designer>
+            <Race>Terran</Race>
+            <ClassAbbrev>DDL</ClassAbbrev>
+            <ClassName>Samurai</ClassName>
+            <ShipClass>Destroyer Leader</ShipClass>
+            <Mass>58</Mass>
+            <PointValue>192</PointValue>
+            <MainDrive initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="2"/>
+            <Hull  value="58" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="90"  ySSD="185"/>
+                <FireControl xSSD="110" ySSD="185"/>
+            </Electronics>
+            <Defenses/>
+            <Weapons>
+                <PulseTorpedo xSSD="100" ySSD="30"  arcs="(F)"/>
+                <BeamBattery  xSSD="100" ySSD="80"  rating="3" arcs="(F)"/>
+                <BeamBattery  xSSD="100" ySSD="120" rating="2" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="100" ySSD="160"  rating="2" arcs="(AP/A/AS)"/>
+                <PointDefense xSSD="50"  ySSD="150"/>
+                <PointDefense xSSD="150" ySSD="150"/>
+            </Weapons>
+        </Ship>

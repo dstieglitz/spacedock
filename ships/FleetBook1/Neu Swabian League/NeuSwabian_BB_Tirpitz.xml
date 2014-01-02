@@ -1,0 +1,50 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Tirpitz</Name>
+    <Race>Neu Swabian League</Race>
+    <ClassAbbrev>BB</ClassAbbrev>
+    <ClassName>Tirpitz</ClassName>
+    <ShipClass>Battleship</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>125</Mass>
+    <PointValue>437</PointValue>
+    <MainDrive type="Standard" initialThrust="2" active="false" />
+    <FTLDrive/>
+    <Armor totalArmor="10"/>
+    <Hull value="125" type="Custom" class="Military" stealth="0" totalHullBoxes="40"/>
+    <Electronics>
+        <FireControl xSSD="85" ySSD="170"/>
+        <FireControl xSSD="109" ySSD="169"/>
+        <FireControl xSSD="130" ySSD="170"/>
+    </Electronics>
+    <Defenses>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <BeamBattery  xSSD="107" ySSD="27" rating="2" arcs="(FP/F/FS)"/>
+        <BeamBattery  xSSD="31" ySSD="138" rating="3" arcs="(AP/FP/F)"/>
+        <BeamBattery  xSSD="185" ySSD="137" rating="3" arcs="(F/FS/AS)"/>
+        <BeamBattery  xSSD="30" ySSD="100" rating="2" arcs="(AP/FP/F)"/>
+        <BeamBattery  xSSD="184" ySSD="96" rating="2" arcs="(F/FS/AS)"/>
+        <BeamBattery  xSSD="30" ySSD="60" rating="1" arcs="(All arcs)"/>
+        <BeamBattery  xSSD="183" ySSD="57" rating="1" arcs="(All arcs)"/>
+        <PointDefense xSSD="27" ySSD="170"/>
+        <PointDefense xSSD="53" ySSD="170"/>
+        <PointDefense xSSD="190" ySSD="171"/>
+        <PointDefense xSSD="160" ySSD="170"/>
+        <KineticGun  xSSD="60" ySSD="27" rating="3" arcs="(F)"/>
+        <KineticGun  xSSD="153" ySSD="27" rating="3" arcs="(F)"/>
+        <SalvoMissileMagazine xSSD="107" ySSD="123" maxInRow="3" capacity="6">
+                    <Salvo type="Extended Range Salvo" status="Available"/>
+                    <Salvo type="Extended Range Salvo" status="Available"/>
+                    <Salvo type="Extended Range Salvo" status="Available"/>
+                    <Salvo type="Extended Range Salvo" status="Available"/>
+                    <Salvo type="Extended Range Salvo" status="Available"/>
+                    <Salvo type="Extended Range Salvo" status="Available"/>
+                </SalvoMissileMagazine>
+        <SalvoMissileLauncher xSSD="76" ySSD="73" arcs="(FP/F/FS)"/>
+        <SalvoMissileLauncher xSSD="135" ySSD="72" arcs="(FP/F/FS)"/>
+    </Weapons>
+</Ship>
+

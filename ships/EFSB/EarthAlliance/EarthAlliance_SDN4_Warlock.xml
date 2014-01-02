@@ -1,0 +1,45 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Warlock</Name>
+    <Race>EarthAlliance</Race>
+    <ClassAbbrev>SDN4</ClassAbbrev>
+    <ClassName>Advanded Destroyer</ClassName>
+    <ShipClass>Superdreadnought</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>223</Mass>
+    <PointValue>975</PointValue>
+    <MainDrive type="Advanced" initialThrust="4" active="false" />
+    <FTLDrive/>
+    <Armor totalArmor="0"/>
+    <Hull value="223" type="Custom" class="Military" stealth="1" totalHullBoxes="48"/>
+    <Electronics>
+        <FireControl xSSD="217" ySSD="168"/>
+        <FireControl xSSD="120" ySSD="168"/>
+        <FireControl xSSD="152" ySSD="168"/>
+        <AreaDefenseFireControl xSSD="184" ySSD="168"/>
+    </Electronics>
+    <Defenses>
+        <Screen xSSD="175" ySSD="145"/>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <FighterBay xSSD="60" ySSD="40"/>
+        <FighterBay xSSD="275" ySSD="40"/>
+        <FighterBay xSSD="60" ySSD="100"/>
+        <FighterBay xSSD="275" ySSD="100"/>
+        <KineticGun  xSSD="110" ySSD="30" rating="4" arcs="(F)"/>
+        <KineticGun  xSSD="230" ySSD="30" rating="4" arcs="(F)"/>
+        <KineticGun  xSSD="111" ySSD="67" rating="3" arcs="(AP/FP)"/>
+        <KineticGun  xSSD="153" ySSD="68" rating="3" arcs="(AP/FP)"/>
+        <KineticGun  xSSD="193" ySSD="68" rating="3" arcs="(FS/AS)"/>
+        <KineticGun  xSSD="230" ySSD="68" rating="3" arcs="(FS/AS)"/>
+        <KineticGun  xSSD="110" ySSD="105" rating="4" arcs="(A)"/>
+        <KineticGun  xSSD="230" ySSD="105" rating="4" arcs="(A)"/>
+        <PointDefense xSSD="110" ySSD="145"/>
+        <PointDefense xSSD="140" ySSD="145"/>
+        <PointDefense xSSD="210" ySSD="145"/>
+        <PointDefense xSSD="240" ySSD="145"/>
+    </Weapons>
+</Ship>
+

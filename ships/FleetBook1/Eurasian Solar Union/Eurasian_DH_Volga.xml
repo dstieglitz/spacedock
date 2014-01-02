@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes" ?>
+         <Ship>
+             <Race>Eurasian Solar Union</Race>
+             <ClassAbbrev>DH</ClassAbbrev>
+             <ClassName>Volga</ClassName>
+             <ShipClass>Super Destroyer</ShipClass>
+             <Mass>34</Mass>
+             <PointValue>115</PointValue>
+             <MainDrive type="Standard" initialThrust="4"/>
+             <FTLDrive/>
+             <Armor totalArmor="2"/>
+             <Hull value="34" type="Average"/>
+             <Electronics>
+                 <FireControl xSSD="100" ySSD="160"/>
+             </Electronics>
+             <Defenses/>
+             <Holds/>
+             <Weapons>
+                 <BeamBattery  xSSD="100" ySSD="55"  rating="2" arcs="(All arcs)"/>
+                 <BeamBattery  xSSD="50"  ySSD="70"  rating="2" arcs="(AP/FP/F)"/>
+                 <BeamBattery  xSSD="150" ySSD="70"  rating="2" arcs="(F/FS/AS)"/>
+                 <BeamBattery  xSSD="40"  ySSD="110" rating="1" arcs="(All arcs)"/>
+                 <BeamBattery  xSSD="160" ySSD="110" rating="1" arcs="(All arcs)"/>
+                 <PointDefense xSSD="80"  ySSD="100"  />
+                 <PointDefense xSSD="120" ySSD="100" />
+             </Weapons>
+         </Ship>

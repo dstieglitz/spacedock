@@ -1,0 +1,34 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>UNSC</Race>
+            <ClassAbbrev>AX</ClassAbbrev>
+            <ClassName>Visionary</ClassName>
+            <ShipClass>Explorer</ShipClass>
+            <Mass>110</Mass>
+            <PointValue>382</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="110" type="Custom" totalHullBoxes="26" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="80"  ySSD="185"/>
+                <FireControl xSSD="120" ySSD="185"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="100" ySSD="165"/>
+            </Defenses>
+            <Holds>
+                <CargoHold xSSD="24" ySSD="40" type="Cargo Hold"   totalSize="12"/>
+            </Holds>
+            <Weapons>
+                <Graser       xSSD="100" ySSD="20" rating="2" arcs="(F)"/>
+                <BeamBattery  xSSD="80"  ySSD="60"  rating="1"/>
+                <BeamBattery  xSSD="120" ySSD="60"  rating="1"/>
+                <BeamBattery  xSSD="80"  ySSD="100" rating="1"/>
+                <BeamBattery  xSSD="120" ySSD="100" rating="1"/>
+
+                <PointDefense xSSD="70"  ySSD="135"/>
+                <PointDefense xSSD="100" ySSD="135"/>
+                <PointDefense xSSD="130" ySSD="135"/>
+            </Weapons>
+        </Ship>

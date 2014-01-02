@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <Designer>Oerjan Ohlson</Designer>
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>CT</ClassAbbrev>
+            <ClassName>Kedge</ClassName>
+            <ShipClass>Corvette</ShipClass>
+            <Mass>24</Mass>
+            <PointValue>96</PointValue>
+            <MainDrive initialThrust="6" type="Advanced"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="24" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="80"  ySSD="180"/>
+            </Electronics>
+            <Weapons>
+                <MultipleKineticPenetratorPack xSSD="50"  ySSD="60" arcs="(F)"/>
+                <MultipleKineticPenetratorPack xSSD="110" ySSD="60" arcs="(F)"/>
+                <MultipleKineticPenetratorPack xSSD="30"  ySSD="110" arcs="(F)"/>
+                <MultipleKineticPenetratorPack xSSD="130" ySSD="110" arcs="(F)"/>
+                <KineticGun xSSD="80"  ySSD="110" rating="1"/>
+                <Scattergun xSSD="80"  ySSD="150"/>
+            </Weapons>
+        </Ship>

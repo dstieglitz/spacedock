@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>Neu Swabian League</Race>
+            <ClassAbbrev>DD</ClassAbbrev>
+            <ClassName>Waldburg</ClassName>
+            <ShipClass>Destroyer</ShipClass>
+            <Mass>30</Mass>
+            <PointValue>100</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="3"/>
+            <Hull value="30" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="85" ySSD="150"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <BeamBattery  xSSD="60" ySSD="100" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="110" ySSD="100" rating="2" arcs="(F/FS/AS)"/>
+                
+                <BeamBattery  xSSD="30" ySSD="60" rating="1" arcs="(All Arcs)"/>
+                <BeamBattery  xSSD="140" ySSD="60" rating="1" arcs="(All Arcs)"/>
+                
+                <PointDefense xSSD="35" ySSD="140"/>
+                <PointDefense xSSD="135" ySSD="140"/>
+            </Weapons>
+        </Ship>

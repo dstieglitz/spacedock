@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>T'Loth</Name>
+    <Race>NarnRegime</Race>
+    <ClassAbbrev>DH</ClassAbbrev>
+    <ClassName>T'Loth</ClassName>
+    <ShipClass>Heavy Destroyer</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>45</Mass>
+    <PointValue>148</PointValue>
+    <MainDrive type="Standard" initialThrust="6" active="false" />
+    <Armor totalArmor="0"/>
+    <Hull value="45" type="Custom" class="Military" stealth="0" totalHullBoxes="20"/>
+    <Electronics>
+        <FireControl xSSD="77" ySSD="167"/>
+        <FireControl xSSD="132" ySSD="168"/>
+    </Electronics>
+    <Defenses>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <BeamBattery  xSSD="105" ySSD="31" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="106" ySSD="90" rating="1" arcs="(AP/FP/F/FS/AS)"/>
+        <BeamBattery  xSSD="175" ySSD="91" rating="2" arcs="(FS/AS)"/>
+        <BeamBattery  xSSD="32" ySSD="92" rating="2" arcs="(AP/FP)"/>
+        <PointDefense xSSD="43" ySSD="144"/>
+        <PointDefense xSSD="164" ySSD="144"/>
+    </Weapons>
+</Ship>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <PointValue>39</PointValue>
+            <ClassName>Phyaa</ClassName>
+            <Race>Phalon</Race>
+            <ClassAbbrev>SC</ClassAbbrev>
+            <Mass>10</Mass>
+            <ShipClass>Protector</ShipClass>
+            <Designer>GZG</Designer>
+            <MainDrive initialThrust="6"/>
+            <Armor totalArmor="1"/>
+            <FTLDrive/>
+            <Hull type="Fragile" value="10"/>
+            <Defenses>
+                <VapourShroud xSSD="60" ySSD="120"/>
+            </Defenses>
+            <Electronics>
+                <FireControl xSSD="60" ySSD="80"/>
+            </Electronics>
+            <Weapons>
+                <Pulser arcs="(F)" xSSD="60" ySSD="40"/>
+            </Weapons>
+        </Ship>

@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>G'Quan</Name>
+    <Race>NarnRegime</Race>
+    <ClassAbbrev>SDN</ClassAbbrev>
+    <ClassName>G'Quan</ClassName>
+    <ShipClass>Superdreadnought</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>220</Mass>
+    <PointValue>766</PointValue>
+    <MainDrive type="Standard" initialThrust="6" active="false" />
+    <FTLDrive/>
+    <Armor totalArmor="0"/>
+    <Hull value="220" type="Custom" class="Military" stealth="0" totalHullBoxes="44"/>
+    <Electronics>
+        <FireControl xSSD="140" ySSD="165"/>
+        <FireControl xSSD="165" ySSD="165"/>
+    </Electronics>
+    <Defenses>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <FighterBay xSSD="40" ySSD="50"/>
+        <FighterBay xSSD="40" ySSD="100"/>
+        <FighterBay xSSD="250" ySSD="50"/>
+        <FighterBay xSSD="250" ySSD="100"/>
+        <PlasmaBoltLauncher xSSD="123" ySSD="40" rating="2" arcs="(F)"/>
+        <PlasmaBoltLauncher xSSD="166" ySSD="40" rating="2" arcs="(F)"/>
+        <KineticGun  xSSD="80" ySSD="40" rating="4" arcs="(F)"/>
+        <KineticGun  xSSD="205" ySSD="40" rating="4" arcs="(F)"/>
+        <BeamBattery  xSSD="105" ySSD="85" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="190" ySSD="85" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="175" ySSD="125" rating="2" arcs="(FS/AS)"/>
+        <BeamBattery  xSSD="130" ySSD="125" rating="2" arcs="(AP/FP)"/>
+        <BeamBattery  xSSD="150" ySSD="85" rating="2" arcs="(A)"/>
+        <PointDefense xSSD="90" ySSD="130"/>
+        <PointDefense xSSD="220" ySSD="130"/>
+        <PointDefense xSSD="90" ySSD="152"/>
+        <PointDefense xSSD="220" ySSD="151"/>
+    </Weapons>
+</Ship>
+

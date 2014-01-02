@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>Neu Swabian League</Race>
+            <ClassAbbrev>CA</ClassAbbrev>
+            <ClassName>Markgraf</ClassName>
+            <ShipClass>Heavy Cruiser</ShipClass>
+            <Mass>82</Mass>
+            <PointValue>271</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="10"/>
+            <Hull value="82" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="70" ySSD="170"/>
+                <FireControl xSSD="130" ySSD="170"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <BeamBattery  xSSD="75"  ySSD="40" rating="3" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="125" ySSD="40" rating="3" arcs="(FP/F/FS)"/>
+                
+                <BeamBattery  xSSD="60" ySSD="110" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="140" ySSD="110" rating="2" arcs="(F/FS/AS)"/>
+                
+                <BeamBattery  xSSD="30" ySSD="70" rating="1" arcs="(All Arcs)"/>
+                <BeamBattery  xSSD="170" ySSD="70" rating="1" arcs="(All Arcs)"/>
+                
+                <PointDefense xSSD="40"  ySSD="150"/>
+                <PointDefense xSSD="100" ySSD="150"/>
+                <PointDefense xSSD="160" ySSD="150"/>
+            </Weapons>
+        </Ship>

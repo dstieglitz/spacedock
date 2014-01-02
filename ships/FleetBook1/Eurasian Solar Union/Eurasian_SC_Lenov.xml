@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes" ?>
+         <Ship>
+             <Race>Eurasian Solar Union</Race>
+             <ClassAbbrev>SC</ClassAbbrev>
+             <ClassName>Lenov</ClassName>
+             <ShipClass>Scoutship</ShipClass>
+             <Mass>6</Mass>
+             <PointValue>21</PointValue>
+             <MainDrive type="Standard" initialThrust="8"/>
+             <FTLDrive/>
+             <Armor totalArmor="0"/>
+             <Hull value="6" type="Weak"/>
+             <Electronics>
+                 <FireControl xSSD="90"  ySSD="110"/>
+             </Electronics>
+             <Defenses/>
+             <Holds/>
+             <Weapons>
+                 <BeamBattery xSSD="90"  ySSD="60" rating="1" arcs="(All arcs)"/>
+             </Weapons>
+         </Ship>

@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>New Anglian Confederation</Race>
+            <ClassAbbrev>SC</ClassAbbrev>
+            <ClassName>Harrison</ClassName>
+            <ShipClass>Scoutship</ShipClass>
+            <Mass>6</Mass>
+            <PointValue>21</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="6" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="140" ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <BeamBattery xSSD="140" ySSD="100" rating="1" arcs="(All arcs)"/>
+            </Weapons>
+        </Ship>

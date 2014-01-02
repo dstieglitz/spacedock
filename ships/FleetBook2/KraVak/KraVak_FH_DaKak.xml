@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <Designer>Jon Tuffley</Designer>
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>FH</ClassAbbrev>
+            <ClassName>Da'Kak</ClassName>
+            <ShipClass>Heavy Frigate</ShipClass>
+            <Mass>30</Mass>
+            <PointValue>119</PointValue>
+            <MainDrive initialThrust="6" type="Advanced"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="30" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="80" ySSD="180"/>
+            </Electronics>
+            <Weapons>
+                <KineticGun xSSD="50"  ySSD="50" rating="2" arcs="(F)"/>
+                <KineticGun xSSD="110" ySSD="50" rating="2" arcs="(F)"/>
+                <Scattergun xSSD="50"  ySSD="110"/>
+                <Scattergun xSSD="110" ySSD="110"/>
+            </Weapons>
+        </Ship>
+

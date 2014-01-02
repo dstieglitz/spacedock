@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>Federal Stats Europa</Race>
+            <ClassAbbrev>SC</ClassAbbrev>
+            <ClassName>Mistral</ClassName>
+            <ShipClass>Scoutship</ShipClass>
+            <Mass>8</Mass>
+            <PointValue>28</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="8" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="100"  ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <BeamBattery  xSSD="40"  ySSD="110" rating="1" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="160" ySSD="110" rating="1" arcs="(All arcs)"/>
+            </Weapons>
+        </Ship>

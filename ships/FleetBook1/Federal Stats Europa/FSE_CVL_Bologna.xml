@@ -1,0 +1,45 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>Federal Stats Europa</Race>
+            <ClassAbbrev>CVL</ClassAbbrev>
+            <ClassName>Bologna</ClassName>
+            <ShipClass>Light Carrier</ShipClass>
+            <Mass>170</Mass>
+            <PointValue>580</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="170" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="80"  ySSD="180"/>
+                <FireControl xSSD="120" ySSD="180"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="100"  ySSD="150"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <FighterBay xSSD="40"  ySSD="25"/>
+                <FighterBay xSSD="80"  ySSD="25"/>
+                <FighterBay xSSD="120" ySSD="25"/>
+                <FighterBay xSSD="160" ySSD="25"/>
+
+                <SalvoMissileLauncher xSSD="100" ySSD="70" smmId="101" arcs="(FP/F/FS)"/>
+                <SalvoMissileMagazine xSSD="100" ySSD="110" id="101" maxInRow="3" capacity="6">
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                </SalvoMissileMagazine>
+
+
+                <BeamBattery rating="2" xSSD="40"  ySSD="70"  arcs="(All arcs)"/>
+                <BeamBattery rating="2" xSSD="160" ySSD="70"  arcs="(All arcs)"/>
+                <BeamBattery rating="1" xSSD="30"  ySSD="110" arcs="(All arcs)"/>
+                <BeamBattery rating="1" xSSD="170" ySSD="110" arcs="(All arcs)"/>
+
+                <PointDefense xSSD="30"  ySSD="155"/>
+                <PointDefense xSSD="70"  ySSD="155"/>
+                <PointDefense xSSD="130"  ySSD="155"/>
+                <PointDefense xSSD="170"  ySSD="155"/>
+            </Weapons>
+        </Ship>

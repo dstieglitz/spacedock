@@ -1,0 +1,34 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>White Star</Name>
+    <Race>InterstellarAlliance</Race>
+    <ClassAbbrev>CE</ClassAbbrev>
+    <ClassName>White Star</ClassName>
+    <ShipClass>Patrol Cruiser</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>68</Mass>
+    <PointValue>298</PointValue>
+    <MainDrive type="Advanced" initialThrust="6" active="false" />
+    <FTLDrive/>
+    <Armor totalArmor="3"/>
+    <Hull value="68" type="Custom" class="Military" stealth="1" rows="2" totalHullBoxes="14"/>
+    <Electronics>
+        <FireControl xSSD="82" ySSD="147"/>
+        <FireControl xSSD="122" ySSD="147"/>
+    </Electronics>
+    <Defenses>
+        <Screen xSSD="82" ySSD="122"/>
+        <Screen xSSD="123" ySSD="122"/>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <KineticGun  xSSD="100" ySSD="23" rating="4" arcs="(F)"/>
+        <Pulser xSSD="101" ySSD="69" arcs="(F)" mode="M"/>
+        <Pulser xSSD="42" ySSD="69" arcs="(F)" mode="M"/>
+        <Pulser xSSD="157" ySSD="69" arcs="(F)" mode="M"/>
+        <PointDefense xSSD="48" ySSD="123"/>
+        <PointDefense xSSD="158" ySSD="122"/>
+    </Weapons>
+</Ship>
+

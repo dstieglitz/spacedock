@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>Federal Stats Europa</Race>
+            <ClassAbbrev>CV</ClassAbbrev>
+            <ClassName>Jeanne D'Arc</ClassName>
+            <ShipClass>Fleet Carrier</ShipClass>
+            <Mass>280</Mass>
+            <PointValue>955</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="280" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="130" ySSD="180"/>
+                <FireControl xSSD="150" ySSD="180"/>
+                <FireControl xSSD="170" ySSD="180"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="150" ySSD="150"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <FighterBay xSSD="30"  ySSD="25"/>
+                <FighterBay xSSD="70"  ySSD="25"/>
+                <FighterBay xSSD="110" ySSD="25"/>
+                <FighterBay xSSD="150" ySSD="25"/>
+                <FighterBay xSSD="190" ySSD="25"/>
+                <FighterBay xSSD="230" ySSD="25"/>
+                <FighterBay xSSD="270" ySSD="25"/>
+
+                <SalvoMissileLauncher xSSD="150" ySSD="70" smmId="101" arcs="(FP/F/FS)"/>
+                <SalvoMissileMagazine xSSD="150" ySSD="110" id="101" maxInRow="3" capacity="6">
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                </SalvoMissileMagazine>
+
+                <BeamBattery rating="3" xSSD="80"  ySSD="70" arcs="(FP/F/FS)"/>
+                <BeamBattery rating="3" xSSD="220" ySSD="70" arcs="(FP/F/FS)"/>
+
+                <BeamBattery rating="2" xSSD="70"  ySSD="110" arcs="(All arcs)"/>
+                <BeamBattery rating="2" xSSD="230" ySSD="110" arcs="(FP/F/FS)"/>
+
+                <PointDefense xSSD="40"  ySSD="155"/>
+                <PointDefense xSSD="70"  ySSD="155"/>
+                <PointDefense xSSD="100" ySSD="155"/>
+                <PointDefense xSSD="200" ySSD="155"/>
+                <PointDefense xSSD="230" ySSD="155"/>
+                <PointDefense xSSD="260" ySSD="155"/>
+            </Weapons>
+        </Ship>

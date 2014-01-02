@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <PointValue>1002</PointValue>
+            <ClassName>Draath</ClassName>
+            <Race>Phalon</Race>
+            <ClassAbbrev>CVA</ClassAbbrev>
+            <Mass>250</Mass>
+            <ShipClass>Mothership</ShipClass>
+            <Designer>GZG</Designer>
+            <Armor totalArmor="12,8,6,4"/>
+            <Hull totalHullBoxes="40" type="Custom" value="250"/>
+            <MainDrive initialThrust="2"/>
+            <FTLDrive/>
+            <Defenses>
+                <VapourShroud xSSD="240" ySSD="190"/>
+            </Defenses>
+            <Electronics>
+                <FireControl xSSD="220" ySSD="220"/>
+                <FireControl xSSD="260" ySSD="220"/>
+            </Electronics>
+            <Weapons>
+                <PlasmaBoltLauncher arcs="(FP/F/FS)" rating="3" xSSD="145" ySSD="65"/>
+                <Pulser arcs="(All arcs)" xSSD="105" ySSD="30"/>
+                <Pulser arcs="(All arcs)" xSSD="185" ySSD="30"/>
+                <Pulser arcs="(All arcs)" xSSD="105" ySSD="80"/>
+                <Pulser arcs="(All arcs)" xSSD="185" ySSD="80"/>
+                <Pulser arcs="(AP/FP/F)" xSSD="25" ySSD="120"/>
+                <Pulser arcs="(AP/FP/F)" xSSD="65" ySSD="120"/>
+                <Pulser arcs="(F/FS/AS)" xSSD="225" ySSD="120"/>
+                <Pulser arcs="(F/FS/AS)" xSSD="265" ySSD="120"/>
+                <FighterBay xSSD="25" ySSD="25"/>
+                <FighterBay xSSD="65" ySSD="25"/>
+                <FighterBay xSSD="25" ySSD="75"/>
+                <FighterBay xSSD="65" ySSD="75"/>
+                <FighterBay xSSD="225" ySSD="25"/>
+                <FighterBay xSSD="265" ySSD="25"/>
+                <FighterBay xSSD="225" ySSD="75"/>
+                <FighterBay xSSD="265" ySSD="75"/>
+            </Weapons>
+        </Ship>

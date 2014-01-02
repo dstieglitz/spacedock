@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>Neu Swabian League</Race>
+            <ClassAbbrev>CV</ClassAbbrev>
+            <ClassName>Der Theuerdank</ClassName>
+            <ShipClass>Fighter Carrier</ShipClass>
+            <Mass>220</Mass>
+            <PointValue>737</PointValue>
+            <MainDrive type="Standard" initialThrust="2"/>
+            <FTLDrive/>
+            <Armor totalArmor="14"/>
+            <Hull value="220" type="Strong"/>
+            <Electronics>
+                <FireControl xSSD="130" ySSD="170"/>
+                <FireControl xSSD="110" ySSD="170"/>
+                <FireControl xSSD="150" ySSD="170"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <FighterBay xSSD="70"  ySSD="130"/>
+                <FighterBay xSSD="105" ySSD="120"/>
+                <FighterBay xSSD="155" ySSD="120"/>
+                <FighterBay xSSD="190" ySSD="130"/>
+
+                <BeamBattery xSSD="130" ySSD="80" rating="3" arcs="(FP/F/FS)"/>
+                <BeamBattery xSSD="60" ySSD="70" rating="3" arcs="(AP/FP/F)"/>
+                <BeamBattery xSSD="200" ySSD="70" rating="3" arcs="(F/FS/AS)"/>
+
+                <BeamBattery xSSD="20" ySSD="120" rating="2" arcs="(All arcs)"/>
+                <BeamBattery xSSD="240" ySSD="120" rating="2" arcs="(All arcs)"/>
+                <BeamBattery xSSD="130" ySSD="40" rating="2" arcs="(All arcs)"/>
+                <BeamBattery xSSD="20" ySSD="40" rating="1" arcs="(All arcs)"/>
+                <BeamBattery xSSD="240" ySSD="40" rating="1" arcs="(All arcs)"/>
+
+                <PointDefense xSSD="20" ySSD="170"/>
+                <PointDefense xSSD="50" ySSD="170"/>
+                <PointDefense xSSD="80" ySSD="170"/>
+                <PointDefense xSSD="240" ySSD="170"/>
+                <PointDefense xSSD="210" ySSD="170"/>
+                <PointDefense xSSD="180" ySSD="170"/>
+            </Weapons>
+        </Ship>

@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>UNSC</Race>
+            <ClassAbbrev>CL</ClassAbbrev>
+            <ClassName>Mountain</ClassName>
+            <ShipClass>Light Cruiser</ShipClass>
+            <Mass>50</Mass>
+            <PointValue>187</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="50" type="Custom" totalHullBoxes="15" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="80"  ySSD="185"/>
+                <FireControl xSSD="120" ySSD="185"/>
+            </Electronics>
+            <Defenses>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <PulseTorpedo xSSD="100" ySSD="40" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="100" ySSD="100" rating="2" arcs="(All arcs)"/>
+                <BeamBattery  xSSD="50"  ySSD="50"  rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="150" ySSD="50"  rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="50"  ySSD="100" rating="1"/>
+                <BeamBattery  xSSD="150" ySSD="100" rating="1"/>
+
+                <PointDefense xSSD="50"  ySSD="135"/>
+                <PointDefense xSSD="100" ySSD="135"/>
+                <PointDefense xSSD="150" ySSD="135"/>
+            </Weapons>
+        </Ship>

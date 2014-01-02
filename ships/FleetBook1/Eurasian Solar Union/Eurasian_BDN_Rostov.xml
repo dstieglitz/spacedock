@@ -1,0 +1,34 @@
+<?xml version="1.0" standalone="yes" ?>
+         <Ship>
+             <Race>Eurasian Solar Union</Race>
+             <ClassAbbrev>BDN</ClassAbbrev>
+             <ClassName>Rostov</ClassName>
+             <ShipClass>Battledreadnought</ShipClass>
+             <Mass>138</Mass>
+             <PointValue>458</PointValue>
+             <MainDrive type="Standard" initialThrust="4"/>
+             <FTLDrive/>
+             <Armor totalArmor="0"/>
+             <Hull value="138" type="Strong"/>
+             <Electronics>
+                 <FireControl xSSD="65"  ySSD="185"/>
+                 <FireControl xSSD="95"  ySSD="185"/>
+                 <FireControl xSSD="125" ySSD="185"/>
+             </Electronics>
+             <Defenses>
+                 <Screen xSSD="95"  ySSD="165"/>
+             </Defenses>
+             <Holds/>
+             <Weapons>
+                 <FighterBay   xSSD="95"  ySSD="25" />
+                 <BeamBattery  xSSD="145" ySSD="45"  rating="3" arcs="(F/FS/AS)"/>
+                 <BeamBattery  xSSD="45"  ySSD="45"  rating="3" arcs="(AP/FP/F)"/>
+                 <BeamBattery  xSSD="95"  ySSD="75"  rating="2" arcs="(FP/F/FS)"/>
+                 <BeamBattery  xSSD="35"  ySSD="85"  rating="2" arcs="(AP/FP/F)"/>
+                 <BeamBattery  xSSD="155" ySSD="85"  rating="2" arcs="(F/FS/AS)"/>
+                 <BeamBattery  xSSD="95"  ySSD="115" rating="1" arcs="(All arcs)"/>
+                 <PointDefense xSSD="55"  ySSD="145" />
+                 <PointDefense xSSD="95"  ySSD="145" />
+                 <PointDefense xSSD="135" ySSD="145" />
+             </Weapons>
+         </Ship>

@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>UNSC</Race>
+            <ClassAbbrev>CT</ClassAbbrev>
+            <ClassName>Warrior</ClassName>
+            <ShipClass>Battle Corvette</ShipClass>
+            <Mass>16</Mass>
+            <PointValue>64</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="16" type="Custom" totalHullBoxes="4" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="100"  ySSD="185"/>
+            </Electronics>
+            <Defenses>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <AntiMatterTorpedoLauncher xSSD="60"  ySSD="40"/>
+                <AntiMatterTorpedoLauncher xSSD="140" ySSD="40"/>
+                <BeamBattery  xSSD="100" ySSD="90" rating="1"/>
+                <PointDefense xSSD="100"  ySSD="135"/>
+            </Weapons>
+        </Ship>

@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>Merchant</Race>
+            <ClassAbbrev>AKL</ClassAbbrev>
+            <ClassName>Turkey Run</ClassName>
+            <ShipClass>Light Frieghter</ShipClass>
+            <Mass>40</Mass>
+            <PointValue>67</PointValue>
+            <MainDrive type="Standard" initialThrust="2"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="40" type="Fragile" class="Merchant"/>
+            <Electronics/>
+            <Defenses/>
+            <Holds>
+                <CargoHold xSSD="80" ySSD="40" type="Cargo Hold"   totalSize="27"/>
+            </Holds>
+            <Weapons>
+                <PointDefense xSSD="80" ySSD="185"/>
+            </Weapons>
+        </Ship>

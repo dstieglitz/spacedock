@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>New Anglian Confederation</Race>
+            <ClassAbbrev>CV</ClassAbbrev>
+            <ClassName>Ark Royal</ClassName>
+            <ShipClass>Fleet Carrier</ShipClass>
+            <Mass>200</Mass>
+            <PointValue>690</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="12"/>
+            <Hull value="200" type="Weak"/>
+            <Electronics>
+                <FireControl xSSD="120" ySSD="170"/>
+                <FireControl xSSD="160" ySSD="170"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="120" ySSD="150"/>
+                <Screen xSSD="160" ySSD="150"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <FighterBay xSSD="40"  ySSD="30"/>
+                <FighterBay xSSD="80"  ySSD="30"/>
+                <FighterBay xSSD="120" ySSD="30"/>
+                <FighterBay xSSD="160" ySSD="30"/>
+                <FighterBay xSSD="200" ySSD="30"/>
+                <FighterBay xSSD="240" ySSD="30"/>
+
+                <BeamBattery xSSD="120" ySSD="80" rating="2" arcs="(All arcs)"/>
+                <BeamBattery xSSD="160" ySSD="80" rating="2" arcs="(All arcs)"/>
+                <BeamBattery xSSD="70"  ySSD="90" rating="1" arcs="(All arcs)"/>
+                <BeamBattery xSSD="210" ySSD="90" rating="1" arcs="(All arcs)"/>
+
+                <PointDefense xSSD="90"  ySSD="130"/>
+                <PointDefense xSSD="120" ySSD="120"/>
+                <PointDefense xSSD="160" ySSD="120"/>
+                <PointDefense xSSD="190" ySSD="130"/>
+            </Weapons>
+        </Ship>

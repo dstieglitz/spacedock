@@ -1,0 +1,982 @@
+<?xml version="1.0" standalone="yes" ?>
+<GameEngine id="1111" name="Kra'Vak" turn="0">
+    <Player id="1" name="First Last" email="last@hotmail.com">
+        <Ship>
+            <Name>Lo'Vok</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="0.0" y="10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="0.0"/>
+            
+            <Designer>Jon Tuffley</Designer>
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>BDN</ClassAbbrev>
+            <ClassName>Lo'Vok</ClassName>
+            <ShipClass>Battledreadnought</ShipClass>
+            <Mass>160</Mass>
+            <PointValue>626</PointValue>
+            <MainDrive initialThrust="4" type="Advanced"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="160" type="Custom" totalHullBoxes="54"/>
+            <Electronics>
+                <FireControl xSSD="60"  ySSD="180"/>
+                <FireControl xSSD="80"  ySSD="180"/>
+                <FireControl xSSD="100" ySSD="180"/>
+                <FireControl xSSD="120" ySSD="180"/>
+            </Electronics>
+            <Weapons>
+                <KineticGun xSSD="50"  ySSD="35" rating="5" arcs="(F)"/>
+                <KineticGun xSSD="130" ySSD="35" rating="5" arcs="(F)"/>
+                <KineticGun xSSD="50"  ySSD="75" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="130" ySSD="75" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="90"  ySSD="95" rating="1"/>
+                <KineticGun xSSD="25"  ySSD="105" rating="1"/>
+                <KineticGun xSSD="155" ySSD="105" rating="1"/>
+                <FighterBay xSSD="90"  ySSD="35"/>
+
+	        <Scattergun xSSD="30"  ySSD="135"/>
+                <Scattergun xSSD="70"  ySSD="135"/>
+                <Scattergun xSSD="110" ySSD="135"/>
+                <Scattergun xSSD="150" ySSD="135"/>
+
+                <Scattergun xSSD="50"  ySSD="155"/>
+                <Scattergun xSSD="90"  ySSD="155"/>
+                <Scattergun xSSD="130" ySSD="155"/>
+
+            </Weapons>
+        </Ship>
+        <Ship>
+            <Name>Yu'Kas</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="10.0" y="10.0"/>
+            <Heading heading="2"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="0.0"/>
+            
+            <Designer>Jon Tuffley</Designer>
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>SDN</ClassAbbrev>
+            <ClassName>Yu'Kas</ClassName>
+            <ShipClass>Superdreadnought</ShipClass>
+            <Mass>220</Mass>
+            <PointValue>883</PointValue>
+            <MainDrive initialThrust="3" type="Advanced"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="220" type="Custom" totalHullBoxes="72"/>
+            <Electronics>
+                <FireControl xSSD="80"  ySSD="180"/>
+                <FireControl xSSD="100" ySSD="180"/>
+                <FireControl xSSD="120" ySSD="180"/>
+                <FireControl xSSD="140" ySSD="180"/>
+                <FireControl xSSD="160" ySSD="180"/>
+            </Electronics>
+            <Weapons>
+                <KineticGun xSSD="80"  ySSD="35"  rating="6" arcs="(F)"/>
+                <KineticGun xSSD="160" ySSD="35"  rating="6" arcs="(F)"/>
+                <KineticGun xSSD="80"  ySSD="75"  rating="6" arcs="(F)"/>
+                <KineticGun xSSD="160" ySSD="75"  rating="6" arcs="(F)"/>
+                <KineticGun xSSD="120" ySSD="90"  rating="1"/>
+                <KineticGun xSSD="40"  ySSD="90"  rating="1"/>
+                <KineticGun xSSD="200" ySSD="90"  rating="1"/>
+                <KineticGun xSSD="80"  ySSD="115" rating="1"/>
+                <KineticGun xSSD="160" ySSD="115" rating="1"/>
+                <FighterBay xSSD="120" ySSD="40"/>
+                <Scattergun xSSD="30"  ySSD="160"/>
+                <Scattergun xSSD="60"  ySSD="160"/>
+                <Scattergun xSSD="90"  ySSD="160"/>
+                <Scattergun xSSD="120" ySSD="160"/>
+                <Scattergun xSSD="150" ySSD="160"/>
+                <Scattergun xSSD="180" ySSD="160"/>
+                <Scattergun xSSD="210" ySSD="160"/>
+                <Scattergun xSSD="105" ySSD="135"/>
+                <Scattergun xSSD="135" ySSD="135"/>
+                <Scattergun xSSD="45"  ySSD="135"/>
+                <Scattergun xSSD="195" ySSD="135"/>
+                <Scattergun xSSD="40"  ySSD="50"/>
+                <Scattergun xSSD="200" ySSD="50"/>
+            </Weapons>
+        </Ship>
+      
+        <Ship>        
+            <Name>Do'San</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="20.0" y="10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="0.0"/>
+            
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>CVL</ClassAbbrev>
+            <ClassName>Do'San</ClassName>
+            <ShipClass>Light Carrier</ShipClass>
+            <Mass>180</Mass>
+            <PointValue>691</PointValue>
+            <MainDrive type="Advanced" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="180" type="Custom" totalHullBoxes="54"/>
+            <Electronics>
+                <FireControl xSSD="90"  ySSD="180"/>
+                <FireControl xSSD="110" ySSD="180"/>
+                <FireControl xSSD="130" ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <FighterBay xSSD="50"  ySSD="30"/>
+                <FighterBay xSSD="90"  ySSD="30"/>
+                <FighterBay xSSD="130" ySSD="30"/>
+                <FighterBay xSSD="170" ySSD="30"/>
+                <KineticGun xSSD="50"  ySSD="80" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="90"  ySSD="80" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="130" ySSD="80" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="170" ySSD="80" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="70"  ySSD="120" rating="1"/>
+                <KineticGun xSSD="110" ySSD="120" rating="1"/>
+                <KineticGun xSSD="150" ySSD="120" rating="1"/>
+
+                <Scattergun xSSD="35"  ySSD="120"/>
+                <Scattergun xSSD="50"  ySSD="155"/>
+                <Scattergun xSSD="80"  ySSD="155"/>
+                <Scattergun xSSD="110" ySSD="155"/>
+                <Scattergun xSSD="140" ySSD="155"/>
+                <Scattergun xSSD="170" ySSD="155"/>
+                <Scattergun xSSD="185" ySSD="120"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Ko'San</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="30.0" y="10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="0.0"/>
+            
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>CV</ClassAbbrev>
+            <ClassName>Ko'San</ClassName>
+            <ShipClass>Heavy Carrier</ShipClass>
+            <Mass>240</Mass>
+            <PointValue>917</PointValue>
+            <MainDrive type="Advanced" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="240" type="Custom" totalHullBoxes="72"/>
+            <Electronics>
+                <FireControl xSSD="90"  ySSD="180"/>
+                <FireControl xSSD="130" ySSD="180"/>
+                <FireControl xSSD="170" ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <FighterBay xSSD="30"  ySSD="40"/>
+                <FighterBay xSSD="70"  ySSD="30"/>
+                <FighterBay xSSD="110" ySSD="30"/>
+                <FighterBay xSSD="150" ySSD="30"/>
+                <FighterBay xSSD="190" ySSD="30"/>
+                <FighterBay xSSD="230" ySSD="40"/>
+                <KineticGun xSSD="70"  ySSD="80" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="110" ySSD="80" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="150" ySSD="80" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="190" ySSD="80" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="70"  ySSD="120" rating="1"/>
+                <KineticGun xSSD="110" ySSD="120" rating="1"/>
+                <KineticGun xSSD="150" ySSD="120" rating="1"/>
+                <KineticGun xSSD="190" ySSD="120" rating="1"/>
+                <Scattergun xSSD="40"  ySSD="155"/>
+                <Scattergun xSSD="70"  ySSD="155"/>
+                <Scattergun xSSD="100" ySSD="155"/>
+                <Scattergun xSSD="130" ySSD="155"/>
+                <Scattergun xSSD="160" ySSD="155"/>
+                <Scattergun xSSD="190" ySSD="155"/>
+                <Scattergun xSSD="220" ySSD="155"/>
+                <Scattergun xSSD="30"  ySSD="130"/>
+                <Scattergun xSSD="30"  ySSD="100"/>
+                <Scattergun xSSD="230" ySSD="100"/>
+                <Scattergun xSSD="230" ySSD="130"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>Sha'Ken</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="40.0" y="10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="0.0"/>
+            
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>AO</ClassAbbrev>
+            <ClassName>Sha'Ken</ClassName>
+            <ShipClass>Fleet Tender</ShipClass>
+            <Mass>40</Mass>
+            <PointValue>97</PointValue>
+            <MainDrive type="Advanced" initialThrust="2"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="40" type="Custom" totalHullBoxes="10"/>
+            <Electronics>
+                <FireControl xSSD="80"  ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds>
+                <CargoHold  xSSD="80"  ySSD="30" type="Cargo Hold"   totalSize="18"/>
+            </Holds>
+            <Weapons>
+                <KineticGun xSSD="80"  ySSD="110" rating="1"/>
+                <Scattergun xSSD="80"  ySSD="150"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>        
+            <Name>To'Rok</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="50.0" y="10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="0.0"/>
+            
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>AG</ClassAbbrev>
+            <ClassName>To'Rok</ClassName>
+            <ShipClass>Explorer</ShipClass>
+            <Mass>60</Mass>
+            <PointValue>204</PointValue>
+            <MainDrive type="Advanced" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="60" type="Custom" totalHullBoxes="18"/>
+            <Electronics>
+                <FireControl xSSD="80"  ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds>
+                <CargoHold xSSD="80"  ySSD="25" type="Cargo Hold"   totalSize="10"/>
+            </Holds>
+            <Weapons>
+<!--            <HangerBay size="4"/> -->
+                <KineticGun xSSD="40"  ySSD="135" rating="2" arcs="(F)"/>
+                <KineticGun xSSD="120" ySSD="135" rating="1"/>
+                <Scattergun xSSD="50"  ySSD="170"/>
+                <Scattergun xSSD="110" ySSD="170"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>
+            <Name>Ko'Vol</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="0.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="0.0"/>
+            
+            <Designer>Jon Tuffley</Designer>
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>BB</ClassAbbrev>
+            <ClassName>Ko'Vol</ClassName>
+            <ShipClass>Battleship</ShipClass>
+            <Mass>121</Mass>
+            <PointValue>467</PointValue>
+            <MainDrive initialThrust="4" type="Advanced"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="121" type="Strong"/>
+            <Electronics>
+                <FireControl xSSD="60"  ySSD="180"/>
+                <FireControl xSSD="80"  ySSD="180"/>
+                <FireControl xSSD="100" ySSD="180"/>
+            </Electronics>
+            <Weapons>
+                <KineticGun xSSD="50"  ySSD="30"  rating="5" arcs="(F)"/>
+                <KineticGun xSSD="110" ySSD="30"  rating="5" arcs="(F)"/>
+                <KineticGun xSSD="30"  ySSD="70" rating="1"/>
+                <KineticGun xSSD="80"  ySSD="70" rating="1"/>
+                <KineticGun xSSD="130" ySSD="70" rating="1"/>
+                <Scattergun xSSD="20"  ySSD="110"/>
+                <Scattergun xSSD="50"  ySSD="130"/>
+                <Scattergun xSSD="80"  ySSD="110"/>
+                <Scattergun xSSD="110" ySSD="130"/>
+                <Scattergun xSSD="140" ySSD="110"/>
+                <Scattergun xSSD="80"  ySSD="150"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>
+            <Name>Ti'Dak</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="10.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="0.0"/>
+            
+            <Designer>Jon Tuffley</Designer>
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>BC</ClassAbbrev>
+            <ClassName>Ti'Dak</ClassName>
+            <ShipClass>Battlecruiser</ShipClass>
+            <Mass>100</Mass>
+            <PointValue>393</PointValue>
+            <MainDrive initialThrust="4" type="Advanced"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="100" type="Custom" totalHullBoxes="36"/>
+            <Electronics>
+                <FireControl xSSD="60"  ySSD="180"/>
+                <FireControl xSSD="80"  ySSD="180"/>
+                <FireControl xSSD="100" ySSD="180"/>
+            </Electronics>
+            <Weapons>
+                <KineticGun xSSD="50"  ySSD="30"  rating="5" arcs="(F)"/>
+                <KineticGun xSSD="110" ySSD="30"  rating="5" arcs="(F)"/>
+                <KineticGun xSSD="30"  ySSD="70" rating="1"/>
+                <KineticGun xSSD="130" ySSD="70" rating="1"/>
+                <Scattergun xSSD="20"  ySSD="110"/>
+                <Scattergun xSSD="50"  ySSD="130"/>
+                <Scattergun xSSD="110" ySSD="130"/>
+                <Scattergun xSSD="140" ySSD="110"/>
+                <Scattergun xSSD="80"  ySSD="150"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>
+            <Name>Va'Dok</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="20.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="0.0"/>
+            
+            <Designer>Jon Tuffley</Designer>
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>CH</ClassAbbrev>
+            <ClassName>Va'Dok</ClassName>
+            <ShipClass>Heavy Cruiser</ShipClass>
+            <Mass>84</Mass>
+            <PointValue>329</PointValue>
+            <MainDrive initialThrust="6" type="Advanced"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="84" type="Custom" totalHullBoxes="27"/>
+            <Electronics>
+                <FireControl xSSD="70"  ySSD="180"/>
+                <FireControl xSSD="90"  ySSD="180"/>
+            </Electronics>
+            <Weapons>
+                <KineticGun xSSD="50"  ySSD="35" rating="4" arcs="(F)"/>
+                <KineticGun xSSD="110" ySSD="35" rating="4" arcs="(F)"/>
+                <KineticGun xSSD="80"  ySSD="95" rating="1"/>
+	        <Scattergun xSSD="20"  ySSD="140"/>
+                <Scattergun xSSD="60"  ySSD="140"/>
+                <Scattergun xSSD="100" ySSD="140"/>
+                <Scattergun xSSD="140" ySSD="140"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>
+            <Name>Ko'Tek</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="30.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="0.0"/>
+            
+            <Designer>Jon Tuffley</Designer>
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>CS</ClassAbbrev>
+            <ClassName>Ko'Tek</ClassName>
+            <ShipClass>Strike Cruiser</ShipClass>
+            <Mass>70</Mass>
+            <PointValue>275</PointValue>
+            <MainDrive initialThrust="6" type="Advanced"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="70" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="70"  ySSD="180"/>
+                <FireControl xSSD="90"  ySSD="180"/>
+            </Electronics>
+            <Weapons>
+                <KineticGun xSSD="40"  ySSD="60" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="80"  ySSD="30" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="120" ySSD="60" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="80"  ySSD="90" rating="1"/>
+                <Scattergun xSSD="60"  ySSD="150"/>
+                <Scattergun xSSD="100" ySSD="150"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>
+            <Name>Si'Tek</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="40.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="0.0"/>
+            
+            <Designer>Jon Tuffley</Designer>
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>CE</ClassAbbrev>
+            <ClassName>Si'Tek</ClassName>
+            <ShipClass>Escort Cruiser</ShipClass>
+            <Mass>70</Mass>
+            <PointValue>278</PointValue>
+            <MainDrive initialThrust="6" type="Advanced"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="70" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="70"  ySSD="180"/>
+                <FireControl xSSD="90"  ySSD="180"/>
+            </Electronics>
+            <Weapons>
+                <KineticGun xSSD="50"  ySSD="30"  rating="3" arcs="(F)"/>
+                <KineticGun xSSD="110" ySSD="30"  rating="3" arcs="(F)"/>
+                <KineticGun xSSD="30"  ySSD="70" rating="1"/>
+                <KineticGun xSSD="130" ySSD="70" rating="1"/>
+                <Scattergun xSSD="20"  ySSD="110"/>
+                <Scattergun xSSD="50"  ySSD="130"/>
+                <Scattergun xSSD="110" ySSD="130"/>
+                <Scattergun xSSD="140" ySSD="110"/>
+                <Scattergun xSSD="80"  ySSD="150"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>
+            <Name>Vo'Bok</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="50.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="0.0"/>
+            
+            <Designer>Jon Tuffley</Designer>
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>CL</ClassAbbrev>
+            <ClassName>Vo'Bok</ClassName>
+            <ShipClass>Light Cruiser</ShipClass>
+            <Mass>60</Mass>
+            <PointValue>238</PointValue>
+            <MainDrive initialThrust="6" type="Advanced"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="60" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="70"  ySSD="180"/>
+                <FireControl xSSD="90"  ySSD="180"/>
+            </Electronics>
+            <Weapons>
+                <KineticGun xSSD="50"  ySSD="35" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="110" ySSD="35" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="80"  ySSD="95" rating="1"/>
+	        <Scattergun xSSD="20"  ySSD="140"/>
+                <Scattergun xSSD="60"  ySSD="140"/>
+                <Scattergun xSSD="100" ySSD="140"/>
+                <Scattergun xSSD="140" ySSD="140"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>
+            <Name>Di'Tok</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="0.0" y="-10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="0.0"/>
+            
+            <Designer>Jon Tuffley</Designer>
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>DH</ClassAbbrev>
+            <ClassName>Di'Tok</ClassName>
+            <ShipClass>Heavy Destroyer</ShipClass>
+            <Mass>40</Mass>
+            <PointValue>159</PointValue>
+            <MainDrive initialThrust="6" type="Advanced"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="40" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="80" ySSD="180"/>
+            </Electronics>
+            <Weapons>
+                <KineticGun xSSD="50"  ySSD="50" rating="2" arcs="(F)"/>
+                <KineticGun xSSD="110" ySSD="50" rating="2" arcs="(F)"/>
+                <KineticGun xSSD="80"  ySSD="90" rating="1"/>
+                <Scattergun xSSD="40"  ySSD="130"/>
+                <Scattergun xSSD="120" ySSD="130"/>
+                <Scattergun xSSD="80"  ySSD="130"/>
+            </Weapons>
+        </Ship>
+
+
+        <Ship>
+            <Name>Da'Kak</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="20.0" y="-10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="0.0"/>
+            
+            <Designer>Jon Tuffley</Designer>
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>FH</ClassAbbrev>
+            <ClassName>Da'Kak</ClassName>
+            <ShipClass>Heavy Frigate</ShipClass>
+            <Mass>30</Mass>
+            <PointValue>119</PointValue>
+            <MainDrive initialThrust="6" type="Advanced"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="30" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="80" ySSD="180"/>
+            </Electronics>
+            <Weapons>
+                <KineticGun xSSD="50"  ySSD="50" rating="2" arcs="(F)"/>
+                <KineticGun xSSD="110" ySSD="50" rating="2" arcs="(F)"/>
+                <Scattergun xSSD="50"  ySSD="110"/>
+                <Scattergun xSSD="110" ySSD="110"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>
+            <Name>Ka'Tak</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="30.0" y="-10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="0.0"/>
+            
+            <Designer>Jon Tuffley</Designer>
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>CT</ClassAbbrev>
+            <ClassName>Ka'Tak</ClassName>
+            <ShipClass>Corvette</ShipClass>
+            <Mass>20</Mass>
+            <PointValue>79</PointValue>
+            <MainDrive initialThrust="6" type="Advanced"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="20" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="80"  ySSD="180"/>
+            </Electronics>
+            <Weapons>
+                <MultipleKineticPenetratorPack xSSD="50"  ySSD="60" arcs="(F)"/>
+                <MultipleKineticPenetratorPack xSSD="110" ySSD="60" arcs="(F)"/>
+                <KineticGun xSSD="80"  ySSD="110" rating="1"/>
+                <Scattergun xSSD="80"  ySSD="150"/>
+            </Weapons>
+        </Ship>
+        <Ship>        
+            <Name>Lu'Dak</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="40.0" y="-10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="0.0"/>
+            
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>SC</ClassAbbrev>
+            <ClassName>Lu'Dak</ClassName>
+            <ShipClass>Scoutship</ShipClass>
+            <Mass>11</Mass>
+            <PointValue>44</PointValue>
+            <MainDrive type="Advanced" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="11" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="80"  ySSD="180"/>
+            </Electronics>
+            <Weapons>
+                <MultipleKineticPenetratorPack xSSD="80"  ySSD="60" arcs="(F)"/>
+                <KineticGun xSSD="80"  ySSD="110" rating="1"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>
+            <Name>Kanaka</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="0.0" y="-20.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Designer>Oerjan Ohlson</Designer>
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>BB</ClassAbbrev>
+            <ClassName>Kanaka</ClassName>
+            <ShipClass>Battleship</ShipClass>
+            <Mass>130</Mass>
+            <PointValue>512</PointValue>
+            <MainDrive initialThrust="4" type="Advanced"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull totalHullBoxes="46" type="Custom" value="130"/>
+            <Electronics>
+                <FireControl xSSD="65"  ySSD="190"/>
+                <FireControl xSSD="95"  ySSD="190"/>
+                <FireControl xSSD="125"  ySSD="190"/>
+            </Electronics>
+            <Weapons>
+                <KineticGun xSSD="30"  ySSD="115" rating="5" arcs="(F)"/>
+                <KineticGun xSSD="160"  ySSD="115" rating="5" arcs="(F)"/>
+                <KineticGun xSSD="65"  ySSD="70" rating="2" arcs="(FP/F)"/>
+                <KineticGun xSSD="125"  ySSD="70" rating="2" arcs="(F/FS)"/>
+                <KineticGun xSSD="95"  ySSD="55" rating="1"/>
+                <KineticGun xSSD="95"  ySSD="85" rating="1"/>
+                <KineticGun xSSD="95"  ySSD="115" rating="1"/>
+                <Scattergun xSSD="20"  ySSD="160"/>
+                <Scattergun xSSD="50"  ySSD="160"/>
+                <Scattergun xSSD="80" ySSD="160"/>
+                <Scattergun xSSD="110" ySSD="160"/>
+                <Scattergun xSSD="140" ySSD="160"/>
+                <Scattergun xSSD="170" ySSD="160"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>
+            <Name>Kia'Kyu</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="10.0" y="-20.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Designer>Oerjan Ohlson</Designer>
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>BB</ClassAbbrev>
+            <ClassName>Kia'Kyu</ClassName>
+            <ShipClass>Battleship</ShipClass>
+            <Mass>130</Mass>
+            <PointValue>512</PointValue>
+            <MainDrive initialThrust="4" type="Advanced"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull totalHullBoxes="46" type="Custom" value="130"/>
+            <Electronics>
+                <FireControl xSSD="65"  ySSD="190"/>
+                <FireControl xSSD="95"  ySSD="190"/>
+                <FireControl xSSD="125"  ySSD="190"/>
+            </Electronics>
+            <Weapons>
+                <KineticGun xSSD="30"  ySSD="115" rating="5" arcs="(F)"/>
+                <KineticGun xSSD="160" ySSD="115" rating="5" arcs="(F)"/>
+                <KineticGun xSSD="95"  ySSD="25" rating="1"/>
+                <KineticGun xSSD="95"  ySSD="55" rating="1"/>
+                <KineticGun xSSD="95"  ySSD="85" rating="1"/>
+                <KineticGun xSSD="95"  ySSD="115" rating="1"/>
+                <MultipleKineticPenetratorPack xSSD="55"  ySSD="40" arcs="(F)"/>
+                <MultipleKineticPenetratorPack xSSD="40" ySSD="65" arcs="(F)"/>
+                <MultipleKineticPenetratorPack xSSD="70"  ySSD="65" arcs="(F)"/>
+                <MultipleKineticPenetratorPack xSSD="135" ySSD="40" arcs="(F)"/>
+                <MultipleKineticPenetratorPack xSSD="150"  ySSD="65" arcs="(F)"/>
+                <MultipleKineticPenetratorPack xSSD="120"  ySSD="65" arcs="(F)"/>
+                <Scattergun xSSD="20"  ySSD="160"/>
+                <Scattergun xSSD="50"  ySSD="160"/>
+                <Scattergun xSSD="80" ySSD="160"/>
+                <Scattergun xSSD="110" ySSD="160"/>
+                <Scattergun xSSD="140" ySSD="160"/>
+                <Scattergun xSSD="170" ySSD="160"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>
+            <Name>Ka'Ton</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="20.0" y="-20.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Designer>Oerjan Ohlson</Designer>
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>CH</ClassAbbrev>
+            <ClassName>Ka'Ton</ClassName>
+            <ShipClass>Heavy Cruiser</ShipClass>
+            <Mass>82</Mass>
+            <PointValue>322</PointValue>
+            <MainDrive initialThrust="4" type="Advanced"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull totalHullBoxes="30" type="Custom" value="82"/>
+            <Electronics>
+                <FireControl xSSD="70"  ySSD="180"/>
+                <FireControl xSSD="90"  ySSD="180"/>
+            </Electronics>
+            <Weapons>
+                <KineticGun xSSD="20"  ySSD="115" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="140"  ySSD="115" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="80"  ySSD="55" rating="1"/>
+                <KineticGun xSSD="80"  ySSD="85" rating="1"/>
+                <KineticGun xSSD="80"  ySSD="115" rating="1"/>
+                <MultipleKineticPenetratorPack xSSD="40"  ySSD="40" arcs="(F)"/>
+                <MultipleKineticPenetratorPack xSSD="25" ySSD="65" arcs="(F)"/>
+                <MultipleKineticPenetratorPack xSSD="55"  ySSD="65" arcs="(F)"/>
+                <MultipleKineticPenetratorPack xSSD="120" ySSD="40" arcs="(F)"/>
+                <MultipleKineticPenetratorPack xSSD="135"  ySSD="65" arcs="(F)"/>
+                <MultipleKineticPenetratorPack xSSD="105"  ySSD="65" arcs="(F)"/>
+                <Scattergun xSSD="20"  ySSD="150"/>
+                <Scattergun xSSD="60"  ySSD="150"/>
+                <Scattergun xSSD="100" ySSD="150"/>
+                <Scattergun xSSD="140" ySSD="150"/>
+            </Weapons>
+        </Ship>
+
+
+        <Ship>
+            <Name>Lu'Ton</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="30.0" y="-20.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Designer>Oerjan Ohlson</Designer>
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>CH</ClassAbbrev>
+            <ClassName>Lu'Ton</ClassName>
+            <ShipClass>Heavy Cruiser</ShipClass>
+            <Mass>82</Mass>
+            <PointValue>322</PointValue>
+            <MainDrive initialThrust="4" type="Advanced"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull totalHullBoxes="30" type="Custom" value="82"/>
+            <Electronics>
+                <FireControl xSSD="70"  ySSD="180"/>
+                <FireControl xSSD="90"  ySSD="180"/>
+            </Electronics>
+            <Weapons>
+                <KineticGun xSSD="30"  ySSD="130" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="130"  ySSD="130" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="80"  ySSD="40" rating="1"/>
+                <KineticGun xSSD="80"  ySSD="70" rating="1"/>
+                <KineticGun xSSD="50"  ySSD="55" rating="2" arcs="(FP/F)"/>
+                <KineticGun xSSD="110"  ySSD="55" rating="2" arcs="(F/FS)"/>
+                <Scattergun xSSD="60"  ySSD="110"/>
+                <Scattergun xSSD="60"  ySSD="150"/>
+                <Scattergun xSSD="100" ySSD="150"/>
+                <Scattergun xSSD="100" ySSD="110"/>
+            </Weapons>
+        </Ship>
+
+
+        <Ship>
+            <Name>De'Rek</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="40.0" y="-20.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Designer>Oerjan Ohlson</Designer>
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>CL</ClassAbbrev>
+            <ClassName>De'Rek</ClassName>
+            <ShipClass>Light Cruiser</ShipClass>
+            <Mass>60</Mass>
+            <PointValue>235</PointValue>
+            <MainDrive initialThrust="4" type="Advanced"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull totalHullBoxes="22" type="Custom" value="60"/>
+            <Electronics>
+                <FireControl xSSD="70"  ySSD="180"/>
+                <FireControl xSSD="90"  ySSD="180"/>
+            </Electronics>
+            <Weapons>
+                <KineticGun xSSD="80"  ySSD="60" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="50"  ySSD="80" rating="2" arcs="(FP/F)"/>
+                <KineticGun xSSD="110"  ySSD="80" rating="2" arcs="(F/FS)"/>
+                <KineticGun xSSD="80"  ySSD="100" rating="1"/>
+                <Scattergun xSSD="40"  ySSD="140"/>
+                <Scattergun xSSD="80" ySSD="140"/>
+                <Scattergun xSSD="120" ySSD="140"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>
+            <Name>Ki'Rek</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="50.0" y="-20.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Designer>Oerjan Ohlson</Designer>
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>CL</ClassAbbrev>
+            <ClassName>Ki'Rek</ClassName>
+            <ShipClass>Light Cruiser</ShipClass>
+            <Mass>60</Mass>
+            <PointValue>237</PointValue>
+            <MainDrive initialThrust="6" type="Advanced"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="60" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="70"  ySSD="180"/>
+                <FireControl xSSD="90"  ySSD="180"/>
+            </Electronics>
+            <Weapons>
+                <KineticGun xSSD="80"  ySSD="65" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="60"  ySSD="95" rating="1"/>
+                <KineticGun xSSD="100"  ySSD="95" rating="1"/>
+                <MultipleKineticPenetratorPack xSSD="30"  ySSD="60" arcs="(F)"/>
+                <MultipleKineticPenetratorPack xSSD="130" ySSD="60" arcs="(F)"/>
+                <MultipleKineticPenetratorPack xSSD="30"  ySSD="110" arcs="(F)"/>
+                <MultipleKineticPenetratorPack xSSD="130" ySSD="110" arcs="(F)"/>
+                <Scattergun xSSD="40"  ySSD="140"/>
+                <Scattergun xSSD="80" ySSD="140"/>
+                <Scattergun xSSD="120" ySSD="140"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>
+            <Name>Kedge</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="60.0" y="-20.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Designer>Oerjan Ohlson</Designer>
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>CT</ClassAbbrev>
+            <ClassName>Kedge</ClassName>
+            <ShipClass>Corvette</ShipClass>
+            <Mass>24</Mass>
+            <PointValue>96</PointValue>
+            <MainDrive initialThrust="6" type="Advanced"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="24" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="80"  ySSD="180"/>
+            </Electronics>
+            <Weapons>
+                <MultipleKineticPenetratorPack xSSD="50"  ySSD="60" arcs="(F)"/>
+                <MultipleKineticPenetratorPack xSSD="110" ySSD="60" arcs="(F)"/>
+                <MultipleKineticPenetratorPack xSSD="30"  ySSD="110" arcs="(F)"/>
+                <MultipleKineticPenetratorPack xSSD="130" ySSD="110" arcs="(F)"/>
+                <KineticGun xSSD="80"  ySSD="110" rating="1"/>
+                <Scattergun xSSD="80"  ySSD="150"/>
+            </Weapons>
+        </Ship>
+
+
+        <Ship>
+            <Name>To'Ki</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="70.0" y="-20.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Designer>Oerjan Ohlson</Designer>
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>DD</ClassAbbrev>
+            <ClassName>To'Ki</ClassName>
+            <ShipClass>Destroyer</ShipClass>
+            <Mass>31</Mass>
+            <PointValue>124</PointValue>
+            <MainDrive initialThrust="6" type="Advanced"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="31" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="80" ySSD="180"/>
+            </Electronics>
+            <Weapons>
+                <KineticGun xSSD="80"  ySSD="50"  rating="3" arcs="(F)"/>
+                <KineticGun xSSD="80"  ySSD="100" rating="1"/>
+                <Scattergun xSSD="50"  ySSD="135"/>
+                <Scattergun xSSD="110" ySSD="135"/>
+            </Weapons>
+        </Ship>
+
+
+
+
+
+
+    </Player>
+</GameEngine>

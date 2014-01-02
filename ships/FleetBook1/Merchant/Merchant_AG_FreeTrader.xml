@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>Merchant</Race>
+            <ClassAbbrev>AG</ClassAbbrev>
+            <ClassName>Free Trader</ClassName>
+            <ShipClass>Free Trader</ShipClass>
+            <Mass>20</Mass>
+            <PointValue>47</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="20" type="Weak" class="Merchant"/>
+            <Electronics>
+                <FireControl xSSD="80" ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds>
+                <CargoHold      xSSD="80" ySSD="40" type="Cargo Hold"   totalSize="8"/>
+            </Holds>
+            <Weapons>
+                <BeamBattery    xSSD="80" ySSD="110" rating="1" arcs="(All arcs)"/>
+
+            </Weapons>
+        </Ship>

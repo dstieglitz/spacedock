@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <PointValue>398</PointValue>
+            <ClassName>Keraph</ClassName>
+            <Race>Phalon</Race>
+            <ClassAbbrev>BC</ClassAbbrev>
+            <Mass>104</Mass>
+            <ShipClass>Warrior</ShipClass>
+            <Designer>GZG</Designer>
+            <MainDrive initialThrust="4"/>
+            <Hull totalHullBoxes="20" type="Custom" value="104"/>
+            <Armor totalArmor="8,4"/>
+            <FTLDrive/>
+            <Defenses>
+                <VapourShroud xSSD="160" ySSD="150"/>
+            </Defenses>
+            <Electronics>
+                <FireControl xSSD="60"  ySSD="150"/>
+                <FireControl xSSD="80"  ySSD="150"/>
+                <FireControl xSSD="100" ySSD="150"/>
+                <AreaDefenseFireControl xSSD="120" ySSD="150"/>
+            </Electronics>
+            <Weapons>
+                <PlasmaBoltLauncher arcs="(FP/F/FS)" rating="3" xSSD="90" ySSD="30"/>
+                <Pulser arcs="(F)" xSSD="90" ySSD="70"/>
+                <Pulser arcs="(AP/FP/F)" xSSD="30" ySSD="80"/>
+                <Pulser arcs="(F/FS/AS)" xSSD="150" ySSD="80"/>
+                <Pulser arcs="(All arcs)" xSSD="60" ySSD="115"/>
+                <Pulser arcs="(All arcs)" xSSD="120" ySSD="115"/>
+            </Weapons>
+        </Ship>

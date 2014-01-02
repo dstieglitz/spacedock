@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <Designer>Jon Tuffley</Designer>
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>CL</ClassAbbrev>
+            <ClassName>Vo'Bok</ClassName>
+            <ShipClass>Light Cruiser</ShipClass>
+            <Mass>60</Mass>
+            <PointValue>238</PointValue>
+            <MainDrive initialThrust="6" type="Advanced"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="60" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="70"  ySSD="180"/>
+                <FireControl xSSD="90"  ySSD="180"/>
+            </Electronics>
+            <Weapons>
+                <KineticGun xSSD="50"  ySSD="35" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="110" ySSD="35" rating="3" arcs="(F)"/>
+                <KineticGun xSSD="80"  ySSD="95" rating="1"/>
+	        <Scattergun xSSD="20"  ySSD="140"/>
+                <Scattergun xSSD="60"  ySSD="140"/>
+                <Scattergun xSSD="100" ySSD="140"/>
+                <Scattergun xSSD="140" ySSD="140"/>
+            </Weapons>
+        </Ship>
+

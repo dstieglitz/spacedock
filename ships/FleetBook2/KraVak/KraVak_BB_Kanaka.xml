@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <Designer>Oerjan Ohlson</Designer>
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>BB</ClassAbbrev>
+            <ClassName>Kanaka</ClassName>
+            <ShipClass>Battleship</ShipClass>
+            <Mass>130</Mass>
+            <PointValue>512</PointValue>
+            <MainDrive initialThrust="4" type="Advanced"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull totalHullBoxes="46" type="Custom" value="130"/>
+            <Electronics>
+                <FireControl xSSD="65"  ySSD="190"/>
+                <FireControl xSSD="95"  ySSD="190"/>
+                <FireControl xSSD="125"  ySSD="190"/>
+            </Electronics>
+            <Weapons>
+                <KineticGun xSSD="30"  ySSD="115" rating="5" arcs="(F)"/>
+                <KineticGun xSSD="160"  ySSD="115" rating="5" arcs="(F)"/>
+                <KineticGun xSSD="65"  ySSD="70" rating="2" arcs="(FP/F)"/>
+                <KineticGun xSSD="125"  ySSD="70" rating="2" arcs="(F/FS)"/>
+                <KineticGun xSSD="95"  ySSD="55" rating="1"/>
+                <KineticGun xSSD="95"  ySSD="85" rating="1"/>
+                <KineticGun xSSD="95"  ySSD="115" rating="1"/>
+                <Scattergun xSSD="20"  ySSD="160"/>
+                <Scattergun xSSD="50"  ySSD="160"/>
+                <Scattergun xSSD="80" ySSD="160"/>
+                <Scattergun xSSD="110" ySSD="160"/>
+                <Scattergun xSSD="140" ySSD="160"/>
+                <Scattergun xSSD="170" ySSD="160"/>
+            </Weapons>
+        </Ship>
+

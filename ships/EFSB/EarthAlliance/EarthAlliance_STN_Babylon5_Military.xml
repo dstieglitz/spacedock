@@ -1,0 +1,50 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Babylon 5 Military</Name>
+    <Race>EarthAlliance</Race>
+    <ClassAbbrev>STN</ClassAbbrev>
+    <ClassName>Deep Space Station</ClassName>
+    <ShipClass>Space Station</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>233</Mass>
+    <PointValue>938</PointValue>
+    <Armor totalArmor="0"/>
+    <Hull value="233" type="Custom" class="Military" stealth="0" totalHullBoxes="72"/>
+    <Electronics>
+        <FireControl xSSD="59" ySSD="181"/>
+        <FireControl xSSD="93" ySSD="181"/>
+        <FireControl xSSD="164" ySSD="181"/>
+        <FireControl xSSD="195" ySSD="180"/>
+        <AreaDefenseFireControl xSSD="130" ySSD="181"/>
+    </Electronics>
+    <Defenses>
+        <Screen xSSD="110" ySSD="155"/>
+        <Screen xSSD="140" ySSD="155"/>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <FighterBay xSSD="30" ySSD="33"/>
+        <FighterBay xSSD="31" ySSD="91"/>
+        <FighterBay xSSD="32" ySSD="148"/>
+        <FighterBay xSSD="383" ySSD="34"/>
+        <FighterBay xSSD="383" ySSD="86"/>
+        <FighterBay xSSD="383" ySSD="140"/>
+        <PlasmaBoltLauncher xSSD="118" ySSD="23" rating="2" arcs="(FP)"/>
+        <PlasmaBoltLauncher xSSD="212" ySSD="26" rating="2" arcs="(F)"/>
+        <PlasmaBoltLauncher xSSD="301" ySSD="27" rating="2" arcs="(FS)"/>
+        <Pulser xSSD="85" ySSD="59" arcs="(All arcs)" mode="L"/>
+        <Pulser xSSD="141" ySSD="58" arcs="(All arcs)" mode="L"/>
+        <Pulser xSSD="276" ySSD="57" arcs="(All arcs)" mode="L"/>
+        <Pulser xSSD="333" ySSD="58" arcs="(All arcs)" mode="L"/>
+        <Pulser xSSD="85" ySSD="116" arcs="(All arcs)" mode="L"/>
+        <Pulser xSSD="141" ySSD="116" arcs="(All arcs)" mode="L"/>
+        <Pulser xSSD="275" ySSD="113" arcs="(All arcs)" mode="L"/>
+        <Pulser xSSD="333" ySSD="113" arcs="(All arcs)" mode="L"/>
+        <PointDefense xSSD="61" ySSD="159"/>
+        <PointDefense xSSD="93" ySSD="159"/>
+        <PointDefense xSSD="165" ySSD="158"/>
+        <PointDefense xSSD="196" ySSD="158"/>
+    </Weapons>
+</Ship>
+

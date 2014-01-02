@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>Federal Stats Europa</Race>
+            <ClassAbbrev>CA</ClassAbbrev>
+            <ClassName>Jerez</ClassName>
+            <ShipClass>Heavy Cruiser</ShipClass>
+            <Mass>88</Mass>
+            <PointValue>293</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="88" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="90"  ySSD="180"/>
+                <FireControl xSSD="110" ySSD="180"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <SalvoMissileLauncher xSSD="60"  ySSD="20" smmId="51" arcs="(FP/F/FS)"/>
+                <SalvoMissileLauncher xSSD="140" ySSD="20" smmId="51" arcs="(FP/F/FS)"/>
+                <SalvoMissileMagazine xSSD="100" ySSD="60" id="51" maxInRow="4" capacity="8">
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                </SalvoMissileMagazine>
+
+                <BeamBattery rating="2" xSSD="100" ySSD="100" arcs="(All arcs)"/>
+                <BeamBattery rating="2" xSSD="20"  ySSD="105" arcs="(AP/FP/F)"/>
+                <BeamBattery rating="2" xSSD="180" ySSD="105" arcs="(F/FS/AS)"/>
+
+                <BeamBattery rating="1" xSSD="60"  ySSD="125" arcs="(All arcs)"/>
+                <BeamBattery rating="1" xSSD="140" ySSD="125" arcs="(All arcs)"/>
+
+                <PointDefense xSSD="80"  ySSD="155"/>
+                <PointDefense xSSD="120" ySSD="155"/>
+            </Weapons>
+        </Ship>

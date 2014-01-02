@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>J. Creek</Name>
+    <Race>EarthAlliance</Race>
+    <ClassAbbrev>DH</ClassAbbrev>
+    <ClassName>J. Creek</ClassName>
+    <ShipClass>Frigate</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>40</Mass>
+    <PointValue>145</PointValue>
+    <MainDrive type="Standard" initialThrust="6" active="false" />
+    <Armor totalArmor="0"/>
+    <Hull value="40" type="Custom" class="Military" stealth="0" totalHullBoxes="12"/>
+    <Electronics>
+        <FireControl xSSD="129" ySSD="161"/>
+        <AreaDefenseFireControl xSSD="106" ySSD="161"/>
+        <FireControl xSSD="83" ySSD="161"/>
+    </Electronics>
+    <Defenses>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <KineticGun  xSSD="104" ySSD="30" rating="3" arcs="(F)"/>
+        <BeamBattery  xSSD="41" ySSD="84" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="159" ySSD="84" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="103" ySSD="82" rating="1" arcs="(AP/FP/F/FS/AS)"/>
+        <PointDefense xSSD="77" ySSD="131"/>
+        <PointDefense xSSD="130" ySSD="131"/>
+    </Weapons>
+</Ship>
+

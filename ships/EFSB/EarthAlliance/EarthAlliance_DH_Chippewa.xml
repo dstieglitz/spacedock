@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Chippewa</Name>
+    <Race>EarthAlliance</Race>
+    <ClassAbbrev>DH</ClassAbbrev>
+    <ClassName>Chippewa</ClassName>
+    <ShipClass>Heavy Destroyer</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>48</Mass>
+    <PointValue>162</PointValue>
+    <MainDrive type="Standard" initialThrust="4" active="false" />
+    <Armor totalArmor="0"/>
+    <Hull value="48" type="Custom" class="Military" stealth="0" totalHullBoxes="24"/>
+    <Electronics>
+        <FireControl xSSD="77" ySSD="167"/>
+        <FireControl xSSD="122" ySSD="167"/>
+        <AreaDefenseFireControl xSSD="98" ySSD="167"/>
+    </Electronics>
+    <Defenses>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <PulseTorpedo  xSSD="96" ySSD="36" arcs="(F)"/>
+        <BeamBattery  xSSD="96" ySSD="90" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="149" ySSD="90" rating="1" arcs="(F/FS/AS)"/>
+        <BeamBattery  xSSD="41" ySSD="91" rating="1" arcs="(AP/FP/F)"/>
+        <PointDefense xSSD="69" ySSD="143"/>
+        <PointDefense xSSD="124" ySSD="143"/>
+    </Weapons>
+</Ship>
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Olympus_M</Name>
+    <Race>EarthAlliance</Race>
+    <ClassAbbrev>CE</ClassAbbrev>
+    <ClassName>Olympus_M</ClassName>
+    <ShipClass>Patrol Cruiser</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>80</Mass>
+    <PointValue>276</PointValue>
+    <MainDrive type="Standard" initialThrust="6" active="false" />
+    <Armor totalArmor="0"/>
+    <Hull value="80" type="Custom" class="Military" stealth="0" totalHullBoxes="24"/>
+    <Electronics>
+        <FireControl xSSD="70" ySSD="175"/>
+        <FireControl xSSD="135" ySSD="175"/>
+        <AreaDefenseFireControl xSSD="100" ySSD="175"/>
+    </Electronics>
+    <Defenses>
+        <Screen xSSD="100" ySSD="150"/>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <SalvoMissileRack xSSD="82" ySSD="87" type="Standard Salvo" arcs="(F)"/>
+        <SalvoMissileRack xSSD="127" ySSD="87" type="Standard Salvo" arcs="(F)"/>
+        <BeamBattery  xSSD="35" ySSD="30" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="170" ySSD="28" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="171" ySSD="104" rating="2" arcs="(FS/AS)"/>
+        <BeamBattery  xSSD="36" ySSD="107" rating="2" arcs="(AP/FP)"/>
+        <BeamBattery  xSSD="125" ySSD="30" rating="1" arcs="(F)"/>
+        <BeamBattery  xSSD="170" ySSD="67" rating="1" arcs="(FS/AS)"/>
+        <BeamBattery  xSSD="35" ySSD="68" rating="1" arcs="(AP/FP)"/>
+        <BeamBattery  xSSD="82" ySSD="31" rating="1" arcs="(A)"/>
+        <PointDefense xSSD="35" ySSD="150"/>
+        <PointDefense xSSD="70" ySSD="150"/>
+        <PointDefense xSSD="130" ySSD="150"/>
+        <PointDefense xSSD="165" ySSD="150"/>
+    </Weapons>
+</Ship>
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>MissileCruiser</Name>
+    <Race>CentauriRepublic</Race>
+    <ClassAbbrev>CL</ClassAbbrev>
+    <ClassName>MissileCruiser</ClassName>
+    <ShipClass>Light Cruiser</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>58</Mass>
+    <PointValue>187</PointValue>
+    <MainDrive type="Standard" initialThrust="6" active="false" />
+    <Armor totalArmor="0"/>
+    <Hull value="58" type="Custom" class="Military" stealth="0" rows="5" totalHullBoxes="20"/>
+    <Electronics>
+        <FireControl xSSD="75" ySSD="166"/>
+        <FireControl xSSD="123" ySSD="166"/>
+    </Electronics>
+    <Defenses>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+
+                <SalvoMissileLauncher xSSD="100" ySSD="20" smmId="101" arcs="(FP/F/FS)"/>
+                <SalvoMissileMagazine xSSD="100" ySSD="60" id="101" maxInRow="3" capacity="6">
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                </SalvoMissileMagazine>
+
+        <BeamBattery  xSSD="163" ySSD="95" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="29" ySSD="95" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="29" ySSD="134" rating="2" arcs="(AP/FP)"/>
+        <BeamBattery  xSSD="164" ySSD="134" rating="2" arcs="(FS/AS)"/>
+        <PointDefense xSSD="124" ySSD="128"/>
+        <PointDefense xSSD="80" ySSD="127"/>
+    </Weapons>
+</Ship>
+

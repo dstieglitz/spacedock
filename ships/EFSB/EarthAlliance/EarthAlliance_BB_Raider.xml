@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Raider</Name>
+    <Race>EarthAlliance</Race>
+    <ClassAbbrev>BC </ClassAbbrev>
+    <ClassName>Raider</ClassName>
+    <ShipClass>Light Battleship</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>97</Mass>
+    <PointValue>336</PointValue>
+    <MainDrive type="Standard" initialThrust="4" active="false" />
+    <FTLDrive/>
+    <Armor totalArmor="0"/>
+    <Hull value="97" type="Custom" class="Military" stealth="0" totalHullBoxes="25"/>
+    <Electronics>
+        <FireControl xSSD="74" ySSD="174"/>
+        <FireControl xSSD="146" ySSD="177"/>
+    </Electronics>
+    <Defenses>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <FighterBay xSSD="40" ySSD="39"/>
+        <FighterBay xSSD="106" ySSD="38"/>
+        <FighterBay xSSD="167" ySSD="36"/>
+        <BeamBattery  xSSD="42" ySSD="84" rating="2" arcs="(All arcs)"/>
+        <BeamBattery  xSSD="108" ySSD="84" rating="2" arcs="(All arcs)"/>
+        <BeamBattery  xSSD="167" ySSD="83" rating="2" arcs="(All arcs)"/>
+        <BeamBattery  xSSD="42" ySSD="135" rating="1" arcs="(All arcs)"/>
+        <BeamBattery  xSSD="107" ySSD="132" rating="1" arcs="(All arcs)"/>
+        <BeamBattery  xSSD="173" ySSD="131" rating="1" arcs="(All arcs)"/>
+        <PointDefense xSSD="76" ySSD="110"/>
+        <PointDefense xSSD="142" ySSD="110"/>
+    </Weapons>
+</Ship>
+

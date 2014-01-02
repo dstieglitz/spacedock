@@ -86,9 +86,7 @@ class SpacedockController {
 
         model.fleet.put('ships', new javax.swing.DefaultListModel())
 
-        //'/Users/dstieglitz/NetBeansProjects/Spacedock/Ships'
-
-        setBrowserRootPath('.')
+        setBrowserRootPath('ships')
     }
 
     def setBrowserRootPath = {newPath,theTree = null ->

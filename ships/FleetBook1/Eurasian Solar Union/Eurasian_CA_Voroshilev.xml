@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes" ?>
+         <Ship>
+             <Race>Eurasian Solar Union</Race>
+             <ClassAbbrev>CA</ClassAbbrev>
+             <ClassName>Voroshilev</ClassName>
+             <ShipClass>Heavy Cruiser</ShipClass>
+             <Mass>78</Mass>
+             <PointValue>262</PointValue>
+             <MainDrive type="Standard" initialThrust="4"/>
+             <FTLDrive/>
+             <Armor totalArmor="5"/>
+             <Hull value="78" type="Average"/>
+             <Electronics>
+                 <FireControl xSSD="108" ySSD="175"/>
+                 <FireControl xSSD="136" ySSD="175"/>
+             </Electronics>
+             <Defenses>
+                 <Screen xSSD="122" ySSD="150"/>
+             </Defenses>
+             <Holds/>
+             <Weapons>
+                 <BeamBattery  xSSD="95"  ySSD="35"  rating="3" arcs="(FP/F/FS)"/>
+                 <BeamBattery  xSSD="145" ySSD="35"  rating="3" arcs="(FP/F/FS)"/>
+                 <BeamBattery  xSSD="70"  ySSD="70"  rating="2" arcs="(AP/FP/F)"/>
+                 <BeamBattery  xSSD="170" ySSD="70"  rating="2" arcs="(F/FS/AS)"/>
+                 <BeamBattery  xSSD="60"  ySSD="110" rating="1" arcs="(All arcs)"/>
+                 <BeamBattery  xSSD="180" ySSD="110" rating="1" arcs="(All arcs)"/>
+                 <PointDefense xSSD="90" ySSD="140"  />
+                 <PointDefense xSSD="150" ySSD="140"  />
+             </Weapons>
+         </Ship>

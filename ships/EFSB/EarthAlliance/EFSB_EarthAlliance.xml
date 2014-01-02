@@ -1,0 +1,1076 @@
+<?xml version="1.0" standalone="yes" ?>
+<GameEngine id="0" name="EarthAlliance" turn="0" combat="false">
+
+    <GameOptions>
+        <Variant                            value="EFSB"/>
+        <Deadline                           value="7"/>
+
+        <AftArcFire                         value="true"/>
+        <CinematicMovement                  value="false"/>
+        <CoreSystems                        value="true"/>
+        <PenetratingDamage                  value="true"/>
+
+        <SensorRules                        value="2"/>
+        <SensorLevel                        value="0"/>
+        <SensorRangeBand                    value="18.0"/>
+        <SensorBlipBands                    value="10.0"/>
+        <ShipRoll                           value="false"/>
+        <SimultaneousFire                   value="true"/>
+        <TargetResolution                   value="1"/>
+        <ThresholdDamagedSystems            value="true"/>
+        <PDSFireAtShips                     value="false"/>
+        <FighterMorale                      value="true"/>
+
+        <AreaDefenseActivationRange         value="6.0"/>
+        <BeamRangeBand                      value="10.0"/>
+        <KineticGunRangeBand                value="6.0"/>
+        <PointDefenseRange                  value="6.0"/>
+        <PulseTorpedoRangeBand              value="6.0"/>
+        <MultipleKineticPenetratorPackRange value="10.0"/>
+        <NeedleBeamRange                    value="10.0"/>
+        <SalvoMissileRange                  value="20.0"/>
+        <SalvoMissileExtendedRange          value="30.0"/>
+        <SalvoMissileLockOn                 value="5.0"/>
+        <MissileLockOnRange                 value="5.0"/>
+        <ScattergunRange                    value="6.0"/>
+        <SubmunitionPackRangeBand           value="5.0"/>
+
+        <FighterRange                       value="6.0"/>
+        <FighterMovementRange               value="24.0"/>
+        <FighterFastMovementRange           value="36.0"/>
+        <FighterSecondaryRange              value="12.0"/>
+
+        <PulserRangeBand                    value="10.0"/>
+        <PlasmaBoltRange                    value="30.0"/>
+        <PlasmaBoltBlastRange               value="5.0"/>
+
+        <GraserRangeBand                    value="15.0"/>
+        <AntiMatterTorpedoRange             value="15.0"/>
+        <AntiMatterTorpedoLockOnRange       value="5.0"/>
+        <AntiMatterTorpedoBlastRange        value="3.0"/>
+
+        <ActiveExtent                       value="true"/>
+        <XMinExtent                         value="-200.0"/>
+        <XMaxExtent                         value="200.0"/>
+        <YMinExtent                         value="-200.0"/>
+        <YMaxExtent                         value="200.0"/>
+
+        <DebugMode                          value="false"/>
+        <TestingMode                        value="false"/>
+        <PlayTest                           value="false"/>
+    </GameOptions>
+
+    <Briefing></Briefing>
+
+    <Report>
+    </Report>
+
+    <Player id="37"
+            name="New Player 0"
+            email=""
+            team="EFSB" key="0">
+
+        <Objectives></Objectives>
+
+
+        <Ship id="114" arrivalTurn="-1">
+            <Name>Babylon 5 Military</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="0.0" y="0.0" />
+            <Heading heading="12" />
+            <Speed speed="0"/>
+            <VectorSpeed speed="-1.0"/>
+            <Course course="-1.0"/>
+
+            <Race>EarthAlliance</Race>
+            <ClassAbbrev>SS</ClassAbbrev>
+            <ClassName>Deep Space Station</ClassName>
+            <ShipClass>Space Station</ShipClass>
+            <CrewQuality>First Rate</CrewQuality>
+            <Mass>233</Mass>
+            <PointValue>938</PointValue>
+            <Armor totalArmor="0" remainingArmor="0"/>
+            <Hull value="233" type="Custom" class="Military" stealth="0" totalHullBoxes="72" remainingHullBoxes="72"/>
+            <Electronics>
+                <FireControl id="3" xSSD="59" ySSD="181" status="Operational"/>
+                <FireControl id="4" xSSD="93" ySSD="181" status="Operational"/>
+                <FireControl id="5" xSSD="164" ySSD="181" status="Operational"/>
+                <FireControl id="6" xSSD="195" ySSD="180" status="Operational"/>
+                <AreaDefenseFireControl id="7" xSSD="130" ySSD="181" status="Operational"/>
+            </Electronics>
+            <Defenses>
+                <Screen id="8" xSSD="129" ySSD="155" status="Operational"/>
+            </Defenses>
+            <Holds>
+            </Holds>
+            <Weapons>
+                <PlasmaBoltLauncher id="9" xSSD="118" ySSD="23" rating="3" arcs="(FP)" status="Operational" recharge="0"/>
+                <PlasmaBoltLauncher id="10" xSSD="212" ySSD="26" rating="3" arcs="(F)" status="Operational" recharge="0"/>
+                <PlasmaBoltLauncher id="11" xSSD="301" ySSD="27" rating="3" arcs="(FS)" status="Operational" recharge="0"/>
+                <Pulser id="12" xSSD="85" ySSD="59" arcs="(All arcs)" mode="L" status="Operational"/>
+                <Pulser id="13" xSSD="141" ySSD="58" arcs="(All arcs)" mode="L" status="Operational"/>
+                <Pulser id="14" xSSD="276" ySSD="57" arcs="(All arcs)" mode="L" status="Operational"/>
+                <Pulser id="15" xSSD="333" ySSD="58" arcs="(All arcs)" mode="L" status="Operational"/>
+                <Pulser id="16" xSSD="85" ySSD="116" arcs="(All arcs)" mode="L" status="Operational"/>
+                <Pulser id="17" xSSD="141" ySSD="116" arcs="(All arcs)" mode="L" status="Operational"/>
+                <Pulser id="18" xSSD="275" ySSD="113" arcs="(All arcs)" mode="L" status="Operational"/>
+                <Pulser id="19" xSSD="333" ySSD="113" arcs="(All arcs)" mode="L" status="Operational"/>
+                <PointDefense id="20" xSSD="61" ySSD="159" targetId="0" status="Operational"/>
+                <PointDefense id="21" xSSD="93" ySSD="159" targetId="0" status="Operational"/>
+                <PointDefense id="22" xSSD="165" ySSD="158" targetId="0" status="Operational"/>
+                <PointDefense id="23" xSSD="196" ySSD="158" targetId="0" status="Operational"/>
+                <FighterBay id="24" xSSD="30" ySSD="33" status="Operational" recharge="0"/>
+                <FighterBay id="25" xSSD="31" ySSD="91" status="Operational" recharge="0"/>
+                <FighterBay id="26" xSSD="32" ySSD="148" status="Operational" recharge="0"/>
+                <FighterBay id="27" xSSD="383" ySSD="34" status="Operational" recharge="0"/>
+                <FighterBay id="28" xSSD="383" ySSD="86" status="Operational" recharge="0"/>
+                <FighterBay id="29" xSSD="383" ySSD="140" status="Operational" recharge="0"/>
+                <KineticGun  id="30" xSSD="187" ySSD="57" rating="2" arcs="(All arcs)" status="Operational"/>
+                <KineticGun  id="31" xSSD="233" ySSD="56" rating="2" arcs="(All arcs)" status="Operational"/>
+                <KineticGun  id="32" xSSD="187" ySSD="114" rating="2" arcs="(All arcs)" status="Operational"/>
+                <KineticGun  id="33" xSSD="233" ySSD="115" rating="2" arcs="(All arcs)" status="Operational"/>
+            </Weapons>
+            <CoreCommandBridge id="0" status="Operational"/>
+            <CoreLifeSupport id="1" status="Operational"/>
+            <CorePowerCore id="2" status="Operational"/>
+        </Ship>
+
+        <Ship id="115" arrivalTurn="-1">
+            <Name>Babylon 5 Civilian</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="10.0" y="0.0" />
+            <Heading heading="12" />
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Race>EarthAlliance</Race>
+            <ClassAbbrev>SS</ClassAbbrev>
+            <ClassName>Deep Space Station</ClassName>
+            <ShipClass>Space Station</ShipClass>
+            <CrewQuality>First Rate</CrewQuality>
+            <Mass>257</Mass>
+            <PointValue>446</PointValue>
+            <Armor totalArmor="0" remainingArmor="0"/>
+            <Hull value="257" type="Custom" class="Military" stealth="0" totalHullBoxes="40" remainingHullBoxes="40"/>
+            <Electronics>
+                <FireControl id="3" xSSD="93" ySSD="181" status="Operational"/>
+                <FireControl id="4" xSSD="164" ySSD="181" status="Operational"/>
+            </Electronics>
+            <Defenses>
+                <Screen id="5" xSSD="129" ySSD="155" status="Operational"/>
+            </Defenses>
+            <Holds>
+                <CargoHold id="6" xSSD="308" ySSD="32" type="Passenger Space" totalSize="80"/>
+                <CargoHold id="7" xSSD="307" ySSD="80" type="Cargo Hold" totalSize="60"/>
+                <CargoHold id="8" xSSD="307" ySSD="128" type="Laboratory Hold" totalSize="48"/>
+            </Holds>
+            <Weapons>
+                <Pulser id="9" xSSD="66" ySSD="82" arcs="(All arcs)" mode="C" status="Operational"/>
+                <Pulser id="10" xSSD="184" ySSD="83" arcs="(All arcs)" mode="C" status="Operational"/>
+                <Pulser id="11" xSSD="127" ySSD="82" arcs="(F)" mode="L" status="Operational"/>
+                <PointDefense id="12" xSSD="61" ySSD="159" targetId="0" status="Operational"/>
+                <PointDefense id="13" xSSD="93" ySSD="159" targetId="0" status="Operational"/>
+                <PointDefense id="14" xSSD="165" ySSD="158" targetId="0" status="Operational"/>
+                <PointDefense id="15" xSSD="196" ySSD="158" targetId="0" status="Operational"/>
+            </Weapons>
+            <CoreCommandBridge id="0" status="Operational"/>
+            <CoreLifeSupport id="1" status="Operational"/>
+            <CorePowerCore id="2" status="Operational"/>
+        </Ship>
+
+        <Ship id="116" arrivalTurn="-1">
+            <Name>Alexander</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="20.0" y="0.0" />
+            <Heading heading="12" />
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Race>EarthAlliance</Race>
+            <ClassAbbrev>SDN</ClassAbbrev>
+            <ClassName>Omega</ClassName>
+            <ShipClass>Superdreadnought</ShipClass>
+            <CrewQuality>First Rate</CrewQuality>
+            <Mass>207</Mass>
+            <PointValue>749</PointValue>
+            <MainDrive id="3" type="Standard" initialThrust="4" currentThrust="4" status="Operational" active="true" />
+            <FTLDrive id="4" status="Operational" active="false"/>
+            <Armor totalArmor="0" remainingArmor="0"/>
+            <Hull value="207" type="Custom" class="Military" stealth="0" totalHullBoxes="48" remainingHullBoxes="48"/>
+            <Electronics>
+                <FireControl id="5" xSSD="217" ySSD="168" status="Operational"/>
+                <FireControl id="6" xSSD="120" ySSD="168" status="Operational"/>
+                <FireControl id="7" xSSD="152" ySSD="168" status="Operational"/>
+                <AreaDefenseFireControl id="8" xSSD="184" ySSD="168" status="Operational"/>
+            </Electronics>
+            <Defenses>
+                <Screen id="9" xSSD="175" ySSD="145" status="Operational"/>
+            </Defenses>
+            <Holds>
+            </Holds>
+            <Weapons>
+                <KineticGun  id="10" xSSD="110" ySSD="30" rating="4" arcs="(F)" status="Operational"/>
+                <KineticGun  id="11" xSSD="230" ySSD="30" rating="4" arcs="(F)" status="Operational"/>
+                <KineticGun  id="12" xSSD="110" ySSD="105" rating="3" arcs="(A)" status="Operational"/>
+                <KineticGun  id="13" xSSD="230" ySSD="105" rating="3" arcs="(A)" status="Operational"/>
+                <PointDefense id="14" xSSD="110" ySSD="145" targetId="0" status="Operational"/>
+                <PointDefense id="15" xSSD="140" ySSD="145" targetId="0" status="Operational"/>
+                <PointDefense id="16" xSSD="210" ySSD="145" targetId="0" status="Operational"/>
+                <PointDefense id="17" xSSD="240" ySSD="145" targetId="0" status="Operational"/>
+                <BeamBattery  id="18" xSSD="155" ySSD="30" rating="2" arcs="(F)" status="Operational"/>
+                <BeamBattery  id="19" xSSD="190" ySSD="30" rating="2" arcs="(F)" status="Operational"/>
+                <BeamBattery  id="20" xSSD="110" ySSD="68" rating="2" arcs="(AP/FP)" status="Operational"/>
+                <BeamBattery  id="21" xSSD="155" ySSD="68" rating="2" arcs="(AP/FP)" status="Operational"/>
+                <BeamBattery  id="22" xSSD="190" ySSD="68" rating="2" arcs="(FS/AS)" status="Operational"/>
+                <BeamBattery  id="23" xSSD="230" ySSD="68" rating="2" arcs="(FS/AS)" status="Operational"/>
+                <BeamBattery  id="24" xSSD="190" ySSD="105" rating="2" arcs="(A)" status="Operational"/>
+                <BeamBattery  id="25" xSSD="155" ySSD="105" rating="2" arcs="(A)" status="Operational"/>
+                <FighterBay id="26" xSSD="60" ySSD="40" status="Operational" recharge="0"/>
+                <FighterBay id="27" xSSD="275" ySSD="40" status="Operational" recharge="0"/>
+                <FighterBay id="28" xSSD="60" ySSD="100" status="Operational" recharge="0"/>
+                <FighterBay id="29" xSSD="275" ySSD="100" status="Operational" recharge="0"/>
+            </Weapons>
+            <CoreCommandBridge id="0" status="Operational"/>
+            <CoreLifeSupport id="1" status="Operational"/>
+            <CorePowerCore id="2" status="Operational"/>
+        </Ship>
+
+        <Ship id="117" arrivalTurn="-1">
+            <Name>Jumpgate</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="30.0" y="0.0" />
+            <Heading heading="12" />
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Race>EarthAlliance</Race>
+            <ClassAbbrev>JJ</ClassAbbrev>
+            <ClassName>Jumpgate</ClassName>
+            <ShipClass>Courier</ShipClass>
+            <CrewQuality>First Rate</CrewQuality>
+            <Mass>100</Mass>
+            <PointValue>305</PointValue>
+            <FTLDrive id="3" status="Operational" active="false"/>
+            <Armor totalArmor="0" remainingArmor="0"/>
+            <Hull value="100" type="Custom" class="Military" stealth="0" totalHullBoxes="87" remainingHullBoxes="87"/>
+            <Electronics>
+                <AreaDefenseFireControl id="4" xSSD="83" ySSD="157" status="Operational"/>
+            </Electronics>
+            <Defenses>
+            </Defenses>
+            <Holds>
+            </Holds>
+            <Weapons>
+                <PointDefense id="5" xSSD="41" ySSD="156" targetId="0" status="Operational"/>
+            </Weapons>
+            <CoreCommandBridge id="0" status="Operational"/>
+            <CoreLifeSupport id="1" status="Operational"/>
+            <CorePowerCore id="2" status="Operational"/>
+        </Ship>
+
+        <Ship id="119" arrivalTurn="-1">
+            <Name>J. Creek</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="50.0" y="0.0" />
+            <Heading heading="12" />
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Race>EarthAlliance</Race>
+            <ClassAbbrev>FF</ClassAbbrev>
+            <ClassName>J. Creek</ClassName>
+            <ShipClass>Frigate</ShipClass>
+            <CrewQuality>First Rate</CrewQuality>
+            <Mass>40</Mass>
+            <PointValue>145</PointValue>
+            <MainDrive id="3" type="Standard" initialThrust="6" currentThrust="6" status="Operational" active="true" />
+            <Armor totalArmor="0" remainingArmor="0"/>
+            <Hull value="40" type="Custom" class="Military" stealth="0" totalHullBoxes="12" remainingHullBoxes="12"/>
+            <Electronics>
+                <FireControl id="4" xSSD="129" ySSD="161" status="Operational"/>
+                <AreaDefenseFireControl id="5" xSSD="106" ySSD="161" status="Operational"/>
+                <FireControl id="6" xSSD="83" ySSD="161" status="Operational"/>
+            </Electronics>
+            <Defenses>
+            </Defenses>
+            <Holds>
+            </Holds>
+            <Weapons>
+                <BeamBattery  id="7" xSSD="41" ySSD="84" rating="2" arcs="(F)" status="Operational"/>
+                <BeamBattery  id="8" xSSD="159" ySSD="84" rating="2" arcs="(F)" status="Operational"/>
+                <BeamBattery  id="9" xSSD="103" ySSD="82" rating="1" arcs="(AP/FP/F/FS/AS)" status="Operational"/>
+                <PointDefense id="10" xSSD="77" ySSD="131" targetId="0" status="Operational"/>
+                <PointDefense id="11" xSSD="130" ySSD="131" targetId="0" status="Operational"/>
+                <KineticGun  id="12" xSSD="104" ySSD="30" rating="3" arcs="(F)" status="Operational"/>
+            </Weapons>
+            <CoreCommandBridge id="0" status="Operational"/>
+            <CoreLifeSupport id="1" status="Operational"/>
+            <CorePowerCore id="2" status="Operational"/>
+        </Ship>
+
+        <Ship id="120" arrivalTurn="-1">
+            <Name>Nova</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="0.0" y="10.0" />
+            <Heading heading="12" />
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Race>EarthAlliance</Race>
+            <ClassAbbrev>DN</ClassAbbrev>
+            <ClassName>Nova</ClassName>
+            <ShipClass>Dreadnought</ShipClass>
+            <CrewQuality>First Rate</CrewQuality>
+            <Mass>205</Mass>
+            <PointValue>715</PointValue>
+            <MainDrive id="3" type="Standard" initialThrust="4" currentThrust="4" status="Operational" active="true" />
+            <FTLDrive id="4" status="Operational" active="false"/>
+            <Armor totalArmor="0" remainingArmor="0"/>
+            <Hull value="205" type="Custom" class="Military" stealth="0" totalHullBoxes="48" remainingHullBoxes="48"/>
+            <Electronics>
+                <FireControl id="5" xSSD="217" ySSD="168" status="Operational"/>
+                <FireControl id="6" xSSD="120" ySSD="168" status="Operational"/>
+                <FireControl id="7" xSSD="152" ySSD="168" status="Operational"/>
+                <AreaDefenseFireControl id="8" xSSD="184" ySSD="168" status="Operational"/>
+            </Electronics>
+            <Defenses>
+                <Screen id="9" xSSD="175" ySSD="145" status="Operational"/>
+            </Defenses>
+            <Holds>
+            </Holds>
+            <Weapons>
+                <PointDefense id="10" xSSD="110" ySSD="145" targetId="0" status="Operational"/>
+                <PointDefense id="11" xSSD="140" ySSD="145" targetId="0" status="Operational"/>
+                <PointDefense id="12" xSSD="210" ySSD="145" targetId="0" status="Operational"/>
+                <PointDefense id="13" xSSD="240" ySSD="145" targetId="0" status="Operational"/>
+                <BeamBattery  id="14" xSSD="155" ySSD="30" rating="3" arcs="(F)" status="Operational"/>
+                <BeamBattery  id="15" xSSD="190" ySSD="30" rating="3" arcs="(F)" status="Operational"/>
+                <BeamBattery  id="16" xSSD="110" ySSD="68" rating="3" arcs="(AP/FP/A)" status="Operational"/>
+                <BeamBattery  id="17" xSSD="155" ySSD="68" rating="3" arcs="(AP/FP/F)" status="Operational"/>
+                <BeamBattery  id="18" xSSD="190" ySSD="68" rating="3" arcs="(F/FS/AS)" status="Operational"/>
+                <BeamBattery  id="19" xSSD="230" ySSD="68" rating="3" arcs="(FS/AS/A)" status="Operational"/>
+                <BeamBattery  id="20" xSSD="190" ySSD="105" rating="3" arcs="(A)" status="Operational"/>
+                <BeamBattery  id="21" xSSD="155" ySSD="105" rating="3" arcs="(A)" status="Operational"/>
+                <FighterBay id="22" xSSD="60" ySSD="40" status="Operational" recharge="0"/>
+                <FighterBay id="23" xSSD="275" ySSD="40" status="Operational" recharge="0"/>
+                <FighterBay id="24" xSSD="60" ySSD="100" status="Operational" recharge="0"/>
+                <FighterBay id="25" xSSD="275" ySSD="100" status="Operational" recharge="0"/>
+            </Weapons>
+            <CoreCommandBridge id="0" status="Operational"/>
+            <CoreLifeSupport id="1" status="Operational"/>
+            <CorePowerCore id="2" status="Operational"/>
+        </Ship>
+
+        <Ship id="122" arrivalTurn="-1">
+            <Name>Los Angeles</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="20.0" y="10.0" />
+            <Heading heading="12" />
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Race>EarthAlliance</Race>
+            <ClassAbbrev>CL</ClassAbbrev>
+            <ClassName>Los Angeles</ClassName>
+            <ShipClass>Heavy Destroyer</ShipClass>
+            <CrewQuality>First Rate</CrewQuality>
+            <Mass>53</Mass>
+            <PointValue>179</PointValue>
+            <MainDrive id="3" type="Standard" initialThrust="6" currentThrust="6" status="Operational" active="true" />
+            <Armor totalArmor="0" remainingArmor="0"/>
+            <Hull value="53" type="Custom" class="Military" stealth="0" totalHullBoxes="18" remainingHullBoxes="18"/>
+            <Electronics>
+                <FireControl id="4" xSSD="97" ySSD="167" status="Operational"/>
+            </Electronics>
+            <Defenses>
+            </Defenses>
+            <Holds>
+            </Holds>
+            <Weapons>
+                <BeamBattery  id="5" xSSD="33" ySSD="36" rating="2" arcs="(F)" status="Operational"/>
+                <BeamBattery  id="6" xSSD="98" ySSD="36" rating="2" arcs="(F)" status="Operational"/>
+                <BeamBattery  id="7" xSSD="167" ySSD="34" rating="2" arcs="(F)" status="Operational"/>
+                <BeamBattery  id="8" xSSD="34" ySSD="82" rating="2" arcs="(F)" status="Operational"/>
+                <BeamBattery  id="9" xSSD="98" ySSD="81" rating="2" arcs="(F)" status="Operational"/>
+                <BeamBattery  id="10" xSSD="166" ySSD="79" rating="2" arcs="(F)" status="Operational"/>
+            </Weapons>
+            <CoreCommandBridge id="0" status="Operational"/>
+            <CoreLifeSupport id="1" status="Operational"/>
+            <CorePowerCore id="2" status="Operational"/>
+        </Ship>
+
+        <Ship id="123" arrivalTurn="-1">
+            <Name>Fast Attack</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="30.0" y="10.0" />
+            <Heading heading="12" />
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Race>EarthAlliance</Race>
+            <ClassAbbrev>DD</ClassAbbrev>
+            <ClassName>Fast Attack</ClassName>
+            <ShipClass>Destroyer</ShipClass>
+            <CrewQuality>First Rate</CrewQuality>
+            <Mass>45</Mass>
+            <PointValue>148</PointValue>
+            <MainDrive id="3" type="Standard" initialThrust="8" currentThrust="8" status="Operational" active="true" />
+            <Armor totalArmor="0" remainingArmor="0"/>
+            <Hull value="45" type="Custom" class="Military" stealth="0" totalHullBoxes="16" remainingHullBoxes="16"/>
+            <Electronics>
+                <FireControl id="4" xSSD="87" ySSD="158" status="Operational"/>
+                <FireControl id="5" xSSD="117" ySSD="158" status="Operational"/>
+            </Electronics>
+            <Defenses>
+            </Defenses>
+            <Holds>
+            </Holds>
+            <Weapons>
+                <BeamBattery  id="6" xSSD="57" ySSD="27" rating="2" arcs="(F)" status="Operational"/>
+                <BeamBattery  id="7" xSSD="146" ySSD="26" rating="2" arcs="(F)" status="Operational"/>
+                <BeamBattery  id="8" xSSD="57" ySSD="79" rating="2" arcs="(F)" status="Operational"/>
+                <BeamBattery  id="9" xSSD="147" ySSD="74" rating="2" arcs="(F)" status="Operational"/>
+                <PointDefense id="10" xSSD="104" ySSD="113" targetId="0" status="Operational"/>
+            </Weapons>
+            <CoreCommandBridge id="0" status="Operational"/>
+            <CoreLifeSupport id="1" status="Operational"/>
+            <CorePowerCore id="2" status="Operational"/>
+        </Ship>
+
+        <Ship id="124" arrivalTurn="-1">
+            <Name>Olympus_M</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="40.0" y="10.0" />
+            <Heading heading="12" />
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Race>EarthAlliance</Race>
+            <ClassAbbrev>CE</ClassAbbrev>
+            <ClassName>Olympus_M</ClassName>
+            <ShipClass>Corvette</ShipClass>
+            <CrewQuality>First Rate</CrewQuality>
+            <Mass>80</Mass>
+            <PointValue>276</PointValue>
+            <MainDrive id="3" type="Standard" initialThrust="6" currentThrust="6" status="Operational" active="true" />
+            <Armor totalArmor="0" remainingArmor="0"/>
+            <Hull value="80" type="Custom" class="Military" stealth="0" totalHullBoxes="24" remainingHullBoxes="24"/>
+            <Electronics>
+                <FireControl id="4" xSSD="70" ySSD="175" status="Operational"/>
+                <FireControl id="5" xSSD="135" ySSD="175" status="Operational"/>
+                <AreaDefenseFireControl id="6" xSSD="100" ySSD="175" status="Operational"/>
+            </Electronics>
+            <Defenses>
+                <Screen id="7" xSSD="100" ySSD="150" status="Operational"/>
+            </Defenses>
+            <Holds>
+            </Holds>
+            <Weapons>
+                <PointDefense id="8" xSSD="35" ySSD="150" targetId="0" status="Operational"/>
+                <PointDefense id="9" xSSD="70" ySSD="150" targetId="0" status="Operational"/>
+                <PointDefense id="10" xSSD="130" ySSD="150" targetId="0" status="Operational"/>
+                <PointDefense id="11" xSSD="165" ySSD="150" targetId="0" status="Operational"/>
+                <BeamBattery  id="12" xSSD="125" ySSD="30" rating="1" arcs="(F)" status="Operational"/>
+                <BeamBattery  id="13" xSSD="35" ySSD="30" rating="2" arcs="(F)" status="Operational"/>
+                <BeamBattery  id="14" xSSD="36" ySSD="107" rating="2" arcs="(AP/FP)" status="Operational"/>
+                <BeamBattery  id="15" xSSD="170" ySSD="28" rating="2" arcs="(F)" status="Operational"/>
+                <BeamBattery  id="16" xSSD="171" ySSD="104" rating="2" arcs="(FS/AS)" status="Operational"/>
+                <BeamBattery  id="17" xSSD="35" ySSD="68" rating="1" arcs="(AP/FP)" status="Operational"/>
+                <BeamBattery  id="18" xSSD="170" ySSD="67" rating="1" arcs="(FS/AS)" status="Operational"/>
+                <BeamBattery  id="19" xSSD="82" ySSD="31" rating="1" arcs="(A)" status="Operational"/>
+                <SalvoMissileRack id="20" xSSD="82" ySSD="87" type="Standard Salvo" arcs="(F)" status="Operational"/>
+                <SalvoMissileRack id="21" xSSD="127" ySSD="87" type="Standard Salvo" arcs="(F)" status="Operational"/>
+            </Weapons>
+            <CoreCommandBridge id="0" status="Operational"/>
+            <CoreLifeSupport id="1" status="Operational"/>
+            <CorePowerCore id="2" status="Operational"/>
+        </Ship>
+
+        <Ship id="125" arrivalTurn="-1">
+            <Name>Olympus</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="50.0" y="10.0" />
+            <Heading heading="12" />
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Race>EarthAlliance</Race>
+            <ClassAbbrev>CE</ClassAbbrev>
+            <ClassName>Olympus</ClassName>
+            <ShipClass>Corvette</ShipClass>
+            <CrewQuality>First Rate</CrewQuality>
+            <Mass>80</Mass>
+            <PointValue>284</PointValue>
+            <MainDrive id="3" type="Standard" initialThrust="6" currentThrust="6" status="Operational" active="true" />
+            <Armor totalArmor="0" remainingArmor="0"/>
+            <Hull value="80" type="Custom" class="Military" stealth="0" totalHullBoxes="24" remainingHullBoxes="24"/>
+            <Electronics>
+                <FireControl id="4" xSSD="70" ySSD="175" status="Operational"/>
+                <FireControl id="5" xSSD="135" ySSD="175" status="Operational"/>
+                <AreaDefenseFireControl id="6" xSSD="100" ySSD="175" status="Operational"/>
+            </Electronics>
+            <Defenses>
+                <Screen id="7" xSSD="100" ySSD="150" status="Operational"/>
+            </Defenses>
+            <Holds>
+            </Holds>
+            <Weapons>
+                <KineticGun  id="8" xSSD="80" ySSD="30" rating="4" arcs="(F)" status="Operational"/>
+                <PointDefense id="9" xSSD="35" ySSD="150" targetId="0" status="Operational"/>
+                <PointDefense id="10" xSSD="70" ySSD="150" targetId="0" status="Operational"/>
+                <PointDefense id="11" xSSD="130" ySSD="150" targetId="0" status="Operational"/>
+                <PointDefense id="12" xSSD="165" ySSD="150" targetId="0" status="Operational"/>
+                <BeamBattery  id="13" xSSD="125" ySSD="30" rating="1" arcs="(F)" status="Operational"/>
+                <BeamBattery  id="14" xSSD="35" ySSD="30" rating="2" arcs="(F)" status="Operational"/>
+                <BeamBattery  id="15" xSSD="80" ySSD="68" rating="2" arcs="(AP/FP)" status="Operational"/>
+                <BeamBattery  id="16" xSSD="170" ySSD="28" rating="2" arcs="(F)" status="Operational"/>
+                <BeamBattery  id="17" xSSD="125" ySSD="68" rating="2" arcs="(FS/AS)" status="Operational"/>
+                <BeamBattery  id="18" xSSD="35" ySSD="68" rating="1" arcs="(AP/FP)" status="Operational"/>
+                <BeamBattery  id="19" xSSD="170" ySSD="67" rating="1" arcs="(FS/AS)" status="Operational"/>
+                <BeamBattery  id="20" xSSD="100" ySSD="103" rating="1" arcs="(A)" status="Operational"/>
+            </Weapons>
+            <CoreCommandBridge id="0" status="Operational"/>
+            <CoreLifeSupport id="1" status="Operational"/>
+            <CorePowerCore id="2" status="Operational"/>
+        </Ship>
+
+        <Ship id="126" arrivalTurn="-1">
+            <Name>Vigilant</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="0.0" y="20.0" />
+            <Heading heading="12" />
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Race>EarthAlliance</Race>
+            <ClassAbbrev>CL</ClassAbbrev>
+            <ClassName>Vigilant</ClassName>
+            <ShipClass>Light Cruiser</ShipClass>
+            <CrewQuality>First Rate</CrewQuality>
+            <Mass>78</Mass>
+            <PointValue>277</PointValue>
+            <MainDrive id="3" type="Standard" initialThrust="6" currentThrust="6" status="Operational" active="true" />
+            <Armor totalArmor="0" remainingArmor="0"/>
+            <Hull value="78" type="Custom" class="Military" stealth="0" totalHullBoxes="24" remainingHullBoxes="24"/>
+            <Electronics>
+                <FireControl id="4" xSSD="78" ySSD="169" status="Operational"/>
+                <FireControl id="5" xSSD="117" ySSD="169" status="Operational"/>
+                <AreaDefenseFireControl id="6" xSSD="97" ySSD="169" status="Operational"/>
+            </Electronics>
+            <Defenses>
+                <Screen id="7" xSSD="96" ySSD="139" status="Operational"/>
+            </Defenses>
+            <Holds>
+            </Holds>
+            <Weapons>
+                <BeamBattery  id="8" xSSD="97" ySSD="47" rating="1" arcs="(All arcs)" status="Operational"/>
+                <BeamBattery  id="9" xSSD="97" ySSD="97" rating="1" arcs="(All arcs)" status="Operational"/>
+                <FighterBay id="10" xSSD="38" ySSD="68" status="Operational" recharge="0"/>
+                <KineticGun  id="11" xSSD="152" ySSD="74" rating="4" arcs="(F)" status="Operational"/>
+                <PointDefense id="12" xSSD="28" ySSD="142" targetId="0" status="Operational"/>
+                <PointDefense id="13" xSSD="62" ySSD="141" targetId="0" status="Operational"/>
+                <PointDefense id="14" xSSD="130" ySSD="140" targetId="0" status="Operational"/>
+                <PointDefense id="15" xSSD="165" ySSD="138" targetId="0" status="Operational"/>
+            </Weapons>
+            <CoreCommandBridge id="0" status="Operational"/>
+            <CoreLifeSupport id="1" status="Operational"/>
+            <CorePowerCore id="2" status="Operational"/>
+        </Ship>
+
+        <Ship id="128" arrivalTurn="-1">
+            <Name>Hyperion</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="20.0" y="20.0" />
+            <Heading heading="12" />
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Race>EarthAlliance</Race>
+            <ClassAbbrev>CH</ClassAbbrev>
+            <ClassName>Hyperion</ClassName>
+            <ShipClass>Heavy Cruiser</ShipClass>
+            <CrewQuality>First Rate</CrewQuality>
+            <Mass>114</Mass>
+            <PointValue>421</PointValue>
+            <MainDrive id="3" type="Standard" initialThrust="4" currentThrust="4" status="Operational" active="true" />
+            <Armor totalArmor="0" remainingArmor="0"/>
+            <Hull value="114" type="Custom" class="Military" stealth="0" totalHullBoxes="32" remainingHullBoxes="32"/>
+            <Electronics>
+                <FireControl id="4" xSSD="70" ySSD="140" status="Operational"/>
+                <FireControl id="5" xSSD="110" ySSD="140" status="Operational"/>
+                <AreaDefenseFireControl id="6" xSSD="150" ySSD="140" status="Operational"/>
+            </Electronics>
+            <Defenses>
+                <Screen id="7" xSSD="125" ySSD="105" status="Operational"/>
+            </Defenses>
+            <Holds>
+            </Holds>
+            <Weapons>
+                <KineticGun  id="8" xSSD="75" ySSD="30" rating="4" arcs="(F)" status="Operational"/>
+                <KineticGun  id="9" xSSD="170" ySSD="30" rating="4" arcs="(F)" status="Operational"/>
+                <PointDefense id="10" xSSD="50" ySSD="105" targetId="0" status="Operational"/>
+                <PointDefense id="11" xSSD="90" ySSD="105" targetId="0" status="Operational"/>
+                <PointDefense id="12" xSSD="160" ySSD="105" targetId="0" status="Operational"/>
+                <PointDefense id="13" xSSD="200" ySSD="105" targetId="0" status="Operational"/>
+                <BeamBattery  id="14" xSSD="125" ySSD="30" rating="2" arcs="(F)" status="Operational"/>
+                <FighterBay id="15" xSSD="25" ySSD="40" status="Operational" recharge="0"/>
+                <FighterBay id="16" xSSD="215" ySSD="40" status="Operational" recharge="0"/>
+                <BeamBattery  id="17" xSSD="75" ySSD="70" rating="2" arcs="(All arcs)" status="Operational"/>
+                <BeamBattery  id="18" xSSD="125" ySSD="70" rating="2" arcs="(All arcs)" status="Operational"/>
+                <BeamBattery  id="19" xSSD="170" ySSD="70" rating="2" arcs="(All arcs)" status="Operational"/>
+            </Weapons>
+            <CoreCommandBridge id="0" status="Operational"/>
+            <CoreLifeSupport id="1" status="Operational"/>
+            <CorePowerCore id="2" status="Operational"/>
+        </Ship>
+
+        <Ship id="129" arrivalTurn="-1">
+            <Name>Eiger</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="30.0" y="20.0" />
+            <Heading heading="12" />
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Race>EarthAlliance</Race>
+            <ClassAbbrev>CE</ClassAbbrev>
+            <ClassName>Eiger Aegis</ClassName>
+            <ShipClass>Escort Cruiser</ShipClass>
+            <CrewQuality>First Rate</CrewQuality>
+            <Mass>59</Mass>
+            <PointValue>202</PointValue>
+            <MainDrive id="3" type="Standard" initialThrust="4" currentThrust="4" status="Operational" active="true" />
+            <FTLDrive id="4" status="Operational" active="false"/>
+            <Armor totalArmor="0" remainingArmor="0"/>
+            <Hull value="59" type="Custom" class="Military" stealth="0" totalHullBoxes="24" remainingHullBoxes="24"/>
+            <Electronics>
+                <AreaDefenseFireControl id="5" xSSD="99" ySSD="153" status="Operational"/>
+                <FireControl id="6" xSSD="79" ySSD="153" status="Operational"/>
+                <FireControl id="7" xSSD="118" ySSD="153" status="Operational"/>
+                <AreaDefenseFireControl id="8" xSSD="60" ySSD="153" status="Operational"/>
+                <AreaDefenseFireControl id="9" xSSD="138" ySSD="153" status="Operational"/>
+            </Electronics>
+            <Defenses>
+            </Defenses>
+            <Holds>
+            </Holds>
+            <Weapons>
+                <PointDefense id="10" xSSD="22" ySSD="125" targetId="0" status="Operational"/>
+                <PointDefense id="11" xSSD="63" ySSD="125" targetId="0" status="Operational"/>
+                <PointDefense id="12" xSSD="42" ySSD="98" targetId="0" status="Operational"/>
+                <PointDefense id="13" xSSD="132" ySSD="120" targetId="0" status="Operational"/>
+                <PointDefense id="14" xSSD="172" ySSD="120" targetId="0" status="Operational"/>
+                <PointDefense id="15" xSSD="151" ySSD="92" targetId="0" status="Operational"/>
+                <BeamBattery  id="16" xSSD="95" ySSD="87" rating="1" arcs="(All arcs)" status="Operational"/>
+                <BeamBattery  id="17" xSSD="94" ySSD="27" rating="2" arcs="(F)" status="Operational"/>
+            </Weapons>
+            <CoreCommandBridge id="0" status="Operational"/>
+            <CoreLifeSupport id="1" status="Operational"/>
+            <CorePowerCore id="2" status="Operational"/>
+        </Ship>
+
+        <Ship id="130" arrivalTurn="-1">
+            <Name>Chippewa</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="40.0" y="20.0" />
+            <Heading heading="12" />
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Race>EarthAlliance</Race>
+            <ClassAbbrev>CE</ClassAbbrev>
+            <ClassName>Chippewa</ClassName>
+            <ShipClass>Patrol Cruiser</ShipClass>
+            <CrewQuality>First Rate</CrewQuality>
+            <Mass>47</Mass>
+            <PointValue>168</PointValue>
+            <Armor totalArmor="0" remainingArmor="0"/>
+            <Hull value="47" type="Custom" class="Military" stealth="0" totalHullBoxes="24" remainingHullBoxes="24"/>
+            <Electronics>
+                <FireControl id="3" xSSD="77" ySSD="167" status="Operational"/>
+                <FireControl id="4" xSSD="122" ySSD="167" status="Operational"/>
+                <AreaDefenseFireControl id="5" xSSD="98" ySSD="167" status="Operational"/>
+            </Electronics>
+            <Defenses>
+                <Screen id="6" xSSD="99" ySSD="139" status="Operational"/>
+            </Defenses>
+            <Holds>
+            </Holds>
+            <Weapons>
+                <PointDefense id="7" xSSD="69" ySSD="143" targetId="0" status="Operational"/>
+                <PointDefense id="8" xSSD="40" ySSD="143" targetId="0" status="Operational"/>
+                <PointDefense id="9" xSSD="124" ySSD="143" targetId="0" status="Operational"/>
+                <PointDefense id="10" xSSD="153" ySSD="143" targetId="0" status="Operational"/>
+                <BeamBattery  id="11" xSSD="96" ySSD="90" rating="3" arcs="(F)" status="Operational"/>
+                <BeamBattery  id="12" xSSD="41" ySSD="91" rating="2" arcs="(AP/FP/F)" status="Operational"/>
+                <BeamBattery  id="13" xSSD="149" ySSD="90" rating="2" arcs="(F/FS/AS)" status="Operational"/>
+                <PulseTorpedo id="16" xSSD="96" ySSD="36" arcs="(F)" status="Operational"/>
+            </Weapons>
+            <CoreCommandBridge id="0" status="Operational"/>
+            <CoreLifeSupport id="1" status="Operational"/>
+            <CorePowerCore id="2" status="Operational"/>
+        </Ship>
+
+        <Ship id="132" arrivalTurn="-1">
+            <Name>Cotton</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="0.0" y="30.0" />
+            <Heading heading="12" />
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Race>EarthAlliance</Race>
+            <ClassAbbrev>AO</ClassAbbrev>
+            <ClassName>Cotton Long Range Tender</ClassName>
+            <ShipClass>Tender</ShipClass>
+            <CrewQuality>First Rate</CrewQuality>
+            <Mass>159</Mass>
+            <PointValue>415</PointValue>
+            <MainDrive id="3" type="Standard" initialThrust="4" currentThrust="4" status="Operational" active="true" />
+            <FTLDrive id="4" status="Operational" active="false"/>
+            <Armor totalArmor="0" remainingArmor="0"/>
+            <Hull value="159" type="Custom" class="Military" stealth="0" totalHullBoxes="44" remainingHullBoxes="44"/>
+            <Electronics>
+                <FireControl id="5" xSSD="110" ySSD="191" status="Operational"/>
+                <AreaDefenseFireControl id="6" xSSD="144" ySSD="194" status="Operational"/>
+            </Electronics>
+            <Defenses>
+                <Screen id="7" xSSD="125" ySSD="105" status="Operational"/>
+            </Defenses>
+            <Holds>
+                <CargoHold id="8" xSSD="129" ySSD="147" type="Cargo Hold" totalSize="44"/>
+            </Holds>
+            <Weapons>
+                <PointDefense id="9" xSSD="50" ySSD="105" targetId="0" status="Operational"/>
+                <PointDefense id="10" xSSD="90" ySSD="105" targetId="0" status="Operational"/>
+                <PointDefense id="11" xSSD="160" ySSD="105" targetId="0" status="Operational"/>
+                <PointDefense id="12" xSSD="200" ySSD="105" targetId="0" status="Operational"/>
+                <BeamBattery  id="13" xSSD="125" ySSD="30" rating="2" arcs="(F)" status="Operational"/>
+                <BeamBattery  id="14" xSSD="75" ySSD="70" rating="2" arcs="(AP/FP)" status="Operational"/>
+                <BeamBattery  id="15" xSSD="125" ySSD="70" rating="2" arcs="(A)" status="Operational"/>
+                <BeamBattery  id="16" xSSD="170" ySSD="70" rating="2" arcs="(FS/AS)" status="Operational"/>
+            </Weapons>
+            <CoreCommandBridge id="0" status="Operational"/>
+            <CoreLifeSupport id="1" status="Operational"/>
+            <CorePowerCore id="2" status="Operational"/>
+        </Ship>
+
+        <Ship id="133" arrivalTurn="-1">
+            <Name>Starliner</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="10.0" y="30.0" />
+            <Heading heading="12" />
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Race>EarthAlliance</Race>
+            <ClassAbbrev>AL</ClassAbbrev>
+            <ClassName>Starliner</ClassName>
+            <ShipClass>AL</ShipClass>
+            <CrewQuality>First Rate</CrewQuality>
+            <Mass>60</Mass>
+            <PointValue>131</PointValue>
+            <MainDrive id="3" type="Standard" initialThrust="4" currentThrust="4" status="Operational" active="true" />
+            <Armor totalArmor="0" remainingArmor="0"/>
+            <Hull value="60" type="Custom" class="Military" stealth="0" rows="5" totalHullBoxes="20" remainingHullBoxes="20"/>
+            <Electronics>
+                <FireControl id="4" xSSD="98" ySSD="81" status="Operational"/>
+            </Electronics>
+            <Defenses>
+            </Defenses>
+            <Holds>
+                <CargoHold id="5" xSSD="99" ySSD="127" type="Passenger Space" totalSize="26"/>
+            </Holds>
+            <Weapons>
+                <BeamBattery  id="6" xSSD="98" ySSD="43" rating="1" arcs="(All arcs)" status="Operational"/>
+            </Weapons>
+            <CoreCommandBridge id="0" status="Operational"/>
+            <CoreLifeSupport id="1" status="Operational"/>
+            <CorePowerCore id="2" status="Operational"/>
+        </Ship>
+
+        <Ship id="134" arrivalTurn="-1">
+            <Name>Large Freighter</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="20.0" y="30.0" />
+            <Heading heading="12" />
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Race>EarthAlliance</Race>
+            <ClassAbbrev>AKH</ClassAbbrev>
+            <ClassName>Large Freighter</ClassName>
+            <ShipClass>AKH</ShipClass>
+            <CrewQuality>First Rate</CrewQuality>
+            <Mass>100</Mass>
+            <PointValue>207</PointValue>
+            <MainDrive id="3" type="Standard" initialThrust="4" currentThrust="4" status="Operational" active="true" />
+            <Armor totalArmor="0" remainingArmor="0"/>
+            <Hull value="100" type="Custom" class="Civilian" stealth="0" rows="5" totalHullBoxes="30" remainingHullBoxes="30"/>
+            <Electronics>
+                <FireControl id="4" xSSD="98" ySSD="82" status="Operational"/>
+            </Electronics>
+            <Defenses>
+            </Defenses>
+            <Holds>
+                <CargoHold id="5" xSSD="102" ySSD="142" type="Cargo Hold" totalSize="48"/>
+            </Holds>
+            <Weapons>
+                <BeamBattery  id="6" xSSD="98" ySSD="35" rating="1" arcs="(All arcs)" status="Operational"/>
+            </Weapons>
+            <CoreCommandBridge id="0" status="Operational"/>
+            <CoreLifeSupport id="1" status="Operational"/>
+            <CorePowerCore id="2" status="Operational"/>
+        </Ship>
+
+        <Ship id="64" arrivalTurn="-1">
+            <Name>Cortez</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="10.0" y="10.0" />
+            <Heading heading="12" />
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Race>EarthAlliance</Race>
+            <ClassAbbrev>AE</ClassAbbrev>
+            <ClassName>Explorer</ClassName>
+            <ShipClass>Explorer</ShipClass>
+            <CrewQuality>First Rate</CrewQuality>
+            <Mass>179</Mass>
+            <PointValue>584</PointValue>
+            <MainDrive id="3" type="Standard" initialThrust="2" currentThrust="2" status="Operational" active="true" />
+            <FTLDrive id="4" status="Operational" active="false"/>
+            <Armor totalArmor="0" remainingArmor="0"/>
+            <Hull value="179" type="Custom" class="Military" stealth="0" totalHullBoxes="56" remainingHullBoxes="56"/>
+            <Electronics>
+                <FireControl id="5" xSSD="190" ySSD="168" status="Operational"/>
+                <FireControl id="6" xSSD="119" ySSD="168" status="Operational"/>
+                <AreaDefenseFireControl id="7" xSSD="157" ySSD="168" status="Operational"/>
+            </Electronics>
+            <Defenses>
+                <Screen id="8" xSSD="156" ySSD="144" status="Operational"/>
+            </Defenses>
+            <Holds>
+                <CargoHold id="9" xSSD="154" ySSD="108" type="Cargo Hold" totalSize="20"/>
+            </Holds>
+            <Weapons>
+                <KineticGun  id="10" xSSD="81" ySSD="30" rating="4" arcs="(F)" status="Operational"/>
+                <KineticGun  id="11" xSSD="224" ySSD="30" rating="4" arcs="(F)" status="Operational"/>
+                <PointDefense id="12" xSSD="84" ySSD="145" targetId="0" status="Operational"/>
+                <PointDefense id="13" xSSD="118" ySSD="145" targetId="0" status="Operational"/>
+                <PointDefense id="14" xSSD="190" ySSD="145" targetId="0" status="Operational"/>
+                <PointDefense id="15" xSSD="225" ySSD="145" targetId="0" status="Operational"/>
+                <BeamBattery  id="16" xSSD="131" ySSD="30" rating="2" arcs="(F)" status="Operational"/>
+                <BeamBattery  id="17" xSSD="176" ySSD="30" rating="3" arcs="(F)" status="Operational"/>
+                <BeamBattery  id="18" xSSD="71" ySSD="68" rating="2" arcs="(AP/FP)" status="Operational"/>
+                <BeamBattery  id="19" xSSD="111" ySSD="67" rating="2" arcs="(AP/FP)" status="Operational"/>
+                <BeamBattery  id="20" xSSD="198" ySSD="67" rating="2" arcs="(FS/AS)" status="Operational"/>
+                <BeamBattery  id="21" xSSD="244" ySSD="65" rating="2" arcs="(FS/AS)" status="Operational"/>
+                <BeamBattery  id="22" xSSD="155" ySSD="66" rating="2" arcs="(A)" status="Operational"/>
+                <FighterBay id="23" xSSD="30" ySSD="40" status="Operational" recharge="0"/>
+                <FighterBay id="24" xSSD="282" ySSD="37" status="Operational" recharge="0"/>
+            </Weapons>
+            <CoreCommandBridge id="0" status="Operational"/>
+            <CoreLifeSupport id="1" status="Operational"/>
+            <CorePowerCore id="2" status="Operational"/>
+        </Ship>
+
+        <Ship id="65" arrivalTurn="-1">
+            <Name>Porcupine</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="40.0" y="0.0" />
+            <Heading heading="12" />
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Race>EarthAlliance</Race>
+            <ClassAbbrev>FF</ClassAbbrev>
+            <ClassName>Porcupine Starfury Transport</ClassName>
+            <ShipClass>Support Carrier</ShipClass>
+            <CrewQuality>First Rate</CrewQuality>
+            <Mass>26</Mass>
+            <PointValue>90</PointValue>
+            <MainDrive id="3" type="Standard" initialThrust="4" currentThrust="4" status="Operational" active="true" />
+            <Armor totalArmor="0" remainingArmor="0"/>
+            <Hull value="26" type="Custom" class="Military" stealth="0" rows="2" totalHullBoxes="10" remainingHullBoxes="10"/>
+            <Electronics>
+                <FireControl id="4" xSSD="96" ySSD="145" status="Operational"/>
+            </Electronics>
+            <Defenses>
+            </Defenses>
+            <Holds>
+            </Holds>
+            <Weapons>
+                <BeamBattery  id="5" xSSD="97" ySSD="99" rating="1" arcs="(All arcs)" status="Operational"/>
+                <FighterBay id="6" xSSD="97" ySSD="33" status="Operational" recharge="0"/>
+            </Weapons>
+            <CoreCommandBridge id="0" status="Operational"/>
+            <CoreLifeSupport id="1" status="Operational"/>
+            <CorePowerCore id="2" status="Operational"/>
+        </Ship>
+
+        <Ship id="66" arrivalTurn="-1">
+            <Name>Repulse</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="50.0" y="20.0" />
+            <Heading heading="12" />
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Race>EarthAlliance</Race>
+            <ClassAbbrev>BDN</ClassAbbrev>
+            <ClassName>Repulse</ClassName>
+            <ShipClass>Battle Dreadnought</ShipClass>
+            <CrewQuality>First Rate</CrewQuality>
+            <Mass>186</Mass>
+            <PointValue>686</PointValue>
+            <MainDrive id="3" type="Standard" initialThrust="4" currentThrust="4" status="Operational" active="true" />
+            <FTLDrive id="4" status="Operational" active="false"/>
+            <Armor totalArmor="0" remainingArmor="0"/>
+            <Hull value="186" type="Custom" class="Military" stealth="0" totalHullBoxes="32" remainingHullBoxes="32"/>
+            <Electronics>
+                <FireControl id="5" xSSD="71" ySSD="169" status="Operational"/>
+                <FireControl id="6" xSSD="135" ySSD="168" status="Operational"/>
+                <AreaDefenseFireControl id="7" xSSD="104" ySSD="169" status="Operational"/>
+            </Electronics>
+            <Defenses>
+                <Screen id="8" xSSD="105" ySSD="139" status="Operational"/>
+            </Defenses>
+            <Holds>
+            </Holds>
+            <Weapons>
+                <PointDefense id="9" xSSD="71" ySSD="144" targetId="0" status="Operational"/>
+                <PointDefense id="10" xSSD="30" ySSD="144" targetId="0" status="Operational"/>
+                <PointDefense id="11" xSSD="138" ySSD="143" targetId="0" status="Operational"/>
+                <PointDefense id="12" xSSD="181" ySSD="143" targetId="0" status="Operational"/>
+                <FighterBay id="13" xSSD="44" ySSD="31" status="Operational" recharge="0"/>
+                <FighterBay id="14" xSSD="107" ySSD="31" status="Operational" recharge="0"/>
+                <FighterBay id="15" xSSD="169" ySSD="31" status="Operational" recharge="0"/>
+                <KineticGun  id="16" xSSD="33" ySSD="74" rating="3" arcs="(AP/FP)" status="Operational"/>
+                <KineticGun  id="17" xSSD="78" ySSD="74" rating="4" arcs="(F)" status="Operational"/>
+                <KineticGun  id="18" xSSD="127" ySSD="73" rating="4" arcs="(F)" status="Operational"/>
+                <KineticGun  id="19" xSSD="170" ySSD="74" rating="3" arcs="(FS/AS)" status="Operational"/>
+                <BeamBattery  id="20" xSSD="57" ySSD="106" rating="4" arcs="(AP/FP)" status="Operational"/>
+                <BeamBattery  id="21" xSSD="105" ySSD="107" rating="4" arcs="(F)" status="Operational"/>
+                <BeamBattery  id="22" xSSD="151" ySSD="108" rating="4" arcs="(FS/AS)" status="Operational"/>
+            </Weapons>
+            <CoreCommandBridge id="0" status="Operational"/>
+            <CoreLifeSupport id="1" status="Operational"/>
+            <CorePowerCore id="2" status="Operational"/>
+        </Ship>
+
+        <Ship id="67" arrivalTurn="-1">
+            <Name>Roosevelt</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="10.0" y="20.0" />
+            <Heading heading="12" />
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Race>EarthAlliance</Race>
+            <ClassAbbrev>BC</ClassAbbrev>
+            <ClassName>Roosevelt</ClassName>
+            <ShipClass>Battlecruiser</ShipClass>
+            <CrewQuality>First Rate</CrewQuality>
+            <Mass>131</Mass>
+            <PointValue>473</PointValue>
+            <MainDrive id="3" type="Standard" initialThrust="4" currentThrust="4" status="Operational" active="true" />
+            <FTLDrive id="4" status="Operational" active="false"/>
+            <Armor totalArmor="0" remainingArmor="0"/>
+            <Hull value="131" type="Custom" class="Military" stealth="0" totalHullBoxes="32" remainingHullBoxes="32"/>
+            <Electronics>
+                <FireControl id="5" xSSD="70" ySSD="140" status="Operational"/>
+                <FireControl id="6" xSSD="110" ySSD="140" status="Operational"/>
+                <AreaDefenseFireControl id="7" xSSD="150" ySSD="140" status="Operational"/>
+            </Electronics>
+            <Defenses>
+                <Screen id="8" xSSD="125" ySSD="105" status="Operational"/>
+            </Defenses>
+            <Holds>
+            </Holds>
+            <Weapons>
+                <KineticGun  id="9" xSSD="75" ySSD="30" rating="4" arcs="(F)" status="Operational"/>
+                <KineticGun  id="10" xSSD="170" ySSD="30" rating="4" arcs="(F)" status="Operational"/>
+                <PointDefense id="11" xSSD="50" ySSD="105" targetId="0" status="Operational"/>
+                <PointDefense id="12" xSSD="90" ySSD="105" targetId="0" status="Operational"/>
+                <PointDefense id="13" xSSD="160" ySSD="105" targetId="0" status="Operational"/>
+                <PointDefense id="14" xSSD="200" ySSD="105" targetId="0" status="Operational"/>
+                <BeamBattery  id="15" xSSD="125" ySSD="30" rating="2" arcs="(F)" status="Operational"/>
+                <FighterBay id="16" xSSD="25" ySSD="40" status="Operational" recharge="0"/>
+                <FighterBay id="17" xSSD="215" ySSD="40" status="Operational" recharge="0"/>
+                <BeamBattery  id="18" xSSD="75" ySSD="70" rating="2" arcs="(All arcs)" status="Operational"/>
+                <BeamBattery  id="19" xSSD="125" ySSD="70" rating="2" arcs="(All arcs)" status="Operational"/>
+                <BeamBattery  id="20" xSSD="170" ySSD="70" rating="2" arcs="(All arcs)" status="Operational"/>
+            </Weapons>
+            <CoreCommandBridge id="0" status="Operational"/>
+            <CoreLifeSupport id="1" status="Operational"/>
+            <CorePowerCore id="2" status="Operational"/>
+        </Ship>
+
+    </Player>
+
+
+</GameEngine>
+

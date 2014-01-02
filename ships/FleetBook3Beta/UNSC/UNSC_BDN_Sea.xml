@@ -1,0 +1,50 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>UNSC</Race>
+            <ClassAbbrev>BDN</ClassAbbrev>
+            <ClassName>Sea</ClassName>
+            <ShipClass>Battledreadnought</ShipClass>
+            <Mass>160</Mass>
+            <PointValue>616</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="160" type="Custom" totalHullBoxes="45" rows="3"/>
+            <Electronics>
+                <FireControl xSSD="130" ySSD="185"/>
+                <FireControl xSSD="150" ySSD="185"/>
+                <FireControl xSSD="170" ySSD="185"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="150" ySSD="160"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <AntiMatterTorpedoLauncher xSSD="30" ySSD="60"/>
+                <AntiMatterTorpedoLauncher xSSD="60" ySSD="60"/>
+                <AntiMatterTorpedoLauncher xSSD="90" ySSD="60"/>
+                <AntiMatterTorpedoLauncher xSSD="210" ySSD="60"/>
+                <AntiMatterTorpedoLauncher xSSD="240" ySSD="60"/>
+                <AntiMatterTorpedoLauncher xSSD="270" ySSD="60"/>
+
+                <FighterBay xSSD="150" ySSD="125"/>
+
+                <PulseTorpedo xSSD="125" ySSD="40" arcs="(FP/F/FS)"/>
+                <PulseTorpedo xSSD="175" ySSD="40" arcs="(FP/F/FS)"/>
+
+                <Graser       xSSD="150" ySSD="80" rating="2" arcs="(F)"/>
+
+                <BeamBattery  xSSD="50"  ySSD="100" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="90"  ySSD="100" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="210" ySSD="100" rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="250" ySSD="100" rating="2" arcs="(F/FS/AS)"/>
+
+                <BeamBattery  xSSD="70"  ySSD="140" rating="1"/>
+                <BeamBattery  xSSD="230" ySSD="140" rating="1"/>
+
+                <PointDefense xSSD="90"  ySSD="165"/>
+                <PointDefense xSSD="120" ySSD="165"/>
+                <PointDefense xSSD="180" ySSD="165"/>
+                <PointDefense xSSD="210" ySSD="165"/>
+            </Weapons>
+        </Ship>

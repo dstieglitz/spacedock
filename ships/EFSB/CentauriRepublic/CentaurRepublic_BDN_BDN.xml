@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>BDN</Name>
+    <Race>CentauriRepublic</Race>
+    <ClassAbbrev>BDN </ClassAbbrev>
+    <ClassName>BDN</ClassName>
+    <ShipClass>Battledreadnought</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>156</Mass>
+    <PointValue>512</PointValue>
+    <MainDrive type="Standard" initialThrust="4" active="false" />
+    <FTLDrive/>
+    <Armor totalArmor="0"/>
+    <Hull value="156" type="Custom" class="Military" stealth="0" rows="5" totalHullBoxes="45"/>
+    <Electronics>
+        <FireControl xSSD="128" ySSD="165"/>
+        <FireControl xSSD="154" ySSD="165"/>
+        <FireControl xSSD="179" ySSD="165"/>
+    </Electronics>
+    <Defenses>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <FighterBay xSSD="29" ySSD="26"/>
+        <FighterBay xSSD="285" ySSD="26"/>
+        <BeamBattery  xSSD="81" ySSD="32" rating="3" arcs="(F)"/>
+        <BeamBattery  xSSD="135" ySSD="32" rating="4" arcs="(F)"/>
+        <BeamBattery  xSSD="186" ySSD="32" rating="4" arcs="(F)"/>
+        <BeamBattery  xSSD="237" ySSD="32" rating="3" arcs="(F)"/>
+        <BeamBattery  xSSD="81" ySSD="74" rating="3" arcs="(AP/FP)"/>
+        <BeamBattery  xSSD="238" ySSD="75" rating="3" arcs="(FS/AS)"/>
+        <BeamBattery  xSSD="139" ySSD="128" rating="2" arcs="(A)"/>
+        <BeamBattery  xSSD="183" ySSD="126" rating="2" arcs="(A)"/>
+        <PointDefense xSSD="192" ySSD="70"/>
+        <PointDefense xSSD="130" ySSD="69"/>
+        <PointDefense xSSD="130" ySSD="94"/>
+        <PointDefense xSSD="160" ySSD="94"/>
+        <PointDefense xSSD="192" ySSD="94"/>
+    </Weapons>
+</Ship>
+

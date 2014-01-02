@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Lundgren</Name>
+    <Race>Eurasian Solar Union</Race>
+    <ClassAbbrev>BDN </ClassAbbrev>
+    <ClassName>Lundgren</ClassName>
+    <ShipClass>Battledreadnought</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>150</Mass>
+    <PointValue>505</PointValue>
+    <MainDrive type="Standard" initialThrust="4" active="false" />
+    <FTLDrive/>
+    <Armor totalArmor="7"/>
+    <Hull value="150" type="Custom" class="Military" stealth="0" totalHullBoxes="46"/>
+    <Electronics>
+        <FireControl xSSD="75" ySSD="170"/>
+        <FireControl xSSD="116" ySSD="168"/>
+        <FireControl xSSD="157" ySSD="168"/>
+    </Electronics>
+    <Defenses>
+        <Screen xSSD="116" ySSD="135"/>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <BeamBattery  xSSD="118" ySSD="36" rating="3" arcs="(FP/F/FS)"/>
+        <BeamBattery  xSSD="33" ySSD="28" rating="3" arcs="(FP/F/FS)"/>
+        <BeamBattery  xSSD="197" ySSD="29" rating="3" arcs="(FP/F/FS)"/>
+        <BeamBattery  xSSD="30" ySSD="80" rating="2" arcs="(AP/FP/F)"/>
+        <BeamBattery  xSSD="206" ySSD="78" rating="2" arcs="(F/FS/AS)"/>
+        <BeamBattery  xSSD="75" ySSD="66" rating="2" arcs="(AP/FP/F)"/>
+        <BeamBattery  xSSD="163" ySSD="66" rating="2" arcs="(F/FS/AS)"/>
+        <BeamBattery  xSSD="195" ySSD="122" rating="1" arcs="(All arcs)"/>
+        <BeamBattery  xSSD="41" ySSD="122" rating="1" arcs="(All arcs)"/>
+        <PointDefense xSSD="80" ySSD="138"/>
+        <PointDefense xSSD="150" ySSD="137"/>
+        <PointDefense xSSD="191" ySSD="157"/>
+        <PointDefense xSSD="43" ySSD="157"/>
+        <FighterBay xSSD="117" ySSD="92"/>
+    </Weapons>
+</Ship>
+

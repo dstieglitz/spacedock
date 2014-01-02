@@ -1,0 +1,34 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>New Anglian Confederation</Race>
+            <ClassAbbrev>CE</ClassAbbrev>
+            <ClassName>Furious</ClassName>
+            <ShipClass>Escort Cruiser</ShipClass>
+            <Mass>64</Mass>
+            <PointValue>219</PointValue>
+            <MainDrive type="Standard" initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="3"/>
+            <Hull value="64" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="120" ySSD="175"/>
+                <FireControl xSSD="140" ySSD="175"/>
+                <AreaDefenseFireControl xSSD="160" ySSD="175"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="140" ySSD="150"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <PulseTorpedo  xSSD="140" ySSD="25" arcs="(F)"/>
+
+                <BeamBattery  xSSD="140" ySSD="70"  rating="3" arcs="(F)"/>
+                <BeamBattery  xSSD="90"  ySSD="90"  rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="190" ySSD="90"  rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="140" ySSD="110" rating="1" arcs="(All arcs)"/>
+
+                <PointDefense xSSD="80"  ySSD="160"/>
+                <PointDefense xSSD="200" ySSD="160"/>
+                <PointDefense xSSD="80"  ySSD="130"/>
+            </Weapons>
+        </Ship>

@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>Neu Swabian League</Race>
+            <ClassAbbrev>BDN</ClassAbbrev>
+            <ClassName>Szent Istvan</ClassName>
+            <ShipClass>Battledreadnought</ShipClass>
+            <Mass>150</Mass>
+            <PointValue>500</PointValue>
+            <MainDrive type="Standard" initialThrust="2"/>
+            <FTLDrive/>
+            <Armor totalArmor="14"/>
+            <Hull value="150" type="Strong"/>
+            <Electronics>
+                <FireControl xSSD="70"  ySSD="170"/>
+                <FireControl xSSD="90"  ySSD="170"/>
+                <FireControl xSSD="110" ySSD="170"/>
+                <FireControl xSSD="130" ySSD="170"/>
+            </Electronics>
+            <Defenses/>
+            <Holds/>
+            <Weapons>
+                <FighterBay   xSSD="100" ySSD="125"/>
+
+                <BeamBattery  xSSD="70"  ySSD="90" rating="3" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="130" ySSD="90" rating="3" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="35"  ySSD="115" rating="3" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="165" ySSD="115" rating="3" arcs="(F/FS/AS)"/>
+
+                <BeamBattery  xSSD="25"  ySSD="75" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="175" ySSD="75" rating="2" arcs="(F/FS/AS)"/>
+
+                <BeamBattery  xSSD="100" ySSD="40" rating="1" arcs="(All arcs)"/>
+
+                <PointDefense xSSD="20"  ySSD="150"/>
+                <PointDefense xSSD="40"  ySSD="165"/>
+                <PointDefense xSSD="185" ySSD="150"/>
+                <PointDefense xSSD="160" ySSD="165"/>
+            </Weapons>
+        </Ship>

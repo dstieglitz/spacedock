@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Vorchan</Name>
+    <Race>CentauriRepublic</Race>
+    <ClassAbbrev>BC</ClassAbbrev>
+    <ClassName>Vorchan</ClassName>
+    <ShipClass>Battlecruiser</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>116</Mass>
+    <PointValue>374</PointValue>
+    <MainDrive type="Standard" initialThrust="6" active="false" />
+    <FTLDrive/>
+    <Armor totalArmor="0"/>
+    <Hull value="116" type="Custom" class="Military" stealth="0" rows="5" totalHullBoxes="30"/>
+    <Electronics>
+        <FireControl xSSD="88" ySSD="166"/>
+        <FireControl xSSD="115" ySSD="166"/>
+    </Electronics>
+    <Defenses>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <FighterBay xSSD="100" ySSD="26"/>
+        <BeamBattery  xSSD="70" ySSD="68" rating="3" arcs="(F)"/>
+        <BeamBattery  xSSD="130" ySSD="68" rating="2" arcs="(F)"/>
+        <BeamBattery  xSSD="29" ySSD="95" rating="3" arcs="(AP/FP)"/>
+        <BeamBattery  xSSD="163" ySSD="95" rating="3" arcs="(FS/AS)"/>
+        <BeamBattery  xSSD="29" ySSD="134" rating="2" arcs="(AP/FP)"/>
+        <BeamBattery  xSSD="164" ySSD="134" rating="2" arcs="(FS/AS)"/>
+        <BeamBattery  xSSD="76" ySSD="137" rating="2" arcs="(A)"/>
+        <BeamBattery  xSSD="121" ySSD="136" rating="3" arcs="(A)"/>
+        <PointDefense xSSD="87" ySSD="101"/>
+        <PointDefense xSSD="113" ySSD="100"/>
+    </Weapons>
+</Ship>
+

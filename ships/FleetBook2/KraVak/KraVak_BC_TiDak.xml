@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <Designer>Jon Tuffley</Designer>
+            <Race>Kra'Vak</Race>
+            <ClassAbbrev>BC</ClassAbbrev>
+            <ClassName>Ti'Dak</ClassName>
+            <ShipClass>Battlecruiser</ShipClass>
+            <Mass>100</Mass>
+            <PointValue>393</PointValue>
+            <MainDrive initialThrust="4" type="Advanced"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="100" type="Custom" totalHullBoxes="36"/>
+            <Electronics>
+                <FireControl xSSD="60"  ySSD="180"/>
+                <FireControl xSSD="80"  ySSD="180"/>
+                <FireControl xSSD="100" ySSD="180"/>
+            </Electronics>
+            <Weapons>
+                <KineticGun xSSD="50"  ySSD="30"  rating="5" arcs="(F)"/>
+                <KineticGun xSSD="110" ySSD="30"  rating="5" arcs="(F)"/>
+                <KineticGun xSSD="30"  ySSD="70" rating="1"/>
+                <KineticGun xSSD="130" ySSD="70" rating="1"/>
+                <Scattergun xSSD="20"  ySSD="110"/>
+                <Scattergun xSSD="50"  ySSD="130"/>
+                <Scattergun xSSD="110" ySSD="130"/>
+                <Scattergun xSSD="140" ySSD="110"/>
+                <Scattergun xSSD="80"  ySSD="150"/>
+            </Weapons>
+        </Ship>
+

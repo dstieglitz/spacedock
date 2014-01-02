@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Repulse</Name>
+    <Race>EarthAlliance</Race>
+    <ClassAbbrev>BDN</ClassAbbrev>
+    <ClassName>Repulse</ClassName>
+    <ShipClass>Battle Dreadnought</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>186</Mass>
+    <PointValue>686</PointValue>
+    <MainDrive type="Standard" initialThrust="4" active="false" />
+    <FTLDrive/>
+    <Armor totalArmor="0"/>
+    <Hull value="186" type="Custom" class="Military" stealth="0" totalHullBoxes="32"/>
+    <Electronics>
+        <FireControl xSSD="71" ySSD="169"/>
+        <FireControl xSSD="135" ySSD="168"/>
+        <AreaDefenseFireControl xSSD="104" ySSD="169"/>
+    </Electronics>
+    <Defenses>
+        <Screen xSSD="105" ySSD="139"/>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <FighterBay xSSD="44" ySSD="31"/>
+        <FighterBay xSSD="107" ySSD="31"/>
+        <FighterBay xSSD="169" ySSD="31"/>
+        <KineticGun  xSSD="78" ySSD="74" rating="4" arcs="(F)"/>
+        <KineticGun  xSSD="127" ySSD="73" rating="4" arcs="(F)"/>
+        <KineticGun  xSSD="170" ySSD="74" rating="3" arcs="(A)"/>
+        <KineticGun  xSSD="33" ySSD="74" rating="3" arcs="(A)"/>
+        <BeamBattery  xSSD="105" ySSD="107" rating="4" arcs="(F)"/>
+        <BeamBattery  xSSD="151" ySSD="108" rating="4" arcs="(FS/AS)"/>
+        <BeamBattery  xSSD="57" ySSD="106" rating="4" arcs="(AP/FP)"/>
+        <PointDefense xSSD="71" ySSD="144"/>
+        <PointDefense xSSD="30" ySSD="144"/>
+        <PointDefense xSSD="138" ySSD="143"/>
+        <PointDefense xSSD="181" ySSD="143"/>
+    </Weapons>
+</Ship>
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>        
+            <Race>Federal Stats Europa</Race>
+            <ClassAbbrev>BDN</ClassAbbrev>
+            <ClassName>Bonaparte</ClassName>
+            <ShipClass>Battledreadnought</ShipClass>
+            <Mass>160</Mass>
+            <PointValue>531</PointValue>
+            <MainDrive type="Standard" initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="0"/>
+            <Hull value="160" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="80" ySSD="180"/>
+                <FireControl xSSD="100" ySSD="180"/>
+                <FireControl xSSD="120" ySSD="180"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="180" ySSD="180"/>
+            </Defenses>
+            <Holds/>
+            <Weapons>
+                <SalvoMissileLauncher xSSD="100" ySSD="20" smmId="101" arcs="(FP/F/FS)"/>
+                <SalvoMissileMagazine xSSD="100" ySSD="60" id="101" maxInRow="4" capacity="8">
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                </SalvoMissileMagazine>
+
+                <FighterBay xSSD="180" ySSD="130"/>
+                <BeamBattery rating="3" xSSD="80" ySSD="105" arcs="(F)"/>
+                <BeamBattery rating="2" xSSD="40"  ySSD="25" arcs="(AP/FP/F)"/>
+                <BeamBattery rating="2" xSSD="160" ySSD="25" arcs="(F/FS/AS)"/>
+                <BeamBattery rating="2" xSSD="120" ySSD="105" arcs="(All arcs)"/>
+                <BeamBattery rating="1" xSSD="30"  ySSD="65" arcs="(All arcs)"/>
+                <BeamBattery rating="1" xSSD="170"  ySSD="65" arcs="(All arcs)"/>
+                <PointDefense xSSD="55"  ySSD="150"/>
+                <PointDefense xSSD="85"  ySSD="150"/>
+                <PointDefense xSSD="115" ySSD="150"/>
+                <PointDefense xSSD="145" ySSD="150"/>
+            </Weapons>
+        </Ship>

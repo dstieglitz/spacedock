@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <Designer>Dean Gundberg</Designer>
+            <Race>Entomalian</Race>
+            <ClassAbbrev>CV</ClassAbbrev>
+            <ClassName>Hive</ClassName>
+            <ShipClass>Attack Carrier</ShipClass>
+            <Mass>120</Mass>
+            <PointValue>426</PointValue>
+            <MainDrive initialThrust="3"/>
+            <FTLDrive/>
+            <Armor totalArmor="16"/>
+            <Hull  value="120" type="Fragile"/>
+            <Electronics>
+                <FireControl xSSD="120" ySSD="235"/>
+                <FireControl xSSD="140" ySSD="235"/>
+                <AreaDefenseFireControl xSSD="160" ySSD="235"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="140" ySSD="215"/>
+            </Defenses>
+            <Weapons>
+                <FighterBay  xSSD="80"  ySSD="40" />
+                <FighterBay  xSSD="120" ySSD="40" />
+                <FighterBay  xSSD="160" ySSD="40" />
+                <FighterBay  xSSD="200" ySSD="40" />
+                <BeamBattery xSSD="80"  ySSD="100" rating="2" arcs="(FP/F/FS)"/>
+                <BeamBattery xSSD="200" ySSD="100" rating="2" arcs="(FP/F/FS)"/>
+                <BeamBattery xSSD="140" ySSD="165" rating="2" arcs="(AP/A/AS)"/>
+                <BeamBattery xSSD="105" ySSD="130" rating="1"/>
+                <BeamBattery xSSD="175" ySSD="130" rating="1"/>
+                <SubmunitionPack xSSD="25"  ySSD="30"/>
+                <SubmunitionPack xSSD="45"  ySSD="60"/>
+                <SubmunitionPack xSSD="65"  ySSD="30"/>
+                <SubmunitionPack xSSD="240" ySSD="30"/>
+                <SubmunitionPack xSSD="280" ySSD="30"/>
+                <PointDefense xSSD="250" ySSD="220" />
+                <PointDefense xSSD="280" ySSD="220"/>
+                <PointDefense xSSD="265" ySSD="250"/>
+            </Weapons>
+        </Ship>

@@ -1,0 +1,325 @@
+<?xml version="1.0" standalone="yes" ?>
+<GameEngine id="1111" name="Terran" turn="0">
+    <Player id="1" name="First Last" email="last@hotmail.com">
+        <Ship>
+            <Name>Formidable</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="0.0" y="10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Designer>Dean Gundberg</Designer>
+            <Race>Terran</Race>
+            <ClassAbbrev>BC</ClassAbbrev>
+            <ClassName>Formidable</ClassName>
+            <ShipClass>Battlecruiser</ShipClass>
+            <Mass>144</Mass>
+            <PointValue>489</PointValue>
+            <MainDrive initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="4"/>
+            <Hull  value="144" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="100" ySSD="185"/>
+                <FireControl xSSD="120" ySSD="185"/>
+                <FireControl xSSD="140" ySSD="185"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="120" ySSD="165"/>
+            </Defenses>
+            <Weapons>
+                <PulseTorpedo xSSD="120" ySSD="40"  arcs="(F)"/>
+                <FighterBay xSSD="70"  ySSD="40"/>
+                <FighterBay xSSD="170" ySSD="40"/>
+                <BeamBattery xSSD="80"  ySSD="90"  rating="3" arcs="(AP/FP/F)"/>
+                <BeamBattery xSSD="160" ySSD="90"  rating="3" arcs="(F/FS/AS)"/>
+                <BeamBattery xSSD="120" ySSD="110" rating="2" arcs="(FP/F/FS)"/>
+                <BeamBattery xSSD="40"  ySSD="120" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery xSSD="200" ySSD="120" rating="2" arcs="(F/FS/AS)"/>
+                <PointDefense xSSD="40"  ySSD="160"/>
+                <PointDefense xSSD="80"  ySSD="160"/>
+                <PointDefense xSSD="160" ySSD="160"/>
+                <PointDefense xSSD="200" ySSD="160"/>
+            </Weapons>
+        </Ship>
+
+
+        <Ship>
+            <Name>Invincible</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="10.0" y="10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Designer>Dean Gundberg</Designer>
+            <Race>Terran</Race>
+            <ClassAbbrev>BDN</ClassAbbrev>
+            <ClassName>Invincible</ClassName>
+            <ShipClass>Galactic Dreadnought</ShipClass>
+            <Mass>190</Mass>
+            <PointValue>653</PointValue>
+            <MainDrive initialThrust="3"/>
+            <FTLDrive/>
+            <Armor totalArmor="8"/>
+            <Hull  value="190" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="100" ySSD="180"/>
+                <FireControl xSSD="120" ySSD="180"/>
+                <FireControl xSSD="140" ySSD="180"/>
+                <FireControl xSSD="160" ySSD="180"/>
+                <AreaDefenseFireControl xSSD="180" ySSD="180"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="120" ySSD="160"/>
+                <Screen xSSD="160" ySSD="160"/>
+            </Defenses>
+            <Weapons>
+                <PulseTorpedo xSSD="140" ySSD="30"  arcs="(F)"/>
+                <FighterBay   xSSD="140" ySSD="80"/>
+                <BeamBattery xSSD="100" ySSD="40" rating="3" arcs="(FP/F/FS)"/>
+                <BeamBattery xSSD="180" ySSD="40" rating="3" arcs="(FP/F/FS)"/>
+                <BeamBattery xSSD="60"  ySSD="40" rating="3" arcs="(AP/FP/F)"/>
+                <BeamBattery xSSD="220" ySSD="40" rating="3" arcs="(F/FS/AS)"/>
+                <BeamBattery xSSD="80"  ySSD="90" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery xSSD="200" ySSD="90" rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery xSSD="40"  ySSD="90" rating="2" arcs="(A/AP/FP)"/>
+                <BeamBattery xSSD="240" ySSD="90" rating="2" arcs="(A/AS/FS)"/>
+                <BeamBattery xSSD="80"  ySSD="135" rating="1"/>
+                <BeamBattery xSSD="200" ySSD="135" rating="1"/>
+                <PointDefense xSSD="20"  ySSD="160"/>
+                <PointDefense xSSD="60"  ySSD="160"/>
+                <PointDefense xSSD="260" ySSD="160"/>
+                <PointDefense xSSD="220" ySSD="160"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>
+            <Name>Valiant</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="20.0" y="10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Designer>Dean Gundberg</Designer>
+            <Race>Terran</Race>
+            <ClassAbbrev>BDN</ClassAbbrev>
+            <ClassName>Valiant</ClassName>
+            <ShipClass>Galactic Dreadnought</ShipClass>
+            <Mass>220</Mass>
+            <PointValue>753</PointValue>
+            <MainDrive initialThrust="3"/>
+            <FTLDrive/>
+            <Armor totalArmor="12"/>
+            <Hull  value="220" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="100" ySSD="175"/>
+                <FireControl xSSD="120" ySSD="175"/>
+                <FireControl xSSD="140" ySSD="175"/>
+                <FireControl xSSD="160" ySSD="175"/>
+                <AreaDefenseFireControl xSSD="180" ySSD="175"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="120" ySSD="155"/>
+                <Screen xSSD="160" ySSD="155"/>
+            </Defenses>
+            <Weapons>
+                <PulseTorpedo xSSD="80"  ySSD="40"  arcs="(FP/F)"/>
+                <PulseTorpedo xSSD="200" ySSD="40"  arcs="(F/FS)"/>
+                <FighterBay xSSD="140" ySSD="40"/>
+                <BeamBattery xSSD="30"  ySSD="60"  rating="3" arcs="(FP/F/FS)"/>
+                <BeamBattery xSSD="250" ySSD="60"  rating="3" arcs="(FP/F/FS)"/>
+                <BeamBattery xSSD="30"  ySSD="100" rating="3" arcs="(A/AP/FP/F)"/>
+                <BeamBattery xSSD="250" ySSD="100" rating="3" arcs="(F/FS/AS/A)"/>
+                <BeamBattery xSSD="80"  ySSD="90" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery xSSD="200" ySSD="90" rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery xSSD="140" ySSD="90" rating="2" arcs="(A/AP/AS)"/>
+                <BeamBattery xSSD="110" ySSD="130" rating="1"/>
+                <BeamBattery xSSD="170" ySSD="130" rating="1"/>
+                <PointDefense xSSD="20"  ySSD="160"/>
+                <PointDefense xSSD="50"  ySSD="160"/>
+                <PointDefense xSSD="80"  ySSD="160"/>
+                <PointDefense xSSD="200" ySSD="160"/>
+                <PointDefense xSSD="230" ySSD="160"/>
+                <PointDefense xSSD="260" ySSD="160"/>
+            </Weapons>
+        </Ship>
+
+
+        <Ship>
+            <Name>Ranger</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="30.0" y="10.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Designer>Dean Gundberg</Designer>
+            <Race>Terran</Race>
+            <ClassAbbrev>CA</ClassAbbrev>
+            <ClassName>Ranger</ClassName>
+            <ShipClass>Heavy Cruiser</ShipClass>
+            <Mass>78</Mass>
+            <PointValue>262</PointValue>
+            <MainDrive initialThrust="4"/>
+            <FTLDrive/>
+            <Armor totalArmor="5"/>
+            <Hull  value="78" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="90"  ySSD="185"/>
+                <FireControl xSSD="110" ySSD="185"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="100" ySSD="165"/>
+            </Defenses>
+            <Weapons>
+                <PulseTorpedo xSSD="150" ySSD="30"  arcs="(F)"/>
+                <BeamBattery  xSSD="50"  ySSD="30" rating="3" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="100" ySSD="60" rating="2" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="40"  ySSD="100" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery  xSSD="160" ySSD="100" rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery  xSSD="100" ySSD="100" rating="1"/>
+                <PointDefense xSSD="40"  ySSD="160"/>
+                <PointDefense xSSD="100" ySSD="140"/>
+                <PointDefense xSSD="160" ySSD="160"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>
+            <Name>Constellation</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="0.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Designer>Dean Gundberg</Designer>
+            <Race>Terran</Race>
+            <ClassAbbrev>CV</ClassAbbrev>
+            <ClassName>Constellation</ClassName>
+            <ShipClass>Galactic Attack Carrier</ShipClass>
+            <Mass>180</Mass>
+            <PointValue>626</PointValue>
+            <MainDrive initialThrust="2"/>
+            <FTLDrive/>
+            <Armor totalArmor="6"/>
+            <Hull  value="180" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="130" ySSD="185"/>
+                <FireControl xSSD="150" ySSD="185"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="130" ySSD="165"/>
+                <Screen xSSD="150" ySSD="165"/>
+            </Defenses>
+            <Weapons>
+                <FighterBay xSSD="40" ySSD="30"/>
+                <FighterBay xSSD="80"  ySSD="30"/>
+                <FighterBay xSSD="120" ySSD="30"/>
+                <FighterBay xSSD="160" ySSD="30"/>
+                <FighterBay xSSD="200" ySSD="30"/>
+                <FighterBay xSSD="240" ySSD="30"/>
+                <BeamBattery xSSD="100" ySSD="80" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery xSSD="180" ySSD="80" rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery xSSD="100" ySSD="120" rating="1"/>
+                <BeamBattery xSSD="180" ySSD="120" rating="1"/>
+                <PointDefense xSSD="50" ySSD="160"/>
+                <PointDefense xSSD="90" ySSD="160"/>
+                <PointDefense xSSD="190" ySSD="160"/>
+                <PointDefense xSSD="230" ySSD="160"/>
+            </Weapons>
+        </Ship>
+
+        <Ship>
+            <Name>Swiftsure</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="10.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Designer>Dean Gundberg</Designer>
+            <Race>Terran</Race>
+            <ClassAbbrev>DD</ClassAbbrev>
+            <ClassName>Swiftsure</ClassName>
+            <ShipClass>Destroyer</ShipClass>
+            <Mass>34</Mass>
+            <PointValue>113</PointValue>
+            <MainDrive initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="1"/>
+            <Hull  value="34" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="100" ySSD="175"/>
+            </Electronics>
+            <Defenses/>
+            <Weapons>
+                <PulseTorpedo xSSD="100" ySSD="40" arcs="(F)"/>
+                <BeamBattery  xSSD="100" ySSD="90"  rating="2" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="100" ySSD="130" rating="1"/>
+                <PointDefense xSSD="60"  ySSD="150"/>
+                <PointDefense xSSD="140" ySSD="150"/>
+            </Weapons>
+        </Ship>
+
+
+        <Ship>
+            <Name>Samurai</Name>
+            <Status>Ok</Status>
+            <Orders>0</Orders>
+            <DamageControl/>
+            <Position x="20.0" y="0.0"/>
+            <Heading heading="12"/>
+            <Speed speed="0"/>
+            <VectorSpeed speed="0.0"/>
+            <Course course="12.0"/>
+
+            <Designer>Dean Gundberg</Designer>
+            <Race>Terran</Race>
+            <ClassAbbrev>DDL</ClassAbbrev>
+            <ClassName>Samurai</ClassName>
+            <ShipClass>Destroyer Leader</ShipClass>
+            <Mass>58</Mass>
+            <PointValue>192</PointValue>
+            <MainDrive initialThrust="6"/>
+            <FTLDrive/>
+            <Armor totalArmor="2"/>
+            <Hull  value="58" type="Average"/>
+            <Electronics>
+                <FireControl xSSD="90"  ySSD="185"/>
+                <FireControl xSSD="110" ySSD="185"/>
+            </Electronics>
+            <Defenses/>
+            <Weapons>
+                <PulseTorpedo xSSD="100" ySSD="30"  arcs="(F)"/>
+                <BeamBattery  xSSD="100" ySSD="80"  rating="3" arcs="(F)"/>
+                <BeamBattery  xSSD="100" ySSD="120" rating="2" arcs="(FP/F/FS)"/>
+                <BeamBattery  xSSD="100" ySSD="160"  rating="2" arcs="(AP/A/AS)"/>
+                <PointDefense xSSD="50"  ySSD="150"/>
+                <PointDefense xSSD="150" ySSD="150"/>
+            </Weapons>
+        </Ship>
+
+    </Player>
+</GameEngine>
+

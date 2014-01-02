@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ship>
+    <Name>Destroyer</Name>
+    <Race>MinbariFederation</Race>
+    <ClassAbbrev>DD</ClassAbbrev>
+    <ClassName>Destroyer</ClassName>
+    <ShipClass>Destroyer</ShipClass>
+    <CrewQuality>First Rate</CrewQuality>
+    <Mass>36</Mass>
+    <PointValue>176</PointValue>
+    <MainDrive type="Advanced" initialThrust="6" active="false" />
+    <Armor totalArmor="0"/>
+    <Hull value="36" type="Custom" class="Military" stealth="1" rows="3" totalHullBoxes="12"/>
+    <Electronics>
+        <FireControl xSSD="137" ySSD="166"/>
+    </Electronics>
+    <Defenses>
+        <Screen xSSD="137" ySSD="131"/>
+    </Defenses>
+    <Holds>
+    </Holds>
+    <Weapons>
+        <KineticGun  xSSD="132" ySSD="34" rating="2" arcs="(F)"/>
+        <KineticGun  xSSD="176" ySSD="93" rating="1" arcs="(F/FS/AS)"/>
+        <KineticGun  xSSD="93" ySSD="93" rating="1" arcs="(AP/FP/F)"/>
+        <PointDefense xSSD="60" ySSD="132"/>
+        <PointDefense xSSD="204" ySSD="131"/>
+    </Weapons>
+</Ship>
+

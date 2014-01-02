@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes" ?>
+         <Ship>
+             <Race>Eurasian Solar Union</Race>
+             <ClassAbbrev>SDN</ClassAbbrev>
+             <ClassName>Komarov</ClassName>
+             <ShipClass>Superdreadnought</ShipClass>
+             <Mass>220</Mass>
+             <PointValue>751</PointValue>
+             <MainDrive type="Standard" initialThrust="2"/>
+             <FTLDrive/>
+             <Armor totalArmor="0"/>
+             <Hull value="220" type="Strong"/>
+             <Electronics>
+                 <FireControl xSSD="115"  ySSD="175"/>
+                 <FireControl xSSD="145"  ySSD="175"/>
+                 <FireControl xSSD="175"  ySSD="175"/>
+             </Electronics>
+             <Defenses>
+                 <Screen xSSD="135"  ySSD="150"/>
+                 <Screen xSSD="155"  ySSD="150"/>
+             </Defenses>
+             <Holds/>
+             <Weapons>
+                 <BeamBattery xSSD="55"  ySSD="30" rating="4" arcs="(FP/F)"/>
+                 <BeamBattery xSSD="235" ySSD="30" rating="4" arcs="(F/FS)"/>
+
+                 <FighterBay  xSSD="145" ySSD="30" />
+
+                 <BeamBattery xSSD="95"  ySSD="30"  rating="3" arcs="(FP/F/FS)"/>
+                 <BeamBattery xSSD="195" ySSD="30"  rating="3" arcs="(FP/F/FS)"/>
+                 <BeamBattery xSSD="85"  ySSD="70"  rating="3" arcs="(AP/FP/F)"/>
+                 <BeamBattery xSSD="205" ySSD="70"  rating="3" arcs="(F/FS/AS)"/>
+                 <BeamBattery xSSD="75"  ySSD="110" rating="2" arcs="(AP/FP/F)"/>
+                 <BeamBattery xSSD="215" ySSD="110" rating="2" arcs="(F/FS/AS)"/>
+                 <BeamBattery xSSD="120" ySSD="105" rating="1" arcs="(All arcs)"/>
+                 <BeamBattery xSSD="170" ySSD="105" rating="1" arcs="(All arcs)"/>
+
+                 <PointDefense xSSD="65"  ySSD="150" />
+                 <PointDefense xSSD="95"  ySSD="150" />
+                 <PointDefense xSSD="195" ySSD="150" />
+                 <PointDefense xSSD="225" ySSD="150" />
+             </Weapons>
+         </Ship>

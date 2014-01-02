@@ -1,0 +1,59 @@
+<?xml version="1.0" standalone="yes" ?>
+        <Ship>
+            <Designer>Dean Gundberg</Designer>
+            <Race>Entomalian</Race>
+            <ClassAbbrev>BDN</ClassAbbrev>
+            <ClassName>Mantis MkII</ClassName>
+            <ShipClass>Battledreadnought</ShipClass>
+            <Mass>170</Mass>
+            <PointValue>611</PointValue>
+            <MainDrive initialThrust="2"/>
+            <FTLDrive/>
+            <Armor totalArmor="24"/>
+            <Hull  value="170" type="Fragile"/>
+            <Electronics>
+                <FireControl xSSD="100" ySSD="235"/>
+                <FireControl xSSD="120" ySSD="235"/>
+                <FireControl xSSD="140" ySSD="235"/>
+                <FireControl xSSD="160" ySSD="235"/>
+                <AreaDefenseFireControl xSSD="180" ySSD="235"/>
+            </Electronics>
+            <Defenses>
+                <Screen xSSD="120" ySSD="215"/>
+                <Screen xSSD="160" ySSD="215"/>
+            </Defenses>
+            <Weapons>
+                <SalvoMissileLauncher xSSD="100" ySSD="20" smmId="51" arcs="(AP/FP/F)"/>
+                <SalvoMissileLauncher xSSD="180" ySSD="20" smmId="51" arcs="(F/FS/AS)"/>
+                <SalvoMissileMagazine xSSD="140" ySSD="60" id="51" maxInRow="3" capacity="12">
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                    <Salvo type="Standard Salvo" status="Available"/>
+                </SalvoMissileMagazine>
+
+                <FighterBay  xSSD="80"  ySSD="70" />
+                <BeamBattery xSSD="40"  ySSD="60" rating="3" arcs="(FP/F)"/>
+                <BeamBattery xSSD="240" ySSD="60" rating="3" arcs="(F/FS)"/>
+                <BeamBattery xSSD="40"  ySSD="100" rating="3" arcs="(AP/FP/F)"/>
+                <BeamBattery xSSD="240" ySSD="100" rating="3" arcs="(F/FS/AS)"/>
+                <BeamBattery xSSD="80"  ySSD="115" rating="2" arcs="(FP/F/FS)"/>
+                <BeamBattery xSSD="80"  ySSD="160" rating="2" arcs="(AP/FP/F)"/>
+                <BeamBattery xSSD="200" ySSD="115" rating="2" arcs="(FP/F/FS)"/>
+                <BeamBattery xSSD="200" ySSD="160" rating="2" arcs="(F/FS/AS)"/>
+                <BeamBattery xSSD="40"  ySSD="160" rating="2" arcs="(AP/A/AS)"/>
+                <BeamBattery xSSD="240" ySSD="160" rating="2" arcs="(AP/A/AS)"/>
+                <BeamBattery xSSD="140" ySSD="125" rating="1"/>
+                <BeamBattery xSSD="140" ySSD="165" rating="1"/>
+                <SubmunitionPack xSSD="25"  ySSD="30"/>
+                <SubmunitionPack xSSD="65"  ySSD="30"/>
+                <SubmunitionPack xSSD="230" ySSD="30"/>
+                <SubmunitionPack xSSD="270" ySSD="30"/>
+                <PointDefense xSSD="250" ySSD="220" />
+                <PointDefense xSSD="280" ySSD="220"/>
+                <PointDefense xSSD="250" ySSD="250"/>
+                <PointDefense xSSD="280" ySSD="250"/>
+            </Weapons>
+        </Ship>
