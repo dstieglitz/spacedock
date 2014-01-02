@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Spacedock by dstieglitz</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Spacedock</h1>
+        <h2>Ship and fleet creator for Full Thrust and related games</h2>
+        <a href="https://github.com/dstieglitz/spacedock" class="button"><small>View project on</small>GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a name="spacedock" class="anchor" href="#spacedock"><span class="octicon octicon-link"></span></a>Spacedock</h1>
+
+<p>Ship SSD builder for Full Thrust and related games. Full Thrust is brought to you by <a href="http://shop.groundzerogames.co.uk/">Ground Zero Games</a>. Spacedock is a <a href="http://griffon.codehaus.org">Griffon</a> application. </p>
+
+<p>Spacedock allows you to build ships using a domain-specific language (a "Blueprint") that renders the ship using customizable icons and features.</p>
+
+<h1>
+<a name="features" class="anchor" href="#features"><span class="octicon octicon-link"></span></a>Features</h1>
+
+<ul>
+<li>Create ship SSDs from text-based blueprints (custom DSL or XML)</li>
+<li>Create fleets of ships</li>
+<li>Print ship and fleet SSDs</li>
+</ul><h1>
+<a name="getting-started" class="anchor" href="#getting-started"><span class="octicon octicon-link"></span></a>Getting Started</h1>
+
+<p>From the main screen there are 3 tabs:</p>
+
+<ul>
+<li>Ship Browser: browse ships on your local drive. Click on a ship blueprint to view its SSD.</li>
+<li>Ship Editor: load and edit blueprints in real-time (see Blueprints, below)</li>
+<li>Fleet Editor: manage fleets and save PDF files for printing game fleets</li>
+</ul><h1>
+<a name="spacedock-blueprints" class="anchor" href="#spacedock-blueprints"><span class="octicon octicon-link"></span></a>Spacedock Blueprints</h1>
+
+<p>An example blueprint is shown below:</p>
+
+<pre><code>ship(name:'Warsaw',shipClass:'Destroyer',mass:'28',pointValue:'93',hull:'Average') {
+coreSystems()
+spaceDrive(initialThrust:'4',type:'Standard')
+ftlDrive()
+damageProfile(totalArmor:'3')
+fireCon(xSSD:'107',ySSD:'170')
+beam(arcs:'4,5,0',xSSD:'50',ySSD:'70',rating:'2')
+beam(arcs:'0,1,2',xSSD:'150',ySSD:'70',rating:'2')
+beam(xSSD:'40',ySSD:'110',rating:'1')
+beam(xSSD:'160',ySSD:'110',rating:'1')
+pointDefense(xSSD:'100',ySSD:'140')
+}
+</code></pre>
+
+<p>Alternatively, you can use an XML-based blueprint:</p>
+
+<pre><code>&lt;Ship&gt;
+    &lt;Name&gt;Kamchutka&lt;/Name&gt;
+    &lt;Race&gt;Eurasian Solar Union&lt;/Race&gt;
+    &lt;ClassAbbrev&gt;BB&lt;/ClassAbbrev&gt;
+    &lt;ClassName&gt;Kamchutka&lt;/ClassName&gt;
+    &lt;ShipClass&gt;Battleship&lt;/ShipClass&gt;
+    &lt;CrewQuality&gt;First Rate&lt;/CrewQuality&gt;
+    &lt;Mass&gt;125&lt;/Mass&gt;
+    &lt;PointValue&gt;421&lt;/PointValue&gt;
+    &lt;MainDrive type="Standard" initialThrust="4" active="false" /&gt;
+    &lt;FTLDrive/&gt;
+    &lt;Armor totalArmor="6"/&gt;
+    &lt;Hull value="125" type="Custom" class="Military" stealth="0" totalHullBoxes="38"/&gt;
+    &lt;Electronics&gt;
+        &lt;FireControl xSSD="75" ySSD="170"/&gt;
+        &lt;FireControl xSSD="116" ySSD="168"/&gt;
+        &lt;FireControl xSSD="157" ySSD="168"/&gt;
+    &lt;/Electronics&gt;
+    &lt;Defenses&gt;
+        &lt;Screen xSSD="116" ySSD="135"/&gt;
+    &lt;/Defenses&gt;
+    &lt;Holds&gt;
+    &lt;/Holds&gt;
+    &lt;Weapons&gt;
+        &lt;BeamBattery  xSSD="33" ySSD="28" rating="3" arcs="(FP/F/FS)"/&gt;
+        &lt;BeamBattery  xSSD="197" ySSD="29" rating="3" arcs="(FP/F/FS)"/&gt;
+        &lt;BeamBattery  xSSD="85" ySSD="92" rating="2" arcs="(FP/F/FS)"/&gt;
+        &lt;BeamBattery  xSSD="146" ySSD="92" rating="2" arcs="(FP/F/FS)"/&gt;
+        &lt;BeamBattery  xSSD="30" ySSD="80" rating="2" arcs="(AP/FP/F)"/&gt;
+        &lt;BeamBattery  xSSD="206" ySSD="78" rating="2" arcs="(F/FS/AS)"/&gt;
+        &lt;BeamBattery  xSSD="41" ySSD="122" rating="1" arcs="(All arcs)"/&gt;
+        &lt;BeamBattery  xSSD="195" ySSD="122" rating="1" arcs="(All arcs)"/&gt;
+        &lt;PointDefense xSSD="80" ySSD="138"/&gt;
+        &lt;PointDefense xSSD="150" ySSD="137"/&gt;
+        &lt;PointDefense xSSD="191" ySSD="157"/&gt;
+        &lt;PointDefense xSSD="43" ySSD="157"/&gt;
+        &lt;PulseTorpedo  xSSD="115" ySSD="42" arcs="(F)"/&gt;
+        &lt;BeamBattery  xSSD="73" ySSD="55" rating="2" arcs="(AP/FP/F)"/&gt;
+        &lt;BeamBattery  xSSD="154" ySSD="53" rating="2" arcs="(F/FS/AS)"/&gt;
+    &lt;/Weapons&gt;
+&lt;/Ship&gt;
+</code></pre>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/dstieglitz/spacedock/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/dstieglitz/spacedock/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/dstieglitz/spacedock"></a> is maintained by <a href="https://github.com/dstieglitz">dstieglitz</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
