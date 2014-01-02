@@ -131,27 +131,27 @@ deploy {
                 height = '256'
             }
             splash {
-                name   = 'griffon.png'
-                width  = '391'
-                height = '123'
+                name   = 'Spaceship-256.png'
+                width  = '256'
+                height = '256'
             }
             selected {
-                name   = 'griffon-icon-64x64.png'
+                name   = 'Spaceship-64.png'
                 width  = '64'
                 height = '64'
             }
             disabled {
-                name   = 'griffon-icon-64x64.png'
+                name   = 'Spaceship-64.png'
                 width  = '64'
                 height = '64'
             }
             rollover {
-                name   = 'griffon-icon-64x64.png'
+                name   = 'Spaceship-64.png'
                 width  = '64'
                 height = '64'
             }
             shortcut {
-                name   = 'griffon-icon-64x64.png'
+                name   = 'Spaceship-64.png'
                 width  = '64'
                 height = '64'
             }
