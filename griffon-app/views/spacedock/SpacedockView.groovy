@@ -130,10 +130,10 @@ application(title: 'Spacedock',
         //pack:true,
         //location:[50,50],
         locationByPlatform: true,
-        iconImage: imageIcon('/griffon-icon-48x48.png').image,
-        iconImages: [imageIcon('/griffon-icon-48x48.png').image,
-                imageIcon('/griffon-icon-32x32.png').image,
-                imageIcon('/griffon-icon-16x16.png').image]
+        iconImage: imageIcon('/Spaceship-48.png').image,
+        iconImages: [imageIcon('/Spaceship-48.png').image,
+                imageIcon('/Spaceship-32.png').image,
+                imageIcon('/Spaceship-16.png').image]
 ) {
 
     menuBar() {

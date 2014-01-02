@@ -32,8 +32,8 @@ environments {
 
         griffon {
             jars {
-                sign = true
-                pack = true
+                sign = false
+                pack = false
                 destDir = "${basedir}/staging"
             }
             webstart {
@@ -108,8 +108,8 @@ griffon {
 deploy {
     application {
         title = "${appName} ${appVersion}"
-        vendor = System.properties['user.name']
-        homepage = "http://localhost/${appName}"
+        vendor = "Dan Stieglitz"
+        homepage = "http://dstieglitz.github.io/spacedock/"
         description {
             complete = "${appName} ${appVersion}"
             oneline  = "${appName} ${appVersion}"
@@ -118,9 +118,9 @@ deploy {
         }
         icon {
             'default' {
-                name   = 'griffon-icon-64x64.png'
-                width  = '64'
-                height = '64'
+                name   = 'Spaceship-256.png'
+                width  = '256'
+                height = '256'
             }
             splash {
                 name   = 'griffon.png'
