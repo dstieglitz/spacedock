@@ -167,7 +167,7 @@ application(title: 'Spacedock',
                             busyModel(description: 'Rendering selected ship')
                             panel(layout: new MigLayout('fill, ins 0'), constraints: 'grow') {
                                 scrollPane(constraints: 'grow') {
-                                    tree(id: 'shipTree', model: model.ships)
+                                    tree(id: 'shipTree', model: model.ships, rootVisible: false)
                                 }
                             }
                         }

@@ -82,6 +82,8 @@ Alternatively, you can use the XML based format from Jon Davis' FTJava software:
 </Ship>
 ```
 ---
-Full Thrust is published by Ground Zero Games Copyright 1992, Jon Tuffley. 
+Spacedock is Copyright © 2014 Dan Stieglitz.
 
-FTJava is Copyright 2000-2007, Jon Davis and Dan Blezek.
+Full Thrust is published by Ground Zero Games Copyright © 1992, Jon Tuffley. 
+
+FTJava is Copyright © 2000-2007, Jon Davis and Dan Blezek.

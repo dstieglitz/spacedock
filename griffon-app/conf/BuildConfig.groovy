@@ -44,6 +44,11 @@ environments {
 }
 
 griffon {
+    app {
+        //javaOpts = ["-Dlog4j.debug=true","-Ddaedalum.properties=${basedir}/daedalum.properties"]
+        //javaOpts = ["-Djava.library.path=/Users/dstieglitz/turner-stainless-logger/xuggle-xuggler/dist/stage/usr/local/lib"]
+        javaOpts = ["-Ddefault.ships.dir=${basedir}/resources/build/ships"]
+    }
     memory {
         //max = '64m'
         //min = '2m'
@@ -81,6 +86,9 @@ griffon {
     applet {
         jnlp = 'applet.jnlp'
         html = 'applet.html'
+    }
+    jarbundler {
+        jvmProps = ["default.ships.dir":"\$APP_PACKAGE/Contents/Resources/ships"]
     }
 }
 

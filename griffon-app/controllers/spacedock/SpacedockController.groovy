@@ -86,7 +86,7 @@ class SpacedockController {
 
         model.fleet.put('ships', new javax.swing.DefaultListModel())
 
-        setBrowserRootPath('ships')
+        setBrowserRootPath(System.getProperty('default.ships.dir'))
     }
 
     def setBrowserRootPath = {newPath,theTree = null ->
@@ -101,7 +101,10 @@ class SpacedockController {
         def dirtree = new File(model.browserRootPath)
         def files = fgb.node(userObject: dirtree)
         model.ships = new spacedock.FileTreeModel(dirtree)
-        if (theTree) theTree.model = model.ships
+        if (theTree) {
+            theTree.model = model.ships
+            theTree.setRootVisible false
+        }
     }
 
     /*

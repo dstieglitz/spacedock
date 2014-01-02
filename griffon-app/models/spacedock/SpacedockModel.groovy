@@ -9,6 +9,6 @@ class SpacedockModel {
     @Bindable Object canvas
     @Bindable Object fleet = [name:'My Fleet']
     @Bindable GroovyShell shell
-    @Bindable String browserRootPath = 'ships'
+    @Bindable String browserRootPath = System.getProperty('default.ships.dir')
     @Bindable Object shipTree
 }
