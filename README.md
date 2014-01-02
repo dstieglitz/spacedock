@@ -81,6 +81,10 @@ Alternatively, you can use the XML based format from Jon Davis' FTJava software:
     </Weapons>
 </Ship>
 ```
+
+#Notes
+To build a package you'll need the (hacked) griffon-installer-plugin from this repo: [Griffon Installer Plugin](https://github.com/stainlesscode/griffon-installer-plugin)
+
 ---
 Spacedock is Copyright © 2014 Dan Stieglitz.
 
